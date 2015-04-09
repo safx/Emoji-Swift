@@ -36,6 +36,7 @@
 		8D0C18651AD431DE002924C1 /* Emoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Emoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0C187E1AD43282002924C1 /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		8D0C187F1AD43282002924C1 /* String+Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Emoji.swift"; sourceTree = "<group>"; };
+		8D0C18841AD57B61002924C1 /* emoji.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = emoji.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 		8D0C183A1AD4316B002924C1 = {
 			isa = PBXGroup;
 			children = (
+				8D0C18841AD57B61002924C1 /* emoji.playground */,
 				8D0C18461AD4316B002924C1 /* Emoji */,
 				8D0C18531AD4316B002924C1 /* EmojiTests */,
 				8D0C18451AD4316B002924C1 /* Products */,
