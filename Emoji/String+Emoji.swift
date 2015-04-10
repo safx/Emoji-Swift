@@ -10,23 +10,27 @@ import Foundation
 
 extension String {
 
-    private var emojiUnescapeRegExp : NSRegularExpression {
+    private static var emojiUnescapeRegExp : NSRegularExpression {
         struct Static {
             static let instance = NSRegularExpression(pattern: "|".join(emoji.keys.map{ ":\($0):" }), options: NSRegularExpressionOptions(0), error: nil)!
         }
         return Static.instance
     }
 
-    private var emojiEscapeRegExp : NSRegularExpression {
+    private static var emojiEscapeRegExp : NSRegularExpression {
         struct Static {
             static let instance = NSRegularExpression(pattern: "|".join(emoji.values), options: NSRegularExpressionOptions(0), error: nil)!
         }
         return Static.instance
     }
 
+    public static var emojiDictionary : [String:String] {
+        return emoji
+    }
+
     public var emojiUnescapedString: String {
         var s = self as NSString
-        let ms = emojiUnescapeRegExp.matchesInString(s, options: NSMatchingOptions(0), range: NSMakeRange(0, s.length))
+        let ms = String.emojiUnescapeRegExp.matchesInString(s, options: NSMatchingOptions(0), range: NSMakeRange(0, s.length))
 
         for m in reverse(ms) {
             let r = m.range
@@ -41,7 +45,7 @@ extension String {
 
     public var emojiEscapedString: String {
         var s = self as NSString
-        let ms = emojiEscapeRegExp.matchesInString(s, options: NSMatchingOptions(0), range: NSMakeRange(0, s.length))
+        let ms = String.emojiEscapeRegExp.matchesInString(s, options: NSMatchingOptions(0), range: NSMakeRange(0, s.length))
 
         for m in reverse(ms) {
             let r = m.range
