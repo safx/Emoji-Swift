@@ -12,14 +12,14 @@ extension String {
 
     private static var emojiUnescapeRegExp : NSRegularExpression {
         struct Static {
-            static let instance = NSRegularExpression(pattern: "|".join(emoji.keys.map{ ":\($0):" }), options: NSRegularExpressionOptions(0), error: nil)!
+            static let instance = try! NSRegularExpression(pattern: emoji.keys.map { ":\($0):" } .joinWithSeparator("|"), options: [])
         }
         return Static.instance
     }
 
     private static var emojiEscapeRegExp : NSRegularExpression {
         struct Static {
-            static let instance = NSRegularExpression(pattern: "|".join(emoji.values), options: NSRegularExpressionOptions(0), error: nil)!
+            static let instance = try! NSRegularExpression(pattern: emoji.values.lazy.joinWithSeparator("|"), options: [])
         }
         return Static.instance
     }
@@ -30,9 +30,9 @@ extension String {
 
     public var emojiUnescapedString: String {
         var s = self as NSString
-        let ms = String.emojiUnescapeRegExp.matchesInString(s, options: NSMatchingOptions(0), range: NSMakeRange(0, s.length))
+        let ms = String.emojiUnescapeRegExp.matchesInString(self, options: [], range: NSMakeRange(0, s.length))
 
-        for m in reverse(ms) {
+        for m in ms.reverse() {
             let r = m.range
             let p = s.substringWithRange(r)
             let px = p.substringWithRange(Range<String.Index>(start: p.startIndex.successor(), end: p.endIndex.predecessor()))
@@ -40,23 +40,23 @@ extension String {
                 s = s.stringByReplacingCharactersInRange(r, withString: t)
             }
         }
-        return s
+        return s as String
     }
 
     public var emojiEscapedString: String {
         var s = self as NSString
-        let ms = String.emojiEscapeRegExp.matchesInString(s, options: NSMatchingOptions(0), range: NSMakeRange(0, s.length))
+        let ms = String.emojiEscapeRegExp.matchesInString(self, options: [], range: NSMakeRange(0, s.length))
 
-        for m in reverse(ms) {
+        for m in ms.reverse() {
             let r = m.range
             let p = s.substringWithRange(r)
-            let fs = filter(emoji, { (k,v) in v == p })
-            if countElements(fs) > 0 {
+            let fs = emoji.filter { $0.1 == p }
+            if fs.count > 0 {
                 let kv = fs[0]
                 s = s.stringByReplacingCharactersInRange(r, withString: ":\(kv.0):")
             }
         }
-        return s
+        return s as String
     }
 
 }

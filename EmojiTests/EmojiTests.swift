@@ -8,7 +8,7 @@
 
 import Foundation
 import XCTest
-import Emoji
+@testable import Emoji
 
 class EmojiTests: XCTestCase {
 
