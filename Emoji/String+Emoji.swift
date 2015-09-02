@@ -51,8 +51,7 @@ extension String {
             let r = m.range
             let p = s.substringWithRange(r)
             let fs = emoji.filter { $0.1 == p }
-            if fs.count > 0 {
-                let kv = fs[0]
+            if let kv = fs.first {
                 s = s.stringByReplacingCharactersInRange(r, withString: ":\(kv.0):")
             }
         }
