@@ -31,8 +31,7 @@ extension String {
     public var emojiUnescapedString: String {
         var s = self as NSString
         let ms = String.emojiUnescapeRegExp.matchesInString(self, options: [], range: NSMakeRange(0, s.length))
-
-        for m in ms.reverse() {
+        ms.reverse().forEach { m in
             let r = m.range
             let p = s.substringWithRange(r)
             let px = p.substringWithRange(Range<String.Index>(start: p.startIndex.successor(), end: p.endIndex.predecessor()))
@@ -46,8 +45,7 @@ extension String {
     public var emojiEscapedString: String {
         var s = self as NSString
         let ms = String.emojiEscapeRegExp.matchesInString(self, options: [], range: NSMakeRange(0, s.length))
-
-        for m in ms.reverse() {
+        ms.reverse().forEach { m in
             let r = m.range
             let p = s.substringWithRange(r)
             let fs = emoji.filter { $0.1 == p }
