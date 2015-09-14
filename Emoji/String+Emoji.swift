@@ -48,7 +48,7 @@ extension String {
         ms.reverse().forEach { m in
             let r = m.range
             let p = s.substringWithRange(r)
-            let fs = emoji.filter { $0.1 == p }
+            let fs = emoji.lazy.filter { $0.1 == p }
             if let kv = fs.first {
                 s = s.stringByReplacingCharactersInRange(r, withString: ":\(kv.0):")
             }
