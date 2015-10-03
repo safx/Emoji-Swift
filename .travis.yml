@@ -7,3 +7,6 @@ script:
 - xcodebuild -project Emoji.xcodeproj -scheme Emoji-iOS test -sdk iphonesimulator9.0 -destination "platform=iOS Simulator,name=iPhone 6" | xcpretty -c
 - xcodebuild -project Emoji.xcodeproj -scheme Emoji-OSX build -sdk macosx10.11 | xcpretty -c
 - pod lib lint --quick
+
+after_success:
+- bash <(curl -s https://codecov.io/bash)
