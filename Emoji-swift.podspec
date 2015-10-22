@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Emoji-swift"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "String extension converting to and from emoji character and Emoji Cheat Sheet string"
   s.homepage     = "https://github.com/safx/emoji-swift"
   s.license      = { :type => "MIT", :file => "LICENSE" }
