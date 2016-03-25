@@ -34,7 +34,7 @@ extension String {
         ms.reverse().forEach { m in
             let r = m.range
             let p = s.substringWithRange(r)
-            let px = p.substringWithRange(Range<String.Index>(start: p.startIndex.successor(), end: p.endIndex.predecessor()))
+            let px = p.substringWithRange(p.startIndex.successor() ..< p.endIndex.predecessor())
             if let t = emoji[px] {
                 s = s.stringByReplacingCharactersInRange(r, withString: t)
             }
