@@ -5,6 +5,7 @@
 ![Platform](https://img.shields.io/cocoapods/p/Emoji-swift.svg?style=flat)
 ![License](https://img.shields.io/cocoapods/l/Emoji-swift.svg?style=flat)
 ![Version](https://img.shields.io/cocoapods/v/Emoji-swift.svg?style=flat)
+![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)
 
 ![](emoji_playground.png)
 
@@ -34,3 +35,5 @@ extension String {
 ```
 pod 'Emoji-swift'
 ```
+
+Or, just copy `Emoji.swift` and `String+Emoji.swift` into your project.
