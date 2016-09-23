@@ -10,16 +10,16 @@ import Foundation
 
 extension String {
 
-    private static var emojiUnescapeRegExp : NSRegularExpression {
+    fileprivate static var emojiUnescapeRegExp : NSRegularExpression {
         struct Static {
-            static let instance = try! NSRegularExpression(pattern: emoji.keys.map { ":\($0):" } .joinWithSeparator("|"), options: [])
+            static let instance = try! NSRegularExpression(pattern: emoji.keys.map { ":\($0):" } .joined(separator: "|"), options: [])
         }
         return Static.instance
     }
 
-    private static var emojiEscapeRegExp : NSRegularExpression {
+    fileprivate static var emojiEscapeRegExp : NSRegularExpression {
         struct Static {
-            static let instance = try! NSRegularExpression(pattern: emoji.values.lazy.joinWithSeparator("|"), options: [])
+            static let instance = try! NSRegularExpression(pattern: emoji.values.lazy.joined(separator: "|"), options: [])
         }
         return Static.instance
     }
@@ -30,13 +30,13 @@ extension String {
 
     public var emojiUnescapedString: String {
         var s = self as NSString
-        let ms = String.emojiUnescapeRegExp.matchesInString(self, options: [], range: NSMakeRange(0, s.length))
-        ms.reverse().forEach { m in
+        let ms = String.emojiUnescapeRegExp.matches(in: self, options: [], range: NSMakeRange(0, s.length))
+        ms.reversed().forEach { m in
             let r = m.range
-            let p = s.substringWithRange(r)
-            let px = p.substringWithRange(p.startIndex.successor() ..< p.endIndex.predecessor())
+            let p = s.substring(with: r)
+            let px = p.substring(with: p.characters.index(after: p.startIndex) ..< p.characters.index(before: p.endIndex))
             if let t = emoji[px] {
-                s = s.stringByReplacingCharactersInRange(r, withString: t)
+                s = s.replacingCharacters(in: r, with: t) as NSString
             }
         }
         return s as String
@@ -44,13 +44,13 @@ extension String {
 
     public var emojiEscapedString: String {
         var s = self as NSString
-        let ms = String.emojiEscapeRegExp.matchesInString(self, options: [], range: NSMakeRange(0, s.length))
-        ms.reverse().forEach { m in
+        let ms = String.emojiEscapeRegExp.matches(in: self, options: [], range: NSMakeRange(0, s.length))
+        ms.reversed().forEach { m in
             let r = m.range
-            let p = s.substringWithRange(r)
+            let p = s.substring(with: r)
             let fs = emoji.lazy.filter { $0.1 == p }
             if let kv = fs.first {
-                s = s.stringByReplacingCharactersInRange(r, withString: ":\(kv.0):")
+                s = s.replacingCharacters(in: r, with: ":\(kv.0):") as NSString
             }
         }
         return s as String

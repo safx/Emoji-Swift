@@ -1,11 +1,11 @@
 language: objective-c
-osx_image: xcode7.3
+osx_image: xcode8
 
 script:
 - xcrun simctl list
 - set -o pipefail
-- xcodebuild -project Emoji.xcodeproj -scheme Emoji-iOS test -sdk iphonesimulator9.3 -destination "platform=iOS Simulator,name=iPhone 6" | xcpretty -c
-- xcodebuild -project Emoji.xcodeproj -scheme Emoji-OSX build -sdk macosx10.11 | xcpretty -c
+- xcodebuild -project Emoji.xcodeproj -scheme Emoji-iOS test -sdk iphonesimulator10.0 -destination "platform=iOS Simulator,name=iPhone 7" | xcpretty -c
+- xcodebuild -project Emoji.xcodeproj -scheme Emoji-OSX build -sdk macosx10.12 | xcpretty -c
 - pod lib lint --quick
 
 after_success:
