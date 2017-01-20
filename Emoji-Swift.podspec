@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
-  s.name         = "Emoji-swift"
-  s.version      = "0.0.4"
+  s.name         = "Emoji-Swift"
+  s.version      = "0.0.5"
   s.summary      = "String extension converting to and from emoji character and Emoji Cheat Sheet string"
-  s.homepage     = "https://github.com/safx/emoji-swift"
+  s.homepage     = "https://github.com/safx/Emoji-Swift"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "MATSUMOTO Yuji" => "safxdev@gmail.com" }
-  s.source       = { :git => "https://github.com/safx/emoji-swift.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/safx/Emoji-Swift.git", :tag => s.version }
   s.module_name  = "Emoji"
   s.source_files = "Emoji/*.swift"
   s.framework    = 'Foundation'
