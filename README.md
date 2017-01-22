@@ -1,5 +1,3 @@
-⚠️⚠️⚠️ **The package name was changed to `Emoji-Swift` from `emoji-swift` since 0.0.5.** ⚠️⚠️⚠️
-
 # Emoji-Swift
 
 [![TravisCI](http://img.shields.io/travis/safx/Emoji-Swift.svg?style=flat)](https://travis-ci.org/safx/Emoji-Swift)
