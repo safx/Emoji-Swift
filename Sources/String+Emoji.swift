@@ -10,22 +10,23 @@ import Foundation
 
 extension String {
 
-    fileprivate static var emojiUnescapeRegExp : NSRegularExpression {
-        struct Static {
-            static let instance = try! NSRegularExpression(pattern: emoji.keys.map { ":\($0):" } .joined(separator: "|"), options: [])
+    public static var emojiDictionary = emoji {
+        didSet {
+            emojiUnescapeRegExp = createEmojiUnescapeRegExp()
+            emojiEscapeRegExp = createEmojiEscapeRegExp()
         }
-        return Static.instance
     }
 
-    fileprivate static var emojiEscapeRegExp : NSRegularExpression {
-        struct Static {
-            static let instance = try! NSRegularExpression(pattern: emoji.values.lazy.joined(separator: "|"), options: [])
-        }
-        return Static.instance
+    fileprivate static var emojiUnescapeRegExp = createEmojiUnescapeRegExp()
+    fileprivate static var emojiEscapeRegExp = createEmojiEscapeRegExp()
+
+    fileprivate static func createEmojiUnescapeRegExp() -> NSRegularExpression {
+        return try! NSRegularExpression(pattern: emojiDictionary.keys.map { ":\($0):" } .joined(separator: "|"), options: [])
     }
 
-    public static var emojiDictionary : [String:String] {
-        return emoji
+    fileprivate static func createEmojiEscapeRegExp() -> NSRegularExpression {
+        let v = emojiDictionary.values.sorted().reversed()
+        return try! NSRegularExpression(pattern: v.joined(separator: "|"), options: [])
     }
 
     public var emojiUnescapedString: String {
@@ -35,7 +36,7 @@ extension String {
             let r = m.range
             let p = s.substring(with: r)
             let px = p.substring(with: p.characters.index(after: p.startIndex) ..< p.characters.index(before: p.endIndex))
-            if let t = emoji[px] {
+            if let t = String.emojiDictionary[px] {
                 s = s.replacingCharacters(in: r, with: t) as NSString
             }
         }
@@ -48,7 +49,7 @@ extension String {
         ms.reversed().forEach { m in
             let r = m.range
             let p = s.substring(with: r)
-            let fs = emoji.lazy.filter { $0.1 == p }
+            let fs = String.emojiDictionary.lazy.filter { $0.1 == p }
             if let kv = fs.first {
                 s = s.replacingCharacters(in: r, with: ":\(kv.0):") as NSString
             }
