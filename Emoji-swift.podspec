@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "MATSUMOTO Yuji" => "safxdev@gmail.com" }
   s.source       = { :git => "https://github.com/safx/Emoji-Swift.git", :tag => s.version }
   s.module_name  = "Emoji"
-  s.source_files = "Emoji/*.swift"
+  s.source_files = "Sources/*.swift"
   s.framework    = 'Foundation'
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
