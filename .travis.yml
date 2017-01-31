@@ -3,12 +3,12 @@ osx_image: xcode8.2
 
 before_script:
 - xcrun simctl list
-- SIMULATOR_ID=$(xcrun instruments -s | grep -o "iPhone 7 (10.2) \[.*\]" | grep -o "\[.*\]" | sed "s/^\[\(.*\)\]$/\1/" | awk '{print $1}')
+- SIMULATOR_ID=$(xcrun instruments -s | grep -o "iPhone 7 (10.2) \[.*\]" | grep -o "\[.*\]" | sed "s/^\[\(.*\)\]$/\1/" | head -n 1)
 - echo $SIMULATOR_ID
 
 script:
 - set -o pipefail
-- xcodebuild -project Emoji.xcodeproj -scheme Emoji-iOS test -sdk iphonesimulator -destination "platform=iOS Simulator,id="$SIMULATOR_ID",name=iPhone 7" | xcpretty -c
+- xcodebuild -project Emoji.xcodeproj -scheme Emoji-iOS test -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7" | xcpretty -c
 - xcodebuild -project Emoji.xcodeproj -scheme Emoji-OSX build -sdk macosx10.12 | xcpretty -c
 - pod lib lint --quick
 - swift test
