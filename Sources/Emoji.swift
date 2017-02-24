@@ -878,4 +878,5 @@ internal let emoji: [String:String] = [
     "cherry_blossom"                  : "\u{1f338}",
     "low_brightness"                  : "\u{1f505}",
     "pill"                            : "\u{1f48a}",
+    "wastebasket"                     : "\u{1f5d1}",
 ]
