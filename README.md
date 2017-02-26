@@ -2,9 +2,9 @@
 
 [![TravisCI](http://img.shields.io/travis/safx/Emoji-Swift.svg?style=flat)](https://travis-ci.org/safx/Emoji-Swift)
 [![codecov.io](http://codecov.io/github/safx/emoji-swift/coverage.svg?branch=master)](http://codecov.io/github/safx/emoji-swift?branch=master)
-![Platform](https://img.shields.io/cocoapods/p/Emoji-Swift.svg?style=flat)
-![License](https://img.shields.io/cocoapods/l/Emoji-Swift.svg?style=flat)
-![Version](https://img.shields.io/cocoapods/v/Emoji-Swift.svg?style=flat)
+![Platform](https://img.shields.io/cocoapods/p/Emoji-swift.svg?style=flat)
+![License](https://img.shields.io/cocoapods/l/Emoji-swift.svg?style=flat)
+![Version](https://img.shields.io/cocoapods/v/Emoji-swift.svg?style=flat)
 ![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
