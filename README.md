@@ -54,7 +54,7 @@ String.emojiDictionary = emojiDictionary
 
 ### CocoaPods
 
-```
+```ruby
 pod 'Emoji-swift'
 ```
 
@@ -62,7 +62,7 @@ pod 'Emoji-swift'
 
 Create a Package.swift file:
 
-```
+```swift
 import PackageDescription
 
 let package = Package(
