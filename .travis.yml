@@ -8,7 +8,7 @@ before_script:
 
 script:
 - set -o pipefail
-- xcodebuild -project Emoji.xcodeproj -scheme Emoji-iOS test -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7" | xcpretty -c
+- xcodebuild -project Emoji.xcodeproj -scheme Emoji-iOS test -sdk iphonesimulator -destination id=$SIMULATOR_ID | xcpretty -c
 - xcodebuild -project Emoji.xcodeproj -scheme Emoji-OSX build -sdk macosx10.12 | xcpretty -c
 - pod lib lint --quick
 - swift test
