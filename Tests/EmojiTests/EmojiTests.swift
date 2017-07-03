@@ -11,13 +11,6 @@ import XCTest
 import Emoji
 
 class EmojiTests: XCTestCase {
-
-    override func setUp() {
-        var emojiDictionary = String.emojiDictionary
-        emojiDictionary["custom_baby"] = "\u{1F476}\u{1F3FB}"
-        emojiDictionary["custom_baby2"] = "\u{1F476}\u{1F3FF}"
-        String.emojiDictionary = emojiDictionary
-    }
     
     func testEmojiUnescape() {
         XCTAssertEqual("", "".emojiUnescapedString)
@@ -33,9 +26,6 @@ class EmojiTests: XCTestCase {
         XCTAssertEqual("\u{1f34e}\u{1f37a}", ":apple:\u{1f37a}".emojiUnescapedString)
         XCTAssertEqual("\u{1f37a}\u{1f34e}", "\u{1f37a}:apple:".emojiUnescapedString)
         XCTAssertEqual("\u{1f34e}house\u{1f37a}", ":apple:house:beer:".emojiUnescapedString)
-
-        XCTAssertEqual("\u{1F476}\u{1F3FB}", ":custom_baby:".emojiUnescapedString)
-        XCTAssertEqual("\u{1F476}\u{1F476}\u{1F3FB}\u{1F476}\u{1F3FF}", ":baby::custom_baby::custom_baby2:".emojiUnescapedString)
     }
 
     func testEmojiEscape() {
@@ -53,14 +43,31 @@ class EmojiTests: XCTestCase {
         XCTAssertEqual(":apple::beer:", ":apple:\u{1f37a}".emojiEscapedString)
         XCTAssertEqual(":beer::apple:", "\u{1f37a}:apple:".emojiEscapedString)
         XCTAssertEqual(":apple:house:beer:", ":apple:house:beer:".emojiEscapedString)
+    }
+    
+    func testCustomEmoji() {
+        var emojis = String.emojis
+        emojis.append(Emoji(shortname: "heart_alt", codepoints: ["\u{2764}"]))
+        emojis.append(Emoji(shortname: "amp", codepoints: ["&\u{20dd}"]))
+        
+        String.emojis = emojis
 
-        XCTAssertEqual(":custom_baby:", "\u{1F476}\u{1F3FB}".emojiEscapedString)
-        XCTAssertEqual(":baby::custom_baby::custom_baby2:", "\u{1F476}\u{1F476}\u{1F3FB}\u{1F476}\u{1F3FF}".emojiEscapedString)
+        XCTAssertEqual("❤", ":heart_alt:".emojiUnescapedString)
+        XCTAssertEqual("&⃝", ":amp:".emojiUnescapedString)
+
+        XCTAssertEqual(":heart_alt:", "❤".emojiEscapedString)
+        XCTAssertEqual(":amp:", "&⃝".emojiEscapedString)
     }
 
+    func testIssue9fixture() {
+        XCTAssertEqual(":heart:", "❤️".emojiEscapedString)
+        XCTAssertEqual(":hash:", "#️⃣".emojiEscapedString)
+        XCTAssertEqual(":hash:", "#⃣".emojiEscapedString)
+    }
+    
     func testEmojiUnescapePerformance() {
         measure {
-            for _ in 1...500 {
+            for _ in 1...50 {
                 XCTAssertEqual("", "".emojiUnescapedString)
                 XCTAssertEqual("apple", "apple".emojiUnescapedString)
                 XCTAssertEqual(":xxx:", ":xxx:".emojiUnescapedString)
@@ -80,7 +87,7 @@ class EmojiTests: XCTestCase {
     
     func testEmojiEscapePerformance() {
         measure {
-            for _ in 1...500 {
+            for _ in 1...50 {
                 XCTAssertEqual("", "".emojiEscapedString)
                 XCTAssertEqual("apple", "apple".emojiEscapedString)
                 XCTAssertEqual(":xxx:", ":xxx:".emojiEscapedString)
