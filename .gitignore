@@ -34,3 +34,5 @@ DerivedData
 # Carthage/Checkouts
 
 Carthage/Build
+
+tools/emoji.json

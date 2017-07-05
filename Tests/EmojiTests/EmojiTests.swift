@@ -46,11 +46,8 @@ class EmojiTests: XCTestCase {
     }
     
     func testCustomEmoji() {
-        var emojis = String.emojis
-        emojis.append(Emoji(shortname: "heart_alt", codepoints: ["\u{2764}"]))
-        emojis.append(Emoji(shortname: "amp", codepoints: ["&\u{20dd}"]))
-        
-        String.emojis = emojis
+        String.emojis.append(Emoji(shortname: "heart_alt", codepoints: ["\u{2764}"]))
+        String.emojis.append(Emoji(shortname: "amp", codepoints: ["&\u{20dd}"]))
 
         XCTAssertEqual("❤", ":heart_alt:".emojiUnescapedString)
         XCTAssertEqual("&⃝", ":amp:".emojiUnescapedString)
