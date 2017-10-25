@@ -1,17 +1,19 @@
 language: objective-c
-osx_image: xcode8.2
+osx_image: xcode9
 
 before_script:
 - xcrun simctl list
-- SIMULATOR_ID=$(xcrun instruments -s | grep -o "iPhone 7 (10.2) \[.*\]" | grep -o "\[.*\]" | sed "s/^\[\(.*\)\]$/\1/" | head -n 1)
+- SIMULATOR_ID=$(xcrun instruments -s | grep -o "iPhone 7 (11.0) \[.*\]" | grep -o "\[.*\]" | sed "s/^\[\(.*\)\]$/\1/" | head -n 1)
 - echo $SIMULATOR_ID
 
 script:
 - set -o pipefail
 - xcodebuild -project Emoji.xcodeproj -scheme Emoji-iOS test -sdk iphonesimulator -destination id=$SIMULATOR_ID | xcpretty -c
-- xcodebuild -project Emoji.xcodeproj -scheme Emoji-OSX build -sdk macosx10.12 | xcpretty -c
+- xcodebuild -project Emoji.xcodeproj -scheme Emoji-OSX build -sdk macosx10.13 | xcpretty -c
 - pod lib lint --quick
-- swift test
+- swift --version
+#- swift build
+#- swift test
 
 after_success:
 - bash <(curl -s https://codecov.io/bash)
