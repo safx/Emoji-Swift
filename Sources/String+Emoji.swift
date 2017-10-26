@@ -35,7 +35,7 @@ extension String {
         ms.reversed().forEach { m in
             let r = m.range
             let p = s.substring(with: r)
-            let px = p.substring(with: p.characters.index(after: p.startIndex) ..< p.characters.index(before: p.endIndex))
+            let px = String(p[p.characters.index(after: p.startIndex) ..< p.characters.index(before: p.endIndex)])
             if let t = String.emojiDictionary[px] {
                 s = s.replacingCharacters(in: r, with: t) as NSString
             }
