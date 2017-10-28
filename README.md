@@ -27,27 +27,27 @@ import Emoji
 extension String {
     var emojiEscapedString: String
     var emojiUnescapedString: String
-    static var emojiDictionary : [String:String]
+    static var emojis : [Emoji]
+}
+
+public struct Emoji {
+    public init(shortname: String, codepoints: [String])
 }
 ```
 
 ## Custom Emoji
 
-You can add own custom emoji to `String.emojiDictionary`.
+You can add own custom emoji to `String.emojis`.
 
-If you use custom emojis, you should use only alpha-numeric characters for keys of `emojiDictionary` to avoid any converting problem since this library internally uses RegExp to convert emojis.
+If you use custom emojis, you should use only alpha-numeric characters for `shortname` of `emojis` to avoid any converting problem since this library internally uses RegExp to convert emojis.
 
 ```swift
-// Setup Custom Emoji
-var emojiDictionary = String.emojiDictionary
-emojiDictionary["custom_baby"] = "\u{1F476}\u{1F3FB}"
-emojiDictionary["custom_baby2"] = "\u{1F476}\u{1F3FF}"
-String.emojiDictionary = emojiDictionary
-
+// Add Custom Emoji
+String.emojis.append(Emoji(shortname: "amp", codepoints: ["&\u{20dd}"]))
 
 // Using Custom Emoji
-":baby::custom_baby::custom_baby2:".emojiUnescapedString
-"👶👶🏻👶🏿".emojiEscapedString
+":amp:".emojiUnescapedString
+"&⃝".emojiEscapedString
 ```
 
 ## Install
