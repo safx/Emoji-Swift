@@ -36,7 +36,7 @@ extension String {
         ms.reversed().forEach { m in
             let r = m.range
             let p = s.substring(with: r)
-            let px = p.substring(with: p.characters.index(after: p.startIndex) ..< p.characters.index(before: p.endIndex))
+            let px = p[p.index(after: p.startIndex) ..< p.index(before: p.endIndex)]
             let index = String.emojis.index { $0.shortname == px } // TODO: create dictionary
             if let i = index {
                 let e = String.emojis[i]
