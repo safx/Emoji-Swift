@@ -1,6 +1,8 @@
 #!/usr/bin/python
 
 import json, re
+from functools import cmp_to_key
+from functools import reduce
 
 EXCLUDES = [
     '^regional_indicator_[a-z]$',
@@ -9,7 +11,7 @@ EXCLUDES = [
 ]
 
 def p(emoji_shortname, hyphenated_codepoints):
-    cs = map(lambda cp: '"' + ''.join(map(lambda e: '\u{%s}' % e, cp.split('-'))) + '"', hyphenated_codepoints)
+    cs = map(lambda cp: '"' + ''.join(map(lambda e: r'\u{%s}' % e, cp.split('-'))) + '"', hyphenated_codepoints)
     print('  Emoji(shortname: %-33s, codepoints: [%s]),' % ('"' + emoji_shortname + '"', (',\n' + ' ' * 67).join(cs)))
 
 def prn(key, value, target_category):
@@ -60,8 +62,8 @@ public struct Emoji {
 internal let emoji: [Emoji] = [
 '''
 
-json = json.load(file('emoji.json'))
-keys = sorted(json.keys(), cmp)
+json = json.load(open('emoji.json'))
+keys = sorted(json.keys(), key = cmp_to_key(cmp))
 print(head)
 for k in keys:
     prn(k, json[k], None)
