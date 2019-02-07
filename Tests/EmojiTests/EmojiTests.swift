@@ -44,22 +44,15 @@ class EmojiTests: XCTestCase {
         XCTAssertEqual(":beer::apple:", "\u{1f37a}:apple:".emojiEscapedString)
         XCTAssertEqual(":apple:house:beer:", ":apple:house:beer:".emojiEscapedString)
     }
-    
-    func testCustomEmoji() {
-        String.emojis.append(Emoji(shortname: "heart_alt", codepoints: ["\u{2764}"]))
-        String.emojis.append(Emoji(shortname: "amp", codepoints: ["&\u{20dd}"]))
-
-        XCTAssertEqual("❤", ":heart_alt:".emojiUnescapedString)
-        XCTAssertEqual("&⃝", ":amp:".emojiUnescapedString)
-
-        XCTAssertEqual(":heart_alt:", "❤".emojiEscapedString)
-        XCTAssertEqual(":amp:", "&⃝".emojiEscapedString)
-    }
 
     func testIssue9fixture() {
         XCTAssertEqual(":heart:", "❤️".emojiEscapedString)
         XCTAssertEqual(":hash:", "#️⃣".emojiEscapedString)
         XCTAssertEqual(":hash:", "#⃣".emojiEscapedString)
+    }
+    
+    func testRegexEscapeCharacters() {
+        XCTAssertEqual("\u{1f44d}", ":+1:".emojiUnescapedString)
     }
     
     func testEmojiUnescapePerformance() {
