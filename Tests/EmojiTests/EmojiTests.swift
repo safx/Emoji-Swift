@@ -53,6 +53,8 @@ class EmojiTests: XCTestCase {
     
     func testRegexEscapeCharacters() {
         XCTAssertEqual("\u{1f44d}", ":+1:".emojiUnescapedString)
+        XCTAssertEqual("\u{1f44d}", ":thumbsup:".emojiUnescapedString)
+        XCTAssertEqual("\u{1f44d}", ":thumbup:".emojiUnescapedString)
     }
     
     func testEmojiUnescapePerformance() {
