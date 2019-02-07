@@ -27,27 +27,7 @@ import Emoji
 extension String {
     var emojiEscapedString: String
     var emojiUnescapedString: String
-    static var emojis : [Emoji]
 }
-
-public struct Emoji {
-    public init(shortname: String, codepoints: [String])
-}
-```
-
-## Custom Emoji
-
-You can add own custom emoji to `String.emojis`.
-
-If you use custom emojis, you should use only alpha-numeric characters for `shortname` of `emojis` to avoid any converting problem since this library internally uses RegExp to convert emojis.
-
-```swift
-// Add Custom Emoji
-String.emojis.append(Emoji(shortname: "amp", codepoints: ["&\u{20dd}"]))
-
-// Using Custom Emoji
-":amp:".emojiUnescapedString
-"&⃝".emojiEscapedString
 ```
 
 ## Install
