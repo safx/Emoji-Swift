@@ -93,6 +93,10 @@ shortnames_var = '''
 print(shortnames_var)
 for emoji in emojis:
     pshortname(emoji[0], emoji[1])
+default_case_var = '''        default:
+            fatalError()'''
+
+print(default_case_var)
 
 print('        }')
 print('    }')
@@ -105,6 +109,7 @@ print(codepoints_var)
 for emoji in emojis:
     pcodepoints(emoji[0], emoji[2])
 
+print(default_case_var)
 print('        }')
 print('    }')
 print('''
