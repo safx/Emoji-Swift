@@ -9863,6 +9863,8 @@ public enum Emoji: CaseIterable {
             return ["receipt"]
         case .nazar_amulet:
             return ["nazar_amulet"]
+        default:
+            return [""]
         }
     }
 
@@ -17201,6 +17203,8 @@ public enum Emoji: CaseIterable {
             return ["\u{1f9fe}"]
         case .nazar_amulet:
             return ["\u{1f9ff}"]
+        default:
+            return [""]
         }
     }
 
