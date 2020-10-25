@@ -35,11 +35,11 @@ def cmp(a, b):
     return 1 if aa > bb else -1
 
 
-# curl -LO https://raw.githubusercontent.com/emojione/emojione/master/emoji.json
+# curl -LO https://raw.githubusercontent.com/joypixels/emoji-toolkit/master/emoji.json
 
 head = '''//
 //  This file is based on EmojiOne:
-//   https://raw.githubusercontent.com/emojione/emojione/master/emoji.json
+//   https://raw.githubusercontent.com/joypixels/emoji-toolkit/master/emoji.json
 //
 //  Emoji.swift
 //
@@ -58,7 +58,7 @@ emojis = []
 
 for k in keys:
     value = json[k]
-    
+
     shortnames = []
     shortnames.append(value['shortname'][1:-1]) # remove `:`
     shortnames.extend([s[1:-1] for s in value['shortname_alternates']])
@@ -67,9 +67,9 @@ for k in keys:
 
     if len(shortnames) == 0:
         continue
-    
+
     name = shortnames[0].replace('-', '_')
-    name_substitutions = [('8ball', 'height_ball'),
+    name_substitutions = [('8ball', 'eight_ball'),
                           ('guard', '`guard`'),
                           ('100', 'hundred'),
                           ('repeat', '`repeat`'),
@@ -79,9 +79,11 @@ for k in keys:
         if name == sub[0]:
             name = sub[1]
 
-    default_matches = value['code_points']['default_matches']
+    cp_base = value['code_points']['base']
+    cp_fq   = value['code_points']['fully_qualified']
+    matches = [cp_base] if cp_base == cp_fq else [cp_base, cp_fq]
 
-    emojis.append((name, shortnames, default_matches))
+    emojis.append((name, shortnames, matches))
 
 for emoji in emojis:
     pcase(emoji[0])
