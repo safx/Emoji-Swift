@@ -11759,7 +11759,7 @@ public enum Emoji: CaseIterable {
         case .teapot:
             return ["teapot"]
         default:
-            fatalError()
+            return [""]
         }
     }
 
@@ -19742,7 +19742,7 @@ public enum Emoji: CaseIterable {
         case .teapot:
             return ["\u{1fad6}"]
         default:
-            fatalError()
+            return [""]
         }
     }
 
