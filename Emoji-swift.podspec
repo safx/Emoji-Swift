@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.framework    = 'Foundation'
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
+  s.watchos.deployment_target = "5.0"
   s.requires_arc = true
 end

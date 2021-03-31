@@ -1,6 +1,6 @@
 //
 //  This file is based on EmojiOne:
-//   https://raw.githubusercontent.com/emojione/emojione/master/emoji.json
+//   https://raw.githubusercontent.com/joypixels/emoji-toolkit/master/emoji.json
 //
 //  Emoji.swift
 //
@@ -134,6 +134,7 @@ public enum Emoji: CaseIterable {
     case fleur_de_lis
     case warning
     case zap
+    case transgender_symbol
     case white_circle
     case black_circle
     case coffin
@@ -709,7 +710,7 @@ public enum Emoji: CaseIterable {
     case video_game
     case dart
     case slot_machine
-    case height_ball
+    case eight_ball
     case game_die
     case bowling
     case flower_playing_cards
@@ -869,6 +870,7 @@ public enum Emoji: CaseIterable {
     case japanese_castle
     case european_castle
     case flag_white
+    case transgender_flag
     case rainbow_flag
     case flag_black
     case pirate_flag
@@ -894,6 +896,7 @@ public enum Emoji: CaseIterable {
     case leopard
     case rabbit2
     case cat2
+    case black_cat
     case dragon
     case crocodile
     case whale2
@@ -907,6 +910,7 @@ public enum Emoji: CaseIterable {
     case rooster
     case chicken
     case dog2
+    case service_dog
     case pig2
     case boar
     case elephant
@@ -915,7 +919,7 @@ public enum Emoji: CaseIterable {
     case bug
     case ant
     case bee
-    case beetle
+    case lady_beetle
     case fish
     case tropical_fish
     case blowfish
@@ -945,6 +949,7 @@ public enum Emoji: CaseIterable {
     case hamster
     case wolf
     case bear
+    case polar_bear
     case panda_face
     case pig_nose
     case feet
@@ -1073,6 +1078,7 @@ public enum Emoji: CaseIterable {
     case kiss_mm
     case man_farmer
     case man_cook
+    case man_feeding_baby
     case man_student
     case man_singer
     case man_artist
@@ -1084,6 +1090,7 @@ public enum Emoji: CaseIterable {
     case man_pilot_tone1
     case man_farmer_tone1
     case man_cook_tone1
+    case man_feeding_baby_tone1
     case man_student_tone1
     case man_singer_tone1
     case man_artist_tone1
@@ -1095,16 +1102,24 @@ public enum Emoji: CaseIterable {
     case man_scientist_tone1
     case man_astronaut_tone1
     case man_firefighter_tone1
+    case men_holding_hands_tone1_tone5
+    case men_holding_hands_tone1_tone4
+    case men_holding_hands_tone1_tone3
+    case men_holding_hands_tone1_tone2
+    case man_with_probing_cane_tone1
     case man_red_haired_tone1
     case man_curly_haired_tone1
     case man_bald_tone1
     case man_white_haired_tone1
+    case man_in_motorized_wheelchair_tone1
+    case man_in_manual_wheelchair_tone1
     case man_tone2
     case man_health_worker_tone2
     case man_judge_tone2
     case man_pilot_tone2
     case man_farmer_tone2
     case man_cook_tone2
+    case man_feeding_baby_tone2
     case man_student_tone2
     case man_singer_tone2
     case man_artist_tone2
@@ -1116,16 +1131,24 @@ public enum Emoji: CaseIterable {
     case man_scientist_tone2
     case man_astronaut_tone2
     case man_firefighter_tone2
+    case men_holding_hands_tone2_tone5
+    case men_holding_hands_tone2_tone4
+    case men_holding_hands_tone2_tone3
+    case men_holding_hands_tone2_tone1
+    case man_with_probing_cane_tone2
     case man_red_haired_tone2
     case man_curly_haired_tone2
     case man_bald_tone2
     case man_white_haired_tone2
+    case man_in_motorized_wheelchair_tone2
+    case man_in_manual_wheelchair_tone2
     case man_tone3
     case man_health_worker_tone3
     case man_judge_tone3
     case man_pilot_tone3
     case man_farmer_tone3
     case man_cook_tone3
+    case man_feeding_baby_tone3
     case man_student_tone3
     case man_singer_tone3
     case man_artist_tone3
@@ -1137,16 +1160,24 @@ public enum Emoji: CaseIterable {
     case man_scientist_tone3
     case man_astronaut_tone3
     case man_firefighter_tone3
+    case men_holding_hands_tone3_tone5
+    case men_holding_hands_tone3_tone4
+    case men_holding_hands_tone3_tone2
+    case men_holding_hands_tone3_tone1
+    case man_with_probing_cane_tone3
     case man_red_haired_tone3
     case man_curly_haired_tone3
     case man_bald_tone3
     case man_white_haired_tone3
+    case man_in_motorized_wheelchair_tone3
+    case man_in_manual_wheelchair_tone3
     case man_tone4
     case man_health_worker_tone4
     case man_judge_tone4
     case man_pilot_tone4
     case man_farmer_tone4
     case man_cook_tone4
+    case man_feeding_baby_tone4
     case man_student_tone4
     case man_singer_tone4
     case man_artist_tone4
@@ -1158,16 +1189,24 @@ public enum Emoji: CaseIterable {
     case man_scientist_tone4
     case man_astronaut_tone4
     case man_firefighter_tone4
+    case men_holding_hands_tone4_tone5
+    case men_holding_hands_tone4_tone3
+    case men_holding_hands_tone4_tone2
+    case men_holding_hands_tone4_tone1
+    case man_with_probing_cane_tone4
     case man_red_haired_tone4
     case man_curly_haired_tone4
     case man_bald_tone4
     case man_white_haired_tone4
+    case man_in_motorized_wheelchair_tone4
+    case man_in_manual_wheelchair_tone4
     case man_tone5
     case man_health_worker_tone5
     case man_judge_tone5
     case man_pilot_tone5
     case man_farmer_tone5
     case man_cook_tone5
+    case man_feeding_baby_tone5
     case man_student_tone5
     case man_singer_tone5
     case man_artist_tone5
@@ -1179,10 +1218,17 @@ public enum Emoji: CaseIterable {
     case man_scientist_tone5
     case man_astronaut_tone5
     case man_firefighter_tone5
+    case men_holding_hands_tone5_tone4
+    case men_holding_hands_tone5_tone3
+    case men_holding_hands_tone5_tone2
+    case men_holding_hands_tone5_tone1
+    case man_with_probing_cane_tone5
     case man_red_haired_tone5
     case man_curly_haired_tone5
     case man_bald_tone5
     case man_white_haired_tone5
+    case man_in_motorized_wheelchair_tone5
+    case man_in_manual_wheelchair_tone5
     case family_man_boy
     case family_man_boy_boy
     case family_man_girl
@@ -1204,10 +1250,13 @@ public enum Emoji: CaseIterable {
     case man_scientist
     case man_astronaut
     case man_firefighter
+    case man_with_probing_cane
     case man_red_haired
     case man_curly_haired
     case man_bald
     case man_white_haired
+    case man_in_motorized_wheelchair
+    case man_in_manual_wheelchair
     case woman
     case woman_health_worker
     case woman_judge
@@ -1218,6 +1267,7 @@ public enum Emoji: CaseIterable {
     case kiss_ww
     case woman_farmer
     case woman_cook
+    case woman_feeding_baby
     case woman_student
     case woman_singer
     case woman_artist
@@ -1229,6 +1279,7 @@ public enum Emoji: CaseIterable {
     case woman_pilot_tone1
     case woman_farmer_tone1
     case woman_cook_tone1
+    case woman_feeding_baby_tone1
     case woman_student_tone1
     case woman_singer_tone1
     case woman_artist_tone1
@@ -1240,16 +1291,28 @@ public enum Emoji: CaseIterable {
     case woman_scientist_tone1
     case woman_astronaut_tone1
     case woman_firefighter_tone1
+    case woman_and_man_holding_hands_tone1_tone5
+    case woman_and_man_holding_hands_tone1_tone4
+    case woman_and_man_holding_hands_tone1_tone3
+    case woman_and_man_holding_hands_tone1_tone2
+    case women_holding_hands_tone1_tone5
+    case women_holding_hands_tone1_tone4
+    case women_holding_hands_tone1_tone3
+    case women_holding_hands_tone1_tone2
+    case woman_with_probing_cane_tone1
     case woman_red_haired_tone1
     case woman_curly_haired_tone1
     case woman_bald_tone1
     case woman_white_haired_tone1
+    case woman_in_motorized_wheelchair_tone1
+    case woman_in_manual_wheelchair_tone1
     case woman_tone2
     case woman_health_worker_tone2
     case woman_judge_tone2
     case woman_pilot_tone2
     case woman_farmer_tone2
     case woman_cook_tone2
+    case woman_feeding_baby_tone2
     case woman_student_tone2
     case woman_singer_tone2
     case woman_artist_tone2
@@ -1261,16 +1324,28 @@ public enum Emoji: CaseIterable {
     case woman_scientist_tone2
     case woman_astronaut_tone2
     case woman_firefighter_tone2
+    case woman_and_man_holding_hands_tone2_tone5
+    case woman_and_man_holding_hands_tone2_tone4
+    case woman_and_man_holding_hands_tone2_tone3
+    case woman_and_man_holding_hands_tone2_tone1
+    case women_holding_hands_tone2_tone5
+    case women_holding_hands_tone2_tone4
+    case women_holding_hands_tone2_tone3
+    case women_holding_hands_tone2_tone1
+    case woman_with_probing_cane_tone2
     case woman_red_haired_tone2
     case woman_curly_haired_tone2
     case woman_bald_tone2
     case woman_white_haired_tone2
+    case woman_in_motorized_wheelchair_tone2
+    case woman_in_manual_wheelchair_tone2
     case woman_tone3
     case woman_health_worker_tone3
     case woman_judge_tone3
     case woman_pilot_tone3
     case woman_farmer_tone3
     case woman_cook_tone3
+    case woman_feeding_baby_tone3
     case woman_student_tone3
     case woman_singer_tone3
     case woman_artist_tone3
@@ -1282,16 +1357,28 @@ public enum Emoji: CaseIterable {
     case woman_scientist_tone3
     case woman_astronaut_tone3
     case woman_firefighter_tone3
+    case woman_and_man_holding_hands_tone3_tone5
+    case woman_and_man_holding_hands_tone3_tone4
+    case woman_and_man_holding_hands_tone3_tone2
+    case woman_and_man_holding_hands_tone3_tone1
+    case women_holding_hands_tone3_tone5
+    case women_holding_hands_tone3_tone4
+    case women_holding_hands_tone3_tone2
+    case women_holding_hands_tone3_tone1
+    case woman_with_probing_cane_tone3
     case woman_red_haired_tone3
     case woman_curly_haired_tone3
     case woman_bald_tone3
     case woman_white_haired_tone3
+    case woman_in_motorized_wheelchair_tone3
+    case woman_in_manual_wheelchair_tone3
     case woman_tone4
     case woman_health_worker_tone4
     case woman_judge_tone4
     case woman_pilot_tone4
     case woman_farmer_tone4
     case woman_cook_tone4
+    case woman_feeding_baby_tone4
     case woman_student_tone4
     case woman_singer_tone4
     case woman_artist_tone4
@@ -1303,16 +1390,28 @@ public enum Emoji: CaseIterable {
     case woman_scientist_tone4
     case woman_astronaut_tone4
     case woman_firefighter_tone4
+    case woman_and_man_holding_hands_tone4_tone5
+    case woman_and_man_holding_hands_tone4_tone3
+    case woman_and_man_holding_hands_tone4_tone2
+    case woman_and_man_holding_hands_tone4_tone1
+    case women_holding_hands_tone4_tone5
+    case women_holding_hands_tone4_tone3
+    case women_holding_hands_tone4_tone2
+    case women_holding_hands_tone4_tone1
+    case woman_with_probing_cane_tone4
     case woman_red_haired_tone4
     case woman_curly_haired_tone4
     case woman_bald_tone4
     case woman_white_haired_tone4
+    case woman_in_motorized_wheelchair_tone4
+    case woman_in_manual_wheelchair_tone4
     case woman_tone5
     case woman_health_worker_tone5
     case woman_judge_tone5
     case woman_pilot_tone5
     case woman_farmer_tone5
     case woman_cook_tone5
+    case woman_feeding_baby_tone5
     case woman_student_tone5
     case woman_singer_tone5
     case woman_artist_tone5
@@ -1324,10 +1423,21 @@ public enum Emoji: CaseIterable {
     case woman_scientist_tone5
     case woman_astronaut_tone5
     case woman_firefighter_tone5
+    case woman_and_man_holding_hands_tone5_tone4
+    case woman_and_man_holding_hands_tone5_tone3
+    case woman_and_man_holding_hands_tone5_tone2
+    case woman_and_man_holding_hands_tone5_tone1
+    case women_holding_hands_tone5_tone4
+    case women_holding_hands_tone5_tone3
+    case women_holding_hands_tone5_tone2
+    case women_holding_hands_tone5_tone1
+    case woman_with_probing_cane_tone5
     case woman_red_haired_tone5
     case woman_curly_haired_tone5
     case woman_bald_tone5
     case woman_white_haired_tone5
+    case woman_in_motorized_wheelchair_tone5
+    case woman_in_manual_wheelchair_tone5
     case family_woman_boy
     case family_woman_boy_boy
     case family_woman_girl
@@ -1344,14 +1454,32 @@ public enum Emoji: CaseIterable {
     case woman_scientist
     case woman_astronaut
     case woman_firefighter
+    case woman_with_probing_cane
     case woman_red_haired
     case woman_curly_haired
     case woman_bald
     case woman_white_haired
+    case woman_in_motorized_wheelchair
+    case woman_in_manual_wheelchair
     case family
     case couple
+    case woman_and_man_holding_hands_tone1
+    case woman_and_man_holding_hands_tone2
+    case woman_and_man_holding_hands_tone3
+    case woman_and_man_holding_hands_tone4
+    case woman_and_man_holding_hands_tone5
     case two_men_holding_hands
+    case men_holding_hands_tone1
+    case men_holding_hands_tone2
+    case men_holding_hands_tone3
+    case men_holding_hands_tone4
+    case men_holding_hands_tone5
     case two_women_holding_hands
+    case women_holding_hands_tone1
+    case women_holding_hands_tone2
+    case women_holding_hands_tone3
+    case women_holding_hands_tone4
+    case women_holding_hands_tone5
     case police_officer
     case woman_police_officer
     case man_police_officer
@@ -1373,12 +1501,24 @@ public enum Emoji: CaseIterable {
     case people_with_bunny_ears_partying
     case women_with_bunny_ears_partying
     case men_with_bunny_ears_partying
-    case bride_with_veil
-    case bride_with_veil_tone1
-    case bride_with_veil_tone2
-    case bride_with_veil_tone3
-    case bride_with_veil_tone4
-    case bride_with_veil_tone5
+    case person_with_veil
+    case woman_with_veil
+    case man_with_veil
+    case person_with_veil_tone1
+    case woman_with_veil_tone1
+    case man_with_veil_tone1
+    case person_with_veil_tone2
+    case woman_with_veil_tone2
+    case man_with_veil_tone2
+    case person_with_veil_tone3
+    case woman_with_veil_tone3
+    case man_with_veil_tone3
+    case person_with_veil_tone4
+    case woman_with_veil_tone4
+    case man_with_veil_tone4
+    case person_with_veil_tone5
+    case woman_with_veil_tone5
+    case man_with_veil_tone5
     case blond_haired_person
     case blond_haired_woman
     case blond_haired_man
@@ -1671,7 +1811,7 @@ public enum Emoji: CaseIterable {
     case postbox
     case postal_horn
     case newspaper
-    case iphone
+    case mobile_phone
     case calling
     case vibration_mode
     case mobile_phone_off
@@ -2211,6 +2351,9 @@ public enum Emoji: CaseIterable {
     case place_of_worship
     case octagonal_sign
     case shopping_cart
+    case hindu_temple
+    case hut
+    case elevator
     case tools
     case shield
     case oil
@@ -2228,6 +2371,35 @@ public enum Emoji: CaseIterable {
     case sled
     case flying_saucer
     case skateboard
+    case auto_rickshaw
+    case pickup_truck
+    case roller_skate
+    case orange_circle
+    case yellow_circle
+    case green_circle
+    case purple_circle
+    case brown_circle
+    case red_square
+    case blue_square
+    case orange_square
+    case yellow_square
+    case green_square
+    case purple_square
+    case brown_square
+    case pinched_fingers
+    case pinched_fingers_tone1
+    case pinched_fingers_tone2
+    case pinched_fingers_tone3
+    case pinched_fingers_tone4
+    case pinched_fingers_tone5
+    case white_heart
+    case brown_heart
+    case pinching_hand
+    case pinching_hand_tone1
+    case pinching_hand_tone2
+    case pinching_hand_tone3
+    case pinching_hand_tone4
+    case pinching_hand_tone5
     case zipper_mouth
     case money_mouth
     case thermometer_face
@@ -2342,11 +2514,23 @@ public enum Emoji: CaseIterable {
     case prince_tone3
     case prince_tone4
     case prince_tone5
+    case person_in_tuxedo
+    case woman_in_tuxedo
     case man_in_tuxedo
+    case person_in_tuxedo_tone1
+    case woman_in_tuxedo_tone1
     case man_in_tuxedo_tone1
+    case person_in_tuxedo_tone2
+    case woman_in_tuxedo_tone2
     case man_in_tuxedo_tone2
+    case person_in_tuxedo_tone3
+    case woman_in_tuxedo_tone3
     case man_in_tuxedo_tone3
+    case person_in_tuxedo_tone4
+    case woman_in_tuxedo_tone4
     case man_in_tuxedo_tone4
+    case person_in_tuxedo_tone5
+    case woman_in_tuxedo_tone5
     case man_in_tuxedo_tone5
     case mrs_claus
     case mrs_claus_tone1
@@ -2448,6 +2632,7 @@ public enum Emoji: CaseIterable {
     case person_playing_handball_tone5
     case woman_playing_handball_tone5
     case man_playing_handball_tone5
+    case diving_mask
     case wilted_rose
     case drum
     case champagne_glass
@@ -2496,11 +2681,21 @@ public enum Emoji: CaseIterable {
     case moon_cake
     case bagel
     case smiling_face_with_3_hearts
+    case yawning_face
+    case smiling_face_with_tear
     case partying_face
     case woozy_face
     case hot_face
     case cold_face
+    case ninja
+    case ninja_tone1
+    case ninja_tone2
+    case ninja_tone3
+    case ninja_tone4
+    case ninja_tone5
+    case disguised_face
     case pleading_face
+    case sari
     case lab_coat
     case goggles
     case hiking_boot
@@ -2540,6 +2735,19 @@ public enum Emoji: CaseIterable {
     case microbe
     case badger
     case swan
+    case mammoth
+    case dodo
+    case sloth
+    case otter
+    case orangutan
+    case skunk
+    case flamingo
+    case oyster
+    case beaver
+    case bison
+    case seal
+    case guide_dog
+    case probing_cane
     case red_haired
     case curly_haired
     case bald
@@ -2594,16 +2802,266 @@ public enum Emoji: CaseIterable {
     case supervillain_tone5
     case woman_supervillain_tone5
     case man_supervillain_tone5
+    case safety_vest
+    case ear_with_hearing_aid
+    case ear_with_hearing_aid_tone1
+    case ear_with_hearing_aid_tone2
+    case ear_with_hearing_aid_tone3
+    case ear_with_hearing_aid_tone4
+    case ear_with_hearing_aid_tone5
+    case motorized_wheelchair
+    case manual_wheelchair
+    case mechanical_arm
+    case mechanical_leg
     case cheese
     case cupcake
     case salt
+    case beverage_box
+    case garlic
+    case onion
+    case falafel
+    case waffle
+    case butter
+    case mate
+    case ice_cube
+    case bubble_tea
+    case person_standing
+    case woman_standing
+    case man_standing
+    case person_standing_tone1
+    case woman_standing_tone1
+    case man_standing_tone1
+    case person_standing_tone2
+    case woman_standing_tone2
+    case man_standing_tone2
+    case person_standing_tone3
+    case woman_standing_tone3
+    case man_standing_tone3
+    case person_standing_tone4
+    case woman_standing_tone4
+    case man_standing_tone4
+    case person_standing_tone5
+    case woman_standing_tone5
+    case man_standing_tone5
+    case person_kneeling
+    case woman_kneeling
+    case man_kneeling
+    case person_kneeling_tone1
+    case woman_kneeling_tone1
+    case man_kneeling_tone1
+    case person_kneeling_tone2
+    case woman_kneeling_tone2
+    case man_kneeling_tone2
+    case person_kneeling_tone3
+    case woman_kneeling_tone3
+    case man_kneeling_tone3
+    case person_kneeling_tone4
+    case woman_kneeling_tone4
+    case man_kneeling_tone4
+    case person_kneeling_tone5
+    case woman_kneeling_tone5
+    case man_kneeling_tone5
+    case deaf_person
+    case deaf_woman
+    case deaf_man
+    case deaf_person_tone1
+    case deaf_woman_tone1
+    case deaf_man_tone1
+    case deaf_person_tone2
+    case deaf_woman_tone2
+    case deaf_man_tone2
+    case deaf_person_tone3
+    case deaf_woman_tone3
+    case deaf_man_tone3
+    case deaf_person_tone4
+    case deaf_woman_tone4
+    case deaf_man_tone4
+    case deaf_person_tone5
+    case deaf_woman_tone5
+    case deaf_man_tone5
     case face_with_monocle
     case adult
+    case health_worker
+    case judge
+    case pilot
+    case farmer
+    case cook
+    case person_feeding_baby
+    case mx_claus
+    case student
+    case singer
+    case artist
+    case teacher
+    case factory_worker
     case adult_tone1
+    case health_worker_tone1
+    case judge_tone1
+    case pilot_tone1
+    case farmer_tone1
+    case cook_tone1
+    case person_feeding_baby_tone1
+    case mx_claus_tone1
+    case student_tone1
+    case singer_tone1
+    case artist_tone1
+    case teacher_tone1
+    case factory_worker_tone1
+    case technologist_tone1
+    case office_worker_tone1
+    case mechanic_tone1
+    case scientist_tone1
+    case astronaut_tone1
+    case firefighter_tone1
+    case people_holding_hands_tone1_tone5
+    case people_holding_hands_tone1_tone4
+    case people_holding_hands_tone1_tone3
+    case people_holding_hands_tone1_tone2
+    case people_holding_hands_tone1
+    case person_with_probing_cane_tone1
+    case person_tone1_red_hair
+    case person_tone1_curly_hair
+    case person_tone1_bald
+    case person_tone1_white_hair
+    case person_in_motorized_wheelchair_tone1
+    case person_in_manual_wheelchair_tone1
     case adult_tone2
+    case health_worker_tone2
+    case judge_tone2
+    case pilot_tone2
+    case farmer_tone2
+    case cook_tone2
+    case person_feeding_baby_tone2
+    case mx_claus_tone2
+    case student_tone2
+    case singer_tone2
+    case artist_tone2
+    case teacher_tone2
+    case factory_worker_tone2
+    case technologist_tone2
+    case office_worker_tone2
+    case mechanic_tone2
+    case scientist_tone2
+    case astronaut_tone2
+    case firefighter_tone2
+    case people_holding_hands_tone2_tone5
+    case people_holding_hands_tone2_tone4
+    case people_holding_hands_tone2_tone3
+    case people_holding_hands_tone2
+    case people_holding_hands_tone2_tone1
+    case person_with_probing_cane_tone2
+    case person_tone2_red_hair
+    case person_tone2_curly_hair
+    case person_tone2_bald
+    case person_tone2_white_hair
+    case person_in_motorized_wheelchair_tone2
+    case person_in_manual_wheelchair_tone2
     case adult_tone3
+    case health_worker_tone3
+    case judge_tone3
+    case pilot_tone3
+    case farmer_tone3
+    case cook_tone3
+    case person_feeding_baby_tone3
+    case mx_claus_tone3
+    case student_tone3
+    case singer_tone3
+    case artist_tone3
+    case teacher_tone3
+    case factory_worker_tone3
+    case technologist_tone3
+    case office_worker_tone3
+    case mechanic_tone3
+    case scientist_tone3
+    case astronaut_tone3
+    case firefighter_tone3
+    case people_holding_hands_tone3_tone5
+    case people_holding_hands_tone3_tone4
+    case people_holding_hands_tone3
+    case people_holding_hands_tone3_tone2
+    case people_holding_hands_tone3_tone1
+    case person_with_probing_cane_tone3
+    case person_tone3_red_hair
+    case person_tone3_curly_hair
+    case person_tone3_bald
+    case person_tone3_white_hair
+    case person_in_motorized_wheelchair_tone3
+    case person_in_manual_wheelchair_tone3
     case adult_tone4
+    case health_worker_tone4
+    case judge_tone4
+    case pilot_tone4
+    case farmer_tone4
+    case cook_tone4
+    case person_feeding_baby_tone4
+    case mx_claus_tone4
+    case student_tone4
+    case singer_tone4
+    case artist_tone4
+    case teacher_tone4
+    case factory_worker_tone4
+    case technologist_tone4
+    case office_worker_tone4
+    case mechanic_tone4
+    case scientist_tone4
+    case astronaut_tone4
+    case firefighter_tone4
+    case people_holding_hands_tone4_tone5
+    case people_holding_hands_tone4
+    case people_holding_hands_tone4_tone3
+    case people_holding_hands_tone4_tone2
+    case people_holding_hands_tone4_tone1
+    case person_with_probing_cane_tone4
+    case person_tone4_red_hair
+    case person_tone4_curly_hair
+    case person_tone4_bald
+    case person_tone4_white_hair
+    case person_in_motorized_wheelchair_tone4
+    case person_in_manual_wheelchair_tone4
     case adult_tone5
+    case health_worker_tone5
+    case judge_tone5
+    case pilot_tone5
+    case farmer_tone5
+    case cook_tone5
+    case person_feeding_baby_tone5
+    case mx_claus_tone5
+    case student_tone5
+    case singer_tone5
+    case artist_tone5
+    case teacher_tone5
+    case factory_worker_tone5
+    case technologist_tone5
+    case office_worker_tone5
+    case mechanic_tone5
+    case scientist_tone5
+    case astronaut_tone5
+    case firefighter_tone5
+    case people_holding_hands_tone5
+    case people_holding_hands_tone5_tone4
+    case people_holding_hands_tone5_tone3
+    case people_holding_hands_tone5_tone2
+    case people_holding_hands_tone5_tone1
+    case person_with_probing_cane_tone5
+    case person_tone5_red_hair
+    case person_tone5_curly_hair
+    case person_tone5_bald
+    case person_tone5_white_hair
+    case person_in_motorized_wheelchair_tone5
+    case person_in_manual_wheelchair_tone5
+    case technologist
+    case office_worker
+    case mechanic
+    case scientist
+    case astronaut
+    case firefighter
+    case people_holding_hands
+    case person_with_probing_cane
+    case person_red_hair
+    case person_curly_hair
+    case person_bald
+    case person_white_hair
+    case person_in_motorized_wheelchair
+    case person_in_manual_wheelchair
     case child
     case child_tone1
     case child_tone2
@@ -2810,6 +3268,63 @@ public enum Emoji: CaseIterable {
     case sponge
     case receipt
     case nazar_amulet
+    case ballet_shoes
+    case one_piece_swimsuit
+    case briefs
+    case shorts
+    case thong_sandal
+    case drop_of_blood
+    case adhesive_bandage
+    case stethoscope
+    case yo_yo
+    case kite
+    case parachute
+    case boomerang
+    case magic_wand
+    case piñata
+    case nesting_dolls
+    case ringed_planet
+    case chair
+    case razor
+    case axe
+    case diya_lamp
+    case banjo
+    case military_helmet
+    case accordion
+    case long_drum
+    case coin
+    case carpentry_saw
+    case screwdriver
+    case ladder
+    case hook
+    case mirror
+    case window
+    case plunger
+    case sewing_needle
+    case knot
+    case bucket
+    case mouse_trap
+    case toothbrush
+    case headstone
+    case placard
+    case rock
+    case fly
+    case worm
+    case beetle
+    case cockroach
+    case potted_plant
+    case wood
+    case feather
+    case anatomical_heart
+    case lungs
+    case people_hugging
+    case blueberries
+    case bell_pepper
+    case olive
+    case flatbread
+    case tamale
+    case fondue
+    case teapot
 
     var shortnames: [String] {
         switch(self) {
@@ -3073,6 +3588,8 @@ public enum Emoji: CaseIterable {
             return ["warning"]
         case .zap:
             return ["zap"]
+        case .transgender_symbol:
+            return ["transgender_symbol"]
         case .white_circle:
             return ["white_circle"]
         case .black_circle:
@@ -4524,7 +5041,7 @@ public enum Emoji: CaseIterable {
             return ["dart"]
         case .slot_machine:
             return ["slot_machine"]
-        case .height_ball:
+        case .eight_ball:
             return ["8ball"]
         case .game_die:
             return ["game_die"]
@@ -4948,6 +5465,8 @@ public enum Emoji: CaseIterable {
         case .flag_white:
             return ["flag_white",
                     "waving_white_flag"]
+        case .transgender_flag:
+            return ["transgender_flag"]
         case .rainbow_flag:
             return ["rainbow_flag",
                     "gay_pride_flag"]
@@ -5001,6 +5520,8 @@ public enum Emoji: CaseIterable {
             return ["rabbit2"]
         case .cat2:
             return ["cat2"]
+        case .black_cat:
+            return ["black_cat"]
         case .dragon:
             return ["dragon"]
         case .crocodile:
@@ -5027,6 +5548,8 @@ public enum Emoji: CaseIterable {
             return ["chicken"]
         case .dog2:
             return ["dog2"]
+        case .service_dog:
+            return ["service_dog"]
         case .pig2:
             return ["pig2"]
         case .boar:
@@ -5043,8 +5566,8 @@ public enum Emoji: CaseIterable {
             return ["ant"]
         case .bee:
             return ["bee"]
-        case .beetle:
-            return ["beetle"]
+        case .lady_beetle:
+            return ["lady_beetle"]
         case .fish:
             return ["fish"]
         case .tropical_fish:
@@ -5103,6 +5626,8 @@ public enum Emoji: CaseIterable {
             return ["wolf"]
         case .bear:
             return ["bear"]
+        case .polar_bear:
+            return ["polar_bear"]
         case .panda_face:
             return ["panda_face"]
         case .pig_nose:
@@ -5386,6 +5911,8 @@ public enum Emoji: CaseIterable {
             return ["man_farmer"]
         case .man_cook:
             return ["man_cook"]
+        case .man_feeding_baby:
+            return ["man_feeding_baby"]
         case .man_student:
             return ["man_student"]
         case .man_singer:
@@ -5413,6 +5940,9 @@ public enum Emoji: CaseIterable {
         case .man_cook_tone1:
             return ["man_cook_tone1",
                     "man_cook_light_skin_tone"]
+        case .man_feeding_baby_tone1:
+            return ["man_feeding_baby_tone1",
+                    "man_feeding_baby_light_skin_tone"]
         case .man_student_tone1:
             return ["man_student_tone1",
                     "man_student_light_skin_tone"]
@@ -5446,6 +5976,21 @@ public enum Emoji: CaseIterable {
         case .man_firefighter_tone1:
             return ["man_firefighter_tone1",
                     "man_firefighter_light_skin_tone"]
+        case .men_holding_hands_tone1_tone5:
+            return ["men_holding_hands_tone1_tone5",
+                    "men_holding_hands_light_skin_tone_dark_skin_tone"]
+        case .men_holding_hands_tone1_tone4:
+            return ["men_holding_hands_tone1_tone4",
+                    "men_holding_hands_light_skin_tone_medium_dark_skin_tone"]
+        case .men_holding_hands_tone1_tone3:
+            return ["men_holding_hands_tone1_tone3",
+                    "men_holding_hands_light_skin_tone_medium_skin_tone"]
+        case .men_holding_hands_tone1_tone2:
+            return ["men_holding_hands_tone1_tone2",
+                    "men_holding_hands_light_skin_tone_medium_light_skin_tone"]
+        case .man_with_probing_cane_tone1:
+            return ["man_with_probing_cane_tone1",
+                    "man_with_probing_cane_light_skin_tone"]
         case .man_red_haired_tone1:
             return ["man_red_haired_tone1",
                     "man_red_haired_light_skin_tone"]
@@ -5458,6 +6003,12 @@ public enum Emoji: CaseIterable {
         case .man_white_haired_tone1:
             return ["man_white_haired_tone1",
                     "man_white_haired_light_skin_tone"]
+        case .man_in_motorized_wheelchair_tone1:
+            return ["man_in_motorized_wheelchair_tone1",
+                    "man_in_motorized_wheelchair_light_skin_tone"]
+        case .man_in_manual_wheelchair_tone1:
+            return ["man_in_manual_wheelchair_tone1",
+                    "man_in_manual_wheelchair_light_skin_tone"]
         case .man_tone2:
             return ["man_tone2"]
         case .man_health_worker_tone2:
@@ -5475,6 +6026,9 @@ public enum Emoji: CaseIterable {
         case .man_cook_tone2:
             return ["man_cook_tone2",
                     "man_cook_medium_light_skin_tone"]
+        case .man_feeding_baby_tone2:
+            return ["man_feeding_baby_tone2",
+                    "man_feeding_baby_medium_light_skin_tone"]
         case .man_student_tone2:
             return ["man_student_tone2",
                     "man_student_medium_light_skin_tone"]
@@ -5508,6 +6062,21 @@ public enum Emoji: CaseIterable {
         case .man_firefighter_tone2:
             return ["man_firefighter_tone2",
                     "man_firefighter_medium_light_skin_tone"]
+        case .men_holding_hands_tone2_tone5:
+            return ["men_holding_hands_tone2_tone5",
+                    "men_holding_hands_medium_light_skin_tone_dark_skin_tone"]
+        case .men_holding_hands_tone2_tone4:
+            return ["men_holding_hands_tone2_tone4",
+                    "men_holding_hands_medium_light_skin_tone_medium_dark_skin_tone"]
+        case .men_holding_hands_tone2_tone3:
+            return ["men_holding_hands_tone2_tone3",
+                    "men_holding_hands_medium_light_skin_tone_medium_skin_tone"]
+        case .men_holding_hands_tone2_tone1:
+            return ["men_holding_hands_tone2_tone1",
+                    "men_holding_hands_medium_light_skin_tone_light_skin_tone"]
+        case .man_with_probing_cane_tone2:
+            return ["man_with_probing_cane_tone2",
+                    "man_with_probing_cane_medium_light_skin_tone"]
         case .man_red_haired_tone2:
             return ["man_red_haired_tone2",
                     "man_red_haired_medium_light_skin_tone"]
@@ -5520,6 +6089,12 @@ public enum Emoji: CaseIterable {
         case .man_white_haired_tone2:
             return ["man_white_haired_tone2",
                     "man_white_haired_medium_light_skin_tone"]
+        case .man_in_motorized_wheelchair_tone2:
+            return ["man_in_motorized_wheelchair_tone2",
+                    "man_in_motorized_wheelchair_medium_light_skin_tone"]
+        case .man_in_manual_wheelchair_tone2:
+            return ["man_in_manual_wheelchair_tone2",
+                    "man_in_manual_wheelchair_medium_light_skin_tone"]
         case .man_tone3:
             return ["man_tone3"]
         case .man_health_worker_tone3:
@@ -5537,6 +6112,9 @@ public enum Emoji: CaseIterable {
         case .man_cook_tone3:
             return ["man_cook_tone3",
                     "man_cook_medium_skin_tone"]
+        case .man_feeding_baby_tone3:
+            return ["man_feeding_baby_tone3",
+                    "man_feeding_baby_medium_skin_tone"]
         case .man_student_tone3:
             return ["man_student_tone3",
                     "man_student_medium_skin_tone"]
@@ -5570,6 +6148,21 @@ public enum Emoji: CaseIterable {
         case .man_firefighter_tone3:
             return ["man_firefighter_tone3",
                     "man_firefighter_medium_skin_tone"]
+        case .men_holding_hands_tone3_tone5:
+            return ["men_holding_hands_tone3_tone5",
+                    "men_holding_hands_medium_skin_tone_dark_skin_tone"]
+        case .men_holding_hands_tone3_tone4:
+            return ["men_holding_hands_tone3_tone4",
+                    "men_holding_hands_medium_skin_tone_medium_dark_skin_tone"]
+        case .men_holding_hands_tone3_tone2:
+            return ["men_holding_hands_tone3_tone2",
+                    "men_holding_hands_medium_skin_tone_medium_light_skin_tone"]
+        case .men_holding_hands_tone3_tone1:
+            return ["men_holding_hands_tone3_tone1",
+                    "men_holding_hands_medium_skin_tone_light_skin_tone"]
+        case .man_with_probing_cane_tone3:
+            return ["man_with_probing_cane_tone3",
+                    "man_with_probing_cane_medium_skin_tone"]
         case .man_red_haired_tone3:
             return ["man_red_haired_tone3",
                     "man_red_haired_medium_skin_tone"]
@@ -5582,6 +6175,12 @@ public enum Emoji: CaseIterable {
         case .man_white_haired_tone3:
             return ["man_white_haired_tone3",
                     "man_white_haired_medium_skin_tone"]
+        case .man_in_motorized_wheelchair_tone3:
+            return ["man_in_motorized_wheelchair_tone3",
+                    "man_in_motorized_wheelchair_medium_skin_tone"]
+        case .man_in_manual_wheelchair_tone3:
+            return ["man_in_manual_wheelchair_tone3",
+                    "man_in_manual_wheelchair_medium_skin_tone"]
         case .man_tone4:
             return ["man_tone4"]
         case .man_health_worker_tone4:
@@ -5599,6 +6198,9 @@ public enum Emoji: CaseIterable {
         case .man_cook_tone4:
             return ["man_cook_tone4",
                     "man_cook_medium_dark_skin_tone"]
+        case .man_feeding_baby_tone4:
+            return ["man_feeding_baby_tone4",
+                    "man_feeding_baby_medium_dark_skin_tone"]
         case .man_student_tone4:
             return ["man_student_tone4",
                     "man_student_medium_dark_skin_tone"]
@@ -5632,6 +6234,21 @@ public enum Emoji: CaseIterable {
         case .man_firefighter_tone4:
             return ["man_firefighter_tone4",
                     "man_firefighter_medium_dark_skin_tone"]
+        case .men_holding_hands_tone4_tone5:
+            return ["men_holding_hands_tone4_tone5",
+                    "men_holding_hands_medium_dark_skin_tone_dark_skin_tone"]
+        case .men_holding_hands_tone4_tone3:
+            return ["men_holding_hands_tone4_tone3",
+                    "men_holding_hands_medium_dark_skin_tone_medium_skin_tone"]
+        case .men_holding_hands_tone4_tone2:
+            return ["men_holding_hands_tone4_tone2",
+                    "men_holding_hands_medium_dark_skin_tone_medium_light_skin_tone"]
+        case .men_holding_hands_tone4_tone1:
+            return ["men_holding_hands_tone4_tone1",
+                    "men_holding_hands_medium_dark_skin_tone_light_skin_tone"]
+        case .man_with_probing_cane_tone4:
+            return ["man_with_probing_cane_tone4",
+                    "man_with_probing_cane_medium_dark_skin_tone"]
         case .man_red_haired_tone4:
             return ["man_red_haired_tone4",
                     "man_red_haired_medium_dark_skin_tone"]
@@ -5644,6 +6261,12 @@ public enum Emoji: CaseIterable {
         case .man_white_haired_tone4:
             return ["man_white_haired_tone4",
                     "man_white_haired_medium_dark_skin_tone"]
+        case .man_in_motorized_wheelchair_tone4:
+            return ["man_in_motorized_wheelchair_tone4",
+                    "man_in_motorized_wheelchair_medium_dark_skin_tone"]
+        case .man_in_manual_wheelchair_tone4:
+            return ["man_in_manual_wheelchair_tone4",
+                    "man_in_manual_wheelchair_medium_dark_skin_tone"]
         case .man_tone5:
             return ["man_tone5"]
         case .man_health_worker_tone5:
@@ -5661,6 +6284,9 @@ public enum Emoji: CaseIterable {
         case .man_cook_tone5:
             return ["man_cook_tone5",
                     "man_cook_dark_skin_tone"]
+        case .man_feeding_baby_tone5:
+            return ["man_feeding_baby_tone5",
+                    "man_feeding_baby_dark_skin_tone"]
         case .man_student_tone5:
             return ["man_student_tone5",
                     "man_student_dark_skin_tone"]
@@ -5694,6 +6320,21 @@ public enum Emoji: CaseIterable {
         case .man_firefighter_tone5:
             return ["man_firefighter_tone5",
                     "man_firefighter_dark_skin_tone"]
+        case .men_holding_hands_tone5_tone4:
+            return ["men_holding_hands_tone5_tone4",
+                    "men_holding_hands_dark_skin_tone_medium_dark_skin_tone"]
+        case .men_holding_hands_tone5_tone3:
+            return ["men_holding_hands_tone5_tone3",
+                    "men_holding_hands_dark_skin_tone_medium_skin_tone"]
+        case .men_holding_hands_tone5_tone2:
+            return ["men_holding_hands_tone5_tone2",
+                    "men_holding_hands_dark_skin_tone_medium_light_skin_tone"]
+        case .men_holding_hands_tone5_tone1:
+            return ["men_holding_hands_tone5_tone1",
+                    "men_holding_hands_dark_skin_tone_light_skin_tone"]
+        case .man_with_probing_cane_tone5:
+            return ["man_with_probing_cane_tone5",
+                    "man_with_probing_cane_dark_skin_tone"]
         case .man_red_haired_tone5:
             return ["man_red_haired_tone5",
                     "man_red_haired_dark_skin_tone"]
@@ -5706,6 +6347,12 @@ public enum Emoji: CaseIterable {
         case .man_white_haired_tone5:
             return ["man_white_haired_tone5",
                     "man_white_haired_dark_skin_tone"]
+        case .man_in_motorized_wheelchair_tone5:
+            return ["man_in_motorized_wheelchair_tone5",
+                    "man_in_motorized_wheelchair_dark_skin_tone"]
+        case .man_in_manual_wheelchair_tone5:
+            return ["man_in_manual_wheelchair_tone5",
+                    "man_in_manual_wheelchair_dark_skin_tone"]
         case .family_man_boy:
             return ["family_man_boy"]
         case .family_man_boy_boy:
@@ -5748,6 +6395,8 @@ public enum Emoji: CaseIterable {
             return ["man_astronaut"]
         case .man_firefighter:
             return ["man_firefighter"]
+        case .man_with_probing_cane:
+            return ["man_with_probing_cane"]
         case .man_red_haired:
             return ["man_red_haired"]
         case .man_curly_haired:
@@ -5756,6 +6405,10 @@ public enum Emoji: CaseIterable {
             return ["man_bald"]
         case .man_white_haired:
             return ["man_white_haired"]
+        case .man_in_motorized_wheelchair:
+            return ["man_in_motorized_wheelchair"]
+        case .man_in_manual_wheelchair:
+            return ["man_in_manual_wheelchair"]
         case .woman:
             return ["woman"]
         case .woman_health_worker:
@@ -5778,6 +6431,8 @@ public enum Emoji: CaseIterable {
             return ["woman_farmer"]
         case .woman_cook:
             return ["woman_cook"]
+        case .woman_feeding_baby:
+            return ["woman_feeding_baby"]
         case .woman_student:
             return ["woman_student"]
         case .woman_singer:
@@ -5805,6 +6460,9 @@ public enum Emoji: CaseIterable {
         case .woman_cook_tone1:
             return ["woman_cook_tone1",
                     "woman_cook_light_skin_tone"]
+        case .woman_feeding_baby_tone1:
+            return ["woman_feeding_baby_tone1",
+                    "woman_feeding_baby_light_skin_tone"]
         case .woman_student_tone1:
             return ["woman_student_tone1",
                     "woman_student_light_skin_tone"]
@@ -5838,6 +6496,33 @@ public enum Emoji: CaseIterable {
         case .woman_firefighter_tone1:
             return ["woman_firefighter_tone1",
                     "woman_firefighter_light_skin_tone"]
+        case .woman_and_man_holding_hands_tone1_tone5:
+            return ["woman_and_man_holding_hands_tone1_tone5",
+                    "woman_and_man_holding_hands_light_skin_tone_dark_skin_tone"]
+        case .woman_and_man_holding_hands_tone1_tone4:
+            return ["woman_and_man_holding_hands_tone1_tone4",
+                    "woman_and_man_holding_hands_light_skin_tone_medium_dark_skin_tone"]
+        case .woman_and_man_holding_hands_tone1_tone3:
+            return ["woman_and_man_holding_hands_tone1_tone3",
+                    "woman_and_man_holding_hands_light_skin_tone_medium_skin_tone"]
+        case .woman_and_man_holding_hands_tone1_tone2:
+            return ["woman_and_man_holding_hands_tone1_tone2",
+                    "woman_and_man_holding_hands_light_skin_tone_medium_light_skin_tone"]
+        case .women_holding_hands_tone1_tone5:
+            return ["women_holding_hands_tone1_tone5",
+                    "women_holding_hands_light_skin_tone_dark_skin_tone"]
+        case .women_holding_hands_tone1_tone4:
+            return ["women_holding_hands_tone1_tone4",
+                    "women_holding_hands_light_skin_tone_medium_dark_skin_tone"]
+        case .women_holding_hands_tone1_tone3:
+            return ["women_holding_hands_tone1_tone3",
+                    "women_holding_hands_light_skin_tone_medium_skin_tone"]
+        case .women_holding_hands_tone1_tone2:
+            return ["women_holding_hands_tone1_tone2",
+                    "women_holding_hands_light_skin_tone_medium_light_skin_tone"]
+        case .woman_with_probing_cane_tone1:
+            return ["woman_with_probing_cane_tone1",
+                    "woman_with_probing_cane_light_skin_tone"]
         case .woman_red_haired_tone1:
             return ["woman_red_haired_tone1",
                     "woman_red_haired_light_skin_tone"]
@@ -5850,6 +6535,12 @@ public enum Emoji: CaseIterable {
         case .woman_white_haired_tone1:
             return ["woman_white_haired_tone1",
                     "woman_white_haired_light_skin_tone"]
+        case .woman_in_motorized_wheelchair_tone1:
+            return ["woman_in_motorized_wheelchair_tone1",
+                    "woman_in_motorized_wheelchair_light_skin_tone"]
+        case .woman_in_manual_wheelchair_tone1:
+            return ["woman_in_manual_wheelchair_tone1",
+                    "woman_in_manual_wheelchair_light_skin_tone"]
         case .woman_tone2:
             return ["woman_tone2"]
         case .woman_health_worker_tone2:
@@ -5867,6 +6558,9 @@ public enum Emoji: CaseIterable {
         case .woman_cook_tone2:
             return ["woman_cook_tone2",
                     "woman_cook_medium_light_skin_tone"]
+        case .woman_feeding_baby_tone2:
+            return ["woman_feeding_baby_tone2",
+                    "woman_feeding_baby_medium_light_skin_tone"]
         case .woman_student_tone2:
             return ["woman_student_tone2",
                     "woman_student_medium_light_skin_tone"]
@@ -5900,6 +6594,33 @@ public enum Emoji: CaseIterable {
         case .woman_firefighter_tone2:
             return ["woman_firefighter_tone2",
                     "woman_firefighter_medium_light_skin_tone"]
+        case .woman_and_man_holding_hands_tone2_tone5:
+            return ["woman_and_man_holding_hands_tone2_tone5",
+                    "woman_and_man_holding_hands_medium_light_skin_tone_dark_skin_tone"]
+        case .woman_and_man_holding_hands_tone2_tone4:
+            return ["woman_and_man_holding_hands_tone2_tone4",
+                    "woman_and_man_holding_hands_medium_light_skin_tone_medium_dark_skin_tone"]
+        case .woman_and_man_holding_hands_tone2_tone3:
+            return ["woman_and_man_holding_hands_tone2_tone3",
+                    "woman_and_man_holding_hands_medium_light_skin_tone_medium_skin_tone"]
+        case .woman_and_man_holding_hands_tone2_tone1:
+            return ["woman_and_man_holding_hands_tone2_tone1",
+                    "woman_and_man_holding_hands_medium_light_skin_tone_light_skin_tone"]
+        case .women_holding_hands_tone2_tone5:
+            return ["women_holding_hands_tone2_tone5",
+                    "women_holding_hands_medium_light_skin_tone_dark_skin_tone"]
+        case .women_holding_hands_tone2_tone4:
+            return ["women_holding_hands_tone2_tone4",
+                    "women_holding_hands_medium_light_skin_tone_medium_dark_skin_tone"]
+        case .women_holding_hands_tone2_tone3:
+            return ["women_holding_hands_tone2_tone3",
+                    "women_holding_hands_medium_light_skin_tone_medium_skin_tone"]
+        case .women_holding_hands_tone2_tone1:
+            return ["women_holding_hands_tone2_tone1",
+                    "women_holding_hands_medium_light_skin_tone_light_skin_tone"]
+        case .woman_with_probing_cane_tone2:
+            return ["woman_with_probing_cane_tone2",
+                    "woman_with_probing_cane_medium_light_skin_tone"]
         case .woman_red_haired_tone2:
             return ["woman_red_haired_tone2",
                     "woman_red_haired_medium_light_skin_tone"]
@@ -5912,6 +6633,12 @@ public enum Emoji: CaseIterable {
         case .woman_white_haired_tone2:
             return ["woman_white_haired_tone2",
                     "woman_white_haired_medium_light_skin_tone"]
+        case .woman_in_motorized_wheelchair_tone2:
+            return ["woman_in_motorized_wheelchair_tone2",
+                    "woman_in_motorized_wheelchair_medium_light_skin_tone"]
+        case .woman_in_manual_wheelchair_tone2:
+            return ["woman_in_manual_wheelchair_tone2",
+                    "woman_in_manual_wheelchair_medium_light_skin_tone"]
         case .woman_tone3:
             return ["woman_tone3"]
         case .woman_health_worker_tone3:
@@ -5929,6 +6656,9 @@ public enum Emoji: CaseIterable {
         case .woman_cook_tone3:
             return ["woman_cook_tone3",
                     "woman_cook_medium_skin_tone"]
+        case .woman_feeding_baby_tone3:
+            return ["woman_feeding_baby_tone3",
+                    "woman_feeding_baby_medium_skin_tone"]
         case .woman_student_tone3:
             return ["woman_student_tone3",
                     "woman_student_medium_skin_tone"]
@@ -5962,6 +6692,33 @@ public enum Emoji: CaseIterable {
         case .woman_firefighter_tone3:
             return ["woman_firefighter_tone3",
                     "woman_firefighter_medium_skin_tone"]
+        case .woman_and_man_holding_hands_tone3_tone5:
+            return ["woman_and_man_holding_hands_tone3_tone5",
+                    "woman_and_man_holding_hands_medium_skin_tone_dark_skin_tone"]
+        case .woman_and_man_holding_hands_tone3_tone4:
+            return ["woman_and_man_holding_hands_tone3_tone4",
+                    "woman_and_man_holding_hands_medium_skin_tone_medium_dark_skin_tone"]
+        case .woman_and_man_holding_hands_tone3_tone2:
+            return ["woman_and_man_holding_hands_tone3_tone2",
+                    "woman_and_man_holding_hands_medium_skin_tone_medium_light_skin_tone"]
+        case .woman_and_man_holding_hands_tone3_tone1:
+            return ["woman_and_man_holding_hands_tone3_tone1",
+                    "woman_and_man_holding_hands_medium_skin_tone_light_skin_tone"]
+        case .women_holding_hands_tone3_tone5:
+            return ["women_holding_hands_tone3_tone5",
+                    "women_holding_hands_medium_skin_tone_dark_skin_tone"]
+        case .women_holding_hands_tone3_tone4:
+            return ["women_holding_hands_tone3_tone4",
+                    "women_holding_hands_medium_skin_tone_medium_dark_skin_tone"]
+        case .women_holding_hands_tone3_tone2:
+            return ["women_holding_hands_tone3_tone2",
+                    "women_holding_hands_medium_skin_tone_medium_light_skin_tone"]
+        case .women_holding_hands_tone3_tone1:
+            return ["women_holding_hands_tone3_tone1",
+                    "women_holding_hands_medium_skin_tone_light_skin_tone"]
+        case .woman_with_probing_cane_tone3:
+            return ["woman_with_probing_cane_tone3",
+                    "woman_with_probing_cane_medium_skin_tone"]
         case .woman_red_haired_tone3:
             return ["woman_red_haired_tone3",
                     "woman_red_haired_medium_skin_tone"]
@@ -5974,6 +6731,12 @@ public enum Emoji: CaseIterable {
         case .woman_white_haired_tone3:
             return ["woman_white_haired_tone3",
                     "woman_white_haired_medium_skin_tone"]
+        case .woman_in_motorized_wheelchair_tone3:
+            return ["woman_in_motorized_wheelchair_tone3",
+                    "woman_in_motorized_wheelchair_medium_skin_tone"]
+        case .woman_in_manual_wheelchair_tone3:
+            return ["woman_in_manual_wheelchair_tone3",
+                    "woman_in_manual_wheelchair_medium_skin_tone"]
         case .woman_tone4:
             return ["woman_tone4"]
         case .woman_health_worker_tone4:
@@ -5991,6 +6754,9 @@ public enum Emoji: CaseIterable {
         case .woman_cook_tone4:
             return ["woman_cook_tone4",
                     "woman_cook_medium_dark_skin_tone"]
+        case .woman_feeding_baby_tone4:
+            return ["woman_feeding_baby_tone4",
+                    "woman_feeding_baby_medium_dark_skin_tone"]
         case .woman_student_tone4:
             return ["woman_student_tone4",
                     "woman_student_medium_dark_skin_tone"]
@@ -6024,6 +6790,33 @@ public enum Emoji: CaseIterable {
         case .woman_firefighter_tone4:
             return ["woman_firefighter_tone4",
                     "woman_firefighter_medium_dark_skin_tone"]
+        case .woman_and_man_holding_hands_tone4_tone5:
+            return ["woman_and_man_holding_hands_tone4_tone5",
+                    "woman_and_man_holding_hands_medium_dark_skin_tone_dark_skin_tone"]
+        case .woman_and_man_holding_hands_tone4_tone3:
+            return ["woman_and_man_holding_hands_tone4_tone3",
+                    "woman_and_man_holding_hands_medium_dark_skin_tone_medium_skin_tone"]
+        case .woman_and_man_holding_hands_tone4_tone2:
+            return ["woman_and_man_holding_hands_tone4_tone2",
+                    "woman_and_man_holding_hands_medium_dark_skin_tone_medium_light_skin_tone"]
+        case .woman_and_man_holding_hands_tone4_tone1:
+            return ["woman_and_man_holding_hands_tone4_tone1",
+                    "woman_and_man_holding_hands_medium_dark_skin_tone_light_skin_tone"]
+        case .women_holding_hands_tone4_tone5:
+            return ["women_holding_hands_tone4_tone5",
+                    "women_holding_hands_medium_dark_skin_tone_dark_skin_tone"]
+        case .women_holding_hands_tone4_tone3:
+            return ["women_holding_hands_tone4_tone3",
+                    "women_holding_hands_medium_dark_skin_tone_medium_skin_tone"]
+        case .women_holding_hands_tone4_tone2:
+            return ["women_holding_hands_tone4_tone2",
+                    "women_holding_hands_medium_dark_skin_tone_medium_light_skin_tone"]
+        case .women_holding_hands_tone4_tone1:
+            return ["women_holding_hands_tone4_tone1",
+                    "women_holding_hands_medium_dark_skin_tone_light_skin_tone"]
+        case .woman_with_probing_cane_tone4:
+            return ["woman_with_probing_cane_tone4",
+                    "woman_with_probing_cane_medium_dark_skin_tone"]
         case .woman_red_haired_tone4:
             return ["woman_red_haired_tone4",
                     "woman_red_haired_medium_dark_skin_tone"]
@@ -6036,6 +6829,12 @@ public enum Emoji: CaseIterable {
         case .woman_white_haired_tone4:
             return ["woman_white_haired_tone4",
                     "woman_white_haired_medium_dark_skin_tone"]
+        case .woman_in_motorized_wheelchair_tone4:
+            return ["woman_in_motorized_wheelchair_tone4",
+                    "woman_in_motorized_wheelchair_medium_dark_skin_tone"]
+        case .woman_in_manual_wheelchair_tone4:
+            return ["woman_in_manual_wheelchair_tone4",
+                    "woman_in_manual_wheelchair_medium_dark_skin_tone"]
         case .woman_tone5:
             return ["woman_tone5"]
         case .woman_health_worker_tone5:
@@ -6053,6 +6852,9 @@ public enum Emoji: CaseIterable {
         case .woman_cook_tone5:
             return ["woman_cook_tone5",
                     "woman_cook_dark_skin_tone"]
+        case .woman_feeding_baby_tone5:
+            return ["woman_feeding_baby_tone5",
+                    "woman_feeding_baby_dark_skin_tone"]
         case .woman_student_tone5:
             return ["woman_student_tone5",
                     "woman_student_dark_skin_tone"]
@@ -6086,6 +6888,33 @@ public enum Emoji: CaseIterable {
         case .woman_firefighter_tone5:
             return ["woman_firefighter_tone5",
                     "woman_firefighter_dark_skin_tone"]
+        case .woman_and_man_holding_hands_tone5_tone4:
+            return ["woman_and_man_holding_hands_tone5_tone4",
+                    "woman_and_man_holding_hands_dark_skin_tone_medium_dark_skin_tone"]
+        case .woman_and_man_holding_hands_tone5_tone3:
+            return ["woman_and_man_holding_hands_tone5_tone3",
+                    "woman_and_man_holding_hands_dark_skin_tone_medium_skin_tone"]
+        case .woman_and_man_holding_hands_tone5_tone2:
+            return ["woman_and_man_holding_hands_tone5_tone2",
+                    "woman_and_man_holding_hands_dark_skin_tone_medium_light_skin_tone"]
+        case .woman_and_man_holding_hands_tone5_tone1:
+            return ["woman_and_man_holding_hands_tone5_tone1",
+                    "woman_and_man_holding_hands_dark_skin_tone_light_skin_tone"]
+        case .women_holding_hands_tone5_tone4:
+            return ["women_holding_hands_tone5_tone4",
+                    "women_holding_hands_dark_skin_tone_medium_dark_skin_tone"]
+        case .women_holding_hands_tone5_tone3:
+            return ["women_holding_hands_tone5_tone3",
+                    "women_holding_hands_dark_skin_tone_medium_skin_tone"]
+        case .women_holding_hands_tone5_tone2:
+            return ["women_holding_hands_tone5_tone2",
+                    "women_holding_hands_dark_skin_tone_medium_light_skin_tone"]
+        case .women_holding_hands_tone5_tone1:
+            return ["women_holding_hands_tone5_tone1",
+                    "women_holding_hands_dark_skin_tone_light_skin_tone"]
+        case .woman_with_probing_cane_tone5:
+            return ["woman_with_probing_cane_tone5",
+                    "woman_with_probing_cane_dark_skin_tone"]
         case .woman_red_haired_tone5:
             return ["woman_red_haired_tone5",
                     "woman_red_haired_dark_skin_tone"]
@@ -6098,6 +6927,12 @@ public enum Emoji: CaseIterable {
         case .woman_white_haired_tone5:
             return ["woman_white_haired_tone5",
                     "woman_white_haired_dark_skin_tone"]
+        case .woman_in_motorized_wheelchair_tone5:
+            return ["woman_in_motorized_wheelchair_tone5",
+                    "woman_in_motorized_wheelchair_dark_skin_tone"]
+        case .woman_in_manual_wheelchair_tone5:
+            return ["woman_in_manual_wheelchair_tone5",
+                    "woman_in_manual_wheelchair_dark_skin_tone"]
         case .family_woman_boy:
             return ["family_woman_boy"]
         case .family_woman_boy_boy:
@@ -6130,6 +6965,8 @@ public enum Emoji: CaseIterable {
             return ["woman_astronaut"]
         case .woman_firefighter:
             return ["woman_firefighter"]
+        case .woman_with_probing_cane:
+            return ["woman_with_probing_cane"]
         case .woman_red_haired:
             return ["woman_red_haired"]
         case .woman_curly_haired:
@@ -6138,14 +6975,63 @@ public enum Emoji: CaseIterable {
             return ["woman_bald"]
         case .woman_white_haired:
             return ["woman_white_haired"]
+        case .woman_in_motorized_wheelchair:
+            return ["woman_in_motorized_wheelchair"]
+        case .woman_in_manual_wheelchair:
+            return ["woman_in_manual_wheelchair"]
         case .family:
             return ["family"]
         case .couple:
             return ["couple"]
+        case .woman_and_man_holding_hands_tone1:
+            return ["woman_and_man_holding_hands_tone1",
+                    "woman_and_man_holding_hands_light_skin_tone"]
+        case .woman_and_man_holding_hands_tone2:
+            return ["woman_and_man_holding_hands_tone2",
+                    "woman_and_man_holding_hands_medium_light_skin_tone"]
+        case .woman_and_man_holding_hands_tone3:
+            return ["woman_and_man_holding_hands_tone3",
+                    "woman_and_man_holding_hands_medium_skin_tone"]
+        case .woman_and_man_holding_hands_tone4:
+            return ["woman_and_man_holding_hands_tone4",
+                    "woman_and_man_holding_hands_medium_dark_skin_tone"]
+        case .woman_and_man_holding_hands_tone5:
+            return ["woman_and_man_holding_hands_tone5",
+                    "woman_and_man_holding_hands_dark_skin_tone"]
         case .two_men_holding_hands:
             return ["two_men_holding_hands"]
+        case .men_holding_hands_tone1:
+            return ["men_holding_hands_tone1",
+                    "men_holding_hands_light_skin_tone"]
+        case .men_holding_hands_tone2:
+            return ["men_holding_hands_tone2",
+                    "men_holding_hands_medium_light_skin_tone"]
+        case .men_holding_hands_tone3:
+            return ["men_holding_hands_tone3",
+                    "men_holding_hands_medium_skin_tone"]
+        case .men_holding_hands_tone4:
+            return ["men_holding_hands_tone4",
+                    "men_holding_hands_medium_dark_skin_tone"]
+        case .men_holding_hands_tone5:
+            return ["men_holding_hands_tone5",
+                    "men_holding_hands_dark_skin_tone"]
         case .two_women_holding_hands:
             return ["two_women_holding_hands"]
+        case .women_holding_hands_tone1:
+            return ["women_holding_hands_tone1",
+                    "women_holding_hands_light_skin_tone"]
+        case .women_holding_hands_tone2:
+            return ["women_holding_hands_tone2",
+                    "women_holding_hands_medium_light_skin_tone"]
+        case .women_holding_hands_tone3:
+            return ["women_holding_hands_tone3",
+                    "women_holding_hands_medium_skin_tone"]
+        case .women_holding_hands_tone4:
+            return ["women_holding_hands_tone4",
+                    "women_holding_hands_medium_dark_skin_tone"]
+        case .women_holding_hands_tone5:
+            return ["women_holding_hands_tone5",
+                    "women_holding_hands_dark_skin_tone"]
         case .police_officer:
             return ["police_officer",
                     "cop"]
@@ -6205,18 +7091,52 @@ public enum Emoji: CaseIterable {
             return ["women_with_bunny_ears_partying"]
         case .men_with_bunny_ears_partying:
             return ["men_with_bunny_ears_partying"]
-        case .bride_with_veil:
-            return ["bride_with_veil"]
-        case .bride_with_veil_tone1:
-            return ["bride_with_veil_tone1"]
-        case .bride_with_veil_tone2:
-            return ["bride_with_veil_tone2"]
-        case .bride_with_veil_tone3:
-            return ["bride_with_veil_tone3"]
-        case .bride_with_veil_tone4:
-            return ["bride_with_veil_tone4"]
-        case .bride_with_veil_tone5:
-            return ["bride_with_veil_tone5"]
+        case .person_with_veil:
+            return ["person_with_veil"]
+        case .woman_with_veil:
+            return ["woman_with_veil"]
+        case .man_with_veil:
+            return ["man_with_veil"]
+        case .person_with_veil_tone1:
+            return ["person_with_veil_tone1"]
+        case .woman_with_veil_tone1:
+            return ["woman_with_veil_tone1",
+                    "woman_with_veil_light_skin_tone"]
+        case .man_with_veil_tone1:
+            return ["man_with_veil_tone1",
+                    "man_with_veil_light_skin_tone"]
+        case .person_with_veil_tone2:
+            return ["person_with_veil_tone2"]
+        case .woman_with_veil_tone2:
+            return ["woman_with_veil_tone2",
+                    "woman_with_veil_medium_light_skin_tone"]
+        case .man_with_veil_tone2:
+            return ["man_with_veil_tone2",
+                    "man_with_veil_medium_light_skin_tone"]
+        case .person_with_veil_tone3:
+            return ["person_with_veil_tone3"]
+        case .woman_with_veil_tone3:
+            return ["woman_with_veil_tone3",
+                    "woman_with_veil_medium_skin_tone"]
+        case .man_with_veil_tone3:
+            return ["man_with_veil_tone3",
+                    "man_with_veil_medium_skin_tone"]
+        case .person_with_veil_tone4:
+            return ["person_with_veil_tone4"]
+        case .woman_with_veil_tone4:
+            return ["woman_with_veil_tone4",
+                    "woman_with_veil_medium_dark_skin_tone"]
+        case .man_with_veil_tone4:
+            return ["man_with_veil_tone4",
+                    "man_with_veil_medium_dark_skin_tone"]
+        case .person_with_veil_tone5:
+            return ["person_with_veil_tone5"]
+        case .woman_with_veil_tone5:
+            return ["woman_with_veil_tone5",
+                    "woman_with_veil_dark_skin_tone"]
+        case .man_with_veil_tone5:
+            return ["man_with_veil_tone5",
+                    "man_with_veil_dark_skin_tone"]
         case .blond_haired_person:
             return ["blond_haired_person",
                     "person_with_blond_hair"]
@@ -6925,8 +7845,8 @@ public enum Emoji: CaseIterable {
             return ["postal_horn"]
         case .newspaper:
             return ["newspaper"]
-        case .iphone:
-            return ["iphone"]
+        case .mobile_phone:
+            return ["mobile_phone"]
         case .calling:
             return ["calling"]
         case .vibration_mode:
@@ -8255,6 +9175,12 @@ public enum Emoji: CaseIterable {
         case .shopping_cart:
             return ["shopping_cart",
                     "shopping_trolley"]
+        case .hindu_temple:
+            return ["hindu_temple"]
+        case .hut:
+            return ["hut"]
+        case .elevator:
+            return ["elevator"]
         case .tools:
             return ["tools",
                     "hammer_and_wrench"]
@@ -8296,6 +9222,74 @@ public enum Emoji: CaseIterable {
             return ["flying_saucer"]
         case .skateboard:
             return ["skateboard"]
+        case .auto_rickshaw:
+            return ["auto_rickshaw"]
+        case .pickup_truck:
+            return ["pickup_truck"]
+        case .roller_skate:
+            return ["roller_skate"]
+        case .orange_circle:
+            return ["orange_circle"]
+        case .yellow_circle:
+            return ["yellow_circle"]
+        case .green_circle:
+            return ["green_circle"]
+        case .purple_circle:
+            return ["purple_circle"]
+        case .brown_circle:
+            return ["brown_circle"]
+        case .red_square:
+            return ["red_square"]
+        case .blue_square:
+            return ["blue_square"]
+        case .orange_square:
+            return ["orange_square"]
+        case .yellow_square:
+            return ["yellow_square"]
+        case .green_square:
+            return ["green_square"]
+        case .purple_square:
+            return ["purple_square"]
+        case .brown_square:
+            return ["brown_square"]
+        case .pinched_fingers:
+            return ["pinched_fingers"]
+        case .pinched_fingers_tone1:
+            return ["pinched_fingers_tone1",
+                    "pinched_fingers_light_skin_tone"]
+        case .pinched_fingers_tone2:
+            return ["pinched_fingers_tone2",
+                    "pinched_fingers_medium_light_skin_tone"]
+        case .pinched_fingers_tone3:
+            return ["pinched_fingers_tone3",
+                    "pinched_fingers_medium_skin_tone"]
+        case .pinched_fingers_tone4:
+            return ["pinched_fingers_tone4",
+                    "pinched_fingers_medium_dark_skin_tone"]
+        case .pinched_fingers_tone5:
+            return ["pinched_fingers_tone5",
+                    "pinched_fingers_dark_skin_tone"]
+        case .white_heart:
+            return ["white_heart"]
+        case .brown_heart:
+            return ["brown_heart"]
+        case .pinching_hand:
+            return ["pinching_hand"]
+        case .pinching_hand_tone1:
+            return ["pinching_hand_tone1",
+                    "pinching_hand_light_skin_tone"]
+        case .pinching_hand_tone2:
+            return ["pinching_hand_tone2",
+                    "pinching_hand_medium_light_skin_tone"]
+        case .pinching_hand_tone3:
+            return ["pinching_hand_tone3",
+                    "pinching_hand_medium_skin_tone"]
+        case .pinching_hand_tone4:
+            return ["pinching_hand_tone4",
+                    "pinching_hand_medium_dark_skin_tone"]
+        case .pinching_hand_tone5:
+            return ["pinching_hand_tone5",
+                    "pinching_hand_dark_skin_tone"]
         case .zipper_mouth:
             return ["zipper_mouth",
                     "zipper_mouth_face"]
@@ -8619,23 +9613,57 @@ public enum Emoji: CaseIterable {
             return ["prince_tone4"]
         case .prince_tone5:
             return ["prince_tone5"]
+        case .person_in_tuxedo:
+            return ["person_in_tuxedo"]
+        case .woman_in_tuxedo:
+            return ["woman_in_tuxedo"]
         case .man_in_tuxedo:
             return ["man_in_tuxedo"]
+        case .person_in_tuxedo_tone1:
+            return ["person_in_tuxedo_tone1",
+                    "tuxedo_tone1"]
+        case .woman_in_tuxedo_tone1:
+            return ["woman_in_tuxedo_tone1",
+                    "woman_in_tuxedo_light_skin_tone"]
         case .man_in_tuxedo_tone1:
             return ["man_in_tuxedo_tone1",
-                    "tuxedo_tone1"]
+                    "man_in_tuxedo_light_skin_tone"]
+        case .person_in_tuxedo_tone2:
+            return ["person_in_tuxedo_tone2",
+                    "tuxedo_tone2"]
+        case .woman_in_tuxedo_tone2:
+            return ["woman_in_tuxedo_tone2",
+                    "woman_in_tuxedo_medium_light_skin_tone"]
         case .man_in_tuxedo_tone2:
             return ["man_in_tuxedo_tone2",
-                    "tuxedo_tone2"]
+                    "man_in_tuxedo_medium_light_skin_tone"]
+        case .person_in_tuxedo_tone3:
+            return ["person_in_tuxedo_tone3",
+                    "tuxedo_tone3"]
+        case .woman_in_tuxedo_tone3:
+            return ["woman_in_tuxedo_tone3",
+                    "woman_in_tuxedo_medium_skin_tone"]
         case .man_in_tuxedo_tone3:
             return ["man_in_tuxedo_tone3",
-                    "tuxedo_tone3"]
+                    "man_in_tuxedo_medium_skin_tone"]
+        case .person_in_tuxedo_tone4:
+            return ["person_in_tuxedo_tone4",
+                    "tuxedo_tone4"]
+        case .woman_in_tuxedo_tone4:
+            return ["woman_in_tuxedo_tone4",
+                    "woman_in_tuxedo_medium_dark_skin_tone"]
         case .man_in_tuxedo_tone4:
             return ["man_in_tuxedo_tone4",
-                    "tuxedo_tone4"]
+                    "man_in_tuxedo_medium_dark_skin_tone"]
+        case .person_in_tuxedo_tone5:
+            return ["person_in_tuxedo_tone5",
+                    "tuxedo_tone5"]
+        case .woman_in_tuxedo_tone5:
+            return ["woman_in_tuxedo_tone5",
+                    "woman_in_tuxedo_dark_skin_tone"]
         case .man_in_tuxedo_tone5:
             return ["man_in_tuxedo_tone5",
-                    "tuxedo_tone5"]
+                    "man_in_tuxedo_dark_skin_tone"]
         case .mrs_claus:
             return ["mrs_claus",
                     "mother_christmas"]
@@ -8932,6 +9960,8 @@ public enum Emoji: CaseIterable {
         case .man_playing_handball_tone5:
             return ["man_playing_handball_tone5",
                     "man_playing_handball_dark_skin_tone"]
+        case .diving_mask:
+            return ["diving_mask"]
         case .wilted_rose:
             return ["wilted_rose",
                     "wilted_flower"]
@@ -9045,6 +10075,10 @@ public enum Emoji: CaseIterable {
             return ["bagel"]
         case .smiling_face_with_3_hearts:
             return ["smiling_face_with_3_hearts"]
+        case .yawning_face:
+            return ["yawning_face"]
+        case .smiling_face_with_tear:
+            return ["smiling_face_with_tear"]
         case .partying_face:
             return ["partying_face"]
         case .woozy_face:
@@ -9053,8 +10087,29 @@ public enum Emoji: CaseIterable {
             return ["hot_face"]
         case .cold_face:
             return ["cold_face"]
+        case .ninja:
+            return ["ninja"]
+        case .ninja_tone1:
+            return ["ninja_tone1",
+                    "ninja_light_skin_tone"]
+        case .ninja_tone2:
+            return ["ninja_tone2",
+                    "ninja_medium_light_skin_tone"]
+        case .ninja_tone3:
+            return ["ninja_tone3",
+                    "ninja_medium_skin_tone"]
+        case .ninja_tone4:
+            return ["ninja_tone4",
+                    "ninja_medium_dark_skin_tone"]
+        case .ninja_tone5:
+            return ["ninja_tone5",
+                    "ninja_dark_skin_tone"]
+        case .disguised_face:
+            return ["disguised_face"]
         case .pleading_face:
             return ["pleading_face"]
+        case .sari:
+            return ["sari"]
         case .lab_coat:
             return ["lab_coat"]
         case .goggles:
@@ -9137,6 +10192,32 @@ public enum Emoji: CaseIterable {
             return ["badger"]
         case .swan:
             return ["swan"]
+        case .mammoth:
+            return ["mammoth"]
+        case .dodo:
+            return ["dodo"]
+        case .sloth:
+            return ["sloth"]
+        case .otter:
+            return ["otter"]
+        case .orangutan:
+            return ["orangutan"]
+        case .skunk:
+            return ["skunk"]
+        case .flamingo:
+            return ["flamingo"]
+        case .oyster:
+            return ["oyster"]
+        case .beaver:
+            return ["beaver"]
+        case .bison:
+            return ["bison"]
+        case .seal:
+            return ["seal"]
+        case .guide_dog:
+            return ["guide_dog"]
+        case .probing_cane:
+            return ["probing_cane"]
         case .red_haired:
             return ["red_haired"]
         case .curly_haired:
@@ -9285,6 +10366,33 @@ public enum Emoji: CaseIterable {
         case .man_supervillain_tone5:
             return ["man_supervillain_tone5",
                     "man_supervillain_dark_skin_tone"]
+        case .safety_vest:
+            return ["safety_vest"]
+        case .ear_with_hearing_aid:
+            return ["ear_with_hearing_aid"]
+        case .ear_with_hearing_aid_tone1:
+            return ["ear_with_hearing_aid_tone1",
+                    "ear_with_hearing_aid_light_skin_tone"]
+        case .ear_with_hearing_aid_tone2:
+            return ["ear_with_hearing_aid_tone2",
+                    "ear_with_hearing_aid_medium_light_skin_tone"]
+        case .ear_with_hearing_aid_tone3:
+            return ["ear_with_hearing_aid_tone3",
+                    "ear_with_hearing_aid_medium_skin_tone"]
+        case .ear_with_hearing_aid_tone4:
+            return ["ear_with_hearing_aid_tone4",
+                    "ear_with_hearing_aid_medium_dark_skin_tone"]
+        case .ear_with_hearing_aid_tone5:
+            return ["ear_with_hearing_aid_tone5",
+                    "ear_with_hearing_aid_dark_skin_tone"]
+        case .motorized_wheelchair:
+            return ["motorized_wheelchair"]
+        case .manual_wheelchair:
+            return ["manual_wheelchair"]
+        case .mechanical_arm:
+            return ["mechanical_arm"]
+        case .mechanical_leg:
+            return ["mechanical_leg"]
         case .cheese:
             return ["cheese",
                     "cheese_wedge"]
@@ -9292,25 +10400,698 @@ public enum Emoji: CaseIterable {
             return ["cupcake"]
         case .salt:
             return ["salt"]
+        case .beverage_box:
+            return ["beverage_box"]
+        case .garlic:
+            return ["garlic"]
+        case .onion:
+            return ["onion"]
+        case .falafel:
+            return ["falafel"]
+        case .waffle:
+            return ["waffle"]
+        case .butter:
+            return ["butter"]
+        case .mate:
+            return ["mate"]
+        case .ice_cube:
+            return ["ice_cube"]
+        case .bubble_tea:
+            return ["bubble_tea"]
+        case .person_standing:
+            return ["person_standing"]
+        case .woman_standing:
+            return ["woman_standing"]
+        case .man_standing:
+            return ["man_standing"]
+        case .person_standing_tone1:
+            return ["person_standing_tone1",
+                    "person_standing_light_skin_tone"]
+        case .woman_standing_tone1:
+            return ["woman_standing_tone1",
+                    "woman_standing_light_skin_tone"]
+        case .man_standing_tone1:
+            return ["man_standing_tone1",
+                    "man_standing_light_skin_tone"]
+        case .person_standing_tone2:
+            return ["person_standing_tone2",
+                    "person_standing_medium_light_skin_tone"]
+        case .woman_standing_tone2:
+            return ["woman_standing_tone2",
+                    "woman_standing_medium_light_skin_tone"]
+        case .man_standing_tone2:
+            return ["man_standing_tone2",
+                    "man_standing_medium_light_skin_tone"]
+        case .person_standing_tone3:
+            return ["person_standing_tone3",
+                    "person_standing_medium_skin_tone"]
+        case .woman_standing_tone3:
+            return ["woman_standing_tone3",
+                    "woman_standing_medium_skin_tone"]
+        case .man_standing_tone3:
+            return ["man_standing_tone3",
+                    "man_standing_medium_skin_tone"]
+        case .person_standing_tone4:
+            return ["person_standing_tone4",
+                    "person_standing_medium_dark_skin_tone"]
+        case .woman_standing_tone4:
+            return ["woman_standing_tone4",
+                    "woman_standing_medium_dark_skin_tone"]
+        case .man_standing_tone4:
+            return ["man_standing_tone4",
+                    "man_standing_medium_dark_skin_tone"]
+        case .person_standing_tone5:
+            return ["person_standing_tone5",
+                    "person_standing_dark_skin_tone"]
+        case .woman_standing_tone5:
+            return ["woman_standing_tone5",
+                    "woman_standing_dark_skin_tone"]
+        case .man_standing_tone5:
+            return ["man_standing_tone5",
+                    "man_standing_dark_skin_tone"]
+        case .person_kneeling:
+            return ["person_kneeling"]
+        case .woman_kneeling:
+            return ["woman_kneeling"]
+        case .man_kneeling:
+            return ["man_kneeling"]
+        case .person_kneeling_tone1:
+            return ["person_kneeling_tone1",
+                    "person_kneeling_light_skin_tone"]
+        case .woman_kneeling_tone1:
+            return ["woman_kneeling_tone1",
+                    "woman_kneeling_light_skin_tone"]
+        case .man_kneeling_tone1:
+            return ["man_kneeling_tone1",
+                    "man_kneeling_light_skin_tone"]
+        case .person_kneeling_tone2:
+            return ["person_kneeling_tone2",
+                    "person_kneeling_medium_light_skin_tone"]
+        case .woman_kneeling_tone2:
+            return ["woman_kneeling_tone2",
+                    "woman_kneeling_medium_light_skin_tone"]
+        case .man_kneeling_tone2:
+            return ["man_kneeling_tone2",
+                    "man_kneeling_medium_light_skin_tone"]
+        case .person_kneeling_tone3:
+            return ["person_kneeling_tone3",
+                    "person_kneeling_medium_skin_tone"]
+        case .woman_kneeling_tone3:
+            return ["woman_kneeling_tone3",
+                    "woman_kneeling_medium_skin_tone"]
+        case .man_kneeling_tone3:
+            return ["man_kneeling_tone3",
+                    "man_kneeling_medium_skin_tone"]
+        case .person_kneeling_tone4:
+            return ["person_kneeling_tone4",
+                    "person_kneeling_medium_dark_skin_tone"]
+        case .woman_kneeling_tone4:
+            return ["woman_kneeling_tone4",
+                    "woman_kneeling_medium_dark_skin_tone"]
+        case .man_kneeling_tone4:
+            return ["man_kneeling_tone4",
+                    "man_kneeling_medium_dark_skin_tone"]
+        case .person_kneeling_tone5:
+            return ["person_kneeling_tone5",
+                    "person_kneeling_dark_skin_tone"]
+        case .woman_kneeling_tone5:
+            return ["woman_kneeling_tone5",
+                    "woman_kneeling_dark_skin_tone"]
+        case .man_kneeling_tone5:
+            return ["man_kneeling_tone5",
+                    "man_kneeling_dark_skin_tone"]
+        case .deaf_person:
+            return ["deaf_person"]
+        case .deaf_woman:
+            return ["deaf_woman"]
+        case .deaf_man:
+            return ["deaf_man"]
+        case .deaf_person_tone1:
+            return ["deaf_person_tone1",
+                    "deaf_person_light_skin_tone"]
+        case .deaf_woman_tone1:
+            return ["deaf_woman_tone1",
+                    "deaf_woman_light_skin_tone"]
+        case .deaf_man_tone1:
+            return ["deaf_man_tone1",
+                    "deaf_man_light_skin_tone"]
+        case .deaf_person_tone2:
+            return ["deaf_person_tone2",
+                    "deaf_person_medium_light_skin_tone"]
+        case .deaf_woman_tone2:
+            return ["deaf_woman_tone2",
+                    "deaf_woman_medium_light_skin_tone"]
+        case .deaf_man_tone2:
+            return ["deaf_man_tone2",
+                    "deaf_man_medium_light_skin_tone"]
+        case .deaf_person_tone3:
+            return ["deaf_person_tone3",
+                    "deaf_person_medium_skin_tone"]
+        case .deaf_woman_tone3:
+            return ["deaf_woman_tone3",
+                    "deaf_woman_medium_skin_tone"]
+        case .deaf_man_tone3:
+            return ["deaf_man_tone3",
+                    "deaf_man_medium_skin_tone"]
+        case .deaf_person_tone4:
+            return ["deaf_person_tone4",
+                    "deaf_person_medium_dark_skin_tone"]
+        case .deaf_woman_tone4:
+            return ["deaf_woman_tone4",
+                    "deaf_woman_medium_dark_skin_tone"]
+        case .deaf_man_tone4:
+            return ["deaf_man_tone4",
+                    "deaf_man_medium_dark_skin_tone"]
+        case .deaf_person_tone5:
+            return ["deaf_person_tone5",
+                    "deaf_person_dark_skin_tone"]
+        case .deaf_woman_tone5:
+            return ["deaf_woman_tone5",
+                    "deaf_woman_dark_skin_tone"]
+        case .deaf_man_tone5:
+            return ["deaf_man_tone5",
+                    "deaf_man_dark_skin_tone"]
         case .face_with_monocle:
             return ["face_with_monocle"]
         case .adult:
             return ["adult"]
+        case .health_worker:
+            return ["health_worker"]
+        case .judge:
+            return ["judge"]
+        case .pilot:
+            return ["pilot"]
+        case .farmer:
+            return ["farmer"]
+        case .cook:
+            return ["cook"]
+        case .person_feeding_baby:
+            return ["person_feeding_baby"]
+        case .mx_claus:
+            return ["mx_claus"]
+        case .student:
+            return ["student"]
+        case .singer:
+            return ["singer"]
+        case .artist:
+            return ["artist"]
+        case .teacher:
+            return ["teacher"]
+        case .factory_worker:
+            return ["factory_worker"]
         case .adult_tone1:
             return ["adult_tone1",
                     "adult_light_skin_tone"]
+        case .health_worker_tone1:
+            return ["health_worker_tone1",
+                    "health_worker_light_skin_tone"]
+        case .judge_tone1:
+            return ["judge_tone1",
+                    "judge_light_skin_tone"]
+        case .pilot_tone1:
+            return ["pilot_tone1",
+                    "pilot_light_skin_tone"]
+        case .farmer_tone1:
+            return ["farmer_tone1",
+                    "farmer_light_skin_tone"]
+        case .cook_tone1:
+            return ["cook_tone1",
+                    "cook_light_skin_tone"]
+        case .person_feeding_baby_tone1:
+            return ["person_feeding_baby_tone1",
+                    "person_feeding_baby_light_skin_tone"]
+        case .mx_claus_tone1:
+            return ["mx_claus_tone1",
+                    "mx_claus_light_skin_tone"]
+        case .student_tone1:
+            return ["student_tone1",
+                    "student_light_skin_tone"]
+        case .singer_tone1:
+            return ["singer_tone1",
+                    "singer_light_skin_tone"]
+        case .artist_tone1:
+            return ["artist_tone1",
+                    "artist_light_skin_tone"]
+        case .teacher_tone1:
+            return ["teacher_tone1",
+                    "teacher_light_skin_tone"]
+        case .factory_worker_tone1:
+            return ["factory_worker_tone1",
+                    "factory_worker_light_skin_tone"]
+        case .technologist_tone1:
+            return ["technologist_tone1",
+                    "technologist_light_skin_tone"]
+        case .office_worker_tone1:
+            return ["office_worker_tone1",
+                    "office_worker_light_skin_tone"]
+        case .mechanic_tone1:
+            return ["mechanic_tone1",
+                    "mechanic_light_skin_tone"]
+        case .scientist_tone1:
+            return ["scientist_tone1",
+                    "scientist_light_skin_tone"]
+        case .astronaut_tone1:
+            return ["astronaut_tone1",
+                    "astronaut_light_skin_tone"]
+        case .firefighter_tone1:
+            return ["firefighter_tone1",
+                    "firefighter_light_skin_tone"]
+        case .people_holding_hands_tone1_tone5:
+            return ["people_holding_hands_tone1_tone5",
+                    "people_holding_hands_light_skin_tone_dark_skin_tone"]
+        case .people_holding_hands_tone1_tone4:
+            return ["people_holding_hands_tone1_tone4",
+                    "people_holding_hands_light_skin_tone_medium_dark_skin_tone"]
+        case .people_holding_hands_tone1_tone3:
+            return ["people_holding_hands_tone1_tone3",
+                    "people_holding_hands_light_skin_tone_medium_skin_tone"]
+        case .people_holding_hands_tone1_tone2:
+            return ["people_holding_hands_tone1_tone2",
+                    "people_holding_hands_light_skin_tone_medium_light_skin_tone"]
+        case .people_holding_hands_tone1:
+            return ["people_holding_hands_tone1",
+                    "people_holding_hands_light_skin_tone"]
+        case .person_with_probing_cane_tone1:
+            return ["person_with_probing_cane_tone1",
+                    "person_with_probing_cane_light_skin_tone"]
+        case .person_tone1_red_hair:
+            return ["person_tone1_red_hair",
+                    "person_light_skin_tone_red_hair"]
+        case .person_tone1_curly_hair:
+            return ["person_tone1_curly_hair",
+                    "person_light_skin_tone_curly_hair"]
+        case .person_tone1_bald:
+            return ["person_tone1_bald",
+                    "person_light_skin_tone_bald"]
+        case .person_tone1_white_hair:
+            return ["person_tone1_white_hair",
+                    "person_light_skin_tone_white_hair"]
+        case .person_in_motorized_wheelchair_tone1:
+            return ["person_in_motorized_wheelchair_tone1",
+                    "person_in_motorized_wheelchair_light_skin_tone"]
+        case .person_in_manual_wheelchair_tone1:
+            return ["person_in_manual_wheelchair_tone1",
+                    "person_in_manual_wheelchair_light_skin_tone"]
         case .adult_tone2:
             return ["adult_tone2",
                     "adult_medium_light_skin_tone"]
+        case .health_worker_tone2:
+            return ["health_worker_tone2",
+                    "health_worker_medium_light_skin_tone"]
+        case .judge_tone2:
+            return ["judge_tone2",
+                    "judge_medium_light_skin_tone"]
+        case .pilot_tone2:
+            return ["pilot_tone2",
+                    "pilot_medium_light_skin_tone"]
+        case .farmer_tone2:
+            return ["farmer_tone2",
+                    "farmer_medium_light_skin_tone"]
+        case .cook_tone2:
+            return ["cook_tone2",
+                    "cook_medium_light_skin_tone"]
+        case .person_feeding_baby_tone2:
+            return ["person_feeding_baby_tone2",
+                    "person_feeding_baby_medium_light_skin_tone"]
+        case .mx_claus_tone2:
+            return ["mx_claus_tone2",
+                    "mx_claus_medium_light_skin_tone"]
+        case .student_tone2:
+            return ["student_tone2",
+                    "student_medium_light_skin_tone"]
+        case .singer_tone2:
+            return ["singer_tone2",
+                    "singer_medium_light_skin_tone"]
+        case .artist_tone2:
+            return ["artist_tone2",
+                    "artist_medium_light_skin_tone"]
+        case .teacher_tone2:
+            return ["teacher_tone2",
+                    "teacher_medium_light_skin_tone"]
+        case .factory_worker_tone2:
+            return ["factory_worker_tone2",
+                    "factory_worker_medium_light_skin_tone"]
+        case .technologist_tone2:
+            return ["technologist_tone2",
+                    "technologist_medium_light_skin_tone"]
+        case .office_worker_tone2:
+            return ["office_worker_tone2",
+                    "office_worker_medium_light_skin_tone"]
+        case .mechanic_tone2:
+            return ["mechanic_tone2",
+                    "mechanic_medium_light_skin_tone"]
+        case .scientist_tone2:
+            return ["scientist_tone2",
+                    "scientist_medium_light_skin_tone"]
+        case .astronaut_tone2:
+            return ["astronaut_tone2",
+                    "astronaut_medium_light_skin_tone"]
+        case .firefighter_tone2:
+            return ["firefighter_tone2",
+                    "firefighter_medium_light_skin_tone"]
+        case .people_holding_hands_tone2_tone5:
+            return ["people_holding_hands_tone2_tone5",
+                    "people_holding_hands_medium_light_skin_tone_dark_skin_tone"]
+        case .people_holding_hands_tone2_tone4:
+            return ["people_holding_hands_tone2_tone4",
+                    "people_holding_hands_medium_light_skin_tone_medium_dark_skin_tone"]
+        case .people_holding_hands_tone2_tone3:
+            return ["people_holding_hands_tone2_tone3",
+                    "people_holding_hands_medium_light_skin_tone_medium_skin_tone"]
+        case .people_holding_hands_tone2:
+            return ["people_holding_hands_tone2",
+                    "people_holding_hands_medium_light_skin_tone"]
+        case .people_holding_hands_tone2_tone1:
+            return ["people_holding_hands_tone2_tone1",
+                    "people_holding_hands_medium_light_skin_tone_light_skin_tone"]
+        case .person_with_probing_cane_tone2:
+            return ["person_with_probing_cane_tone2",
+                    "person_with_probing_cane_medium_light_skin_tone"]
+        case .person_tone2_red_hair:
+            return ["person_tone2_red_hair",
+                    "person_medium_light_skin_tone_red_hair"]
+        case .person_tone2_curly_hair:
+            return ["person_tone2_curly_hair",
+                    "person_medium_light_skin_tone_curly_hair"]
+        case .person_tone2_bald:
+            return ["person_tone2_bald",
+                    "person_medium_light_skin_tone_bald"]
+        case .person_tone2_white_hair:
+            return ["person_tone2_white_hair",
+                    "person_medium_light_skin_tone_white_hair"]
+        case .person_in_motorized_wheelchair_tone2:
+            return ["person_in_motorized_wheelchair_tone2",
+                    "person_in_motorized_wheelchair_medium_light_skin_tone"]
+        case .person_in_manual_wheelchair_tone2:
+            return ["person_in_manual_wheelchair_tone2",
+                    "person_in_manual_wheelchair_medium_light_skin_tone"]
         case .adult_tone3:
             return ["adult_tone3",
                     "adult_medium_skin_tone"]
+        case .health_worker_tone3:
+            return ["health_worker_tone3",
+                    "health_worker_medium_skin_tone"]
+        case .judge_tone3:
+            return ["judge_tone3",
+                    "judge_medium_skin_tone"]
+        case .pilot_tone3:
+            return ["pilot_tone3",
+                    "pilot_medium_skin_tone"]
+        case .farmer_tone3:
+            return ["farmer_tone3",
+                    "farmer_medium_skin_tone"]
+        case .cook_tone3:
+            return ["cook_tone3",
+                    "cook_medium_skin_tone"]
+        case .person_feeding_baby_tone3:
+            return ["person_feeding_baby_tone3",
+                    "person_feeding_baby_medium_skin_tone"]
+        case .mx_claus_tone3:
+            return ["mx_claus_tone3",
+                    "mx_claus_medium_skin_tone"]
+        case .student_tone3:
+            return ["student_tone3",
+                    "student_medium_skin_tone"]
+        case .singer_tone3:
+            return ["singer_tone3",
+                    "singer_medium_skin_tone"]
+        case .artist_tone3:
+            return ["artist_tone3",
+                    "artist_medium_skin_tone"]
+        case .teacher_tone3:
+            return ["teacher_tone3",
+                    "teacher_medium_skin_tone"]
+        case .factory_worker_tone3:
+            return ["factory_worker_tone3",
+                    "factory_worker_medium_skin_tone"]
+        case .technologist_tone3:
+            return ["technologist_tone3",
+                    "technologist_medium_skin_tone"]
+        case .office_worker_tone3:
+            return ["office_worker_tone3",
+                    "office_worker_medium_skin_tone"]
+        case .mechanic_tone3:
+            return ["mechanic_tone3",
+                    "mechanic_medium_skin_tone"]
+        case .scientist_tone3:
+            return ["scientist_tone3",
+                    "scientist_medium_skin_tone"]
+        case .astronaut_tone3:
+            return ["astronaut_tone3",
+                    "astronaut_medium_skin_tone"]
+        case .firefighter_tone3:
+            return ["firefighter_tone3",
+                    "firefighter_medium_skin_tone"]
+        case .people_holding_hands_tone3_tone5:
+            return ["people_holding_hands_tone3_tone5",
+                    "people_holding_hands_medium_skin_tone_dark_skin_tone"]
+        case .people_holding_hands_tone3_tone4:
+            return ["people_holding_hands_tone3_tone4",
+                    "people_holding_hands_medium_skin_tone_medium_dark_skin_tone"]
+        case .people_holding_hands_tone3:
+            return ["people_holding_hands_tone3",
+                    "people_holding_hands_medium_skin_tone"]
+        case .people_holding_hands_tone3_tone2:
+            return ["people_holding_hands_tone3_tone2",
+                    "people_holding_hands_medium_skin_tone_medium_light_skin_tone"]
+        case .people_holding_hands_tone3_tone1:
+            return ["people_holding_hands_tone3_tone1",
+                    "people_holding_hands_medium_skin_tone_light_skin_tone"]
+        case .person_with_probing_cane_tone3:
+            return ["person_with_probing_cane_tone3",
+                    "person_with_probing_cane_medium_skin_tone"]
+        case .person_tone3_red_hair:
+            return ["person_tone3_red_hair",
+                    "person_medium_skin_tone_red_hair"]
+        case .person_tone3_curly_hair:
+            return ["person_tone3_curly_hair",
+                    "person_medium_skin_tone_curly_hair"]
+        case .person_tone3_bald:
+            return ["person_tone3_bald",
+                    "person_medium_skin_tone_bald"]
+        case .person_tone3_white_hair:
+            return ["person_tone3_white_hair",
+                    "person_medium_skin_tone_white_hair"]
+        case .person_in_motorized_wheelchair_tone3:
+            return ["person_in_motorized_wheelchair_tone3",
+                    "person_in_motorized_wheelchair_medium_skin_tone"]
+        case .person_in_manual_wheelchair_tone3:
+            return ["person_in_manual_wheelchair_tone3",
+                    "person_in_manual_wheelchair_medium_skin_tone"]
         case .adult_tone4:
             return ["adult_tone4",
                     "adult_medium_dark_skin_tone"]
+        case .health_worker_tone4:
+            return ["health_worker_tone4",
+                    "health_worker_medium_dark_skin_tone"]
+        case .judge_tone4:
+            return ["judge_tone4",
+                    "judge_medium_dark_skin_tone"]
+        case .pilot_tone4:
+            return ["pilot_tone4",
+                    "pilot_medium_dark_skin_tone"]
+        case .farmer_tone4:
+            return ["farmer_tone4",
+                    "farmer_medium_dark_skin_tone"]
+        case .cook_tone4:
+            return ["cook_tone4",
+                    "cook_medium_dark_skin_tone"]
+        case .person_feeding_baby_tone4:
+            return ["person_feeding_baby_tone4",
+                    "person_feeding_baby_medium_dark_skin_tone"]
+        case .mx_claus_tone4:
+            return ["mx_claus_tone4",
+                    "mx_claus_medium_dark_skin_tone"]
+        case .student_tone4:
+            return ["student_tone4",
+                    "student_medium_dark_skin_tone"]
+        case .singer_tone4:
+            return ["singer_tone4",
+                    "singer_medium_dark_skin_tone"]
+        case .artist_tone4:
+            return ["artist_tone4",
+                    "artist_medium_dark_skin_tone"]
+        case .teacher_tone4:
+            return ["teacher_tone4",
+                    "teacher_medium_dark_skin_tone"]
+        case .factory_worker_tone4:
+            return ["factory_worker_tone4",
+                    "factory_worker_medium_dark_skin_tone"]
+        case .technologist_tone4:
+            return ["technologist_tone4",
+                    "technologist_medium_dark_skin_tone"]
+        case .office_worker_tone4:
+            return ["office_worker_tone4",
+                    "office_worker_medium_dark_skin_tone"]
+        case .mechanic_tone4:
+            return ["mechanic_tone4",
+                    "mechanic_medium_dark_skin_tone"]
+        case .scientist_tone4:
+            return ["scientist_tone4",
+                    "scientist_medium_dark_skin_tone"]
+        case .astronaut_tone4:
+            return ["astronaut_tone4",
+                    "astronaut_medium_dark_skin_tone"]
+        case .firefighter_tone4:
+            return ["firefighter_tone4",
+                    "firefighter_medium_dark_skin_tone"]
+        case .people_holding_hands_tone4_tone5:
+            return ["people_holding_hands_tone4_tone5",
+                    "people_holding_hands_medium_dark_skin_tone_dark_skin_tone"]
+        case .people_holding_hands_tone4:
+            return ["people_holding_hands_tone4",
+                    "people_holding_hands_medium_dark_skin_tone"]
+        case .people_holding_hands_tone4_tone3:
+            return ["people_holding_hands_tone4_tone3",
+                    "people_holding_hands_medium_dark_skin_tone_medium_skin_tone"]
+        case .people_holding_hands_tone4_tone2:
+            return ["people_holding_hands_tone4_tone2",
+                    "people_holding_hands_medium_dark_skin_tone_medium_light_skin_tone"]
+        case .people_holding_hands_tone4_tone1:
+            return ["people_holding_hands_tone4_tone1",
+                    "people_holding_hands_medium_dark_skin_tone_light_skin_tone"]
+        case .person_with_probing_cane_tone4:
+            return ["person_with_probing_cane_tone4",
+                    "person_with_probing_cane_medium_dark_skin_tone"]
+        case .person_tone4_red_hair:
+            return ["person_tone4_red_hair",
+                    "person_medium_dark_skin_tone_red_hair"]
+        case .person_tone4_curly_hair:
+            return ["person_tone4_curly_hair",
+                    "person_medium_dark_skin_tone_curly_hair"]
+        case .person_tone4_bald:
+            return ["person_tone4_bald",
+                    "person_medium_dark_skin_tone_bald"]
+        case .person_tone4_white_hair:
+            return ["person_tone4_white_hair",
+                    "person_medium_dark_skin_tone_white_hair"]
+        case .person_in_motorized_wheelchair_tone4:
+            return ["person_in_motorized_wheelchair_tone4",
+                    "person_in_motorized_wheelchair_medium_dark_skin_tone"]
+        case .person_in_manual_wheelchair_tone4:
+            return ["person_in_manual_wheelchair_tone4",
+                    "person_in_manual_wheelchair_medium_dark_skin_tone"]
         case .adult_tone5:
             return ["adult_tone5",
                     "adult_dark_skin_tone"]
+        case .health_worker_tone5:
+            return ["health_worker_tone5",
+                    "health_worker_dark_skin_tone"]
+        case .judge_tone5:
+            return ["judge_tone5",
+                    "judge_dark_skin_tone"]
+        case .pilot_tone5:
+            return ["pilot_tone5",
+                    "pilot_dark_skin_tone"]
+        case .farmer_tone5:
+            return ["farmer_tone5",
+                    "farmer_dark_skin_tone"]
+        case .cook_tone5:
+            return ["cook_tone5",
+                    "cook_dark_skin_tone"]
+        case .person_feeding_baby_tone5:
+            return ["person_feeding_baby_tone5",
+                    "person_feeding_baby_dark_skin_tone"]
+        case .mx_claus_tone5:
+            return ["mx_claus_tone5",
+                    "mx_claus_dark_skin_tone"]
+        case .student_tone5:
+            return ["student_tone5",
+                    "student_dark_skin_tone"]
+        case .singer_tone5:
+            return ["singer_tone5",
+                    "singer_dark_skin_tone"]
+        case .artist_tone5:
+            return ["artist_tone5",
+                    "artist_dark_skin_tone"]
+        case .teacher_tone5:
+            return ["teacher_tone5",
+                    "teacher_dark_skin_tone"]
+        case .factory_worker_tone5:
+            return ["factory_worker_tone5",
+                    "factory_worker_dark_skin_tone"]
+        case .technologist_tone5:
+            return ["technologist_tone5",
+                    "technologist_dark_skin_tone"]
+        case .office_worker_tone5:
+            return ["office_worker_tone5",
+                    "office_worker_dark_skin_tone"]
+        case .mechanic_tone5:
+            return ["mechanic_tone5",
+                    "mechanic_dark_skin_tone"]
+        case .scientist_tone5:
+            return ["scientist_tone5",
+                    "scientist_dark_skin_tone"]
+        case .astronaut_tone5:
+            return ["astronaut_tone5",
+                    "astronaut_dark_skin_tone"]
+        case .firefighter_tone5:
+            return ["firefighter_tone5",
+                    "firefighter_dark_skin_tone"]
+        case .people_holding_hands_tone5:
+            return ["people_holding_hands_tone5",
+                    "people_holding_hands_dark_skin_tone"]
+        case .people_holding_hands_tone5_tone4:
+            return ["people_holding_hands_tone5_tone4",
+                    "people_holding_hands_dark_skin_tone_medium_dark_skin_tone"]
+        case .people_holding_hands_tone5_tone3:
+            return ["people_holding_hands_tone5_tone3",
+                    "people_holding_hands_dark_skin_tone_medium_skin_tone"]
+        case .people_holding_hands_tone5_tone2:
+            return ["people_holding_hands_tone5_tone2",
+                    "people_holding_hands_dark_skin_tone_medium_light_skin_tone"]
+        case .people_holding_hands_tone5_tone1:
+            return ["people_holding_hands_tone5_tone1",
+                    "people_holding_hands_dark_skin_tone_light_skin_tone"]
+        case .person_with_probing_cane_tone5:
+            return ["person_with_probing_cane_tone5",
+                    "person_with_probing_cane_dark_skin_tone"]
+        case .person_tone5_red_hair:
+            return ["person_tone5_red_hair",
+                    "person_dark_skin_tone_red_hair"]
+        case .person_tone5_curly_hair:
+            return ["person_tone5_curly_hair",
+                    "person_dark_skin_tone_curly_hair"]
+        case .person_tone5_bald:
+            return ["person_tone5_bald",
+                    "person_dark_skin_tone_bald"]
+        case .person_tone5_white_hair:
+            return ["person_tone5_white_hair",
+                    "person_dark_skin_tone_white_hair"]
+        case .person_in_motorized_wheelchair_tone5:
+            return ["person_in_motorized_wheelchair_tone5",
+                    "person_in_motorized_wheelchair_dark_skin_tone"]
+        case .person_in_manual_wheelchair_tone5:
+            return ["person_in_manual_wheelchair_tone5",
+                    "person_in_manual_wheelchair_dark_skin_tone"]
+        case .technologist:
+            return ["technologist"]
+        case .office_worker:
+            return ["office_worker"]
+        case .mechanic:
+            return ["mechanic"]
+        case .scientist:
+            return ["scientist"]
+        case .astronaut:
+            return ["astronaut"]
+        case .firefighter:
+            return ["firefighter"]
+        case .people_holding_hands:
+            return ["people_holding_hands"]
+        case .person_with_probing_cane:
+            return ["person_with_probing_cane"]
+        case .person_red_hair:
+            return ["person_red_hair"]
+        case .person_curly_hair:
+            return ["person_curly_hair"]
+        case .person_bald:
+            return ["person_bald"]
+        case .person_white_hair:
+            return ["person_white_hair"]
+        case .person_in_motorized_wheelchair:
+            return ["person_in_motorized_wheelchair"]
+        case .person_in_manual_wheelchair:
+            return ["person_in_manual_wheelchair"]
         case .child:
             return ["child"]
         case .child_tone1:
@@ -9863,6 +11644,120 @@ public enum Emoji: CaseIterable {
             return ["receipt"]
         case .nazar_amulet:
             return ["nazar_amulet"]
+        case .ballet_shoes:
+            return ["ballet_shoes"]
+        case .one_piece_swimsuit:
+            return ["one_piece_swimsuit"]
+        case .briefs:
+            return ["briefs"]
+        case .shorts:
+            return ["shorts"]
+        case .thong_sandal:
+            return ["thong_sandal"]
+        case .drop_of_blood:
+            return ["drop_of_blood"]
+        case .adhesive_bandage:
+            return ["adhesive_bandage"]
+        case .stethoscope:
+            return ["stethoscope"]
+        case .yo_yo:
+            return ["yo_yo"]
+        case .kite:
+            return ["kite"]
+        case .parachute:
+            return ["parachute"]
+        case .boomerang:
+            return ["boomerang"]
+        case .magic_wand:
+            return ["magic_wand"]
+        case .piñata:
+            return ["piñata"]
+        case .nesting_dolls:
+            return ["nesting_dolls"]
+        case .ringed_planet:
+            return ["ringed_planet"]
+        case .chair:
+            return ["chair"]
+        case .razor:
+            return ["razor"]
+        case .axe:
+            return ["axe"]
+        case .diya_lamp:
+            return ["diya_lamp"]
+        case .banjo:
+            return ["banjo"]
+        case .military_helmet:
+            return ["military_helmet"]
+        case .accordion:
+            return ["accordion"]
+        case .long_drum:
+            return ["long_drum"]
+        case .coin:
+            return ["coin"]
+        case .carpentry_saw:
+            return ["carpentry_saw"]
+        case .screwdriver:
+            return ["screwdriver"]
+        case .ladder:
+            return ["ladder"]
+        case .hook:
+            return ["hook"]
+        case .mirror:
+            return ["mirror"]
+        case .window:
+            return ["window"]
+        case .plunger:
+            return ["plunger"]
+        case .sewing_needle:
+            return ["sewing_needle"]
+        case .knot:
+            return ["knot"]
+        case .bucket:
+            return ["bucket"]
+        case .mouse_trap:
+            return ["mouse_trap"]
+        case .toothbrush:
+            return ["toothbrush"]
+        case .headstone:
+            return ["headstone"]
+        case .placard:
+            return ["placard"]
+        case .rock:
+            return ["rock"]
+        case .fly:
+            return ["fly"]
+        case .worm:
+            return ["worm"]
+        case .beetle:
+            return ["beetle"]
+        case .cockroach:
+            return ["cockroach"]
+        case .potted_plant:
+            return ["potted_plant"]
+        case .wood:
+            return ["wood"]
+        case .feather:
+            return ["feather"]
+        case .anatomical_heart:
+            return ["anatomical_heart"]
+        case .lungs:
+            return ["lungs"]
+        case .people_hugging:
+            return ["people_hugging"]
+        case .blueberries:
+            return ["blueberries"]
+        case .bell_pepper:
+            return ["bell_pepper"]
+        case .olive:
+            return ["olive"]
+        case .flatbread:
+            return ["flatbread"]
+        case .tamale:
+            return ["tamale"]
+        case .fondue:
+            return ["fondue"]
+        case .teapot:
+            return ["teapot"]
         default:
             return [""]
         }
@@ -9874,126 +11769,140 @@ public enum Emoji: CaseIterable {
             return ["\u{0023}",
                     "\u{0023}\u{fe0f}"]
         case .hash:
-            return ["\u{0023}\u{fe0f}\u{20e3}",
-                    "\u{0023}\u{20e3}"]
+            return ["\u{0023}\u{20e3}",
+                    "\u{0023}\u{fe0f}\u{20e3}"]
         case .keycap_asterisk:
-            return ["\u{002a}\u{fe0f}\u{20e3}",
-                    "\u{002a}\u{20e3}"]
+            return ["\u{002a}\u{20e3}",
+                    "\u{002a}\u{fe0f}\u{20e3}"]
         case .digit_zero:
             return ["\u{0030}",
                     "\u{0030}\u{fe0f}"]
         case .zero:
-            return ["\u{0030}\u{fe0f}\u{20e3}",
-                    "\u{0030}\u{20e3}"]
+            return ["\u{0030}\u{20e3}",
+                    "\u{0030}\u{fe0f}\u{20e3}"]
         case .digit_one:
             return ["\u{0031}",
                     "\u{0031}\u{fe0f}"]
         case .one:
-            return ["\u{0031}\u{fe0f}\u{20e3}",
-                    "\u{0031}\u{20e3}"]
+            return ["\u{0031}\u{20e3}",
+                    "\u{0031}\u{fe0f}\u{20e3}"]
         case .digit_two:
             return ["\u{0032}",
                     "\u{0032}\u{fe0f}"]
         case .two:
-            return ["\u{0032}\u{fe0f}\u{20e3}",
-                    "\u{0032}\u{20e3}"]
+            return ["\u{0032}\u{20e3}",
+                    "\u{0032}\u{fe0f}\u{20e3}"]
         case .digit_three:
             return ["\u{0033}",
                     "\u{0033}\u{fe0f}"]
         case .three:
-            return ["\u{0033}\u{fe0f}\u{20e3}",
-                    "\u{0033}\u{20e3}"]
+            return ["\u{0033}\u{20e3}",
+                    "\u{0033}\u{fe0f}\u{20e3}"]
         case .digit_four:
             return ["\u{0034}",
                     "\u{0034}\u{fe0f}"]
         case .four:
-            return ["\u{0034}\u{fe0f}\u{20e3}",
-                    "\u{0034}\u{20e3}"]
+            return ["\u{0034}\u{20e3}",
+                    "\u{0034}\u{fe0f}\u{20e3}"]
         case .digit_five:
             return ["\u{0035}",
                     "\u{0035}\u{fe0f}"]
         case .five:
-            return ["\u{0035}\u{fe0f}\u{20e3}",
-                    "\u{0035}\u{20e3}"]
+            return ["\u{0035}\u{20e3}",
+                    "\u{0035}\u{fe0f}\u{20e3}"]
         case .digit_six:
             return ["\u{0036}",
                     "\u{0036}\u{fe0f}"]
         case .six:
-            return ["\u{0036}\u{fe0f}\u{20e3}",
-                    "\u{0036}\u{20e3}"]
+            return ["\u{0036}\u{20e3}",
+                    "\u{0036}\u{fe0f}\u{20e3}"]
         case .digit_seven:
             return ["\u{0037}",
                     "\u{0037}\u{fe0f}"]
         case .seven:
-            return ["\u{0037}\u{fe0f}\u{20e3}",
-                    "\u{0037}\u{20e3}"]
+            return ["\u{0037}\u{20e3}",
+                    "\u{0037}\u{fe0f}\u{20e3}"]
         case .digit_eight:
             return ["\u{0038}",
                     "\u{0038}\u{fe0f}"]
         case .eight:
-            return ["\u{0038}\u{fe0f}\u{20e3}",
-                    "\u{0038}\u{20e3}"]
+            return ["\u{0038}\u{20e3}",
+                    "\u{0038}\u{fe0f}\u{20e3}"]
         case .digit_nine:
             return ["\u{0039}",
                     "\u{0039}\u{fe0f}"]
         case .nine:
-            return ["\u{0039}\u{fe0f}\u{20e3}",
-                    "\u{0039}\u{20e3}"]
+            return ["\u{0039}\u{20e3}",
+                    "\u{0039}\u{fe0f}\u{20e3}"]
         case .copyright:
-            return ["\u{00a9}\u{fe0f}"]
+            return ["\u{00a9}",
+                    "\u{00a9}\u{fe0f}"]
         case .registered:
-            return ["\u{00ae}\u{fe0f}"]
+            return ["\u{00ae}",
+                    "\u{00ae}\u{fe0f}"]
         case .bangbang:
-            return ["\u{203c}\u{fe0f}"]
+            return ["\u{203c}",
+                    "\u{203c}\u{fe0f}"]
         case .interrobang:
-            return ["\u{2049}\u{fe0f}"]
+            return ["\u{2049}",
+                    "\u{2049}\u{fe0f}"]
         case .tm:
-            return ["\u{2122}\u{fe0f}"]
+            return ["\u{2122}",
+                    "\u{2122}\u{fe0f}"]
         case .information_source:
-            return ["\u{2139}\u{fe0f}"]
+            return ["\u{2139}",
+                    "\u{2139}\u{fe0f}"]
         case .left_right_arrow:
-            return ["\u{2194}\u{fe0f}"]
+            return ["\u{2194}",
+                    "\u{2194}\u{fe0f}"]
         case .arrow_up_down:
-            return ["\u{2195}\u{fe0f}"]
+            return ["\u{2195}",
+                    "\u{2195}\u{fe0f}"]
         case .arrow_upper_left:
-            return ["\u{2196}\u{fe0f}"]
+            return ["\u{2196}",
+                    "\u{2196}\u{fe0f}"]
         case .arrow_upper_right:
-            return ["\u{2197}\u{fe0f}"]
+            return ["\u{2197}",
+                    "\u{2197}\u{fe0f}"]
         case .arrow_lower_right:
-            return ["\u{2198}\u{fe0f}"]
+            return ["\u{2198}",
+                    "\u{2198}\u{fe0f}"]
         case .arrow_lower_left:
-            return ["\u{2199}\u{fe0f}"]
+            return ["\u{2199}",
+                    "\u{2199}\u{fe0f}"]
         case .leftwards_arrow_with_hook:
-            return ["\u{21a9}\u{fe0f}"]
+            return ["\u{21a9}",
+                    "\u{21a9}\u{fe0f}"]
         case .arrow_right_hook:
-            return ["\u{21aa}\u{fe0f}"]
+            return ["\u{21aa}",
+                    "\u{21aa}\u{fe0f}"]
         case .watch:
-            return ["\u{231a}",
-                    "\u{231a}\u{fe0f}"]
+            return ["\u{231a}"]
         case .hourglass:
-            return ["\u{231b}",
-                    "\u{231b}\u{fe0f}"]
+            return ["\u{231b}"]
         case .keyboard:
             return ["\u{2328}",
                     "\u{2328}\u{fe0f}"]
         case .eject:
-            return ["\u{23cf}\u{fe0f}"]
+            return ["\u{23cf}",
+                    "\u{23cf}\u{fe0f}"]
         case .fast_forward:
-            return ["\u{23e9}",
-                    "\u{23e9}\u{fe0f}"]
+            return ["\u{23e9}"]
         case .rewind:
-            return ["\u{23ea}",
-                    "\u{23ea}\u{fe0f}"]
+            return ["\u{23ea}"]
         case .arrow_double_up:
             return ["\u{23eb}"]
         case .arrow_double_down:
             return ["\u{23ec}"]
         case .track_next:
-            return ["\u{23ed}\u{fe0f}"]
+            return ["\u{23ed}",
+                    "\u{23ed}\u{fe0f}"]
         case .track_previous:
-            return ["\u{23ee}\u{fe0f}"]
+            return ["\u{23ee}",
+                    "\u{23ee}\u{fe0f}"]
         case .play_pause:
-            return ["\u{23ef}\u{fe0f}"]
+            return ["\u{23ef}",
+                    "\u{23ef}\u{fe0f}"]
         case .alarm_clock:
             return ["\u{23f0}"]
         case .stopwatch:
@@ -10003,35 +11912,41 @@ public enum Emoji: CaseIterable {
             return ["\u{23f2}",
                     "\u{23f2}\u{fe0f}"]
         case .hourglass_flowing_sand:
-            return ["\u{23f3}",
-                    "\u{23f3}\u{fe0f}"]
+            return ["\u{23f3}"]
         case .pause_button:
-            return ["\u{23f8}\u{fe0f}"]
+            return ["\u{23f8}",
+                    "\u{23f8}\u{fe0f}"]
         case .stop_button:
-            return ["\u{23f9}\u{fe0f}"]
+            return ["\u{23f9}",
+                    "\u{23f9}\u{fe0f}"]
         case .record_button:
-            return ["\u{23fa}\u{fe0f}"]
+            return ["\u{23fa}",
+                    "\u{23fa}\u{fe0f}"]
         case .m:
             return ["\u{24c2}",
                     "\u{24c2}\u{fe0f}"]
         case .black_small_square:
-            return ["\u{25aa}\u{fe0f}"]
+            return ["\u{25aa}",
+                    "\u{25aa}\u{fe0f}"]
         case .white_small_square:
-            return ["\u{25ab}\u{fe0f}"]
+            return ["\u{25ab}",
+                    "\u{25ab}\u{fe0f}"]
         case .arrow_forward:
-            return ["\u{25b6}\u{fe0f}"]
+            return ["\u{25b6}",
+                    "\u{25b6}\u{fe0f}"]
         case .arrow_backward:
-            return ["\u{25c0}\u{fe0f}"]
+            return ["\u{25c0}",
+                    "\u{25c0}\u{fe0f}"]
         case .white_medium_square:
-            return ["\u{25fb}\u{fe0f}"]
+            return ["\u{25fb}",
+                    "\u{25fb}\u{fe0f}"]
         case .black_medium_square:
-            return ["\u{25fc}\u{fe0f}"]
+            return ["\u{25fc}",
+                    "\u{25fc}\u{fe0f}"]
         case .white_medium_small_square:
-            return ["\u{25fd}",
-                    "\u{25fd}\u{fe0f}"]
+            return ["\u{25fd}"]
         case .black_medium_small_square:
-            return ["\u{25fe}",
-                    "\u{25fe}\u{fe0f}"]
+            return ["\u{25fe}"]
         case .sunny:
             return ["\u{2600}",
                     "\u{2600}\u{fe0f}"]
@@ -10051,13 +11966,12 @@ public enum Emoji: CaseIterable {
             return ["\u{260e}",
                     "\u{260e}\u{fe0f}"]
         case .ballot_box_with_check:
-            return ["\u{2611}\u{fe0f}"]
+            return ["\u{2611}",
+                    "\u{2611}\u{fe0f}"]
         case .umbrella:
-            return ["\u{2614}",
-                    "\u{2614}\u{fe0f}"]
+            return ["\u{2614}"]
         case .coffee:
-            return ["\u{2615}",
-                    "\u{2615}\u{fe0f}"]
+            return ["\u{2615}"]
         case .shamrock:
             return ["\u{2618}",
                     "\u{2618}\u{fe0f}"]
@@ -10065,37 +11979,39 @@ public enum Emoji: CaseIterable {
             return ["\u{261d}",
                     "\u{261d}\u{fe0f}"]
         case .point_up_tone1:
-            return ["\u{261d}\u{1f3fb}",
-                    "\u{261d}\u{fe0f}\u{1f3fb}"]
+            return ["\u{261d}\u{1f3fb}"]
         case .point_up_tone2:
-            return ["\u{261d}\u{1f3fc}",
-                    "\u{261d}\u{fe0f}\u{1f3fc}"]
+            return ["\u{261d}\u{1f3fc}"]
         case .point_up_tone3:
-            return ["\u{261d}\u{1f3fd}",
-                    "\u{261d}\u{fe0f}\u{1f3fd}"]
+            return ["\u{261d}\u{1f3fd}"]
         case .point_up_tone4:
-            return ["\u{261d}\u{1f3fe}",
-                    "\u{261d}\u{fe0f}\u{1f3fe}"]
+            return ["\u{261d}\u{1f3fe}"]
         case .point_up_tone5:
-            return ["\u{261d}\u{1f3ff}",
-                    "\u{261d}\u{fe0f}\u{1f3ff}"]
+            return ["\u{261d}\u{1f3ff}"]
         case .skull_crossbones:
             return ["\u{2620}",
                     "\u{2620}\u{fe0f}"]
         case .radioactive:
-            return ["\u{2622}\u{fe0f}"]
+            return ["\u{2622}",
+                    "\u{2622}\u{fe0f}"]
         case .biohazard:
-            return ["\u{2623}\u{fe0f}"]
+            return ["\u{2623}",
+                    "\u{2623}\u{fe0f}"]
         case .orthodox_cross:
-            return ["\u{2626}\u{fe0f}"]
+            return ["\u{2626}",
+                    "\u{2626}\u{fe0f}"]
         case .star_and_crescent:
-            return ["\u{262a}\u{fe0f}"]
+            return ["\u{262a}",
+                    "\u{262a}\u{fe0f}"]
         case .peace:
-            return ["\u{262e}\u{fe0f}"]
+            return ["\u{262e}",
+                    "\u{262e}\u{fe0f}"]
         case .yin_yang:
-            return ["\u{262f}\u{fe0f}"]
+            return ["\u{262f}",
+                    "\u{262f}\u{fe0f}"]
         case .wheel_of_dharma:
-            return ["\u{2638}\u{fe0f}"]
+            return ["\u{2638}",
+                    "\u{2638}\u{fe0f}"]
         case .frowning2:
             return ["\u{2639}",
                     "\u{2639}\u{fe0f}"]
@@ -10103,48 +12019,38 @@ public enum Emoji: CaseIterable {
             return ["\u{263a}",
                     "\u{263a}\u{fe0f}"]
         case .female_sign:
-            return ["\u{2640}\u{fe0f}"]
+            return ["\u{2640}",
+                    "\u{2640}\u{fe0f}"]
         case .male_sign:
-            return ["\u{2642}\u{fe0f}"]
+            return ["\u{2642}",
+                    "\u{2642}\u{fe0f}"]
         case .aries:
-            return ["\u{2648}",
-                    "\u{2648}\u{fe0f}"]
+            return ["\u{2648}"]
         case .taurus:
-            return ["\u{2649}",
-                    "\u{2649}\u{fe0f}"]
+            return ["\u{2649}"]
         case .gemini:
-            return ["\u{264a}",
-                    "\u{264a}\u{fe0f}"]
+            return ["\u{264a}"]
         case .cancer:
-            return ["\u{264b}",
-                    "\u{264b}\u{fe0f}"]
+            return ["\u{264b}"]
         case .leo:
-            return ["\u{264c}",
-                    "\u{264c}\u{fe0f}"]
+            return ["\u{264c}"]
         case .virgo:
-            return ["\u{264d}",
-                    "\u{264d}\u{fe0f}"]
+            return ["\u{264d}"]
         case .libra:
-            return ["\u{264e}",
-                    "\u{264e}\u{fe0f}"]
+            return ["\u{264e}"]
         case .scorpius:
-            return ["\u{264f}",
-                    "\u{264f}\u{fe0f}"]
+            return ["\u{264f}"]
         case .sagittarius:
-            return ["\u{2650}",
-                    "\u{2650}\u{fe0f}"]
+            return ["\u{2650}"]
         case .capricorn:
-            return ["\u{2651}",
-                    "\u{2651}\u{fe0f}"]
+            return ["\u{2651}"]
         case .aquarius:
-            return ["\u{2652}",
-                    "\u{2652}\u{fe0f}"]
+            return ["\u{2652}"]
         case .pisces:
-            return ["\u{2653}",
-                    "\u{2653}\u{fe0f}"]
+            return ["\u{2653}"]
         case .chess_pawn:
-            return ["\u{265f}\u{fe0f}",
-                    "\u{265f}"]
+            return ["\u{265f}",
+                    "\u{265f}\u{fe0f}"]
         case .spades:
             return ["\u{2660}",
                     "\u{2660}\u{fe0f}"]
@@ -10164,22 +12070,21 @@ public enum Emoji: CaseIterable {
             return ["\u{267b}",
                     "\u{267b}\u{fe0f}"]
         case .infinity:
-            return ["\u{267e}\u{fe0f}",
-                    "\u{267e}"]
+            return ["\u{267e}",
+                    "\u{267e}\u{fe0f}"]
         case .wheelchair:
-            return ["\u{267f}",
-                    "\u{267f}\u{fe0f}"]
+            return ["\u{267f}"]
         case .hammer_pick:
             return ["\u{2692}",
                     "\u{2692}\u{fe0f}"]
         case .anchor:
-            return ["\u{2693}",
-                    "\u{2693}\u{fe0f}"]
+            return ["\u{2693}"]
         case .crossed_swords:
             return ["\u{2694}",
                     "\u{2694}\u{fe0f}"]
         case .medical_symbol:
-            return ["\u{2695}\u{fe0f}"]
+            return ["\u{2695}",
+                    "\u{2695}\u{fe0f}"]
         case .scales:
             return ["\u{2696}",
                     "\u{2696}\u{fe0f}"]
@@ -10190,21 +12095,22 @@ public enum Emoji: CaseIterable {
             return ["\u{2699}",
                     "\u{2699}\u{fe0f}"]
         case .atom:
-            return ["\u{269b}\u{fe0f}"]
+            return ["\u{269b}",
+                    "\u{269b}\u{fe0f}"]
         case .fleur_de_lis:
             return ["\u{269c}",
                     "\u{269c}\u{fe0f}"]
         case .warning:
-            return ["\u{26a0}\u{fe0f}"]
+            return ["\u{26a0}",
+                    "\u{26a0}\u{fe0f}"]
         case .zap:
-            return ["\u{26a1}",
-                    "\u{26a1}\u{fe0f}"]
+            return ["\u{26a1}"]
+        case .transgender_symbol:
+            return ["\u{26a7}"]
         case .white_circle:
-            return ["\u{26aa}",
-                    "\u{26aa}\u{fe0f}"]
+            return ["\u{26aa}"]
         case .black_circle:
-            return ["\u{26ab}",
-                    "\u{26ab}\u{fe0f}"]
+            return ["\u{26ab}"]
         case .coffin:
             return ["\u{26b0}",
                     "\u{26b0}\u{fe0f}"]
@@ -10212,17 +12118,13 @@ public enum Emoji: CaseIterable {
             return ["\u{26b1}",
                     "\u{26b1}\u{fe0f}"]
         case .soccer:
-            return ["\u{26bd}",
-                    "\u{26bd}\u{fe0f}"]
+            return ["\u{26bd}"]
         case .baseball:
-            return ["\u{26be}",
-                    "\u{26be}\u{fe0f}"]
+            return ["\u{26be}"]
         case .snowman:
-            return ["\u{26c4}",
-                    "\u{26c4}\u{fe0f}"]
+            return ["\u{26c4}"]
         case .partly_sunny:
-            return ["\u{26c5}",
-                    "\u{26c5}\u{fe0f}"]
+            return ["\u{26c5}"]
         case .thunder_cloud_rain:
             return ["\u{26c8}",
                     "\u{26c8}\u{fe0f}"]
@@ -10238,14 +12140,12 @@ public enum Emoji: CaseIterable {
             return ["\u{26d3}",
                     "\u{26d3}\u{fe0f}"]
         case .no_entry:
-            return ["\u{26d4}",
-                    "\u{26d4}\u{fe0f}"]
+            return ["\u{26d4}"]
         case .shinto_shrine:
             return ["\u{26e9}",
                     "\u{26e9}\u{fe0f}"]
         case .church:
-            return ["\u{26ea}",
-                    "\u{26ea}\u{fe0f}"]
+            return ["\u{26ea}"]
         case .mountain:
             return ["\u{26f0}",
                     "\u{26f0}\u{fe0f}"]
@@ -10253,17 +12153,14 @@ public enum Emoji: CaseIterable {
             return ["\u{26f1}",
                     "\u{26f1}\u{fe0f}"]
         case .fountain:
-            return ["\u{26f2}",
-                    "\u{26f2}\u{fe0f}"]
+            return ["\u{26f2}"]
         case .golf:
-            return ["\u{26f3}",
-                    "\u{26f3}\u{fe0f}"]
+            return ["\u{26f3}"]
         case .ferry:
             return ["\u{26f4}",
                     "\u{26f4}\u{fe0f}"]
         case .sailboat:
-            return ["\u{26f5}",
-                    "\u{26f5}\u{fe0f}"]
+            return ["\u{26f5}"]
         case .skier:
             return ["\u{26f7}",
                     "\u{26f7}\u{fe0f}"]
@@ -10271,91 +12168,57 @@ public enum Emoji: CaseIterable {
             return ["\u{26f8}",
                     "\u{26f8}\u{fe0f}"]
         case .person_bouncing_ball:
-            return ["\u{26f9}",
-                    "\u{26f9}\u{fe0f}"]
+            return ["\u{26f9}"]
         case .woman_bouncing_ball:
-            return ["\u{26f9}\u{fe0f}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{26f9}\u{200d}\u{2640}",
-                    "\u{26f9}\u{fe0f}\u{2640}\u{fe0f}",
-                    "\u{26f9}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{26f9}\u{fe0f}\u{200d}\u{2640}"]
+            return ["\u{26f9}\u{2640}",
+                    "\u{26f9}\u{fe0f}\u{200d}\u{2640}\u{fe0f}"]
         case .man_bouncing_ball:
-            return ["\u{26f9}\u{fe0f}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{26f9}\u{200d}\u{2642}",
-                    "\u{26f9}\u{fe0f}\u{2642}\u{fe0f}",
-                    "\u{26f9}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{26f9}\u{fe0f}\u{200d}\u{2642}"]
+            return ["\u{26f9}\u{2642}",
+                    "\u{26f9}\u{fe0f}\u{200d}\u{2642}\u{fe0f}"]
         case .person_bouncing_ball_tone1:
-            return ["\u{26f9}\u{1f3fb}",
-                    "\u{26f9}\u{fe0f}\u{1f3fb}"]
+            return ["\u{26f9}\u{1f3fb}"]
         case .woman_bouncing_ball_tone1:
-            return ["\u{26f9}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{26f9}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{26f9}\u{fe0f}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{26f9}\u{fe0f}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{26f9}\u{1f3fb}\u{2640}",
+                    "\u{26f9}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_bouncing_ball_tone1:
-            return ["\u{26f9}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{26f9}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{26f9}\u{fe0f}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{26f9}\u{fe0f}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{26f9}\u{1f3fb}\u{2642}",
+                    "\u{26f9}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_bouncing_ball_tone2:
-            return ["\u{26f9}\u{1f3fc}",
-                    "\u{26f9}\u{fe0f}\u{1f3fc}"]
+            return ["\u{26f9}\u{1f3fc}"]
         case .woman_bouncing_ball_tone2:
-            return ["\u{26f9}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{26f9}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{26f9}\u{fe0f}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{26f9}\u{fe0f}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{26f9}\u{1f3fc}\u{2640}",
+                    "\u{26f9}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_bouncing_ball_tone2:
-            return ["\u{26f9}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{26f9}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{26f9}\u{fe0f}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{26f9}\u{fe0f}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{26f9}\u{1f3fc}\u{2642}",
+                    "\u{26f9}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_bouncing_ball_tone3:
-            return ["\u{26f9}\u{1f3fd}",
-                    "\u{26f9}\u{fe0f}\u{1f3fd}"]
+            return ["\u{26f9}\u{1f3fd}"]
         case .woman_bouncing_ball_tone3:
-            return ["\u{26f9}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{26f9}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{26f9}\u{fe0f}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{26f9}\u{fe0f}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{26f9}\u{1f3fd}\u{2640}",
+                    "\u{26f9}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_bouncing_ball_tone3:
-            return ["\u{26f9}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{26f9}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{26f9}\u{fe0f}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{26f9}\u{fe0f}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{26f9}\u{1f3fd}\u{2642}",
+                    "\u{26f9}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_bouncing_ball_tone4:
-            return ["\u{26f9}\u{1f3fe}",
-                    "\u{26f9}\u{fe0f}\u{1f3fe}"]
+            return ["\u{26f9}\u{1f3fe}"]
         case .woman_bouncing_ball_tone4:
-            return ["\u{26f9}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{26f9}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{26f9}\u{fe0f}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{26f9}\u{fe0f}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{26f9}\u{1f3fe}\u{2640}",
+                    "\u{26f9}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_bouncing_ball_tone4:
-            return ["\u{26f9}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{26f9}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{26f9}\u{fe0f}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{26f9}\u{fe0f}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{26f9}\u{1f3fe}\u{2642}",
+                    "\u{26f9}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_bouncing_ball_tone5:
-            return ["\u{26f9}\u{1f3ff}",
-                    "\u{26f9}\u{fe0f}\u{1f3ff}"]
+            return ["\u{26f9}\u{1f3ff}"]
         case .woman_bouncing_ball_tone5:
-            return ["\u{26f9}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{26f9}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{26f9}\u{fe0f}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{26f9}\u{fe0f}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{26f9}\u{1f3ff}\u{2640}",
+                    "\u{26f9}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_bouncing_ball_tone5:
-            return ["\u{26f9}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{26f9}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{26f9}\u{fe0f}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{26f9}\u{fe0f}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{26f9}\u{1f3ff}\u{2642}",
+                    "\u{26f9}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .tent:
-            return ["\u{26fa}",
-                    "\u{26fa}\u{fe0f}"]
+            return ["\u{26fa}"]
         case .fuelpump:
-            return ["\u{26fd}",
-                    "\u{26fd}\u{fe0f}"]
+            return ["\u{26fd}"]
         case .scissors:
             return ["\u{2702}",
                     "\u{2702}\u{fe0f}"]
@@ -10395,38 +12258,28 @@ public enum Emoji: CaseIterable {
             return ["\u{270c}",
                     "\u{270c}\u{fe0f}"]
         case .v_tone1:
-            return ["\u{270c}\u{1f3fb}",
-                    "\u{270c}\u{fe0f}\u{1f3fb}"]
+            return ["\u{270c}\u{1f3fb}"]
         case .v_tone2:
-            return ["\u{270c}\u{1f3fc}",
-                    "\u{270c}\u{fe0f}\u{1f3fc}"]
+            return ["\u{270c}\u{1f3fc}"]
         case .v_tone3:
-            return ["\u{270c}\u{1f3fd}",
-                    "\u{270c}\u{fe0f}\u{1f3fd}"]
+            return ["\u{270c}\u{1f3fd}"]
         case .v_tone4:
-            return ["\u{270c}\u{1f3fe}",
-                    "\u{270c}\u{fe0f}\u{1f3fe}"]
+            return ["\u{270c}\u{1f3fe}"]
         case .v_tone5:
-            return ["\u{270c}\u{1f3ff}",
-                    "\u{270c}\u{fe0f}\u{1f3ff}"]
+            return ["\u{270c}\u{1f3ff}"]
         case .writing_hand:
             return ["\u{270d}",
                     "\u{270d}\u{fe0f}"]
         case .writing_hand_tone1:
-            return ["\u{270d}\u{1f3fb}",
-                    "\u{270d}\u{fe0f}\u{1f3fb}"]
+            return ["\u{270d}\u{1f3fb}"]
         case .writing_hand_tone2:
-            return ["\u{270d}\u{1f3fc}",
-                    "\u{270d}\u{fe0f}\u{1f3fc}"]
+            return ["\u{270d}\u{1f3fc}"]
         case .writing_hand_tone3:
-            return ["\u{270d}\u{1f3fd}",
-                    "\u{270d}\u{fe0f}\u{1f3fd}"]
+            return ["\u{270d}\u{1f3fd}"]
         case .writing_hand_tone4:
-            return ["\u{270d}\u{1f3fe}",
-                    "\u{270d}\u{fe0f}\u{1f3fe}"]
+            return ["\u{270d}\u{1f3fe}"]
         case .writing_hand_tone5:
-            return ["\u{270d}\u{1f3ff}",
-                    "\u{270d}\u{fe0f}\u{1f3ff}"]
+            return ["\u{270d}\u{1f3ff}"]
         case .pencil2:
             return ["\u{270f}",
                     "\u{270f}\u{fe0f}"]
@@ -10434,13 +12287,17 @@ public enum Emoji: CaseIterable {
             return ["\u{2712}",
                     "\u{2712}\u{fe0f}"]
         case .heavy_check_mark:
-            return ["\u{2714}\u{fe0f}"]
+            return ["\u{2714}",
+                    "\u{2714}\u{fe0f}"]
         case .heavy_multiplication_x:
-            return ["\u{2716}\u{fe0f}"]
+            return ["\u{2716}",
+                    "\u{2716}\u{fe0f}"]
         case .cross:
-            return ["\u{271d}\u{fe0f}"]
+            return ["\u{271d}",
+                    "\u{271d}\u{fe0f}"]
         case .star_of_david:
-            return ["\u{2721}\u{fe0f}"]
+            return ["\u{2721}",
+                    "\u{2721}\u{fe0f}"]
         case .sparkles:
             return ["\u{2728}"]
         case .eight_spoked_asterisk:
@@ -10460,15 +12317,13 @@ public enum Emoji: CaseIterable {
         case .negative_squared_cross_mark:
             return ["\u{274e}"]
         case .question:
-            return ["\u{2753}",
-                    "\u{2753}\u{fe0f}"]
+            return ["\u{2753}"]
         case .grey_question:
             return ["\u{2754}"]
         case .grey_exclamation:
             return ["\u{2755}"]
         case .exclamation:
-            return ["\u{2757}",
-                    "\u{2757}\u{fe0f}"]
+            return ["\u{2757}"]
         case .heart_exclamation:
             return ["\u{2763}",
                     "\u{2763}\u{fe0f}"]
@@ -10482,35 +12337,38 @@ public enum Emoji: CaseIterable {
         case .heavy_division_sign:
             return ["\u{2797}"]
         case .arrow_right:
-            return ["\u{27a1}\u{fe0f}"]
+            return ["\u{27a1}",
+                    "\u{27a1}\u{fe0f}"]
         case .curly_loop:
             return ["\u{27b0}"]
         case .loop:
             return ["\u{27bf}"]
         case .arrow_heading_up:
-            return ["\u{2934}\u{fe0f}"]
+            return ["\u{2934}",
+                    "\u{2934}\u{fe0f}"]
         case .arrow_heading_down:
-            return ["\u{2935}\u{fe0f}"]
+            return ["\u{2935}",
+                    "\u{2935}\u{fe0f}"]
         case .arrow_left:
-            return ["\u{2b05}\u{fe0f}"]
+            return ["\u{2b05}",
+                    "\u{2b05}\u{fe0f}"]
         case .arrow_up:
-            return ["\u{2b06}\u{fe0f}"]
+            return ["\u{2b06}",
+                    "\u{2b06}\u{fe0f}"]
         case .arrow_down:
-            return ["\u{2b07}\u{fe0f}"]
+            return ["\u{2b07}",
+                    "\u{2b07}\u{fe0f}"]
         case .black_large_square:
-            return ["\u{2b1b}",
-                    "\u{2b1b}\u{fe0f}"]
+            return ["\u{2b1b}"]
         case .white_large_square:
-            return ["\u{2b1c}",
-                    "\u{2b1c}\u{fe0f}"]
+            return ["\u{2b1c}"]
         case .star:
-            return ["\u{2b50}",
-                    "\u{2b50}\u{fe0f}"]
+            return ["\u{2b50}"]
         case .o:
-            return ["\u{2b55}",
-                    "\u{2b55}\u{fe0f}"]
+            return ["\u{2b55}"]
         case .wavy_dash:
-            return ["\u{3030}\u{fe0f}"]
+            return ["\u{3030}",
+                    "\u{3030}\u{fe0f}"]
         case .part_alternation_mark:
             return ["\u{303d}",
                     "\u{303d}\u{fe0f}"]
@@ -10521,8 +12379,7 @@ public enum Emoji: CaseIterable {
             return ["\u{3299}",
                     "\u{3299}\u{fe0f}"]
         case .mahjong:
-            return ["\u{1f004}",
-                    "\u{1f004}\u{fe0f}"]
+            return ["\u{1f004}"]
         case .black_joker:
             return ["\u{1f0cf}"]
         case .a:
@@ -11081,11 +12938,9 @@ public enum Emoji: CaseIterable {
             return ["\u{1f202}",
                     "\u{1f202}\u{fe0f}"]
         case .u7121:
-            return ["\u{1f21a}",
-                    "\u{1f21a}\u{fe0f}"]
+            return ["\u{1f21a}"]
         case .u6307:
-            return ["\u{1f22f}",
-                    "\u{1f22f}\u{fe0f}"]
+            return ["\u{1f22f}"]
         case .u7981:
             return ["\u{1f232}"]
         case .u7a7a:
@@ -11136,14 +12991,11 @@ public enum Emoji: CaseIterable {
         case .milky_way:
             return ["\u{1f30c}"]
         case .earth_africa:
-            return ["\u{1f30d}",
-                    "\u{1f30d}\u{fe0f}"]
+            return ["\u{1f30d}"]
         case .earth_americas:
-            return ["\u{1f30e}",
-                    "\u{1f30e}\u{fe0f}"]
+            return ["\u{1f30e}"]
         case .earth_asia:
-            return ["\u{1f30f}",
-                    "\u{1f30f}\u{fe0f}"]
+            return ["\u{1f30f}"]
         case .globe_with_meridians:
             return ["\u{1f310}"]
         case .new_moon:
@@ -11155,8 +13007,7 @@ public enum Emoji: CaseIterable {
         case .waxing_gibbous_moon:
             return ["\u{1f314}"]
         case .full_moon:
-            return ["\u{1f315}",
-                    "\u{1f315}\u{fe0f}"]
+            return ["\u{1f315}"]
         case .waning_gibbous_moon:
             return ["\u{1f316}"]
         case .last_quarter_moon:
@@ -11170,8 +13021,7 @@ public enum Emoji: CaseIterable {
         case .first_quarter_moon_with_face:
             return ["\u{1f31b}"]
         case .last_quarter_moon_with_face:
-            return ["\u{1f31c}",
-                    "\u{1f31c}\u{fe0f}"]
+            return ["\u{1f31c}"]
         case .full_moon_with_face:
             return ["\u{1f31d}"]
         case .sun_with_face:
@@ -11362,8 +13212,7 @@ public enum Emoji: CaseIterable {
         case .wine_glass:
             return ["\u{1f377}"]
         case .cocktail:
-            return ["\u{1f378}",
-                    "\u{1f378}\u{fe0f}"]
+            return ["\u{1f378}"]
         case .tropical_drink:
             return ["\u{1f379}"]
         case .beer:
@@ -11428,8 +13277,7 @@ public enum Emoji: CaseIterable {
         case .school_satchel:
             return ["\u{1f392}"]
         case .mortar_board:
-            return ["\u{1f393}",
-                    "\u{1f393}\u{fe0f}"]
+            return ["\u{1f393}"]
         case .military_medal:
             return ["\u{1f396}",
                     "\u{1f396}\u{fe0f}"]
@@ -11466,8 +13314,7 @@ public enum Emoji: CaseIterable {
         case .cinema:
             return ["\u{1f3a6}"]
         case .headphones:
-            return ["\u{1f3a7}",
-                    "\u{1f3a7}\u{fe0f}"]
+            return ["\u{1f3a7}"]
         case .art:
             return ["\u{1f3a8}"]
         case .tophat:
@@ -11477,19 +13324,16 @@ public enum Emoji: CaseIterable {
         case .ticket:
             return ["\u{1f3ab}"]
         case .clapper:
-            return ["\u{1f3ac}",
-                    "\u{1f3ac}\u{fe0f}"]
+            return ["\u{1f3ac}"]
         case .performing_arts:
-            return ["\u{1f3ad}",
-                    "\u{1f3ad}\u{fe0f}"]
+            return ["\u{1f3ad}"]
         case .video_game:
-            return ["\u{1f3ae}",
-                    "\u{1f3ae}\u{fe0f}"]
+            return ["\u{1f3ae}"]
         case .dart:
             return ["\u{1f3af}"]
         case .slot_machine:
             return ["\u{1f3b0}"]
-        case .height_ball:
+        case .eight_ball:
             return ["\u{1f3b1}"]
         case .game_die:
             return ["\u{1f3b2}"]
@@ -11524,8 +13368,7 @@ public enum Emoji: CaseIterable {
         case .checkered_flag:
             return ["\u{1f3c1}"]
         case .snowboarder:
-            return ["\u{1f3c2}",
-                    "\u{1f3c2}\u{fe0f}"]
+            return ["\u{1f3c2}"]
         case .snowboarder_tone1:
             return ["\u{1f3c2}\u{1f3fb}"]
         case .snowboarder_tone2:
@@ -11539,129 +13382,103 @@ public enum Emoji: CaseIterable {
         case .person_running:
             return ["\u{1f3c3}"]
         case .woman_running:
-            return ["\u{1f3c3}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3c3}\u{200d}\u{2640}",
-                    "\u{1f3c3}\u{2640}\u{fe0f}"]
+            return ["\u{1f3c3}\u{2640}",
+                    "\u{1f3c3}\u{200d}\u{2640}\u{fe0f}"]
         case .man_running:
-            return ["\u{1f3c3}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3c3}\u{200d}\u{2642}",
-                    "\u{1f3c3}\u{2642}\u{fe0f}"]
+            return ["\u{1f3c3}\u{2642}",
+                    "\u{1f3c3}\u{200d}\u{2642}\u{fe0f}"]
         case .person_running_tone1:
             return ["\u{1f3c3}\u{1f3fb}"]
         case .woman_running_tone1:
-            return ["\u{1f3c3}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3c3}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f3c3}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f3c3}\u{1f3fb}\u{2640}",
+                    "\u{1f3c3}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_running_tone1:
-            return ["\u{1f3c3}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3c3}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f3c3}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f3c3}\u{1f3fb}\u{2642}",
+                    "\u{1f3c3}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_running_tone2:
             return ["\u{1f3c3}\u{1f3fc}"]
         case .woman_running_tone2:
-            return ["\u{1f3c3}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3c3}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f3c3}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f3c3}\u{1f3fc}\u{2640}",
+                    "\u{1f3c3}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_running_tone2:
-            return ["\u{1f3c3}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3c3}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f3c3}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f3c3}\u{1f3fc}\u{2642}",
+                    "\u{1f3c3}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_running_tone3:
             return ["\u{1f3c3}\u{1f3fd}"]
         case .woman_running_tone3:
-            return ["\u{1f3c3}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3c3}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f3c3}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f3c3}\u{1f3fd}\u{2640}",
+                    "\u{1f3c3}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_running_tone3:
-            return ["\u{1f3c3}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3c3}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f3c3}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f3c3}\u{1f3fd}\u{2642}",
+                    "\u{1f3c3}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_running_tone4:
             return ["\u{1f3c3}\u{1f3fe}"]
         case .woman_running_tone4:
-            return ["\u{1f3c3}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3c3}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f3c3}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f3c3}\u{1f3fe}\u{2640}",
+                    "\u{1f3c3}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_running_tone4:
-            return ["\u{1f3c3}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3c3}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f3c3}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f3c3}\u{1f3fe}\u{2642}",
+                    "\u{1f3c3}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_running_tone5:
             return ["\u{1f3c3}\u{1f3ff}"]
         case .woman_running_tone5:
-            return ["\u{1f3c3}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3c3}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f3c3}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f3c3}\u{1f3ff}\u{2640}",
+                    "\u{1f3c3}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_running_tone5:
-            return ["\u{1f3c3}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3c3}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f3c3}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f3c3}\u{1f3ff}\u{2642}",
+                    "\u{1f3c3}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_surfing:
-            return ["\u{1f3c4}",
-                    "\u{1f3c4}\u{fe0f}"]
+            return ["\u{1f3c4}"]
         case .woman_surfing:
-            return ["\u{1f3c4}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3c4}\u{200d}\u{2640}",
-                    "\u{1f3c4}\u{2640}\u{fe0f}"]
+            return ["\u{1f3c4}\u{2640}",
+                    "\u{1f3c4}\u{200d}\u{2640}\u{fe0f}"]
         case .man_surfing:
-            return ["\u{1f3c4}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3c4}\u{200d}\u{2642}",
-                    "\u{1f3c4}\u{2642}\u{fe0f}"]
+            return ["\u{1f3c4}\u{2642}",
+                    "\u{1f3c4}\u{200d}\u{2642}\u{fe0f}"]
         case .person_surfing_tone1:
             return ["\u{1f3c4}\u{1f3fb}"]
         case .woman_surfing_tone1:
-            return ["\u{1f3c4}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3c4}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f3c4}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f3c4}\u{1f3fb}\u{2640}",
+                    "\u{1f3c4}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_surfing_tone1:
-            return ["\u{1f3c4}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3c4}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f3c4}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f3c4}\u{1f3fb}\u{2642}",
+                    "\u{1f3c4}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_surfing_tone2:
             return ["\u{1f3c4}\u{1f3fc}"]
         case .woman_surfing_tone2:
-            return ["\u{1f3c4}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3c4}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f3c4}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f3c4}\u{1f3fc}\u{2640}",
+                    "\u{1f3c4}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_surfing_tone2:
-            return ["\u{1f3c4}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3c4}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f3c4}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f3c4}\u{1f3fc}\u{2642}",
+                    "\u{1f3c4}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_surfing_tone3:
             return ["\u{1f3c4}\u{1f3fd}"]
         case .woman_surfing_tone3:
-            return ["\u{1f3c4}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3c4}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f3c4}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f3c4}\u{1f3fd}\u{2640}",
+                    "\u{1f3c4}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_surfing_tone3:
-            return ["\u{1f3c4}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3c4}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f3c4}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f3c4}\u{1f3fd}\u{2642}",
+                    "\u{1f3c4}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_surfing_tone4:
             return ["\u{1f3c4}\u{1f3fe}"]
         case .woman_surfing_tone4:
-            return ["\u{1f3c4}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3c4}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f3c4}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f3c4}\u{1f3fe}\u{2640}",
+                    "\u{1f3c4}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_surfing_tone4:
-            return ["\u{1f3c4}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3c4}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f3c4}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f3c4}\u{1f3fe}\u{2642}",
+                    "\u{1f3c4}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_surfing_tone5:
             return ["\u{1f3c4}\u{1f3ff}"]
         case .woman_surfing_tone5:
-            return ["\u{1f3c4}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3c4}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f3c4}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f3c4}\u{1f3ff}\u{2640}",
+                    "\u{1f3c4}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_surfing_tone5:
-            return ["\u{1f3c4}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3c4}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f3c4}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f3c4}\u{1f3ff}\u{2642}",
+                    "\u{1f3c4}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .medal:
             return ["\u{1f3c5}"]
         case .trophy:
-            return ["\u{1f3c6}",
-                    "\u{1f3c6}\u{fe0f}"]
+            return ["\u{1f3c6}"]
         case .horse_racing:
             return ["\u{1f3c7}"]
         case .horse_racing_tone1:
@@ -11679,226 +13496,149 @@ public enum Emoji: CaseIterable {
         case .rugby_football:
             return ["\u{1f3c9}"]
         case .person_swimming:
-            return ["\u{1f3ca}",
-                    "\u{1f3ca}\u{fe0f}"]
+            return ["\u{1f3ca}"]
         case .woman_swimming:
-            return ["\u{1f3ca}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3ca}\u{200d}\u{2640}",
-                    "\u{1f3ca}\u{2640}\u{fe0f}"]
+            return ["\u{1f3ca}\u{2640}",
+                    "\u{1f3ca}\u{200d}\u{2640}\u{fe0f}"]
         case .man_swimming:
-            return ["\u{1f3ca}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3ca}\u{200d}\u{2642}",
-                    "\u{1f3ca}\u{2642}\u{fe0f}"]
+            return ["\u{1f3ca}\u{2642}",
+                    "\u{1f3ca}\u{200d}\u{2642}\u{fe0f}"]
         case .person_swimming_tone1:
             return ["\u{1f3ca}\u{1f3fb}"]
         case .woman_swimming_tone1:
-            return ["\u{1f3ca}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3ca}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f3ca}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f3ca}\u{1f3fb}\u{2640}",
+                    "\u{1f3ca}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_swimming_tone1:
-            return ["\u{1f3ca}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3ca}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f3ca}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f3ca}\u{1f3fb}\u{2642}",
+                    "\u{1f3ca}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_swimming_tone2:
             return ["\u{1f3ca}\u{1f3fc}"]
         case .woman_swimming_tone2:
-            return ["\u{1f3ca}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3ca}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f3ca}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f3ca}\u{1f3fc}\u{2640}",
+                    "\u{1f3ca}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_swimming_tone2:
-            return ["\u{1f3ca}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3ca}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f3ca}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f3ca}\u{1f3fc}\u{2642}",
+                    "\u{1f3ca}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_swimming_tone3:
             return ["\u{1f3ca}\u{1f3fd}"]
         case .woman_swimming_tone3:
-            return ["\u{1f3ca}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3ca}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f3ca}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f3ca}\u{1f3fd}\u{2640}",
+                    "\u{1f3ca}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_swimming_tone3:
-            return ["\u{1f3ca}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3ca}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f3ca}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f3ca}\u{1f3fd}\u{2642}",
+                    "\u{1f3ca}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_swimming_tone4:
             return ["\u{1f3ca}\u{1f3fe}"]
         case .woman_swimming_tone4:
-            return ["\u{1f3ca}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3ca}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f3ca}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f3ca}\u{1f3fe}\u{2640}",
+                    "\u{1f3ca}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_swimming_tone4:
-            return ["\u{1f3ca}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3ca}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f3ca}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f3ca}\u{1f3fe}\u{2642}",
+                    "\u{1f3ca}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_swimming_tone5:
             return ["\u{1f3ca}\u{1f3ff}"]
         case .woman_swimming_tone5:
-            return ["\u{1f3ca}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3ca}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f3ca}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f3ca}\u{1f3ff}\u{2640}",
+                    "\u{1f3ca}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_swimming_tone5:
-            return ["\u{1f3ca}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3ca}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f3ca}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f3ca}\u{1f3ff}\u{2642}",
+                    "\u{1f3ca}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_lifting_weights:
-            return ["\u{1f3cb}",
-                    "\u{1f3cb}\u{fe0f}"]
+            return ["\u{1f3cb}"]
         case .woman_lifting_weights:
-            return ["\u{1f3cb}\u{fe0f}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cb}\u{200d}\u{2640}",
-                    "\u{1f3cb}\u{fe0f}\u{2640}\u{fe0f}",
-                    "\u{1f3cb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cb}\u{fe0f}\u{200d}\u{2640}"]
+            return ["\u{1f3cb}\u{2640}",
+                    "\u{1f3cb}\u{fe0f}\u{200d}\u{2640}\u{fe0f}"]
         case .man_lifting_weights:
-            return ["\u{1f3cb}\u{fe0f}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cb}\u{200d}\u{2642}",
-                    "\u{1f3cb}\u{fe0f}\u{2642}\u{fe0f}",
-                    "\u{1f3cb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cb}\u{fe0f}\u{200d}\u{2642}"]
+            return ["\u{1f3cb}\u{2642}",
+                    "\u{1f3cb}\u{fe0f}\u{200d}\u{2642}\u{fe0f}"]
         case .person_lifting_weights_tone1:
-            return ["\u{1f3cb}\u{1f3fb}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fb}"]
+            return ["\u{1f3cb}\u{1f3fb}"]
         case .woman_lifting_weights_tone1:
-            return ["\u{1f3cb}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cb}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f3cb}\u{1f3fb}\u{2640}",
+                    "\u{1f3cb}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_lifting_weights_tone1:
-            return ["\u{1f3cb}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cb}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f3cb}\u{1f3fb}\u{2642}",
+                    "\u{1f3cb}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_lifting_weights_tone2:
-            return ["\u{1f3cb}\u{1f3fc}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fc}"]
+            return ["\u{1f3cb}\u{1f3fc}"]
         case .woman_lifting_weights_tone2:
-            return ["\u{1f3cb}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cb}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f3cb}\u{1f3fc}\u{2640}",
+                    "\u{1f3cb}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_lifting_weights_tone2:
-            return ["\u{1f3cb}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cb}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f3cb}\u{1f3fc}\u{2642}",
+                    "\u{1f3cb}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_lifting_weights_tone3:
-            return ["\u{1f3cb}\u{1f3fd}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fd}"]
+            return ["\u{1f3cb}\u{1f3fd}"]
         case .woman_lifting_weights_tone3:
-            return ["\u{1f3cb}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cb}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f3cb}\u{1f3fd}\u{2640}",
+                    "\u{1f3cb}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_lifting_weights_tone3:
-            return ["\u{1f3cb}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cb}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f3cb}\u{1f3fd}\u{2642}",
+                    "\u{1f3cb}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_lifting_weights_tone4:
-            return ["\u{1f3cb}\u{1f3fe}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fe}"]
+            return ["\u{1f3cb}\u{1f3fe}"]
         case .woman_lifting_weights_tone4:
-            return ["\u{1f3cb}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cb}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f3cb}\u{1f3fe}\u{2640}",
+                    "\u{1f3cb}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_lifting_weights_tone4:
-            return ["\u{1f3cb}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cb}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f3cb}\u{1f3fe}\u{2642}",
+                    "\u{1f3cb}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_lifting_weights_tone5:
-            return ["\u{1f3cb}\u{1f3ff}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3ff}"]
+            return ["\u{1f3cb}\u{1f3ff}"]
         case .woman_lifting_weights_tone5:
-            return ["\u{1f3cb}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cb}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f3cb}\u{1f3ff}\u{2640}",
+                    "\u{1f3cb}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_lifting_weights_tone5:
-            return ["\u{1f3cb}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cb}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cb}\u{fe0f}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f3cb}\u{1f3ff}\u{2642}",
+                    "\u{1f3cb}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_golfing:
-            return ["\u{1f3cc}",
-                    "\u{1f3cc}\u{fe0f}"]
+            return ["\u{1f3cc}"]
         case .woman_golfing:
-            return ["\u{1f3cc}\u{fe0f}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cc}\u{200d}\u{2640}",
-                    "\u{1f3cc}\u{fe0f}\u{2640}\u{fe0f}",
-                    "\u{1f3cc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cc}\u{fe0f}\u{200d}\u{2640}"]
+            return ["\u{1f3cc}\u{2640}",
+                    "\u{1f3cc}\u{fe0f}\u{200d}\u{2640}\u{fe0f}"]
         case .man_golfing:
-            return ["\u{1f3cc}\u{fe0f}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cc}\u{200d}\u{2642}",
-                    "\u{1f3cc}\u{fe0f}\u{2642}\u{fe0f}",
-                    "\u{1f3cc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cc}\u{fe0f}\u{200d}\u{2642}"]
+            return ["\u{1f3cc}\u{2642}",
+                    "\u{1f3cc}\u{fe0f}\u{200d}\u{2642}\u{fe0f}"]
         case .person_golfing_tone1:
-            return ["\u{1f3cc}\u{1f3fb}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fb}"]
+            return ["\u{1f3cc}\u{1f3fb}"]
         case .woman_golfing_tone1:
-            return ["\u{1f3cc}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cc}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f3cc}\u{1f3fb}\u{2640}",
+                    "\u{1f3cc}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_golfing_tone1:
-            return ["\u{1f3cc}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cc}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f3cc}\u{1f3fb}\u{2642}",
+                    "\u{1f3cc}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_golfing_tone2:
-            return ["\u{1f3cc}\u{1f3fc}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fc}"]
+            return ["\u{1f3cc}\u{1f3fc}"]
         case .woman_golfing_tone2:
-            return ["\u{1f3cc}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cc}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f3cc}\u{1f3fc}\u{2640}",
+                    "\u{1f3cc}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_golfing_tone2:
-            return ["\u{1f3cc}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cc}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f3cc}\u{1f3fc}\u{2642}",
+                    "\u{1f3cc}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_golfing_tone3:
-            return ["\u{1f3cc}\u{1f3fd}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fd}"]
+            return ["\u{1f3cc}\u{1f3fd}"]
         case .woman_golfing_tone3:
-            return ["\u{1f3cc}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cc}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f3cc}\u{1f3fd}\u{2640}",
+                    "\u{1f3cc}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_golfing_tone3:
-            return ["\u{1f3cc}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cc}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f3cc}\u{1f3fd}\u{2642}",
+                    "\u{1f3cc}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_golfing_tone4:
-            return ["\u{1f3cc}\u{1f3fe}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fe}"]
+            return ["\u{1f3cc}\u{1f3fe}"]
         case .woman_golfing_tone4:
-            return ["\u{1f3cc}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cc}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f3cc}\u{1f3fe}\u{2640}",
+                    "\u{1f3cc}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_golfing_tone4:
-            return ["\u{1f3cc}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cc}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f3cc}\u{1f3fe}\u{2642}",
+                    "\u{1f3cc}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_golfing_tone5:
-            return ["\u{1f3cc}\u{1f3ff}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3ff}"]
+            return ["\u{1f3cc}\u{1f3ff}"]
         case .woman_golfing_tone5:
-            return ["\u{1f3cc}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cc}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f3cc}\u{1f3ff}\u{2640}",
+                    "\u{1f3cc}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_golfing_tone5:
-            return ["\u{1f3cc}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cc}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f3cc}\u{fe0f}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f3cc}\u{1f3ff}\u{2642}",
+                    "\u{1f3cc}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .motorcycle:
             return ["\u{1f3cd}",
                     "\u{1f3cd}\u{fe0f}"]
@@ -11952,8 +13692,7 @@ public enum Emoji: CaseIterable {
             return ["\u{1f3df}",
                     "\u{1f3df}\u{fe0f}"]
         case .house:
-            return ["\u{1f3e0}",
-                    "\u{1f3e0}\u{fe0f}"]
+            return ["\u{1f3e0}"]
         case .house_with_garden:
             return ["\u{1f3e1}"]
         case .office:
@@ -11979,8 +13718,7 @@ public enum Emoji: CaseIterable {
         case .department_store:
             return ["\u{1f3ec}"]
         case .factory:
-            return ["\u{1f3ed}",
-                    "\u{1f3ed}\u{fe0f}"]
+            return ["\u{1f3ed}"]
         case .izakaya_lantern:
             return ["\u{1f3ee}"]
         case .japanese_castle:
@@ -11990,16 +13728,17 @@ public enum Emoji: CaseIterable {
         case .flag_white:
             return ["\u{1f3f3}",
                     "\u{1f3f3}\u{fe0f}"]
+        case .transgender_flag:
+            return ["\u{1f3f3}\u{26a7}",
+                    "\u{1f3f3}\u{200d}\u{26a7}\u{fe0f}"]
         case .rainbow_flag:
-            return ["\u{1f3f3}\u{fe0f}\u{200d}\u{1f308}",
-                    "\u{1f3f3}\u{200d}\u{1f308}",
-                    "\u{1f3f3}\u{fe0f}\u{1f308}"]
+            return ["\u{1f3f3}\u{1f308}",
+                    "\u{1f3f3}\u{fe0f}\u{200d}\u{1f308}"]
         case .flag_black:
             return ["\u{1f3f4}"]
         case .pirate_flag:
-            return ["\u{1f3f4}\u{200d}\u{2620}\u{fe0f}",
-                    "\u{1f3f4}\u{200d}\u{2620}",
-                    "\u{1f3f4}\u{2620}\u{fe0f}"]
+            return ["\u{1f3f4}\u{2620}",
+                    "\u{1f3f4}\u{200d}\u{2620}\u{fe0f}"]
         case .england:
             return ["\u{1f3f4}\u{e0067}\u{e0062}\u{e0065}\u{e006e}\u{e0067}\u{e007f}"]
         case .scotland:
@@ -12045,8 +13784,10 @@ public enum Emoji: CaseIterable {
         case .rabbit2:
             return ["\u{1f407}"]
         case .cat2:
-            return ["\u{1f408}",
-                    "\u{1f408}\u{fe0f}"]
+            return ["\u{1f408}"]
+        case .black_cat:
+            return ["\u{1f408}\u{2b1b}",
+                    "\u{1f408}\u{200d}\u{2b1b}"]
         case .dragon:
             return ["\u{1f409}"]
         case .crocodile:
@@ -12072,8 +13813,10 @@ public enum Emoji: CaseIterable {
         case .chicken:
             return ["\u{1f414}"]
         case .dog2:
-            return ["\u{1f415}",
-                    "\u{1f415}\u{fe0f}"]
+            return ["\u{1f415}"]
+        case .service_dog:
+            return ["\u{1f415}\u{1f9ba}",
+                    "\u{1f415}\u{200d}\u{1f9ba}"]
         case .pig2:
             return ["\u{1f416}"]
         case .boar:
@@ -12090,11 +13833,10 @@ public enum Emoji: CaseIterable {
             return ["\u{1f41c}"]
         case .bee:
             return ["\u{1f41d}"]
-        case .beetle:
+        case .lady_beetle:
             return ["\u{1f41e}"]
         case .fish:
-            return ["\u{1f41f}",
-                    "\u{1f41f}\u{fe0f}"]
+            return ["\u{1f41f}"]
         case .tropical_fish:
             return ["\u{1f420}"]
         case .blowfish:
@@ -12108,8 +13850,7 @@ public enum Emoji: CaseIterable {
         case .hatched_chick:
             return ["\u{1f425}"]
         case .bird:
-            return ["\u{1f426}",
-                    "\u{1f426}\u{fe0f}"]
+            return ["\u{1f426}"]
         case .penguin:
             return ["\u{1f427}"]
         case .koala:
@@ -12152,6 +13893,9 @@ public enum Emoji: CaseIterable {
             return ["\u{1f43a}"]
         case .bear:
             return ["\u{1f43b}"]
+        case .polar_bear:
+            return ["\u{1f43b}\u{2744}",
+                    "\u{1f43b}\u{200d}\u{2744}\u{fe0f}"]
         case .panda_face:
             return ["\u{1f43c}"]
         case .pig_nose:
@@ -12167,14 +13911,10 @@ public enum Emoji: CaseIterable {
             return ["\u{1f441}",
                     "\u{1f441}\u{fe0f}"]
         case .eye_in_speech_bubble:
-            return ["\u{1f441}\u{fe0f}\u{200d}\u{1f5e8}\u{fe0f}",
-                    "\u{1f441}\u{200d}\u{1f5e8}",
-                    "\u{1f441}\u{fe0f}\u{1f5e8}\u{fe0f}",
-                    "\u{1f441}\u{200d}\u{1f5e8}\u{fe0f}",
-                    "\u{1f441}\u{fe0f}\u{200d}\u{1f5e8}"]
+            return ["\u{1f441}\u{1f5e8}",
+                    "\u{1f441}\u{fe0f}\u{200d}\u{1f5e8}\u{fe0f}"]
         case .ear:
-            return ["\u{1f442}",
-                    "\u{1f442}\u{fe0f}"]
+            return ["\u{1f442}"]
         case .ear_tone1:
             return ["\u{1f442}\u{1f3fb}"]
         case .ear_tone2:
@@ -12202,8 +13942,7 @@ public enum Emoji: CaseIterable {
         case .tongue:
             return ["\u{1f445}"]
         case .point_up_2:
-            return ["\u{1f446}",
-                    "\u{1f446}\u{fe0f}"]
+            return ["\u{1f446}"]
         case .point_up_2_tone1:
             return ["\u{1f446}\u{1f3fb}"]
         case .point_up_2_tone2:
@@ -12215,8 +13954,7 @@ public enum Emoji: CaseIterable {
         case .point_up_2_tone5:
             return ["\u{1f446}\u{1f3ff}"]
         case .point_down:
-            return ["\u{1f447}",
-                    "\u{1f447}\u{fe0f}"]
+            return ["\u{1f447}"]
         case .point_down_tone1:
             return ["\u{1f447}\u{1f3fb}"]
         case .point_down_tone2:
@@ -12228,8 +13966,7 @@ public enum Emoji: CaseIterable {
         case .point_down_tone5:
             return ["\u{1f447}\u{1f3ff}"]
         case .point_left:
-            return ["\u{1f448}",
-                    "\u{1f448}\u{fe0f}"]
+            return ["\u{1f448}"]
         case .point_left_tone1:
             return ["\u{1f448}\u{1f3fb}"]
         case .point_left_tone2:
@@ -12241,8 +13978,7 @@ public enum Emoji: CaseIterable {
         case .point_left_tone5:
             return ["\u{1f448}\u{1f3ff}"]
         case .point_right:
-            return ["\u{1f449}",
-                    "\u{1f449}\u{fe0f}"]
+            return ["\u{1f449}"]
         case .point_right_tone1:
             return ["\u{1f449}\u{1f3fb}"]
         case .point_right_tone2:
@@ -12290,8 +14026,7 @@ public enum Emoji: CaseIterable {
         case .ok_hand_tone5:
             return ["\u{1f44c}\u{1f3ff}"]
         case .thumbsup:
-            return ["\u{1f44d}",
-                    "\u{1f44d}\u{fe0f}"]
+            return ["\u{1f44d}"]
         case .thumbsup_tone1:
             return ["\u{1f44d}\u{1f3fb}"]
         case .thumbsup_tone2:
@@ -12303,8 +14038,7 @@ public enum Emoji: CaseIterable {
         case .thumbsup_tone5:
             return ["\u{1f44d}\u{1f3ff}"]
         case .thumbsdown:
-            return ["\u{1f44e}",
-                    "\u{1f44e}\u{fe0f}"]
+            return ["\u{1f44e}"]
         case .thumbsdown_tone1:
             return ["\u{1f44e}\u{1f3fb}"]
         case .thumbsdown_tone2:
@@ -12344,8 +14078,7 @@ public enum Emoji: CaseIterable {
         case .womans_hat:
             return ["\u{1f452}"]
         case .eyeglasses:
-            return ["\u{1f453}",
-                    "\u{1f453}\u{fe0f}"]
+            return ["\u{1f453}"]
         case .necktie:
             return ["\u{1f454}"]
         case .shirt:
@@ -12409,1033 +14142,1354 @@ public enum Emoji: CaseIterable {
         case .man:
             return ["\u{1f468}"]
         case .man_health_worker:
-            return ["\u{1f468}\u{200d}\u{2695}\u{fe0f}",
-                    "\u{1f468}\u{200d}\u{2695}",
-                    "\u{1f468}\u{2695}\u{fe0f}"]
+            return ["\u{1f468}\u{2695}",
+                    "\u{1f468}\u{200d}\u{2695}\u{fe0f}"]
         case .man_judge:
-            return ["\u{1f468}\u{200d}\u{2696}\u{fe0f}",
-                    "\u{1f468}\u{200d}\u{2696}",
-                    "\u{1f468}\u{2696}\u{fe0f}"]
+            return ["\u{1f468}\u{2696}",
+                    "\u{1f468}\u{200d}\u{2696}\u{fe0f}"]
         case .man_pilot:
-            return ["\u{1f468}\u{200d}\u{2708}\u{fe0f}",
-                    "\u{1f468}\u{200d}\u{2708}",
-                    "\u{1f468}\u{2708}\u{fe0f}"]
+            return ["\u{1f468}\u{2708}",
+                    "\u{1f468}\u{200d}\u{2708}\u{fe0f}"]
         case .couple_mm:
-            return ["\u{1f468}\u{200d}\u{2764}\u{fe0f}\u{200d}\u{1f468}",
-                    "\u{1f468}\u{200d}\u{2764}\u{200d}\u{1f468}",
-                    "\u{1f468}\u{2764}\u{fe0f}\u{1f468}"]
+            return ["\u{1f468}\u{2764}\u{1f468}",
+                    "\u{1f468}\u{200d}\u{2764}\u{fe0f}\u{200d}\u{1f468}"]
         case .kiss_mm:
-            return ["\u{1f468}\u{200d}\u{2764}\u{fe0f}\u{200d}\u{1f48b}\u{200d}\u{1f468}",
-                    "\u{1f468}\u{200d}\u{2764}\u{200d}\u{1f48b}\u{200d}\u{1f468}",
-                    "\u{1f468}\u{2764}\u{fe0f}\u{1f48b}\u{1f468}"]
+            return ["\u{1f468}\u{2764}\u{1f48b}\u{1f468}",
+                    "\u{1f468}\u{200d}\u{2764}\u{fe0f}\u{200d}\u{1f48b}\u{200d}\u{1f468}"]
         case .man_farmer:
-            return ["\u{1f468}\u{200d}\u{1f33e}",
-                    "\u{1f468}\u{1f33e}"]
+            return ["\u{1f468}\u{1f33e}",
+                    "\u{1f468}\u{200d}\u{1f33e}"]
         case .man_cook:
-            return ["\u{1f468}\u{200d}\u{1f373}",
-                    "\u{1f468}\u{1f373}"]
+            return ["\u{1f468}\u{1f373}",
+                    "\u{1f468}\u{200d}\u{1f373}"]
+        case .man_feeding_baby:
+            return ["\u{1f468}\u{1f37c}",
+                    "\u{1f468}\u{200d}\u{1f37c}"]
         case .man_student:
-            return ["\u{1f468}\u{200d}\u{1f393}",
-                    "\u{1f468}\u{1f393}"]
+            return ["\u{1f468}\u{1f393}",
+                    "\u{1f468}\u{200d}\u{1f393}"]
         case .man_singer:
-            return ["\u{1f468}\u{200d}\u{1f3a4}",
-                    "\u{1f468}\u{1f3a4}"]
+            return ["\u{1f468}\u{1f3a4}",
+                    "\u{1f468}\u{200d}\u{1f3a4}"]
         case .man_artist:
-            return ["\u{1f468}\u{200d}\u{1f3a8}",
-                    "\u{1f468}\u{1f3a8}"]
+            return ["\u{1f468}\u{1f3a8}",
+                    "\u{1f468}\u{200d}\u{1f3a8}"]
         case .man_teacher:
-            return ["\u{1f468}\u{200d}\u{1f3eb}",
-                    "\u{1f468}\u{1f3eb}"]
+            return ["\u{1f468}\u{1f3eb}",
+                    "\u{1f468}\u{200d}\u{1f3eb}"]
         case .man_factory_worker:
-            return ["\u{1f468}\u{200d}\u{1f3ed}",
-                    "\u{1f468}\u{1f3ed}"]
+            return ["\u{1f468}\u{1f3ed}",
+                    "\u{1f468}\u{200d}\u{1f3ed}"]
         case .man_tone1:
             return ["\u{1f468}\u{1f3fb}"]
         case .man_health_worker_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{2695}\u{fe0f}",
-                    "\u{1f468}\u{1f3fb}\u{200d}\u{2695}",
-                    "\u{1f468}\u{1f3fb}\u{2695}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3fb}\u{2695}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{2695}\u{fe0f}"]
         case .man_judge_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{2696}\u{fe0f}",
-                    "\u{1f468}\u{1f3fb}\u{200d}\u{2696}",
-                    "\u{1f468}\u{1f3fb}\u{2696}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3fb}\u{2696}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{2696}\u{fe0f}"]
         case .man_pilot_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{2708}\u{fe0f}",
-                    "\u{1f468}\u{1f3fb}\u{200d}\u{2708}",
-                    "\u{1f468}\u{1f3fb}\u{2708}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3fb}\u{2708}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{2708}\u{fe0f}"]
         case .man_farmer_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f33e}",
-                    "\u{1f468}\u{1f3fb}\u{1f33e}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f33e}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f33e}"]
         case .man_cook_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f373}",
-                    "\u{1f468}\u{1f3fb}\u{1f373}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f373}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f373}"]
+        case .man_feeding_baby_tone1:
+            return ["\u{1f468}\u{1f3fb}\u{1f37c}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f37c}"]
         case .man_student_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f393}",
-                    "\u{1f468}\u{1f3fb}\u{1f393}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f393}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f393}"]
         case .man_singer_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f3a4}",
-                    "\u{1f468}\u{1f3fb}\u{1f3a4}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f3a4}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f3a4}"]
         case .man_artist_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f3a8}",
-                    "\u{1f468}\u{1f3fb}\u{1f3a8}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f3a8}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f3a8}"]
         case .man_teacher_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f3eb}",
-                    "\u{1f468}\u{1f3fb}\u{1f3eb}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f3eb}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f3eb}"]
         case .man_factory_worker_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f3ed}",
-                    "\u{1f468}\u{1f3fb}\u{1f3ed}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f3ed}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f3ed}"]
         case .man_technologist_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f4bb}",
-                    "\u{1f468}\u{1f3fb}\u{1f4bb}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f4bb}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f4bb}"]
         case .man_office_worker_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f4bc}",
-                    "\u{1f468}\u{1f3fb}\u{1f4bc}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f4bc}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f4bc}"]
         case .man_mechanic_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f527}",
-                    "\u{1f468}\u{1f3fb}\u{1f527}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f527}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f527}"]
         case .man_scientist_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f52c}",
-                    "\u{1f468}\u{1f3fb}\u{1f52c}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f52c}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f52c}"]
         case .man_astronaut_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f680}",
-                    "\u{1f468}\u{1f3fb}\u{1f680}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f680}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f680}"]
         case .man_firefighter_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f692}",
-                    "\u{1f468}\u{1f3fb}\u{1f692}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f692}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f692}"]
+        case .men_holding_hands_tone1_tone5:
+            return ["\u{1f468}\u{1f3fb}\u{1f91d}\u{1f468}\u{1f3ff}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3ff}"]
+        case .men_holding_hands_tone1_tone4:
+            return ["\u{1f468}\u{1f3fb}\u{1f91d}\u{1f468}\u{1f3fe}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fe}"]
+        case .men_holding_hands_tone1_tone3:
+            return ["\u{1f468}\u{1f3fb}\u{1f91d}\u{1f468}\u{1f3fd}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fd}"]
+        case .men_holding_hands_tone1_tone2:
+            return ["\u{1f468}\u{1f3fb}\u{1f91d}\u{1f468}\u{1f3fc}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fc}"]
+        case .man_with_probing_cane_tone1:
+            return ["\u{1f468}\u{1f3fb}\u{1f9af}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f9af}"]
         case .man_red_haired_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f9b0}",
-                    "\u{1f468}\u{1f3fb}\u{1f9b0}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f9b0}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f9b0}"]
         case .man_curly_haired_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f9b1}",
-                    "\u{1f468}\u{1f3fb}\u{1f9b1}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f9b1}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f9b1}"]
         case .man_bald_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f9b2}",
-                    "\u{1f468}\u{1f3fb}\u{1f9b2}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f9b2}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f9b2}"]
         case .man_white_haired_tone1:
-            return ["\u{1f468}\u{1f3fb}\u{200d}\u{1f9b3}",
-                    "\u{1f468}\u{1f3fb}\u{1f9b3}"]
+            return ["\u{1f468}\u{1f3fb}\u{1f9b3}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f9b3}"]
+        case .man_in_motorized_wheelchair_tone1:
+            return ["\u{1f468}\u{1f3fb}\u{1f9bc}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f9bc}"]
+        case .man_in_manual_wheelchair_tone1:
+            return ["\u{1f468}\u{1f3fb}\u{1f9bd}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f9bd}"]
         case .man_tone2:
             return ["\u{1f468}\u{1f3fc}"]
         case .man_health_worker_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{2695}\u{fe0f}",
-                    "\u{1f468}\u{1f3fc}\u{200d}\u{2695}",
-                    "\u{1f468}\u{1f3fc}\u{2695}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3fc}\u{2695}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{2695}\u{fe0f}"]
         case .man_judge_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{2696}\u{fe0f}",
-                    "\u{1f468}\u{1f3fc}\u{200d}\u{2696}",
-                    "\u{1f468}\u{1f3fc}\u{2696}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3fc}\u{2696}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{2696}\u{fe0f}"]
         case .man_pilot_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{2708}\u{fe0f}",
-                    "\u{1f468}\u{1f3fc}\u{200d}\u{2708}",
-                    "\u{1f468}\u{1f3fc}\u{2708}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3fc}\u{2708}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{2708}\u{fe0f}"]
         case .man_farmer_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f33e}",
-                    "\u{1f468}\u{1f3fc}\u{1f33e}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f33e}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f33e}"]
         case .man_cook_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f373}",
-                    "\u{1f468}\u{1f3fc}\u{1f373}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f373}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f373}"]
+        case .man_feeding_baby_tone2:
+            return ["\u{1f468}\u{1f3fc}\u{1f37c}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f37c}"]
         case .man_student_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f393}",
-                    "\u{1f468}\u{1f3fc}\u{1f393}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f393}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f393}"]
         case .man_singer_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f3a4}",
-                    "\u{1f468}\u{1f3fc}\u{1f3a4}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f3a4}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f3a4}"]
         case .man_artist_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f3a8}",
-                    "\u{1f468}\u{1f3fc}\u{1f3a8}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f3a8}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f3a8}"]
         case .man_teacher_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f3eb}",
-                    "\u{1f468}\u{1f3fc}\u{1f3eb}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f3eb}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f3eb}"]
         case .man_factory_worker_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f3ed}",
-                    "\u{1f468}\u{1f3fc}\u{1f3ed}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f3ed}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f3ed}"]
         case .man_technologist_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f4bb}",
-                    "\u{1f468}\u{1f3fc}\u{1f4bb}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f4bb}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f4bb}"]
         case .man_office_worker_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f4bc}",
-                    "\u{1f468}\u{1f3fc}\u{1f4bc}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f4bc}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f4bc}"]
         case .man_mechanic_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f527}",
-                    "\u{1f468}\u{1f3fc}\u{1f527}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f527}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f527}"]
         case .man_scientist_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f52c}",
-                    "\u{1f468}\u{1f3fc}\u{1f52c}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f52c}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f52c}"]
         case .man_astronaut_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f680}",
-                    "\u{1f468}\u{1f3fc}\u{1f680}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f680}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f680}"]
         case .man_firefighter_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f692}",
-                    "\u{1f468}\u{1f3fc}\u{1f692}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f692}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f692}"]
+        case .men_holding_hands_tone2_tone5:
+            return ["\u{1f468}\u{1f3fc}\u{1f91d}\u{1f468}\u{1f3ff}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3ff}"]
+        case .men_holding_hands_tone2_tone4:
+            return ["\u{1f468}\u{1f3fc}\u{1f91d}\u{1f468}\u{1f3fe}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fe}"]
+        case .men_holding_hands_tone2_tone3:
+            return ["\u{1f468}\u{1f3fc}\u{1f91d}\u{1f468}\u{1f3fd}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fd}"]
+        case .men_holding_hands_tone2_tone1:
+            return ["\u{1f468}\u{1f3fc}\u{1f91d}\u{1f468}\u{1f3fb}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fb}"]
+        case .man_with_probing_cane_tone2:
+            return ["\u{1f468}\u{1f3fc}\u{1f9af}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f9af}"]
         case .man_red_haired_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f9b0}",
-                    "\u{1f468}\u{1f3fc}\u{1f9b0}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f9b0}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f9b0}"]
         case .man_curly_haired_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f9b1}",
-                    "\u{1f468}\u{1f3fc}\u{1f9b1}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f9b1}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f9b1}"]
         case .man_bald_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f9b2}",
-                    "\u{1f468}\u{1f3fc}\u{1f9b2}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f9b2}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f9b2}"]
         case .man_white_haired_tone2:
-            return ["\u{1f468}\u{1f3fc}\u{200d}\u{1f9b3}",
-                    "\u{1f468}\u{1f3fc}\u{1f9b3}"]
+            return ["\u{1f468}\u{1f3fc}\u{1f9b3}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f9b3}"]
+        case .man_in_motorized_wheelchair_tone2:
+            return ["\u{1f468}\u{1f3fc}\u{1f9bc}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f9bc}"]
+        case .man_in_manual_wheelchair_tone2:
+            return ["\u{1f468}\u{1f3fc}\u{1f9bd}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f9bd}"]
         case .man_tone3:
             return ["\u{1f468}\u{1f3fd}"]
         case .man_health_worker_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{2695}\u{fe0f}",
-                    "\u{1f468}\u{1f3fd}\u{200d}\u{2695}",
-                    "\u{1f468}\u{1f3fd}\u{2695}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3fd}\u{2695}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{2695}\u{fe0f}"]
         case .man_judge_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{2696}\u{fe0f}",
-                    "\u{1f468}\u{1f3fd}\u{200d}\u{2696}",
-                    "\u{1f468}\u{1f3fd}\u{2696}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3fd}\u{2696}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{2696}\u{fe0f}"]
         case .man_pilot_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{2708}\u{fe0f}",
-                    "\u{1f468}\u{1f3fd}\u{200d}\u{2708}",
-                    "\u{1f468}\u{1f3fd}\u{2708}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3fd}\u{2708}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{2708}\u{fe0f}"]
         case .man_farmer_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f33e}",
-                    "\u{1f468}\u{1f3fd}\u{1f33e}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f33e}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f33e}"]
         case .man_cook_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f373}",
-                    "\u{1f468}\u{1f3fd}\u{1f373}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f373}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f373}"]
+        case .man_feeding_baby_tone3:
+            return ["\u{1f468}\u{1f3fd}\u{1f37c}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f37c}"]
         case .man_student_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f393}",
-                    "\u{1f468}\u{1f3fd}\u{1f393}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f393}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f393}"]
         case .man_singer_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f3a4}",
-                    "\u{1f468}\u{1f3fd}\u{1f3a4}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f3a4}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f3a4}"]
         case .man_artist_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f3a8}",
-                    "\u{1f468}\u{1f3fd}\u{1f3a8}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f3a8}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f3a8}"]
         case .man_teacher_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f3eb}",
-                    "\u{1f468}\u{1f3fd}\u{1f3eb}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f3eb}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f3eb}"]
         case .man_factory_worker_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f3ed}",
-                    "\u{1f468}\u{1f3fd}\u{1f3ed}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f3ed}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f3ed}"]
         case .man_technologist_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f4bb}",
-                    "\u{1f468}\u{1f3fd}\u{1f4bb}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f4bb}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f4bb}"]
         case .man_office_worker_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f4bc}",
-                    "\u{1f468}\u{1f3fd}\u{1f4bc}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f4bc}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f4bc}"]
         case .man_mechanic_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f527}",
-                    "\u{1f468}\u{1f3fd}\u{1f527}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f527}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f527}"]
         case .man_scientist_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f52c}",
-                    "\u{1f468}\u{1f3fd}\u{1f52c}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f52c}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f52c}"]
         case .man_astronaut_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f680}",
-                    "\u{1f468}\u{1f3fd}\u{1f680}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f680}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f680}"]
         case .man_firefighter_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f692}",
-                    "\u{1f468}\u{1f3fd}\u{1f692}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f692}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f692}"]
+        case .men_holding_hands_tone3_tone5:
+            return ["\u{1f468}\u{1f3fd}\u{1f91d}\u{1f468}\u{1f3ff}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3ff}"]
+        case .men_holding_hands_tone3_tone4:
+            return ["\u{1f468}\u{1f3fd}\u{1f91d}\u{1f468}\u{1f3fe}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fe}"]
+        case .men_holding_hands_tone3_tone2:
+            return ["\u{1f468}\u{1f3fd}\u{1f91d}\u{1f468}\u{1f3fc}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fc}"]
+        case .men_holding_hands_tone3_tone1:
+            return ["\u{1f468}\u{1f3fd}\u{1f91d}\u{1f468}\u{1f3fb}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fb}"]
+        case .man_with_probing_cane_tone3:
+            return ["\u{1f468}\u{1f3fd}\u{1f9af}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f9af}"]
         case .man_red_haired_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f9b0}",
-                    "\u{1f468}\u{1f3fd}\u{1f9b0}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f9b0}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f9b0}"]
         case .man_curly_haired_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f9b1}",
-                    "\u{1f468}\u{1f3fd}\u{1f9b1}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f9b1}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f9b1}"]
         case .man_bald_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f9b2}",
-                    "\u{1f468}\u{1f3fd}\u{1f9b2}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f9b2}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f9b2}"]
         case .man_white_haired_tone3:
-            return ["\u{1f468}\u{1f3fd}\u{200d}\u{1f9b3}",
-                    "\u{1f468}\u{1f3fd}\u{1f9b3}"]
+            return ["\u{1f468}\u{1f3fd}\u{1f9b3}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f9b3}"]
+        case .man_in_motorized_wheelchair_tone3:
+            return ["\u{1f468}\u{1f3fd}\u{1f9bc}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f9bc}"]
+        case .man_in_manual_wheelchair_tone3:
+            return ["\u{1f468}\u{1f3fd}\u{1f9bd}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f9bd}"]
         case .man_tone4:
             return ["\u{1f468}\u{1f3fe}"]
         case .man_health_worker_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{2695}\u{fe0f}",
-                    "\u{1f468}\u{1f3fe}\u{200d}\u{2695}",
-                    "\u{1f468}\u{1f3fe}\u{2695}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3fe}\u{2695}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{2695}\u{fe0f}"]
         case .man_judge_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{2696}\u{fe0f}",
-                    "\u{1f468}\u{1f3fe}\u{200d}\u{2696}",
-                    "\u{1f468}\u{1f3fe}\u{2696}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3fe}\u{2696}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{2696}\u{fe0f}"]
         case .man_pilot_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{2708}\u{fe0f}",
-                    "\u{1f468}\u{1f3fe}\u{200d}\u{2708}",
-                    "\u{1f468}\u{1f3fe}\u{2708}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3fe}\u{2708}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{2708}\u{fe0f}"]
         case .man_farmer_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f33e}",
-                    "\u{1f468}\u{1f3fe}\u{1f33e}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f33e}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f33e}"]
         case .man_cook_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f373}",
-                    "\u{1f468}\u{1f3fe}\u{1f373}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f373}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f373}"]
+        case .man_feeding_baby_tone4:
+            return ["\u{1f468}\u{1f3fe}\u{1f37c}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f37c}"]
         case .man_student_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f393}",
-                    "\u{1f468}\u{1f3fe}\u{1f393}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f393}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f393}"]
         case .man_singer_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f3a4}",
-                    "\u{1f468}\u{1f3fe}\u{1f3a4}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f3a4}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f3a4}"]
         case .man_artist_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f3a8}",
-                    "\u{1f468}\u{1f3fe}\u{1f3a8}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f3a8}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f3a8}"]
         case .man_teacher_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f3eb}",
-                    "\u{1f468}\u{1f3fe}\u{1f3eb}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f3eb}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f3eb}"]
         case .man_factory_worker_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f3ed}",
-                    "\u{1f468}\u{1f3fe}\u{1f3ed}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f3ed}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f3ed}"]
         case .man_technologist_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f4bb}",
-                    "\u{1f468}\u{1f3fe}\u{1f4bb}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f4bb}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f4bb}"]
         case .man_office_worker_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f4bc}",
-                    "\u{1f468}\u{1f3fe}\u{1f4bc}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f4bc}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f4bc}"]
         case .man_mechanic_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f527}",
-                    "\u{1f468}\u{1f3fe}\u{1f527}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f527}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f527}"]
         case .man_scientist_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f52c}",
-                    "\u{1f468}\u{1f3fe}\u{1f52c}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f52c}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f52c}"]
         case .man_astronaut_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f680}",
-                    "\u{1f468}\u{1f3fe}\u{1f680}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f680}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f680}"]
         case .man_firefighter_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f692}",
-                    "\u{1f468}\u{1f3fe}\u{1f692}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f692}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f692}"]
+        case .men_holding_hands_tone4_tone5:
+            return ["\u{1f468}\u{1f3fe}\u{1f91d}\u{1f468}\u{1f3ff}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3ff}"]
+        case .men_holding_hands_tone4_tone3:
+            return ["\u{1f468}\u{1f3fe}\u{1f91d}\u{1f468}\u{1f3fd}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fd}"]
+        case .men_holding_hands_tone4_tone2:
+            return ["\u{1f468}\u{1f3fe}\u{1f91d}\u{1f468}\u{1f3fc}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fc}"]
+        case .men_holding_hands_tone4_tone1:
+            return ["\u{1f468}\u{1f3fe}\u{1f91d}\u{1f468}\u{1f3fb}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fb}"]
+        case .man_with_probing_cane_tone4:
+            return ["\u{1f468}\u{1f3fe}\u{1f9af}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f9af}"]
         case .man_red_haired_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f9b0}",
-                    "\u{1f468}\u{1f3fe}\u{1f9b0}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f9b0}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f9b0}"]
         case .man_curly_haired_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f9b1}",
-                    "\u{1f468}\u{1f3fe}\u{1f9b1}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f9b1}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f9b1}"]
         case .man_bald_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f9b2}",
-                    "\u{1f468}\u{1f3fe}\u{1f9b2}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f9b2}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f9b2}"]
         case .man_white_haired_tone4:
-            return ["\u{1f468}\u{1f3fe}\u{200d}\u{1f9b3}",
-                    "\u{1f468}\u{1f3fe}\u{1f9b3}"]
+            return ["\u{1f468}\u{1f3fe}\u{1f9b3}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f9b3}"]
+        case .man_in_motorized_wheelchair_tone4:
+            return ["\u{1f468}\u{1f3fe}\u{1f9bc}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f9bc}"]
+        case .man_in_manual_wheelchair_tone4:
+            return ["\u{1f468}\u{1f3fe}\u{1f9bd}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f9bd}"]
         case .man_tone5:
             return ["\u{1f468}\u{1f3ff}"]
         case .man_health_worker_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{2695}\u{fe0f}",
-                    "\u{1f468}\u{1f3ff}\u{200d}\u{2695}",
-                    "\u{1f468}\u{1f3ff}\u{2695}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3ff}\u{2695}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{2695}\u{fe0f}"]
         case .man_judge_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{2696}\u{fe0f}",
-                    "\u{1f468}\u{1f3ff}\u{200d}\u{2696}",
-                    "\u{1f468}\u{1f3ff}\u{2696}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3ff}\u{2696}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{2696}\u{fe0f}"]
         case .man_pilot_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{2708}\u{fe0f}",
-                    "\u{1f468}\u{1f3ff}\u{200d}\u{2708}",
-                    "\u{1f468}\u{1f3ff}\u{2708}\u{fe0f}"]
+            return ["\u{1f468}\u{1f3ff}\u{2708}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{2708}\u{fe0f}"]
         case .man_farmer_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f33e}",
-                    "\u{1f468}\u{1f3ff}\u{1f33e}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f33e}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f33e}"]
         case .man_cook_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f373}",
-                    "\u{1f468}\u{1f3ff}\u{1f373}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f373}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f373}"]
+        case .man_feeding_baby_tone5:
+            return ["\u{1f468}\u{1f3ff}\u{1f37c}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f37c}"]
         case .man_student_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f393}",
-                    "\u{1f468}\u{1f3ff}\u{1f393}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f393}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f393}"]
         case .man_singer_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f3a4}",
-                    "\u{1f468}\u{1f3ff}\u{1f3a4}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f3a4}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f3a4}"]
         case .man_artist_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f3a8}",
-                    "\u{1f468}\u{1f3ff}\u{1f3a8}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f3a8}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f3a8}"]
         case .man_teacher_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f3eb}",
-                    "\u{1f468}\u{1f3ff}\u{1f3eb}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f3eb}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f3eb}"]
         case .man_factory_worker_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f3ed}",
-                    "\u{1f468}\u{1f3ff}\u{1f3ed}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f3ed}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f3ed}"]
         case .man_technologist_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f4bb}",
-                    "\u{1f468}\u{1f3ff}\u{1f4bb}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f4bb}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f4bb}"]
         case .man_office_worker_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f4bc}",
-                    "\u{1f468}\u{1f3ff}\u{1f4bc}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f4bc}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f4bc}"]
         case .man_mechanic_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f527}",
-                    "\u{1f468}\u{1f3ff}\u{1f527}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f527}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f527}"]
         case .man_scientist_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f52c}",
-                    "\u{1f468}\u{1f3ff}\u{1f52c}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f52c}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f52c}"]
         case .man_astronaut_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f680}",
-                    "\u{1f468}\u{1f3ff}\u{1f680}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f680}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f680}"]
         case .man_firefighter_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f692}",
-                    "\u{1f468}\u{1f3ff}\u{1f692}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f692}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f692}"]
+        case .men_holding_hands_tone5_tone4:
+            return ["\u{1f468}\u{1f3ff}\u{1f91d}\u{1f468}\u{1f3fe}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fe}"]
+        case .men_holding_hands_tone5_tone3:
+            return ["\u{1f468}\u{1f3ff}\u{1f91d}\u{1f468}\u{1f3fd}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fd}"]
+        case .men_holding_hands_tone5_tone2:
+            return ["\u{1f468}\u{1f3ff}\u{1f91d}\u{1f468}\u{1f3fc}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fc}"]
+        case .men_holding_hands_tone5_tone1:
+            return ["\u{1f468}\u{1f3ff}\u{1f91d}\u{1f468}\u{1f3fb}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fb}"]
+        case .man_with_probing_cane_tone5:
+            return ["\u{1f468}\u{1f3ff}\u{1f9af}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f9af}"]
         case .man_red_haired_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f9b0}",
-                    "\u{1f468}\u{1f3ff}\u{1f9b0}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f9b0}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f9b0}"]
         case .man_curly_haired_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f9b1}",
-                    "\u{1f468}\u{1f3ff}\u{1f9b1}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f9b1}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f9b1}"]
         case .man_bald_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f9b2}",
-                    "\u{1f468}\u{1f3ff}\u{1f9b2}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f9b2}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f9b2}"]
         case .man_white_haired_tone5:
-            return ["\u{1f468}\u{1f3ff}\u{200d}\u{1f9b3}",
-                    "\u{1f468}\u{1f3ff}\u{1f9b3}"]
+            return ["\u{1f468}\u{1f3ff}\u{1f9b3}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f9b3}"]
+        case .man_in_motorized_wheelchair_tone5:
+            return ["\u{1f468}\u{1f3ff}\u{1f9bc}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f9bc}"]
+        case .man_in_manual_wheelchair_tone5:
+            return ["\u{1f468}\u{1f3ff}\u{1f9bd}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f9bd}"]
         case .family_man_boy:
-            return ["\u{1f468}\u{200d}\u{1f466}",
-                    "\u{1f468}\u{1f466}"]
+            return ["\u{1f468}\u{1f466}",
+                    "\u{1f468}\u{200d}\u{1f466}"]
         case .family_man_boy_boy:
-            return ["\u{1f468}\u{200d}\u{1f466}\u{200d}\u{1f466}",
-                    "\u{1f468}\u{1f466}\u{1f466}"]
+            return ["\u{1f468}\u{1f466}\u{1f466}",
+                    "\u{1f468}\u{200d}\u{1f466}\u{200d}\u{1f466}"]
         case .family_man_girl:
-            return ["\u{1f468}\u{200d}\u{1f467}",
-                    "\u{1f468}\u{1f467}"]
+            return ["\u{1f468}\u{1f467}",
+                    "\u{1f468}\u{200d}\u{1f467}"]
         case .family_man_girl_boy:
-            return ["\u{1f468}\u{200d}\u{1f467}\u{200d}\u{1f466}",
-                    "\u{1f468}\u{1f467}\u{1f466}"]
+            return ["\u{1f468}\u{1f467}\u{1f466}",
+                    "\u{1f468}\u{200d}\u{1f467}\u{200d}\u{1f466}"]
         case .family_man_girl_girl:
-            return ["\u{1f468}\u{200d}\u{1f467}\u{200d}\u{1f467}",
-                    "\u{1f468}\u{1f467}\u{1f467}"]
+            return ["\u{1f468}\u{1f467}\u{1f467}",
+                    "\u{1f468}\u{200d}\u{1f467}\u{200d}\u{1f467}"]
         case .family_mmb:
-            return ["\u{1f468}\u{200d}\u{1f468}\u{200d}\u{1f466}",
-                    "\u{1f468}\u{1f468}\u{1f466}"]
+            return ["\u{1f468}\u{1f468}\u{1f466}",
+                    "\u{1f468}\u{200d}\u{1f468}\u{200d}\u{1f466}"]
         case .family_mmbb:
-            return ["\u{1f468}\u{200d}\u{1f468}\u{200d}\u{1f466}\u{200d}\u{1f466}",
-                    "\u{1f468}\u{1f468}\u{1f466}\u{1f466}"]
+            return ["\u{1f468}\u{1f468}\u{1f466}\u{1f466}",
+                    "\u{1f468}\u{200d}\u{1f468}\u{200d}\u{1f466}\u{200d}\u{1f466}"]
         case .family_mmg:
-            return ["\u{1f468}\u{200d}\u{1f468}\u{200d}\u{1f467}",
-                    "\u{1f468}\u{1f468}\u{1f467}"]
+            return ["\u{1f468}\u{1f468}\u{1f467}",
+                    "\u{1f468}\u{200d}\u{1f468}\u{200d}\u{1f467}"]
         case .family_mmgb:
-            return ["\u{1f468}\u{200d}\u{1f468}\u{200d}\u{1f467}\u{200d}\u{1f466}",
-                    "\u{1f468}\u{1f468}\u{1f467}\u{1f466}"]
+            return ["\u{1f468}\u{1f468}\u{1f467}\u{1f466}",
+                    "\u{1f468}\u{200d}\u{1f468}\u{200d}\u{1f467}\u{200d}\u{1f466}"]
         case .family_mmgg:
-            return ["\u{1f468}\u{200d}\u{1f468}\u{200d}\u{1f467}\u{200d}\u{1f467}",
-                    "\u{1f468}\u{1f468}\u{1f467}\u{1f467}"]
+            return ["\u{1f468}\u{1f468}\u{1f467}\u{1f467}",
+                    "\u{1f468}\u{200d}\u{1f468}\u{200d}\u{1f467}\u{200d}\u{1f467}"]
         case .family_man_woman_boy:
-            return ["\u{1f468}\u{200d}\u{1f469}\u{200d}\u{1f466}",
-                    "\u{1f468}\u{1f469}\u{1f466}"]
+            return ["\u{1f468}\u{1f469}\u{1f466}",
+                    "\u{1f468}\u{200d}\u{1f469}\u{200d}\u{1f466}"]
         case .family_mwbb:
-            return ["\u{1f468}\u{200d}\u{1f469}\u{200d}\u{1f466}\u{200d}\u{1f466}",
-                    "\u{1f468}\u{1f469}\u{1f466}\u{1f466}"]
+            return ["\u{1f468}\u{1f469}\u{1f466}\u{1f466}",
+                    "\u{1f468}\u{200d}\u{1f469}\u{200d}\u{1f466}\u{200d}\u{1f466}"]
         case .family_mwg:
-            return ["\u{1f468}\u{200d}\u{1f469}\u{200d}\u{1f467}",
-                    "\u{1f468}\u{1f469}\u{1f467}"]
+            return ["\u{1f468}\u{1f469}\u{1f467}",
+                    "\u{1f468}\u{200d}\u{1f469}\u{200d}\u{1f467}"]
         case .family_mwgb:
-            return ["\u{1f468}\u{200d}\u{1f469}\u{200d}\u{1f467}\u{200d}\u{1f466}",
-                    "\u{1f468}\u{1f469}\u{1f467}\u{1f466}"]
+            return ["\u{1f468}\u{1f469}\u{1f467}\u{1f466}",
+                    "\u{1f468}\u{200d}\u{1f469}\u{200d}\u{1f467}\u{200d}\u{1f466}"]
         case .family_mwgg:
-            return ["\u{1f468}\u{200d}\u{1f469}\u{200d}\u{1f467}\u{200d}\u{1f467}",
-                    "\u{1f468}\u{1f469}\u{1f467}\u{1f467}"]
+            return ["\u{1f468}\u{1f469}\u{1f467}\u{1f467}",
+                    "\u{1f468}\u{200d}\u{1f469}\u{200d}\u{1f467}\u{200d}\u{1f467}"]
         case .man_technologist:
-            return ["\u{1f468}\u{200d}\u{1f4bb}",
-                    "\u{1f468}\u{1f4bb}"]
+            return ["\u{1f468}\u{1f4bb}",
+                    "\u{1f468}\u{200d}\u{1f4bb}"]
         case .man_office_worker:
-            return ["\u{1f468}\u{200d}\u{1f4bc}",
-                    "\u{1f468}\u{1f4bc}"]
+            return ["\u{1f468}\u{1f4bc}",
+                    "\u{1f468}\u{200d}\u{1f4bc}"]
         case .man_mechanic:
-            return ["\u{1f468}\u{200d}\u{1f527}",
-                    "\u{1f468}\u{1f527}"]
+            return ["\u{1f468}\u{1f527}",
+                    "\u{1f468}\u{200d}\u{1f527}"]
         case .man_scientist:
-            return ["\u{1f468}\u{200d}\u{1f52c}",
-                    "\u{1f468}\u{1f52c}"]
+            return ["\u{1f468}\u{1f52c}",
+                    "\u{1f468}\u{200d}\u{1f52c}"]
         case .man_astronaut:
-            return ["\u{1f468}\u{200d}\u{1f680}",
-                    "\u{1f468}\u{1f680}"]
+            return ["\u{1f468}\u{1f680}",
+                    "\u{1f468}\u{200d}\u{1f680}"]
         case .man_firefighter:
-            return ["\u{1f468}\u{200d}\u{1f692}",
-                    "\u{1f468}\u{1f692}"]
+            return ["\u{1f468}\u{1f692}",
+                    "\u{1f468}\u{200d}\u{1f692}"]
+        case .man_with_probing_cane:
+            return ["\u{1f468}\u{1f9af}",
+                    "\u{1f468}\u{200d}\u{1f9af}"]
         case .man_red_haired:
-            return ["\u{1f468}\u{200d}\u{1f9b0}",
-                    "\u{1f468}\u{1f9b0}"]
+            return ["\u{1f468}\u{1f9b0}",
+                    "\u{1f468}\u{200d}\u{1f9b0}"]
         case .man_curly_haired:
-            return ["\u{1f468}\u{200d}\u{1f9b1}",
-                    "\u{1f468}\u{1f9b1}"]
+            return ["\u{1f468}\u{1f9b1}",
+                    "\u{1f468}\u{200d}\u{1f9b1}"]
         case .man_bald:
-            return ["\u{1f468}\u{200d}\u{1f9b2}",
-                    "\u{1f468}\u{1f9b2}"]
+            return ["\u{1f468}\u{1f9b2}",
+                    "\u{1f468}\u{200d}\u{1f9b2}"]
         case .man_white_haired:
-            return ["\u{1f468}\u{200d}\u{1f9b3}",
-                    "\u{1f468}\u{1f9b3}"]
+            return ["\u{1f468}\u{1f9b3}",
+                    "\u{1f468}\u{200d}\u{1f9b3}"]
+        case .man_in_motorized_wheelchair:
+            return ["\u{1f468}\u{1f9bc}",
+                    "\u{1f468}\u{200d}\u{1f9bc}"]
+        case .man_in_manual_wheelchair:
+            return ["\u{1f468}\u{1f9bd}",
+                    "\u{1f468}\u{200d}\u{1f9bd}"]
         case .woman:
             return ["\u{1f469}"]
         case .woman_health_worker:
-            return ["\u{1f469}\u{200d}\u{2695}\u{fe0f}",
-                    "\u{1f469}\u{200d}\u{2695}",
-                    "\u{1f469}\u{2695}\u{fe0f}"]
+            return ["\u{1f469}\u{2695}",
+                    "\u{1f469}\u{200d}\u{2695}\u{fe0f}"]
         case .woman_judge:
-            return ["\u{1f469}\u{200d}\u{2696}\u{fe0f}",
-                    "\u{1f469}\u{200d}\u{2696}",
-                    "\u{1f469}\u{2696}\u{fe0f}"]
+            return ["\u{1f469}\u{2696}",
+                    "\u{1f469}\u{200d}\u{2696}\u{fe0f}"]
         case .woman_pilot:
-            return ["\u{1f469}\u{200d}\u{2708}\u{fe0f}",
-                    "\u{1f469}\u{200d}\u{2708}",
-                    "\u{1f469}\u{2708}\u{fe0f}"]
+            return ["\u{1f469}\u{2708}",
+                    "\u{1f469}\u{200d}\u{2708}\u{fe0f}"]
         case .couple_with_heart_woman_man:
-            return ["\u{1f469}\u{200d}\u{2764}\u{fe0f}\u{200d}\u{1f468}",
-                    "\u{1f469}\u{200d}\u{2764}\u{200d}\u{1f468}",
-                    "\u{1f469}\u{2764}\u{fe0f}\u{1f468}"]
+            return ["\u{1f469}\u{2764}\u{1f468}",
+                    "\u{1f469}\u{200d}\u{2764}\u{fe0f}\u{200d}\u{1f468}"]
         case .couple_ww:
-            return ["\u{1f469}\u{200d}\u{2764}\u{fe0f}\u{200d}\u{1f469}",
-                    "\u{1f469}\u{200d}\u{2764}\u{200d}\u{1f469}",
-                    "\u{1f469}\u{2764}\u{fe0f}\u{1f469}"]
+            return ["\u{1f469}\u{2764}\u{1f469}",
+                    "\u{1f469}\u{200d}\u{2764}\u{fe0f}\u{200d}\u{1f469}"]
         case .kiss_woman_man:
-            return ["\u{1f469}\u{200d}\u{2764}\u{fe0f}\u{200d}\u{1f48b}\u{200d}\u{1f468}",
-                    "\u{1f469}\u{200d}\u{2764}\u{200d}\u{1f48b}\u{200d}\u{1f468}",
-                    "\u{1f469}\u{2764}\u{fe0f}\u{1f48b}\u{1f468}"]
+            return ["\u{1f469}\u{2764}\u{1f48b}\u{1f468}",
+                    "\u{1f469}\u{200d}\u{2764}\u{fe0f}\u{200d}\u{1f48b}\u{200d}\u{1f468}"]
         case .kiss_ww:
-            return ["\u{1f469}\u{200d}\u{2764}\u{fe0f}\u{200d}\u{1f48b}\u{200d}\u{1f469}",
-                    "\u{1f469}\u{200d}\u{2764}\u{200d}\u{1f48b}\u{200d}\u{1f469}",
-                    "\u{1f469}\u{2764}\u{fe0f}\u{1f48b}\u{1f469}"]
+            return ["\u{1f469}\u{2764}\u{1f48b}\u{1f469}",
+                    "\u{1f469}\u{200d}\u{2764}\u{fe0f}\u{200d}\u{1f48b}\u{200d}\u{1f469}"]
         case .woman_farmer:
-            return ["\u{1f469}\u{200d}\u{1f33e}",
-                    "\u{1f469}\u{1f33e}"]
+            return ["\u{1f469}\u{1f33e}",
+                    "\u{1f469}\u{200d}\u{1f33e}"]
         case .woman_cook:
-            return ["\u{1f469}\u{200d}\u{1f373}",
-                    "\u{1f469}\u{1f373}"]
+            return ["\u{1f469}\u{1f373}",
+                    "\u{1f469}\u{200d}\u{1f373}"]
+        case .woman_feeding_baby:
+            return ["\u{1f469}\u{1f37c}",
+                    "\u{1f469}\u{200d}\u{1f37c}"]
         case .woman_student:
-            return ["\u{1f469}\u{200d}\u{1f393}",
-                    "\u{1f469}\u{1f393}"]
+            return ["\u{1f469}\u{1f393}",
+                    "\u{1f469}\u{200d}\u{1f393}"]
         case .woman_singer:
-            return ["\u{1f469}\u{200d}\u{1f3a4}",
-                    "\u{1f469}\u{1f3a4}"]
+            return ["\u{1f469}\u{1f3a4}",
+                    "\u{1f469}\u{200d}\u{1f3a4}"]
         case .woman_artist:
-            return ["\u{1f469}\u{200d}\u{1f3a8}",
-                    "\u{1f469}\u{1f3a8}"]
+            return ["\u{1f469}\u{1f3a8}",
+                    "\u{1f469}\u{200d}\u{1f3a8}"]
         case .woman_teacher:
-            return ["\u{1f469}\u{200d}\u{1f3eb}",
-                    "\u{1f469}\u{1f3eb}"]
+            return ["\u{1f469}\u{1f3eb}",
+                    "\u{1f469}\u{200d}\u{1f3eb}"]
         case .woman_factory_worker:
-            return ["\u{1f469}\u{200d}\u{1f3ed}",
-                    "\u{1f469}\u{1f3ed}"]
+            return ["\u{1f469}\u{1f3ed}",
+                    "\u{1f469}\u{200d}\u{1f3ed}"]
         case .woman_tone1:
             return ["\u{1f469}\u{1f3fb}"]
         case .woman_health_worker_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{2695}\u{fe0f}",
-                    "\u{1f469}\u{1f3fb}\u{200d}\u{2695}",
-                    "\u{1f469}\u{1f3fb}\u{2695}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3fb}\u{2695}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{2695}\u{fe0f}"]
         case .woman_judge_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{2696}\u{fe0f}",
-                    "\u{1f469}\u{1f3fb}\u{200d}\u{2696}",
-                    "\u{1f469}\u{1f3fb}\u{2696}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3fb}\u{2696}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{2696}\u{fe0f}"]
         case .woman_pilot_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{2708}\u{fe0f}",
-                    "\u{1f469}\u{1f3fb}\u{200d}\u{2708}",
-                    "\u{1f469}\u{1f3fb}\u{2708}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3fb}\u{2708}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{2708}\u{fe0f}"]
         case .woman_farmer_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f33e}",
-                    "\u{1f469}\u{1f3fb}\u{1f33e}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f33e}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f33e}"]
         case .woman_cook_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f373}",
-                    "\u{1f469}\u{1f3fb}\u{1f373}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f373}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f373}"]
+        case .woman_feeding_baby_tone1:
+            return ["\u{1f469}\u{1f3fb}\u{1f37c}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f37c}"]
         case .woman_student_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f393}",
-                    "\u{1f469}\u{1f3fb}\u{1f393}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f393}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f393}"]
         case .woman_singer_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f3a4}",
-                    "\u{1f469}\u{1f3fb}\u{1f3a4}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f3a4}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f3a4}"]
         case .woman_artist_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f3a8}",
-                    "\u{1f469}\u{1f3fb}\u{1f3a8}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f3a8}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f3a8}"]
         case .woman_teacher_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f3eb}",
-                    "\u{1f469}\u{1f3fb}\u{1f3eb}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f3eb}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f3eb}"]
         case .woman_factory_worker_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f3ed}",
-                    "\u{1f469}\u{1f3fb}\u{1f3ed}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f3ed}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f3ed}"]
         case .woman_technologist_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f4bb}",
-                    "\u{1f469}\u{1f3fb}\u{1f4bb}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f4bb}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f4bb}"]
         case .woman_office_worker_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f4bc}",
-                    "\u{1f469}\u{1f3fb}\u{1f4bc}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f4bc}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f4bc}"]
         case .woman_mechanic_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f527}",
-                    "\u{1f469}\u{1f3fb}\u{1f527}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f527}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f527}"]
         case .woman_scientist_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f52c}",
-                    "\u{1f469}\u{1f3fb}\u{1f52c}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f52c}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f52c}"]
         case .woman_astronaut_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f680}",
-                    "\u{1f469}\u{1f3fb}\u{1f680}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f680}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f680}"]
         case .woman_firefighter_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f692}",
-                    "\u{1f469}\u{1f3fb}\u{1f692}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f692}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f692}"]
+        case .woman_and_man_holding_hands_tone1_tone5:
+            return ["\u{1f469}\u{1f3fb}\u{1f91d}\u{1f468}\u{1f3ff}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3ff}"]
+        case .woman_and_man_holding_hands_tone1_tone4:
+            return ["\u{1f469}\u{1f3fb}\u{1f91d}\u{1f468}\u{1f3fe}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fe}"]
+        case .woman_and_man_holding_hands_tone1_tone3:
+            return ["\u{1f469}\u{1f3fb}\u{1f91d}\u{1f468}\u{1f3fd}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fd}"]
+        case .woman_and_man_holding_hands_tone1_tone2:
+            return ["\u{1f469}\u{1f3fb}\u{1f91d}\u{1f468}\u{1f3fc}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fc}"]
+        case .women_holding_hands_tone1_tone5:
+            return ["\u{1f469}\u{1f3fb}\u{1f91d}\u{1f469}\u{1f3ff}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3ff}"]
+        case .women_holding_hands_tone1_tone4:
+            return ["\u{1f469}\u{1f3fb}\u{1f91d}\u{1f469}\u{1f3fe}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fe}"]
+        case .women_holding_hands_tone1_tone3:
+            return ["\u{1f469}\u{1f3fb}\u{1f91d}\u{1f469}\u{1f3fd}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fd}"]
+        case .women_holding_hands_tone1_tone2:
+            return ["\u{1f469}\u{1f3fb}\u{1f91d}\u{1f469}\u{1f3fc}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fc}"]
+        case .woman_with_probing_cane_tone1:
+            return ["\u{1f469}\u{1f3fb}\u{1f9af}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f9af}"]
         case .woman_red_haired_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f9b0}",
-                    "\u{1f469}\u{1f3fb}\u{1f9b0}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f9b0}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f9b0}"]
         case .woman_curly_haired_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f9b1}",
-                    "\u{1f469}\u{1f3fb}\u{1f9b1}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f9b1}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f9b1}"]
         case .woman_bald_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f9b2}",
-                    "\u{1f469}\u{1f3fb}\u{1f9b2}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f9b2}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f9b2}"]
         case .woman_white_haired_tone1:
-            return ["\u{1f469}\u{1f3fb}\u{200d}\u{1f9b3}",
-                    "\u{1f469}\u{1f3fb}\u{1f9b3}"]
+            return ["\u{1f469}\u{1f3fb}\u{1f9b3}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f9b3}"]
+        case .woman_in_motorized_wheelchair_tone1:
+            return ["\u{1f469}\u{1f3fb}\u{1f9bc}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f9bc}"]
+        case .woman_in_manual_wheelchair_tone1:
+            return ["\u{1f469}\u{1f3fb}\u{1f9bd}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f9bd}"]
         case .woman_tone2:
             return ["\u{1f469}\u{1f3fc}"]
         case .woman_health_worker_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{2695}\u{fe0f}",
-                    "\u{1f469}\u{1f3fc}\u{200d}\u{2695}",
-                    "\u{1f469}\u{1f3fc}\u{2695}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3fc}\u{2695}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{2695}\u{fe0f}"]
         case .woman_judge_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{2696}\u{fe0f}",
-                    "\u{1f469}\u{1f3fc}\u{200d}\u{2696}",
-                    "\u{1f469}\u{1f3fc}\u{2696}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3fc}\u{2696}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{2696}\u{fe0f}"]
         case .woman_pilot_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{2708}\u{fe0f}",
-                    "\u{1f469}\u{1f3fc}\u{200d}\u{2708}",
-                    "\u{1f469}\u{1f3fc}\u{2708}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3fc}\u{2708}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{2708}\u{fe0f}"]
         case .woman_farmer_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f33e}",
-                    "\u{1f469}\u{1f3fc}\u{1f33e}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f33e}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f33e}"]
         case .woman_cook_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f373}",
-                    "\u{1f469}\u{1f3fc}\u{1f373}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f373}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f373}"]
+        case .woman_feeding_baby_tone2:
+            return ["\u{1f469}\u{1f3fc}\u{1f37c}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f37c}"]
         case .woman_student_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f393}",
-                    "\u{1f469}\u{1f3fc}\u{1f393}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f393}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f393}"]
         case .woman_singer_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f3a4}",
-                    "\u{1f469}\u{1f3fc}\u{1f3a4}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f3a4}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f3a4}"]
         case .woman_artist_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f3a8}",
-                    "\u{1f469}\u{1f3fc}\u{1f3a8}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f3a8}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f3a8}"]
         case .woman_teacher_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f3eb}",
-                    "\u{1f469}\u{1f3fc}\u{1f3eb}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f3eb}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f3eb}"]
         case .woman_factory_worker_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f3ed}",
-                    "\u{1f469}\u{1f3fc}\u{1f3ed}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f3ed}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f3ed}"]
         case .woman_technologist_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f4bb}",
-                    "\u{1f469}\u{1f3fc}\u{1f4bb}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f4bb}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f4bb}"]
         case .woman_office_worker_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f4bc}",
-                    "\u{1f469}\u{1f3fc}\u{1f4bc}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f4bc}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f4bc}"]
         case .woman_mechanic_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f527}",
-                    "\u{1f469}\u{1f3fc}\u{1f527}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f527}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f527}"]
         case .woman_scientist_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f52c}",
-                    "\u{1f469}\u{1f3fc}\u{1f52c}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f52c}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f52c}"]
         case .woman_astronaut_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f680}",
-                    "\u{1f469}\u{1f3fc}\u{1f680}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f680}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f680}"]
         case .woman_firefighter_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f692}",
-                    "\u{1f469}\u{1f3fc}\u{1f692}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f692}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f692}"]
+        case .woman_and_man_holding_hands_tone2_tone5:
+            return ["\u{1f469}\u{1f3fc}\u{1f91d}\u{1f468}\u{1f3ff}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3ff}"]
+        case .woman_and_man_holding_hands_tone2_tone4:
+            return ["\u{1f469}\u{1f3fc}\u{1f91d}\u{1f468}\u{1f3fe}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fe}"]
+        case .woman_and_man_holding_hands_tone2_tone3:
+            return ["\u{1f469}\u{1f3fc}\u{1f91d}\u{1f468}\u{1f3fd}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fd}"]
+        case .woman_and_man_holding_hands_tone2_tone1:
+            return ["\u{1f469}\u{1f3fc}\u{1f91d}\u{1f468}\u{1f3fb}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fb}"]
+        case .women_holding_hands_tone2_tone5:
+            return ["\u{1f469}\u{1f3fc}\u{1f91d}\u{1f469}\u{1f3ff}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3ff}"]
+        case .women_holding_hands_tone2_tone4:
+            return ["\u{1f469}\u{1f3fc}\u{1f91d}\u{1f469}\u{1f3fe}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fe}"]
+        case .women_holding_hands_tone2_tone3:
+            return ["\u{1f469}\u{1f3fc}\u{1f91d}\u{1f469}\u{1f3fd}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fd}"]
+        case .women_holding_hands_tone2_tone1:
+            return ["\u{1f469}\u{1f3fc}\u{1f91d}\u{1f469}\u{1f3fb}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fb}"]
+        case .woman_with_probing_cane_tone2:
+            return ["\u{1f469}\u{1f3fc}\u{1f9af}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f9af}"]
         case .woman_red_haired_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f9b0}",
-                    "\u{1f469}\u{1f3fc}\u{1f9b0}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f9b0}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f9b0}"]
         case .woman_curly_haired_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f9b1}",
-                    "\u{1f469}\u{1f3fc}\u{1f9b1}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f9b1}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f9b1}"]
         case .woman_bald_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f9b2}",
-                    "\u{1f469}\u{1f3fc}\u{1f9b2}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f9b2}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f9b2}"]
         case .woman_white_haired_tone2:
-            return ["\u{1f469}\u{1f3fc}\u{200d}\u{1f9b3}",
-                    "\u{1f469}\u{1f3fc}\u{1f9b3}"]
+            return ["\u{1f469}\u{1f3fc}\u{1f9b3}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f9b3}"]
+        case .woman_in_motorized_wheelchair_tone2:
+            return ["\u{1f469}\u{1f3fc}\u{1f9bc}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f9bc}"]
+        case .woman_in_manual_wheelchair_tone2:
+            return ["\u{1f469}\u{1f3fc}\u{1f9bd}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f9bd}"]
         case .woman_tone3:
             return ["\u{1f469}\u{1f3fd}"]
         case .woman_health_worker_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{2695}\u{fe0f}",
-                    "\u{1f469}\u{1f3fd}\u{200d}\u{2695}",
-                    "\u{1f469}\u{1f3fd}\u{2695}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3fd}\u{2695}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{2695}\u{fe0f}"]
         case .woman_judge_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{2696}\u{fe0f}",
-                    "\u{1f469}\u{1f3fd}\u{200d}\u{2696}",
-                    "\u{1f469}\u{1f3fd}\u{2696}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3fd}\u{2696}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{2696}\u{fe0f}"]
         case .woman_pilot_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{2708}\u{fe0f}",
-                    "\u{1f469}\u{1f3fd}\u{200d}\u{2708}",
-                    "\u{1f469}\u{1f3fd}\u{2708}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3fd}\u{2708}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{2708}\u{fe0f}"]
         case .woman_farmer_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f33e}",
-                    "\u{1f469}\u{1f3fd}\u{1f33e}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f33e}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f33e}"]
         case .woman_cook_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f373}",
-                    "\u{1f469}\u{1f3fd}\u{1f373}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f373}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f373}"]
+        case .woman_feeding_baby_tone3:
+            return ["\u{1f469}\u{1f3fd}\u{1f37c}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f37c}"]
         case .woman_student_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f393}",
-                    "\u{1f469}\u{1f3fd}\u{1f393}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f393}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f393}"]
         case .woman_singer_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f3a4}",
-                    "\u{1f469}\u{1f3fd}\u{1f3a4}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f3a4}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f3a4}"]
         case .woman_artist_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f3a8}",
-                    "\u{1f469}\u{1f3fd}\u{1f3a8}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f3a8}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f3a8}"]
         case .woman_teacher_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f3eb}",
-                    "\u{1f469}\u{1f3fd}\u{1f3eb}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f3eb}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f3eb}"]
         case .woman_factory_worker_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f3ed}",
-                    "\u{1f469}\u{1f3fd}\u{1f3ed}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f3ed}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f3ed}"]
         case .woman_technologist_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f4bb}",
-                    "\u{1f469}\u{1f3fd}\u{1f4bb}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f4bb}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f4bb}"]
         case .woman_office_worker_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f4bc}",
-                    "\u{1f469}\u{1f3fd}\u{1f4bc}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f4bc}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f4bc}"]
         case .woman_mechanic_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f527}",
-                    "\u{1f469}\u{1f3fd}\u{1f527}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f527}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f527}"]
         case .woman_scientist_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f52c}",
-                    "\u{1f469}\u{1f3fd}\u{1f52c}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f52c}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f52c}"]
         case .woman_astronaut_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f680}",
-                    "\u{1f469}\u{1f3fd}\u{1f680}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f680}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f680}"]
         case .woman_firefighter_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f692}",
-                    "\u{1f469}\u{1f3fd}\u{1f692}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f692}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f692}"]
+        case .woman_and_man_holding_hands_tone3_tone5:
+            return ["\u{1f469}\u{1f3fd}\u{1f91d}\u{1f468}\u{1f3ff}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3ff}"]
+        case .woman_and_man_holding_hands_tone3_tone4:
+            return ["\u{1f469}\u{1f3fd}\u{1f91d}\u{1f468}\u{1f3fe}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fe}"]
+        case .woman_and_man_holding_hands_tone3_tone2:
+            return ["\u{1f469}\u{1f3fd}\u{1f91d}\u{1f468}\u{1f3fc}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fc}"]
+        case .woman_and_man_holding_hands_tone3_tone1:
+            return ["\u{1f469}\u{1f3fd}\u{1f91d}\u{1f468}\u{1f3fb}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fb}"]
+        case .women_holding_hands_tone3_tone5:
+            return ["\u{1f469}\u{1f3fd}\u{1f91d}\u{1f469}\u{1f3ff}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3ff}"]
+        case .women_holding_hands_tone3_tone4:
+            return ["\u{1f469}\u{1f3fd}\u{1f91d}\u{1f469}\u{1f3fe}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fe}"]
+        case .women_holding_hands_tone3_tone2:
+            return ["\u{1f469}\u{1f3fd}\u{1f91d}\u{1f469}\u{1f3fc}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fc}"]
+        case .women_holding_hands_tone3_tone1:
+            return ["\u{1f469}\u{1f3fd}\u{1f91d}\u{1f469}\u{1f3fb}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fb}"]
+        case .woman_with_probing_cane_tone3:
+            return ["\u{1f469}\u{1f3fd}\u{1f9af}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f9af}"]
         case .woman_red_haired_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f9b0}",
-                    "\u{1f469}\u{1f3fd}\u{1f9b0}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f9b0}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f9b0}"]
         case .woman_curly_haired_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f9b1}",
-                    "\u{1f469}\u{1f3fd}\u{1f9b1}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f9b1}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f9b1}"]
         case .woman_bald_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f9b2}",
-                    "\u{1f469}\u{1f3fd}\u{1f9b2}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f9b2}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f9b2}"]
         case .woman_white_haired_tone3:
-            return ["\u{1f469}\u{1f3fd}\u{200d}\u{1f9b3}",
-                    "\u{1f469}\u{1f3fd}\u{1f9b3}"]
+            return ["\u{1f469}\u{1f3fd}\u{1f9b3}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f9b3}"]
+        case .woman_in_motorized_wheelchair_tone3:
+            return ["\u{1f469}\u{1f3fd}\u{1f9bc}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f9bc}"]
+        case .woman_in_manual_wheelchair_tone3:
+            return ["\u{1f469}\u{1f3fd}\u{1f9bd}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f9bd}"]
         case .woman_tone4:
             return ["\u{1f469}\u{1f3fe}"]
         case .woman_health_worker_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{2695}\u{fe0f}",
-                    "\u{1f469}\u{1f3fe}\u{200d}\u{2695}",
-                    "\u{1f469}\u{1f3fe}\u{2695}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3fe}\u{2695}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{2695}\u{fe0f}"]
         case .woman_judge_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{2696}\u{fe0f}",
-                    "\u{1f469}\u{1f3fe}\u{200d}\u{2696}",
-                    "\u{1f469}\u{1f3fe}\u{2696}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3fe}\u{2696}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{2696}\u{fe0f}"]
         case .woman_pilot_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{2708}\u{fe0f}",
-                    "\u{1f469}\u{1f3fe}\u{200d}\u{2708}",
-                    "\u{1f469}\u{1f3fe}\u{2708}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3fe}\u{2708}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{2708}\u{fe0f}"]
         case .woman_farmer_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f33e}",
-                    "\u{1f469}\u{1f3fe}\u{1f33e}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f33e}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f33e}"]
         case .woman_cook_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f373}",
-                    "\u{1f469}\u{1f3fe}\u{1f373}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f373}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f373}"]
+        case .woman_feeding_baby_tone4:
+            return ["\u{1f469}\u{1f3fe}\u{1f37c}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f37c}"]
         case .woman_student_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f393}",
-                    "\u{1f469}\u{1f3fe}\u{1f393}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f393}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f393}"]
         case .woman_singer_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f3a4}",
-                    "\u{1f469}\u{1f3fe}\u{1f3a4}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f3a4}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f3a4}"]
         case .woman_artist_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f3a8}",
-                    "\u{1f469}\u{1f3fe}\u{1f3a8}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f3a8}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f3a8}"]
         case .woman_teacher_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f3eb}",
-                    "\u{1f469}\u{1f3fe}\u{1f3eb}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f3eb}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f3eb}"]
         case .woman_factory_worker_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f3ed}",
-                    "\u{1f469}\u{1f3fe}\u{1f3ed}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f3ed}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f3ed}"]
         case .woman_technologist_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f4bb}",
-                    "\u{1f469}\u{1f3fe}\u{1f4bb}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f4bb}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f4bb}"]
         case .woman_office_worker_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f4bc}",
-                    "\u{1f469}\u{1f3fe}\u{1f4bc}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f4bc}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f4bc}"]
         case .woman_mechanic_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f527}",
-                    "\u{1f469}\u{1f3fe}\u{1f527}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f527}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f527}"]
         case .woman_scientist_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f52c}",
-                    "\u{1f469}\u{1f3fe}\u{1f52c}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f52c}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f52c}"]
         case .woman_astronaut_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f680}",
-                    "\u{1f469}\u{1f3fe}\u{1f680}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f680}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f680}"]
         case .woman_firefighter_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f692}",
-                    "\u{1f469}\u{1f3fe}\u{1f692}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f692}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f692}"]
+        case .woman_and_man_holding_hands_tone4_tone5:
+            return ["\u{1f469}\u{1f3fe}\u{1f91d}\u{1f468}\u{1f3ff}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3ff}"]
+        case .woman_and_man_holding_hands_tone4_tone3:
+            return ["\u{1f469}\u{1f3fe}\u{1f91d}\u{1f468}\u{1f3fd}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fd}"]
+        case .woman_and_man_holding_hands_tone4_tone2:
+            return ["\u{1f469}\u{1f3fe}\u{1f91d}\u{1f468}\u{1f3fc}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fc}"]
+        case .woman_and_man_holding_hands_tone4_tone1:
+            return ["\u{1f469}\u{1f3fe}\u{1f91d}\u{1f468}\u{1f3fb}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fb}"]
+        case .women_holding_hands_tone4_tone5:
+            return ["\u{1f469}\u{1f3fe}\u{1f91d}\u{1f469}\u{1f3ff}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3ff}"]
+        case .women_holding_hands_tone4_tone3:
+            return ["\u{1f469}\u{1f3fe}\u{1f91d}\u{1f469}\u{1f3fd}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fd}"]
+        case .women_holding_hands_tone4_tone2:
+            return ["\u{1f469}\u{1f3fe}\u{1f91d}\u{1f469}\u{1f3fc}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fc}"]
+        case .women_holding_hands_tone4_tone1:
+            return ["\u{1f469}\u{1f3fe}\u{1f91d}\u{1f469}\u{1f3fb}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fb}"]
+        case .woman_with_probing_cane_tone4:
+            return ["\u{1f469}\u{1f3fe}\u{1f9af}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f9af}"]
         case .woman_red_haired_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f9b0}",
-                    "\u{1f469}\u{1f3fe}\u{1f9b0}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f9b0}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f9b0}"]
         case .woman_curly_haired_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f9b1}",
-                    "\u{1f469}\u{1f3fe}\u{1f9b1}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f9b1}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f9b1}"]
         case .woman_bald_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f9b2}",
-                    "\u{1f469}\u{1f3fe}\u{1f9b2}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f9b2}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f9b2}"]
         case .woman_white_haired_tone4:
-            return ["\u{1f469}\u{1f3fe}\u{200d}\u{1f9b3}",
-                    "\u{1f469}\u{1f3fe}\u{1f9b3}"]
+            return ["\u{1f469}\u{1f3fe}\u{1f9b3}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f9b3}"]
+        case .woman_in_motorized_wheelchair_tone4:
+            return ["\u{1f469}\u{1f3fe}\u{1f9bc}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f9bc}"]
+        case .woman_in_manual_wheelchair_tone4:
+            return ["\u{1f469}\u{1f3fe}\u{1f9bd}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f9bd}"]
         case .woman_tone5:
             return ["\u{1f469}\u{1f3ff}"]
         case .woman_health_worker_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{2695}\u{fe0f}",
-                    "\u{1f469}\u{1f3ff}\u{200d}\u{2695}",
-                    "\u{1f469}\u{1f3ff}\u{2695}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3ff}\u{2695}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{2695}\u{fe0f}"]
         case .woman_judge_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{2696}\u{fe0f}",
-                    "\u{1f469}\u{1f3ff}\u{200d}\u{2696}",
-                    "\u{1f469}\u{1f3ff}\u{2696}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3ff}\u{2696}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{2696}\u{fe0f}"]
         case .woman_pilot_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{2708}\u{fe0f}",
-                    "\u{1f469}\u{1f3ff}\u{200d}\u{2708}",
-                    "\u{1f469}\u{1f3ff}\u{2708}\u{fe0f}"]
+            return ["\u{1f469}\u{1f3ff}\u{2708}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{2708}\u{fe0f}"]
         case .woman_farmer_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f33e}",
-                    "\u{1f469}\u{1f3ff}\u{1f33e}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f33e}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f33e}"]
         case .woman_cook_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f373}",
-                    "\u{1f469}\u{1f3ff}\u{1f373}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f373}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f373}"]
+        case .woman_feeding_baby_tone5:
+            return ["\u{1f469}\u{1f3ff}\u{1f37c}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f37c}"]
         case .woman_student_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f393}",
-                    "\u{1f469}\u{1f3ff}\u{1f393}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f393}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f393}"]
         case .woman_singer_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f3a4}",
-                    "\u{1f469}\u{1f3ff}\u{1f3a4}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f3a4}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f3a4}"]
         case .woman_artist_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f3a8}",
-                    "\u{1f469}\u{1f3ff}\u{1f3a8}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f3a8}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f3a8}"]
         case .woman_teacher_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f3eb}",
-                    "\u{1f469}\u{1f3ff}\u{1f3eb}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f3eb}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f3eb}"]
         case .woman_factory_worker_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f3ed}",
-                    "\u{1f469}\u{1f3ff}\u{1f3ed}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f3ed}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f3ed}"]
         case .woman_technologist_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f4bb}",
-                    "\u{1f469}\u{1f3ff}\u{1f4bb}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f4bb}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f4bb}"]
         case .woman_office_worker_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f4bc}",
-                    "\u{1f469}\u{1f3ff}\u{1f4bc}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f4bc}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f4bc}"]
         case .woman_mechanic_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f527}",
-                    "\u{1f469}\u{1f3ff}\u{1f527}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f527}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f527}"]
         case .woman_scientist_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f52c}",
-                    "\u{1f469}\u{1f3ff}\u{1f52c}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f52c}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f52c}"]
         case .woman_astronaut_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f680}",
-                    "\u{1f469}\u{1f3ff}\u{1f680}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f680}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f680}"]
         case .woman_firefighter_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f692}",
-                    "\u{1f469}\u{1f3ff}\u{1f692}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f692}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f692}"]
+        case .woman_and_man_holding_hands_tone5_tone4:
+            return ["\u{1f469}\u{1f3ff}\u{1f91d}\u{1f468}\u{1f3fe}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fe}"]
+        case .woman_and_man_holding_hands_tone5_tone3:
+            return ["\u{1f469}\u{1f3ff}\u{1f91d}\u{1f468}\u{1f3fd}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fd}"]
+        case .woman_and_man_holding_hands_tone5_tone2:
+            return ["\u{1f469}\u{1f3ff}\u{1f91d}\u{1f468}\u{1f3fc}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fc}"]
+        case .woman_and_man_holding_hands_tone5_tone1:
+            return ["\u{1f469}\u{1f3ff}\u{1f91d}\u{1f468}\u{1f3fb}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f468}\u{1f3fb}"]
+        case .women_holding_hands_tone5_tone4:
+            return ["\u{1f469}\u{1f3ff}\u{1f91d}\u{1f469}\u{1f3fe}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fe}"]
+        case .women_holding_hands_tone5_tone3:
+            return ["\u{1f469}\u{1f3ff}\u{1f91d}\u{1f469}\u{1f3fd}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fd}"]
+        case .women_holding_hands_tone5_tone2:
+            return ["\u{1f469}\u{1f3ff}\u{1f91d}\u{1f469}\u{1f3fc}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fc}"]
+        case .women_holding_hands_tone5_tone1:
+            return ["\u{1f469}\u{1f3ff}\u{1f91d}\u{1f469}\u{1f3fb}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f469}\u{1f3fb}"]
+        case .woman_with_probing_cane_tone5:
+            return ["\u{1f469}\u{1f3ff}\u{1f9af}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f9af}"]
         case .woman_red_haired_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f9b0}",
-                    "\u{1f469}\u{1f3ff}\u{1f9b0}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f9b0}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f9b0}"]
         case .woman_curly_haired_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f9b1}",
-                    "\u{1f469}\u{1f3ff}\u{1f9b1}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f9b1}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f9b1}"]
         case .woman_bald_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f9b2}",
-                    "\u{1f469}\u{1f3ff}\u{1f9b2}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f9b2}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f9b2}"]
         case .woman_white_haired_tone5:
-            return ["\u{1f469}\u{1f3ff}\u{200d}\u{1f9b3}",
-                    "\u{1f469}\u{1f3ff}\u{1f9b3}"]
+            return ["\u{1f469}\u{1f3ff}\u{1f9b3}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f9b3}"]
+        case .woman_in_motorized_wheelchair_tone5:
+            return ["\u{1f469}\u{1f3ff}\u{1f9bc}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f9bc}"]
+        case .woman_in_manual_wheelchair_tone5:
+            return ["\u{1f469}\u{1f3ff}\u{1f9bd}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f9bd}"]
         case .family_woman_boy:
-            return ["\u{1f469}\u{200d}\u{1f466}",
-                    "\u{1f469}\u{1f466}"]
+            return ["\u{1f469}\u{1f466}",
+                    "\u{1f469}\u{200d}\u{1f466}"]
         case .family_woman_boy_boy:
-            return ["\u{1f469}\u{200d}\u{1f466}\u{200d}\u{1f466}",
-                    "\u{1f469}\u{1f466}\u{1f466}"]
+            return ["\u{1f469}\u{1f466}\u{1f466}",
+                    "\u{1f469}\u{200d}\u{1f466}\u{200d}\u{1f466}"]
         case .family_woman_girl:
-            return ["\u{1f469}\u{200d}\u{1f467}",
-                    "\u{1f469}\u{1f467}"]
+            return ["\u{1f469}\u{1f467}",
+                    "\u{1f469}\u{200d}\u{1f467}"]
         case .family_woman_girl_boy:
-            return ["\u{1f469}\u{200d}\u{1f467}\u{200d}\u{1f466}",
-                    "\u{1f469}\u{1f467}\u{1f466}"]
+            return ["\u{1f469}\u{1f467}\u{1f466}",
+                    "\u{1f469}\u{200d}\u{1f467}\u{200d}\u{1f466}"]
         case .family_woman_girl_girl:
-            return ["\u{1f469}\u{200d}\u{1f467}\u{200d}\u{1f467}",
-                    "\u{1f469}\u{1f467}\u{1f467}"]
+            return ["\u{1f469}\u{1f467}\u{1f467}",
+                    "\u{1f469}\u{200d}\u{1f467}\u{200d}\u{1f467}"]
         case .family_wwb:
-            return ["\u{1f469}\u{200d}\u{1f469}\u{200d}\u{1f466}",
-                    "\u{1f469}\u{1f469}\u{1f466}"]
+            return ["\u{1f469}\u{1f469}\u{1f466}",
+                    "\u{1f469}\u{200d}\u{1f469}\u{200d}\u{1f466}"]
         case .family_wwbb:
-            return ["\u{1f469}\u{200d}\u{1f469}\u{200d}\u{1f466}\u{200d}\u{1f466}",
-                    "\u{1f469}\u{1f469}\u{1f466}\u{1f466}"]
+            return ["\u{1f469}\u{1f469}\u{1f466}\u{1f466}",
+                    "\u{1f469}\u{200d}\u{1f469}\u{200d}\u{1f466}\u{200d}\u{1f466}"]
         case .family_wwg:
-            return ["\u{1f469}\u{200d}\u{1f469}\u{200d}\u{1f467}",
-                    "\u{1f469}\u{1f469}\u{1f467}"]
+            return ["\u{1f469}\u{1f469}\u{1f467}",
+                    "\u{1f469}\u{200d}\u{1f469}\u{200d}\u{1f467}"]
         case .family_wwgb:
-            return ["\u{1f469}\u{200d}\u{1f469}\u{200d}\u{1f467}\u{200d}\u{1f466}",
-                    "\u{1f469}\u{1f469}\u{1f467}\u{1f466}"]
+            return ["\u{1f469}\u{1f469}\u{1f467}\u{1f466}",
+                    "\u{1f469}\u{200d}\u{1f469}\u{200d}\u{1f467}\u{200d}\u{1f466}"]
         case .family_wwgg:
-            return ["\u{1f469}\u{200d}\u{1f469}\u{200d}\u{1f467}\u{200d}\u{1f467}",
-                    "\u{1f469}\u{1f469}\u{1f467}\u{1f467}"]
+            return ["\u{1f469}\u{1f469}\u{1f467}\u{1f467}",
+                    "\u{1f469}\u{200d}\u{1f469}\u{200d}\u{1f467}\u{200d}\u{1f467}"]
         case .woman_technologist:
-            return ["\u{1f469}\u{200d}\u{1f4bb}",
-                    "\u{1f469}\u{1f4bb}"]
+            return ["\u{1f469}\u{1f4bb}",
+                    "\u{1f469}\u{200d}\u{1f4bb}"]
         case .woman_office_worker:
-            return ["\u{1f469}\u{200d}\u{1f4bc}",
-                    "\u{1f469}\u{1f4bc}"]
+            return ["\u{1f469}\u{1f4bc}",
+                    "\u{1f469}\u{200d}\u{1f4bc}"]
         case .woman_mechanic:
-            return ["\u{1f469}\u{200d}\u{1f527}",
-                    "\u{1f469}\u{1f527}"]
+            return ["\u{1f469}\u{1f527}",
+                    "\u{1f469}\u{200d}\u{1f527}"]
         case .woman_scientist:
-            return ["\u{1f469}\u{200d}\u{1f52c}",
-                    "\u{1f469}\u{1f52c}"]
+            return ["\u{1f469}\u{1f52c}",
+                    "\u{1f469}\u{200d}\u{1f52c}"]
         case .woman_astronaut:
-            return ["\u{1f469}\u{200d}\u{1f680}",
-                    "\u{1f469}\u{1f680}"]
+            return ["\u{1f469}\u{1f680}",
+                    "\u{1f469}\u{200d}\u{1f680}"]
         case .woman_firefighter:
-            return ["\u{1f469}\u{200d}\u{1f692}",
-                    "\u{1f469}\u{1f692}"]
+            return ["\u{1f469}\u{1f692}",
+                    "\u{1f469}\u{200d}\u{1f692}"]
+        case .woman_with_probing_cane:
+            return ["\u{1f469}\u{1f9af}",
+                    "\u{1f469}\u{200d}\u{1f9af}"]
         case .woman_red_haired:
-            return ["\u{1f469}\u{200d}\u{1f9b0}",
-                    "\u{1f469}\u{1f9b0}"]
+            return ["\u{1f469}\u{1f9b0}",
+                    "\u{1f469}\u{200d}\u{1f9b0}"]
         case .woman_curly_haired:
-            return ["\u{1f469}\u{200d}\u{1f9b1}",
-                    "\u{1f469}\u{1f9b1}"]
+            return ["\u{1f469}\u{1f9b1}",
+                    "\u{1f469}\u{200d}\u{1f9b1}"]
         case .woman_bald:
-            return ["\u{1f469}\u{200d}\u{1f9b2}",
-                    "\u{1f469}\u{1f9b2}"]
+            return ["\u{1f469}\u{1f9b2}",
+                    "\u{1f469}\u{200d}\u{1f9b2}"]
         case .woman_white_haired:
-            return ["\u{1f469}\u{200d}\u{1f9b3}",
-                    "\u{1f469}\u{1f9b3}"]
+            return ["\u{1f469}\u{1f9b3}",
+                    "\u{1f469}\u{200d}\u{1f9b3}"]
+        case .woman_in_motorized_wheelchair:
+            return ["\u{1f469}\u{1f9bc}",
+                    "\u{1f469}\u{200d}\u{1f9bc}"]
+        case .woman_in_manual_wheelchair:
+            return ["\u{1f469}\u{1f9bd}",
+                    "\u{1f469}\u{200d}\u{1f9bd}"]
         case .family:
-            return ["\u{1f46a}",
-                    "\u{1f46a}\u{fe0f}"]
+            return ["\u{1f46a}"]
         case .couple:
             return ["\u{1f46b}"]
+        case .woman_and_man_holding_hands_tone1:
+            return ["\u{1f46b}\u{1f3fb}"]
+        case .woman_and_man_holding_hands_tone2:
+            return ["\u{1f46b}\u{1f3fc}"]
+        case .woman_and_man_holding_hands_tone3:
+            return ["\u{1f46b}\u{1f3fd}"]
+        case .woman_and_man_holding_hands_tone4:
+            return ["\u{1f46b}\u{1f3fe}"]
+        case .woman_and_man_holding_hands_tone5:
+            return ["\u{1f46b}\u{1f3ff}"]
         case .two_men_holding_hands:
             return ["\u{1f46c}"]
+        case .men_holding_hands_tone1:
+            return ["\u{1f46c}\u{1f3fb}"]
+        case .men_holding_hands_tone2:
+            return ["\u{1f46c}\u{1f3fc}"]
+        case .men_holding_hands_tone3:
+            return ["\u{1f46c}\u{1f3fd}"]
+        case .men_holding_hands_tone4:
+            return ["\u{1f46c}\u{1f3fe}"]
+        case .men_holding_hands_tone5:
+            return ["\u{1f46c}\u{1f3ff}"]
         case .two_women_holding_hands:
             return ["\u{1f46d}"]
+        case .women_holding_hands_tone1:
+            return ["\u{1f46d}\u{1f3fb}"]
+        case .women_holding_hands_tone2:
+            return ["\u{1f46d}\u{1f3fc}"]
+        case .women_holding_hands_tone3:
+            return ["\u{1f46d}\u{1f3fd}"]
+        case .women_holding_hands_tone4:
+            return ["\u{1f46d}\u{1f3fe}"]
+        case .women_holding_hands_tone5:
+            return ["\u{1f46d}\u{1f3ff}"]
         case .police_officer:
             return ["\u{1f46e}"]
         case .woman_police_officer:
-            return ["\u{1f46e}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f46e}\u{200d}\u{2640}",
-                    "\u{1f46e}\u{2640}\u{fe0f}"]
+            return ["\u{1f46e}\u{2640}",
+                    "\u{1f46e}\u{200d}\u{2640}\u{fe0f}"]
         case .man_police_officer:
-            return ["\u{1f46e}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f46e}\u{200d}\u{2642}",
-                    "\u{1f46e}\u{2642}\u{fe0f}"]
+            return ["\u{1f46e}\u{2642}",
+                    "\u{1f46e}\u{200d}\u{2642}\u{fe0f}"]
         case .police_officer_tone1:
             return ["\u{1f46e}\u{1f3fb}"]
         case .woman_police_officer_tone1:
-            return ["\u{1f46e}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f46e}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f46e}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f46e}\u{1f3fb}\u{2640}",
+                    "\u{1f46e}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_police_officer_tone1:
-            return ["\u{1f46e}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f46e}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f46e}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f46e}\u{1f3fb}\u{2642}",
+                    "\u{1f46e}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .police_officer_tone2:
             return ["\u{1f46e}\u{1f3fc}"]
         case .woman_police_officer_tone2:
-            return ["\u{1f46e}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f46e}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f46e}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f46e}\u{1f3fc}\u{2640}",
+                    "\u{1f46e}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_police_officer_tone2:
-            return ["\u{1f46e}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f46e}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f46e}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f46e}\u{1f3fc}\u{2642}",
+                    "\u{1f46e}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .police_officer_tone3:
             return ["\u{1f46e}\u{1f3fd}"]
         case .woman_police_officer_tone3:
-            return ["\u{1f46e}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f46e}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f46e}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f46e}\u{1f3fd}\u{2640}",
+                    "\u{1f46e}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_police_officer_tone3:
-            return ["\u{1f46e}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f46e}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f46e}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f46e}\u{1f3fd}\u{2642}",
+                    "\u{1f46e}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .police_officer_tone4:
             return ["\u{1f46e}\u{1f3fe}"]
         case .woman_police_officer_tone4:
-            return ["\u{1f46e}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f46e}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f46e}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f46e}\u{1f3fe}\u{2640}",
+                    "\u{1f46e}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_police_officer_tone4:
-            return ["\u{1f46e}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f46e}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f46e}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f46e}\u{1f3fe}\u{2642}",
+                    "\u{1f46e}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .police_officer_tone5:
             return ["\u{1f46e}\u{1f3ff}"]
         case .woman_police_officer_tone5:
-            return ["\u{1f46e}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f46e}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f46e}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f46e}\u{1f3ff}\u{2640}",
+                    "\u{1f46e}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_police_officer_tone5:
-            return ["\u{1f46e}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f46e}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f46e}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f46e}\u{1f3ff}\u{2642}",
+                    "\u{1f46e}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .people_with_bunny_ears_partying:
             return ["\u{1f46f}"]
         case .women_with_bunny_ears_partying:
-            return ["\u{1f46f}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f46f}\u{200d}\u{2640}",
-                    "\u{1f46f}\u{2640}\u{fe0f}"]
+            return ["\u{1f46f}\u{2640}",
+                    "\u{1f46f}\u{200d}\u{2640}\u{fe0f}"]
         case .men_with_bunny_ears_partying:
-            return ["\u{1f46f}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f46f}\u{200d}\u{2642}",
-                    "\u{1f46f}\u{2642}\u{fe0f}"]
-        case .bride_with_veil:
+            return ["\u{1f46f}\u{2642}",
+                    "\u{1f46f}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_with_veil:
             return ["\u{1f470}"]
-        case .bride_with_veil_tone1:
+        case .woman_with_veil:
+            return ["\u{1f470}\u{2640}",
+                    "\u{1f470}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_with_veil:
+            return ["\u{1f470}\u{2642}",
+                    "\u{1f470}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_with_veil_tone1:
             return ["\u{1f470}\u{1f3fb}"]
-        case .bride_with_veil_tone2:
+        case .woman_with_veil_tone1:
+            return ["\u{1f470}\u{1f3fb}\u{2640}",
+                    "\u{1f470}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_with_veil_tone1:
+            return ["\u{1f470}\u{1f3fb}\u{2642}",
+                    "\u{1f470}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_with_veil_tone2:
             return ["\u{1f470}\u{1f3fc}"]
-        case .bride_with_veil_tone3:
+        case .woman_with_veil_tone2:
+            return ["\u{1f470}\u{1f3fc}\u{2640}",
+                    "\u{1f470}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_with_veil_tone2:
+            return ["\u{1f470}\u{1f3fc}\u{2642}",
+                    "\u{1f470}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_with_veil_tone3:
             return ["\u{1f470}\u{1f3fd}"]
-        case .bride_with_veil_tone4:
+        case .woman_with_veil_tone3:
+            return ["\u{1f470}\u{1f3fd}\u{2640}",
+                    "\u{1f470}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_with_veil_tone3:
+            return ["\u{1f470}\u{1f3fd}\u{2642}",
+                    "\u{1f470}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_with_veil_tone4:
             return ["\u{1f470}\u{1f3fe}"]
-        case .bride_with_veil_tone5:
+        case .woman_with_veil_tone4:
+            return ["\u{1f470}\u{1f3fe}\u{2640}",
+                    "\u{1f470}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_with_veil_tone4:
+            return ["\u{1f470}\u{1f3fe}\u{2642}",
+                    "\u{1f470}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_with_veil_tone5:
             return ["\u{1f470}\u{1f3ff}"]
+        case .woman_with_veil_tone5:
+            return ["\u{1f470}\u{1f3ff}\u{2640}",
+                    "\u{1f470}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_with_veil_tone5:
+            return ["\u{1f470}\u{1f3ff}\u{2642}",
+                    "\u{1f470}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .blond_haired_person:
             return ["\u{1f471}"]
         case .blond_haired_woman:
-            return ["\u{1f471}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f471}\u{200d}\u{2640}",
-                    "\u{1f471}\u{2640}\u{fe0f}"]
+            return ["\u{1f471}\u{2640}",
+                    "\u{1f471}\u{200d}\u{2640}\u{fe0f}"]
         case .blond_haired_man:
-            return ["\u{1f471}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f471}\u{200d}\u{2642}",
-                    "\u{1f471}\u{2642}\u{fe0f}"]
+            return ["\u{1f471}\u{2642}",
+                    "\u{1f471}\u{200d}\u{2642}\u{fe0f}"]
         case .blond_haired_person_tone1:
             return ["\u{1f471}\u{1f3fb}"]
         case .blond_haired_woman_tone1:
-            return ["\u{1f471}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f471}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f471}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f471}\u{1f3fb}\u{2640}",
+                    "\u{1f471}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .blond_haired_man_tone1:
-            return ["\u{1f471}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f471}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f471}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f471}\u{1f3fb}\u{2642}",
+                    "\u{1f471}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .blond_haired_person_tone2:
             return ["\u{1f471}\u{1f3fc}"]
         case .blond_haired_woman_tone2:
-            return ["\u{1f471}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f471}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f471}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f471}\u{1f3fc}\u{2640}",
+                    "\u{1f471}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .blond_haired_man_tone2:
-            return ["\u{1f471}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f471}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f471}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f471}\u{1f3fc}\u{2642}",
+                    "\u{1f471}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .blond_haired_person_tone3:
             return ["\u{1f471}\u{1f3fd}"]
         case .blond_haired_woman_tone3:
-            return ["\u{1f471}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f471}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f471}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f471}\u{1f3fd}\u{2640}",
+                    "\u{1f471}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .blond_haired_man_tone3:
-            return ["\u{1f471}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f471}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f471}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f471}\u{1f3fd}\u{2642}",
+                    "\u{1f471}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .blond_haired_person_tone4:
             return ["\u{1f471}\u{1f3fe}"]
         case .blond_haired_woman_tone4:
-            return ["\u{1f471}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f471}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f471}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f471}\u{1f3fe}\u{2640}",
+                    "\u{1f471}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .blond_haired_man_tone4:
-            return ["\u{1f471}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f471}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f471}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f471}\u{1f3fe}\u{2642}",
+                    "\u{1f471}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .blond_haired_person_tone5:
             return ["\u{1f471}\u{1f3ff}"]
         case .blond_haired_woman_tone5:
-            return ["\u{1f471}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f471}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f471}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f471}\u{1f3ff}\u{2640}",
+                    "\u{1f471}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .blond_haired_man_tone5:
-            return ["\u{1f471}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f471}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f471}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f471}\u{1f3ff}\u{2642}",
+                    "\u{1f471}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .man_with_chinese_cap:
             return ["\u{1f472}"]
         case .man_with_chinese_cap_tone1:
@@ -13451,63 +15505,51 @@ public enum Emoji: CaseIterable {
         case .person_wearing_turban:
             return ["\u{1f473}"]
         case .woman_wearing_turban:
-            return ["\u{1f473}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f473}\u{200d}\u{2640}",
-                    "\u{1f473}\u{2640}\u{fe0f}"]
+            return ["\u{1f473}\u{2640}",
+                    "\u{1f473}\u{200d}\u{2640}\u{fe0f}"]
         case .man_wearing_turban:
-            return ["\u{1f473}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f473}\u{200d}\u{2642}",
-                    "\u{1f473}\u{2642}\u{fe0f}"]
+            return ["\u{1f473}\u{2642}",
+                    "\u{1f473}\u{200d}\u{2642}\u{fe0f}"]
         case .person_wearing_turban_tone1:
             return ["\u{1f473}\u{1f3fb}"]
         case .woman_wearing_turban_tone1:
-            return ["\u{1f473}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f473}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f473}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f473}\u{1f3fb}\u{2640}",
+                    "\u{1f473}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_wearing_turban_tone1:
-            return ["\u{1f473}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f473}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f473}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f473}\u{1f3fb}\u{2642}",
+                    "\u{1f473}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_wearing_turban_tone2:
             return ["\u{1f473}\u{1f3fc}"]
         case .woman_wearing_turban_tone2:
-            return ["\u{1f473}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f473}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f473}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f473}\u{1f3fc}\u{2640}",
+                    "\u{1f473}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_wearing_turban_tone2:
-            return ["\u{1f473}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f473}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f473}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f473}\u{1f3fc}\u{2642}",
+                    "\u{1f473}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_wearing_turban_tone3:
             return ["\u{1f473}\u{1f3fd}"]
         case .woman_wearing_turban_tone3:
-            return ["\u{1f473}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f473}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f473}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f473}\u{1f3fd}\u{2640}",
+                    "\u{1f473}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_wearing_turban_tone3:
-            return ["\u{1f473}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f473}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f473}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f473}\u{1f3fd}\u{2642}",
+                    "\u{1f473}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_wearing_turban_tone4:
             return ["\u{1f473}\u{1f3fe}"]
         case .woman_wearing_turban_tone4:
-            return ["\u{1f473}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f473}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f473}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f473}\u{1f3fe}\u{2640}",
+                    "\u{1f473}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_wearing_turban_tone4:
-            return ["\u{1f473}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f473}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f473}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f473}\u{1f3fe}\u{2642}",
+                    "\u{1f473}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_wearing_turban_tone5:
             return ["\u{1f473}\u{1f3ff}"]
         case .woman_wearing_turban_tone5:
-            return ["\u{1f473}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f473}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f473}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f473}\u{1f3ff}\u{2640}",
+                    "\u{1f473}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_wearing_turban_tone5:
-            return ["\u{1f473}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f473}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f473}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f473}\u{1f3ff}\u{2642}",
+                    "\u{1f473}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .older_man:
             return ["\u{1f474}"]
         case .older_man_tone1:
@@ -13547,63 +15589,51 @@ public enum Emoji: CaseIterable {
         case .construction_worker:
             return ["\u{1f477}"]
         case .woman_construction_worker:
-            return ["\u{1f477}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f477}\u{200d}\u{2640}",
-                    "\u{1f477}\u{2640}\u{fe0f}"]
+            return ["\u{1f477}\u{2640}",
+                    "\u{1f477}\u{200d}\u{2640}\u{fe0f}"]
         case .man_construction_worker:
-            return ["\u{1f477}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f477}\u{200d}\u{2642}",
-                    "\u{1f477}\u{2642}\u{fe0f}"]
+            return ["\u{1f477}\u{2642}",
+                    "\u{1f477}\u{200d}\u{2642}\u{fe0f}"]
         case .construction_worker_tone1:
             return ["\u{1f477}\u{1f3fb}"]
         case .woman_construction_worker_tone1:
-            return ["\u{1f477}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f477}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f477}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f477}\u{1f3fb}\u{2640}",
+                    "\u{1f477}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_construction_worker_tone1:
-            return ["\u{1f477}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f477}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f477}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f477}\u{1f3fb}\u{2642}",
+                    "\u{1f477}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .construction_worker_tone2:
             return ["\u{1f477}\u{1f3fc}"]
         case .woman_construction_worker_tone2:
-            return ["\u{1f477}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f477}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f477}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f477}\u{1f3fc}\u{2640}",
+                    "\u{1f477}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_construction_worker_tone2:
-            return ["\u{1f477}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f477}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f477}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f477}\u{1f3fc}\u{2642}",
+                    "\u{1f477}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .construction_worker_tone3:
             return ["\u{1f477}\u{1f3fd}"]
         case .woman_construction_worker_tone3:
-            return ["\u{1f477}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f477}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f477}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f477}\u{1f3fd}\u{2640}",
+                    "\u{1f477}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_construction_worker_tone3:
-            return ["\u{1f477}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f477}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f477}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f477}\u{1f3fd}\u{2642}",
+                    "\u{1f477}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .construction_worker_tone4:
             return ["\u{1f477}\u{1f3fe}"]
         case .woman_construction_worker_tone4:
-            return ["\u{1f477}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f477}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f477}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f477}\u{1f3fe}\u{2640}",
+                    "\u{1f477}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_construction_worker_tone4:
-            return ["\u{1f477}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f477}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f477}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f477}\u{1f3fe}\u{2642}",
+                    "\u{1f477}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .construction_worker_tone5:
             return ["\u{1f477}\u{1f3ff}"]
         case .woman_construction_worker_tone5:
-            return ["\u{1f477}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f477}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f477}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f477}\u{1f3ff}\u{2640}",
+                    "\u{1f477}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_construction_worker_tone5:
-            return ["\u{1f477}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f477}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f477}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f477}\u{1f3ff}\u{2642}",
+                    "\u{1f477}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .princess:
             return ["\u{1f478}"]
         case .princess_tone1:
@@ -13635,8 +15665,7 @@ public enum Emoji: CaseIterable {
         case .angel_tone5:
             return ["\u{1f47c}\u{1f3ff}"]
         case .alien:
-            return ["\u{1f47d}",
-                    "\u{1f47d}\u{fe0f}"]
+            return ["\u{1f47d}"]
         case .space_invader:
             return ["\u{1f47e}"]
         case .imp:
@@ -13646,123 +15675,99 @@ public enum Emoji: CaseIterable {
         case .person_tipping_hand:
             return ["\u{1f481}"]
         case .woman_tipping_hand:
-            return ["\u{1f481}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f481}\u{200d}\u{2640}",
-                    "\u{1f481}\u{2640}\u{fe0f}"]
+            return ["\u{1f481}\u{2640}",
+                    "\u{1f481}\u{200d}\u{2640}\u{fe0f}"]
         case .man_tipping_hand:
-            return ["\u{1f481}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f481}\u{200d}\u{2642}",
-                    "\u{1f481}\u{2642}\u{fe0f}"]
+            return ["\u{1f481}\u{2642}",
+                    "\u{1f481}\u{200d}\u{2642}\u{fe0f}"]
         case .person_tipping_hand_tone1:
             return ["\u{1f481}\u{1f3fb}"]
         case .woman_tipping_hand_tone1:
-            return ["\u{1f481}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f481}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f481}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f481}\u{1f3fb}\u{2640}",
+                    "\u{1f481}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_tipping_hand_tone1:
-            return ["\u{1f481}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f481}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f481}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f481}\u{1f3fb}\u{2642}",
+                    "\u{1f481}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_tipping_hand_tone2:
             return ["\u{1f481}\u{1f3fc}"]
         case .woman_tipping_hand_tone2:
-            return ["\u{1f481}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f481}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f481}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f481}\u{1f3fc}\u{2640}",
+                    "\u{1f481}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_tipping_hand_tone2:
-            return ["\u{1f481}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f481}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f481}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f481}\u{1f3fc}\u{2642}",
+                    "\u{1f481}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_tipping_hand_tone3:
             return ["\u{1f481}\u{1f3fd}"]
         case .woman_tipping_hand_tone3:
-            return ["\u{1f481}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f481}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f481}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f481}\u{1f3fd}\u{2640}",
+                    "\u{1f481}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_tipping_hand_tone3:
-            return ["\u{1f481}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f481}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f481}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f481}\u{1f3fd}\u{2642}",
+                    "\u{1f481}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_tipping_hand_tone4:
             return ["\u{1f481}\u{1f3fe}"]
         case .woman_tipping_hand_tone4:
-            return ["\u{1f481}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f481}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f481}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f481}\u{1f3fe}\u{2640}",
+                    "\u{1f481}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_tipping_hand_tone4:
-            return ["\u{1f481}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f481}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f481}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f481}\u{1f3fe}\u{2642}",
+                    "\u{1f481}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_tipping_hand_tone5:
             return ["\u{1f481}\u{1f3ff}"]
         case .woman_tipping_hand_tone5:
-            return ["\u{1f481}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f481}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f481}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f481}\u{1f3ff}\u{2640}",
+                    "\u{1f481}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_tipping_hand_tone5:
-            return ["\u{1f481}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f481}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f481}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f481}\u{1f3ff}\u{2642}",
+                    "\u{1f481}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .`guard`:
             return ["\u{1f482}"]
         case .woman_guard:
-            return ["\u{1f482}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f482}\u{200d}\u{2640}",
-                    "\u{1f482}\u{2640}\u{fe0f}"]
+            return ["\u{1f482}\u{2640}",
+                    "\u{1f482}\u{200d}\u{2640}\u{fe0f}"]
         case .man_guard:
-            return ["\u{1f482}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f482}\u{200d}\u{2642}",
-                    "\u{1f482}\u{2642}\u{fe0f}"]
+            return ["\u{1f482}\u{2642}",
+                    "\u{1f482}\u{200d}\u{2642}\u{fe0f}"]
         case .guard_tone1:
             return ["\u{1f482}\u{1f3fb}"]
         case .woman_guard_tone1:
-            return ["\u{1f482}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f482}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f482}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f482}\u{1f3fb}\u{2640}",
+                    "\u{1f482}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_guard_tone1:
-            return ["\u{1f482}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f482}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f482}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f482}\u{1f3fb}\u{2642}",
+                    "\u{1f482}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .guard_tone2:
             return ["\u{1f482}\u{1f3fc}"]
         case .woman_guard_tone2:
-            return ["\u{1f482}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f482}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f482}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f482}\u{1f3fc}\u{2640}",
+                    "\u{1f482}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_guard_tone2:
-            return ["\u{1f482}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f482}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f482}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f482}\u{1f3fc}\u{2642}",
+                    "\u{1f482}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .guard_tone3:
             return ["\u{1f482}\u{1f3fd}"]
         case .woman_guard_tone3:
-            return ["\u{1f482}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f482}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f482}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f482}\u{1f3fd}\u{2640}",
+                    "\u{1f482}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_guard_tone3:
-            return ["\u{1f482}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f482}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f482}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f482}\u{1f3fd}\u{2642}",
+                    "\u{1f482}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .guard_tone4:
             return ["\u{1f482}\u{1f3fe}"]
         case .woman_guard_tone4:
-            return ["\u{1f482}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f482}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f482}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f482}\u{1f3fe}\u{2640}",
+                    "\u{1f482}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_guard_tone4:
-            return ["\u{1f482}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f482}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f482}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f482}\u{1f3fe}\u{2642}",
+                    "\u{1f482}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .guard_tone5:
             return ["\u{1f482}\u{1f3ff}"]
         case .woman_guard_tone5:
-            return ["\u{1f482}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f482}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f482}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f482}\u{1f3ff}\u{2640}",
+                    "\u{1f482}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_guard_tone5:
-            return ["\u{1f482}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f482}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f482}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f482}\u{1f3ff}\u{2642}",
+                    "\u{1f482}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .dancer:
             return ["\u{1f483}"]
         case .dancer_tone1:
@@ -13792,123 +15797,99 @@ public enum Emoji: CaseIterable {
         case .person_getting_massage:
             return ["\u{1f486}"]
         case .woman_getting_face_massage:
-            return ["\u{1f486}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f486}\u{200d}\u{2640}",
-                    "\u{1f486}\u{2640}\u{fe0f}"]
+            return ["\u{1f486}\u{2640}",
+                    "\u{1f486}\u{200d}\u{2640}\u{fe0f}"]
         case .man_getting_face_massage:
-            return ["\u{1f486}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f486}\u{200d}\u{2642}",
-                    "\u{1f486}\u{2642}\u{fe0f}"]
+            return ["\u{1f486}\u{2642}",
+                    "\u{1f486}\u{200d}\u{2642}\u{fe0f}"]
         case .person_getting_massage_tone1:
             return ["\u{1f486}\u{1f3fb}"]
         case .woman_getting_face_massage_tone1:
-            return ["\u{1f486}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f486}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f486}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f486}\u{1f3fb}\u{2640}",
+                    "\u{1f486}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_getting_face_massage_tone1:
-            return ["\u{1f486}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f486}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f486}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f486}\u{1f3fb}\u{2642}",
+                    "\u{1f486}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_getting_massage_tone2:
             return ["\u{1f486}\u{1f3fc}"]
         case .woman_getting_face_massage_tone2:
-            return ["\u{1f486}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f486}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f486}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f486}\u{1f3fc}\u{2640}",
+                    "\u{1f486}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_getting_face_massage_tone2:
-            return ["\u{1f486}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f486}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f486}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f486}\u{1f3fc}\u{2642}",
+                    "\u{1f486}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_getting_massage_tone3:
             return ["\u{1f486}\u{1f3fd}"]
         case .woman_getting_face_massage_tone3:
-            return ["\u{1f486}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f486}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f486}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f486}\u{1f3fd}\u{2640}",
+                    "\u{1f486}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_getting_face_massage_tone3:
-            return ["\u{1f486}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f486}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f486}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f486}\u{1f3fd}\u{2642}",
+                    "\u{1f486}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_getting_massage_tone4:
             return ["\u{1f486}\u{1f3fe}"]
         case .woman_getting_face_massage_tone4:
-            return ["\u{1f486}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f486}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f486}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f486}\u{1f3fe}\u{2640}",
+                    "\u{1f486}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_getting_face_massage_tone4:
-            return ["\u{1f486}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f486}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f486}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f486}\u{1f3fe}\u{2642}",
+                    "\u{1f486}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_getting_massage_tone5:
             return ["\u{1f486}\u{1f3ff}"]
         case .woman_getting_face_massage_tone5:
-            return ["\u{1f486}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f486}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f486}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f486}\u{1f3ff}\u{2640}",
+                    "\u{1f486}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_getting_face_massage_tone5:
-            return ["\u{1f486}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f486}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f486}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f486}\u{1f3ff}\u{2642}",
+                    "\u{1f486}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_getting_haircut:
             return ["\u{1f487}"]
         case .woman_getting_haircut:
-            return ["\u{1f487}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f487}\u{200d}\u{2640}",
-                    "\u{1f487}\u{2640}\u{fe0f}"]
+            return ["\u{1f487}\u{2640}",
+                    "\u{1f487}\u{200d}\u{2640}\u{fe0f}"]
         case .man_getting_haircut:
-            return ["\u{1f487}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f487}\u{200d}\u{2642}",
-                    "\u{1f487}\u{2642}\u{fe0f}"]
+            return ["\u{1f487}\u{2642}",
+                    "\u{1f487}\u{200d}\u{2642}\u{fe0f}"]
         case .person_getting_haircut_tone1:
             return ["\u{1f487}\u{1f3fb}"]
         case .woman_getting_haircut_tone1:
-            return ["\u{1f487}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f487}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f487}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f487}\u{1f3fb}\u{2640}",
+                    "\u{1f487}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_getting_haircut_tone1:
-            return ["\u{1f487}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f487}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f487}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f487}\u{1f3fb}\u{2642}",
+                    "\u{1f487}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_getting_haircut_tone2:
             return ["\u{1f487}\u{1f3fc}"]
         case .woman_getting_haircut_tone2:
-            return ["\u{1f487}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f487}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f487}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f487}\u{1f3fc}\u{2640}",
+                    "\u{1f487}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_getting_haircut_tone2:
-            return ["\u{1f487}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f487}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f487}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f487}\u{1f3fc}\u{2642}",
+                    "\u{1f487}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_getting_haircut_tone3:
             return ["\u{1f487}\u{1f3fd}"]
         case .woman_getting_haircut_tone3:
-            return ["\u{1f487}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f487}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f487}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f487}\u{1f3fd}\u{2640}",
+                    "\u{1f487}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_getting_haircut_tone3:
-            return ["\u{1f487}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f487}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f487}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f487}\u{1f3fd}\u{2642}",
+                    "\u{1f487}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_getting_haircut_tone4:
             return ["\u{1f487}\u{1f3fe}"]
         case .woman_getting_haircut_tone4:
-            return ["\u{1f487}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f487}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f487}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f487}\u{1f3fe}\u{2640}",
+                    "\u{1f487}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_getting_haircut_tone4:
-            return ["\u{1f487}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f487}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f487}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f487}\u{1f3fe}\u{2642}",
+                    "\u{1f487}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_getting_haircut_tone5:
             return ["\u{1f487}\u{1f3ff}"]
         case .woman_getting_haircut_tone5:
-            return ["\u{1f487}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f487}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f487}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f487}\u{1f3ff}\u{2640}",
+                    "\u{1f487}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_getting_haircut_tone5:
-            return ["\u{1f487}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f487}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f487}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f487}\u{1f3ff}\u{2642}",
+                    "\u{1f487}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .barber:
             return ["\u{1f488}"]
         case .syringe:
@@ -13964,8 +15945,7 @@ public enum Emoji: CaseIterable {
         case .anger:
             return ["\u{1f4a2}"]
         case .bomb:
-            return ["\u{1f4a3}",
-                    "\u{1f4a3}\u{fe0f}"]
+            return ["\u{1f4a3}"]
         case .zzz:
             return ["\u{1f4a4}"]
         case .boom:
@@ -14001,15 +15981,13 @@ public enum Emoji: CaseIterable {
         case .hundred:
             return ["\u{1f4af}"]
         case .moneybag:
-            return ["\u{1f4b0}",
-                    "\u{1f4b0}\u{fe0f}"]
+            return ["\u{1f4b0}"]
         case .currency_exchange:
             return ["\u{1f4b1}"]
         case .heavy_dollar_sign:
             return ["\u{1f4b2}"]
         case .credit_card:
-            return ["\u{1f4b3}",
-                    "\u{1f4b3}\u{fe0f}"]
+            return ["\u{1f4b3}"]
         case .yen:
             return ["\u{1f4b4}"]
         case .dollar:
@@ -14025,8 +16003,7 @@ public enum Emoji: CaseIterable {
         case .seat:
             return ["\u{1f4ba}"]
         case .computer:
-            return ["\u{1f4bb}",
-                    "\u{1f4bb}\u{fe0f}"]
+            return ["\u{1f4bb}"]
         case .briefcase:
             return ["\u{1f4bc}"]
         case .minidisc:
@@ -14034,8 +16011,7 @@ public enum Emoji: CaseIterable {
         case .floppy_disk:
             return ["\u{1f4be}"]
         case .cd:
-            return ["\u{1f4bf}",
-                    "\u{1f4bf}\u{fe0f}"]
+            return ["\u{1f4bf}"]
         case .dvd:
             return ["\u{1f4c0}"]
         case .file_folder:
@@ -14059,8 +16035,7 @@ public enum Emoji: CaseIterable {
         case .bar_chart:
             return ["\u{1f4ca}"]
         case .clipboard:
-            return ["\u{1f4cb}",
-                    "\u{1f4cb}\u{fe0f}"]
+            return ["\u{1f4cb}"]
         case .pushpin:
             return ["\u{1f4cc}"]
         case .round_pushpin:
@@ -14090,8 +16065,7 @@ public enum Emoji: CaseIterable {
         case .orange_book:
             return ["\u{1f4d9}"]
         case .books:
-            return ["\u{1f4da}",
-                    "\u{1f4da}\u{fe0f}"]
+            return ["\u{1f4da}"]
         case .name_badge:
             return ["\u{1f4db}"]
         case .scroll:
@@ -14101,8 +16075,7 @@ public enum Emoji: CaseIterable {
         case .telephone_receiver:
             return ["\u{1f4de}"]
         case .pager:
-            return ["\u{1f4df}",
-                    "\u{1f4df}\u{fe0f}"]
+            return ["\u{1f4df}"]
         case .fax:
             return ["\u{1f4e0}"]
         case .satellite:
@@ -14112,14 +16085,11 @@ public enum Emoji: CaseIterable {
         case .mega:
             return ["\u{1f4e3}"]
         case .outbox_tray:
-            return ["\u{1f4e4}",
-                    "\u{1f4e4}\u{fe0f}"]
+            return ["\u{1f4e4}"]
         case .inbox_tray:
-            return ["\u{1f4e5}",
-                    "\u{1f4e5}\u{fe0f}"]
+            return ["\u{1f4e5}"]
         case .package:
-            return ["\u{1f4e6}",
-                    "\u{1f4e6}\u{fe0f}"]
+            return ["\u{1f4e6}"]
         case .e_mail:
             return ["\u{1f4e7}"]
         case .incoming_envelope:
@@ -14127,24 +16097,20 @@ public enum Emoji: CaseIterable {
         case .envelope_with_arrow:
             return ["\u{1f4e9}"]
         case .mailbox_closed:
-            return ["\u{1f4ea}",
-                    "\u{1f4ea}\u{fe0f}"]
+            return ["\u{1f4ea}"]
         case .mailbox:
-            return ["\u{1f4eb}",
-                    "\u{1f4eb}\u{fe0f}"]
+            return ["\u{1f4eb}"]
         case .mailbox_with_mail:
-            return ["\u{1f4ec}",
-                    "\u{1f4ec}\u{fe0f}"]
+            return ["\u{1f4ec}"]
         case .mailbox_with_no_mail:
-            return ["\u{1f4ed}",
-                    "\u{1f4ed}\u{fe0f}"]
+            return ["\u{1f4ed}"]
         case .postbox:
             return ["\u{1f4ee}"]
         case .postal_horn:
             return ["\u{1f4ef}"]
         case .newspaper:
             return ["\u{1f4f0}"]
-        case .iphone:
+        case .mobile_phone:
             return ["\u{1f4f1}"]
         case .calling:
             return ["\u{1f4f2}"]
@@ -14157,19 +16123,15 @@ public enum Emoji: CaseIterable {
         case .signal_strength:
             return ["\u{1f4f6}"]
         case .camera:
-            return ["\u{1f4f7}",
-                    "\u{1f4f7}\u{fe0f}"]
+            return ["\u{1f4f7}"]
         case .camera_with_flash:
             return ["\u{1f4f8}"]
         case .video_camera:
-            return ["\u{1f4f9}",
-                    "\u{1f4f9}\u{fe0f}"]
+            return ["\u{1f4f9}"]
         case .tv:
-            return ["\u{1f4fa}",
-                    "\u{1f4fa}\u{fe0f}"]
+            return ["\u{1f4fa}"]
         case .radio:
-            return ["\u{1f4fb}",
-                    "\u{1f4fb}\u{fe0f}"]
+            return ["\u{1f4fb}"]
         case .vhs:
             return ["\u{1f4fc}"]
         case .projector:
@@ -14194,8 +16156,7 @@ public enum Emoji: CaseIterable {
         case .mute:
             return ["\u{1f507}"]
         case .speaker:
-            return ["\u{1f508}",
-                    "\u{1f508}\u{fe0f}"]
+            return ["\u{1f508}"]
         case .sound:
             return ["\u{1f509}"]
         case .loud_sound:
@@ -14205,8 +16166,7 @@ public enum Emoji: CaseIterable {
         case .electric_plug:
             return ["\u{1f50c}"]
         case .mag:
-            return ["\u{1f50d}",
-                    "\u{1f50d}\u{fe0f}"]
+            return ["\u{1f50d}"]
         case .mag_right:
             return ["\u{1f50e}"]
         case .lock_with_ink_pen:
@@ -14216,11 +16176,9 @@ public enum Emoji: CaseIterable {
         case .key:
             return ["\u{1f511}"]
         case .lock:
-            return ["\u{1f512}",
-                    "\u{1f512}\u{fe0f}"]
+            return ["\u{1f512}"]
         case .unlock:
-            return ["\u{1f513}",
-                    "\u{1f513}\u{fe0f}"]
+            return ["\u{1f513}"]
         case .bell:
             return ["\u{1f514}"]
         case .no_bell:
@@ -14306,7 +16264,8 @@ public enum Emoji: CaseIterable {
         case .arrow_down_small:
             return ["\u{1f53d}"]
         case .om_symbol:
-            return ["\u{1f549}\u{fe0f}"]
+            return ["\u{1f549}",
+                    "\u{1f549}\u{fe0f}"]
         case .dove:
             return ["\u{1f54a}",
                     "\u{1f54a}\u{fe0f}"]
@@ -14319,77 +16278,53 @@ public enum Emoji: CaseIterable {
         case .menorah:
             return ["\u{1f54e}"]
         case .clock1:
-            return ["\u{1f550}",
-                    "\u{1f550}\u{fe0f}"]
+            return ["\u{1f550}"]
         case .clock2:
-            return ["\u{1f551}",
-                    "\u{1f551}\u{fe0f}"]
+            return ["\u{1f551}"]
         case .clock3:
-            return ["\u{1f552}",
-                    "\u{1f552}\u{fe0f}"]
+            return ["\u{1f552}"]
         case .clock4:
-            return ["\u{1f553}",
-                    "\u{1f553}\u{fe0f}"]
+            return ["\u{1f553}"]
         case .clock5:
-            return ["\u{1f554}",
-                    "\u{1f554}\u{fe0f}"]
+            return ["\u{1f554}"]
         case .clock6:
-            return ["\u{1f555}",
-                    "\u{1f555}\u{fe0f}"]
+            return ["\u{1f555}"]
         case .clock7:
-            return ["\u{1f556}",
-                    "\u{1f556}\u{fe0f}"]
+            return ["\u{1f556}"]
         case .clock8:
-            return ["\u{1f557}",
-                    "\u{1f557}\u{fe0f}"]
+            return ["\u{1f557}"]
         case .clock9:
-            return ["\u{1f558}",
-                    "\u{1f558}\u{fe0f}"]
+            return ["\u{1f558}"]
         case .clock10:
-            return ["\u{1f559}",
-                    "\u{1f559}\u{fe0f}"]
+            return ["\u{1f559}"]
         case .clock11:
-            return ["\u{1f55a}",
-                    "\u{1f55a}\u{fe0f}"]
+            return ["\u{1f55a}"]
         case .clock12:
-            return ["\u{1f55b}",
-                    "\u{1f55b}\u{fe0f}"]
+            return ["\u{1f55b}"]
         case .clock130:
-            return ["\u{1f55c}",
-                    "\u{1f55c}\u{fe0f}"]
+            return ["\u{1f55c}"]
         case .clock230:
-            return ["\u{1f55d}",
-                    "\u{1f55d}\u{fe0f}"]
+            return ["\u{1f55d}"]
         case .clock330:
-            return ["\u{1f55e}",
-                    "\u{1f55e}\u{fe0f}"]
+            return ["\u{1f55e}"]
         case .clock430:
-            return ["\u{1f55f}",
-                    "\u{1f55f}\u{fe0f}"]
+            return ["\u{1f55f}"]
         case .clock530:
-            return ["\u{1f560}",
-                    "\u{1f560}\u{fe0f}"]
+            return ["\u{1f560}"]
         case .clock630:
-            return ["\u{1f561}",
-                    "\u{1f561}\u{fe0f}"]
+            return ["\u{1f561}"]
         case .clock730:
-            return ["\u{1f562}",
-                    "\u{1f562}\u{fe0f}"]
+            return ["\u{1f562}"]
         case .clock830:
-            return ["\u{1f563}",
-                    "\u{1f563}\u{fe0f}"]
+            return ["\u{1f563}"]
         case .clock930:
-            return ["\u{1f564}",
-                    "\u{1f564}\u{fe0f}"]
+            return ["\u{1f564}"]
         case .clock1030:
-            return ["\u{1f565}",
-                    "\u{1f565}\u{fe0f}"]
+            return ["\u{1f565}"]
         case .clock1130:
-            return ["\u{1f566}",
-                    "\u{1f566}\u{fe0f}"]
+            return ["\u{1f566}"]
         case .clock1230:
-            return ["\u{1f567}",
-                    "\u{1f567}\u{fe0f}"]
+            return ["\u{1f567}"]
         case .candle:
             return ["\u{1f56f}",
                     "\u{1f56f}\u{fe0f}"]
@@ -14403,100 +16338,63 @@ public enum Emoji: CaseIterable {
             return ["\u{1f574}",
                     "\u{1f574}\u{fe0f}"]
         case .levitate_tone1:
-            return ["\u{1f574}\u{1f3fb}",
-                    "\u{1f574}\u{fe0f}\u{1f3fb}"]
+            return ["\u{1f574}\u{1f3fb}"]
         case .levitate_tone2:
-            return ["\u{1f574}\u{1f3fc}",
-                    "\u{1f574}\u{fe0f}\u{1f3fc}"]
+            return ["\u{1f574}\u{1f3fc}"]
         case .levitate_tone3:
-            return ["\u{1f574}\u{1f3fd}",
-                    "\u{1f574}\u{fe0f}\u{1f3fd}"]
+            return ["\u{1f574}\u{1f3fd}"]
         case .levitate_tone4:
-            return ["\u{1f574}\u{1f3fe}",
-                    "\u{1f574}\u{fe0f}\u{1f3fe}"]
+            return ["\u{1f574}\u{1f3fe}"]
         case .levitate_tone5:
-            return ["\u{1f574}\u{1f3ff}",
-                    "\u{1f574}\u{fe0f}\u{1f3ff}"]
+            return ["\u{1f574}\u{1f3ff}"]
         case .detective:
-            return ["\u{1f575}",
-                    "\u{1f575}\u{fe0f}"]
+            return ["\u{1f575}"]
         case .woman_detective:
-            return ["\u{1f575}\u{fe0f}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f575}\u{200d}\u{2640}",
-                    "\u{1f575}\u{fe0f}\u{2640}\u{fe0f}",
-                    "\u{1f575}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f575}\u{fe0f}\u{200d}\u{2640}"]
+            return ["\u{1f575}\u{2640}",
+                    "\u{1f575}\u{fe0f}\u{200d}\u{2640}\u{fe0f}"]
         case .man_detective:
-            return ["\u{1f575}\u{fe0f}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f575}\u{200d}\u{2642}",
-                    "\u{1f575}\u{fe0f}\u{2642}\u{fe0f}",
-                    "\u{1f575}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f575}\u{fe0f}\u{200d}\u{2642}"]
+            return ["\u{1f575}\u{2642}",
+                    "\u{1f575}\u{fe0f}\u{200d}\u{2642}\u{fe0f}"]
         case .detective_tone1:
-            return ["\u{1f575}\u{1f3fb}",
-                    "\u{1f575}\u{fe0f}\u{1f3fb}"]
+            return ["\u{1f575}\u{1f3fb}"]
         case .woman_detective_tone1:
-            return ["\u{1f575}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f575}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f575}\u{fe0f}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f575}\u{fe0f}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f575}\u{1f3fb}\u{2640}",
+                    "\u{1f575}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_detective_tone1:
-            return ["\u{1f575}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f575}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f575}\u{fe0f}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f575}\u{fe0f}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f575}\u{1f3fb}\u{2642}",
+                    "\u{1f575}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .detective_tone2:
-            return ["\u{1f575}\u{1f3fc}",
-                    "\u{1f575}\u{fe0f}\u{1f3fc}"]
+            return ["\u{1f575}\u{1f3fc}"]
         case .woman_detective_tone2:
-            return ["\u{1f575}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f575}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f575}\u{fe0f}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f575}\u{fe0f}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f575}\u{1f3fc}\u{2640}",
+                    "\u{1f575}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_detective_tone2:
-            return ["\u{1f575}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f575}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f575}\u{fe0f}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f575}\u{fe0f}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f575}\u{1f3fc}\u{2642}",
+                    "\u{1f575}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .detective_tone3:
-            return ["\u{1f575}\u{1f3fd}",
-                    "\u{1f575}\u{fe0f}\u{1f3fd}"]
+            return ["\u{1f575}\u{1f3fd}"]
         case .woman_detective_tone3:
-            return ["\u{1f575}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f575}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f575}\u{fe0f}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f575}\u{fe0f}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f575}\u{1f3fd}\u{2640}",
+                    "\u{1f575}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_detective_tone3:
-            return ["\u{1f575}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f575}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f575}\u{fe0f}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f575}\u{fe0f}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f575}\u{1f3fd}\u{2642}",
+                    "\u{1f575}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .detective_tone4:
-            return ["\u{1f575}\u{1f3fe}",
-                    "\u{1f575}\u{fe0f}\u{1f3fe}"]
+            return ["\u{1f575}\u{1f3fe}"]
         case .woman_detective_tone4:
-            return ["\u{1f575}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f575}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f575}\u{fe0f}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f575}\u{fe0f}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f575}\u{1f3fe}\u{2640}",
+                    "\u{1f575}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_detective_tone4:
-            return ["\u{1f575}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f575}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f575}\u{fe0f}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f575}\u{fe0f}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f575}\u{1f3fe}\u{2642}",
+                    "\u{1f575}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .detective_tone5:
-            return ["\u{1f575}\u{1f3ff}",
-                    "\u{1f575}\u{fe0f}\u{1f3ff}"]
+            return ["\u{1f575}\u{1f3ff}"]
         case .woman_detective_tone5:
-            return ["\u{1f575}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f575}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f575}\u{fe0f}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f575}\u{fe0f}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f575}\u{1f3ff}\u{2640}",
+                    "\u{1f575}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_detective_tone5:
-            return ["\u{1f575}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f575}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f575}\u{fe0f}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f575}\u{fe0f}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f575}\u{1f3ff}\u{2642}",
+                    "\u{1f575}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .dark_sunglasses:
             return ["\u{1f576}",
                     "\u{1f576}\u{fe0f}"]
@@ -14537,23 +16435,17 @@ public enum Emoji: CaseIterable {
             return ["\u{1f58d}",
                     "\u{1f58d}\u{fe0f}"]
         case .hand_splayed:
-            return ["\u{1f590}",
-                    "\u{1f590}\u{fe0f}"]
+            return ["\u{1f590}"]
         case .hand_splayed_tone1:
-            return ["\u{1f590}\u{1f3fb}",
-                    "\u{1f590}\u{fe0f}\u{1f3fb}"]
+            return ["\u{1f590}\u{1f3fb}"]
         case .hand_splayed_tone2:
-            return ["\u{1f590}\u{1f3fc}",
-                    "\u{1f590}\u{fe0f}\u{1f3fc}"]
+            return ["\u{1f590}\u{1f3fc}"]
         case .hand_splayed_tone3:
-            return ["\u{1f590}\u{1f3fd}",
-                    "\u{1f590}\u{fe0f}\u{1f3fd}"]
+            return ["\u{1f590}\u{1f3fd}"]
         case .hand_splayed_tone4:
-            return ["\u{1f590}\u{1f3fe}",
-                    "\u{1f590}\u{fe0f}\u{1f3fe}"]
+            return ["\u{1f590}\u{1f3fe}"]
         case .hand_splayed_tone5:
-            return ["\u{1f590}\u{1f3ff}",
-                    "\u{1f590}\u{fe0f}\u{1f3ff}"]
+            return ["\u{1f590}\u{1f3ff}"]
         case .middle_finger:
             return ["\u{1f595}"]
         case .middle_finger_tone1:
@@ -14617,7 +16509,8 @@ public enum Emoji: CaseIterable {
             return ["\u{1f5dc}",
                     "\u{1f5dc}\u{fe0f}"]
         case .key2:
-            return ["\u{1f5dd}\u{fe0f}"]
+            return ["\u{1f5dd}",
+                    "\u{1f5dd}\u{fe0f}"]
         case .newspaper2:
             return ["\u{1f5de}",
                     "\u{1f5de}\u{fe0f}"]
@@ -14682,8 +16575,7 @@ public enum Emoji: CaseIterable {
         case .smirk:
             return ["\u{1f60f}"]
         case .neutral_face:
-            return ["\u{1f610}",
-                    "\u{1f610}\u{fe0f}"]
+            return ["\u{1f610}"]
         case .expressionless:
             return ["\u{1f611}"]
         case .unamused:
@@ -14791,183 +16683,147 @@ public enum Emoji: CaseIterable {
         case .person_gesturing_no:
             return ["\u{1f645}"]
         case .woman_gesturing_no:
-            return ["\u{1f645}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f645}\u{200d}\u{2640}",
-                    "\u{1f645}\u{2640}\u{fe0f}"]
+            return ["\u{1f645}\u{2640}",
+                    "\u{1f645}\u{200d}\u{2640}\u{fe0f}"]
         case .man_gesturing_no:
-            return ["\u{1f645}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f645}\u{200d}\u{2642}",
-                    "\u{1f645}\u{2642}\u{fe0f}"]
+            return ["\u{1f645}\u{2642}",
+                    "\u{1f645}\u{200d}\u{2642}\u{fe0f}"]
         case .person_gesturing_no_tone1:
             return ["\u{1f645}\u{1f3fb}"]
         case .woman_gesturing_no_tone1:
-            return ["\u{1f645}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f645}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f645}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f645}\u{1f3fb}\u{2640}",
+                    "\u{1f645}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_gesturing_no_tone1:
-            return ["\u{1f645}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f645}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f645}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f645}\u{1f3fb}\u{2642}",
+                    "\u{1f645}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_gesturing_no_tone2:
             return ["\u{1f645}\u{1f3fc}"]
         case .woman_gesturing_no_tone2:
-            return ["\u{1f645}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f645}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f645}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f645}\u{1f3fc}\u{2640}",
+                    "\u{1f645}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_gesturing_no_tone2:
-            return ["\u{1f645}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f645}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f645}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f645}\u{1f3fc}\u{2642}",
+                    "\u{1f645}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_gesturing_no_tone3:
             return ["\u{1f645}\u{1f3fd}"]
         case .woman_gesturing_no_tone3:
-            return ["\u{1f645}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f645}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f645}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f645}\u{1f3fd}\u{2640}",
+                    "\u{1f645}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_gesturing_no_tone3:
-            return ["\u{1f645}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f645}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f645}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f645}\u{1f3fd}\u{2642}",
+                    "\u{1f645}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_gesturing_no_tone4:
             return ["\u{1f645}\u{1f3fe}"]
         case .woman_gesturing_no_tone4:
-            return ["\u{1f645}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f645}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f645}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f645}\u{1f3fe}\u{2640}",
+                    "\u{1f645}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_gesturing_no_tone4:
-            return ["\u{1f645}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f645}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f645}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f645}\u{1f3fe}\u{2642}",
+                    "\u{1f645}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_gesturing_no_tone5:
             return ["\u{1f645}\u{1f3ff}"]
         case .woman_gesturing_no_tone5:
-            return ["\u{1f645}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f645}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f645}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f645}\u{1f3ff}\u{2640}",
+                    "\u{1f645}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_gesturing_no_tone5:
-            return ["\u{1f645}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f645}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f645}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f645}\u{1f3ff}\u{2642}",
+                    "\u{1f645}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_gesturing_ok:
             return ["\u{1f646}"]
         case .woman_gesturing_ok:
-            return ["\u{1f646}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f646}\u{200d}\u{2640}",
-                    "\u{1f646}\u{2640}\u{fe0f}"]
+            return ["\u{1f646}\u{2640}",
+                    "\u{1f646}\u{200d}\u{2640}\u{fe0f}"]
         case .man_gesturing_ok:
-            return ["\u{1f646}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f646}\u{200d}\u{2642}",
-                    "\u{1f646}\u{2642}\u{fe0f}"]
+            return ["\u{1f646}\u{2642}",
+                    "\u{1f646}\u{200d}\u{2642}\u{fe0f}"]
         case .person_gesturing_ok_tone1:
             return ["\u{1f646}\u{1f3fb}"]
         case .woman_gesturing_ok_tone1:
-            return ["\u{1f646}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f646}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f646}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f646}\u{1f3fb}\u{2640}",
+                    "\u{1f646}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_gesturing_ok_tone1:
-            return ["\u{1f646}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f646}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f646}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f646}\u{1f3fb}\u{2642}",
+                    "\u{1f646}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_gesturing_ok_tone2:
             return ["\u{1f646}\u{1f3fc}"]
         case .woman_gesturing_ok_tone2:
-            return ["\u{1f646}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f646}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f646}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f646}\u{1f3fc}\u{2640}",
+                    "\u{1f646}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_gesturing_ok_tone2:
-            return ["\u{1f646}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f646}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f646}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f646}\u{1f3fc}\u{2642}",
+                    "\u{1f646}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_gesturing_ok_tone3:
             return ["\u{1f646}\u{1f3fd}"]
         case .woman_gesturing_ok_tone3:
-            return ["\u{1f646}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f646}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f646}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f646}\u{1f3fd}\u{2640}",
+                    "\u{1f646}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_gesturing_ok_tone3:
-            return ["\u{1f646}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f646}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f646}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f646}\u{1f3fd}\u{2642}",
+                    "\u{1f646}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_gesturing_ok_tone4:
             return ["\u{1f646}\u{1f3fe}"]
         case .woman_gesturing_ok_tone4:
-            return ["\u{1f646}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f646}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f646}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f646}\u{1f3fe}\u{2640}",
+                    "\u{1f646}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_gesturing_ok_tone4:
-            return ["\u{1f646}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f646}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f646}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f646}\u{1f3fe}\u{2642}",
+                    "\u{1f646}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_gesturing_ok_tone5:
             return ["\u{1f646}\u{1f3ff}"]
         case .woman_gesturing_ok_tone5:
-            return ["\u{1f646}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f646}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f646}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f646}\u{1f3ff}\u{2640}",
+                    "\u{1f646}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_gesturing_ok_tone5:
-            return ["\u{1f646}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f646}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f646}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f646}\u{1f3ff}\u{2642}",
+                    "\u{1f646}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_bowing:
             return ["\u{1f647}"]
         case .woman_bowing:
-            return ["\u{1f647}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f647}\u{200d}\u{2640}",
-                    "\u{1f647}\u{2640}\u{fe0f}"]
+            return ["\u{1f647}\u{2640}",
+                    "\u{1f647}\u{200d}\u{2640}\u{fe0f}"]
         case .man_bowing:
-            return ["\u{1f647}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f647}\u{200d}\u{2642}",
-                    "\u{1f647}\u{2642}\u{fe0f}"]
+            return ["\u{1f647}\u{2642}",
+                    "\u{1f647}\u{200d}\u{2642}\u{fe0f}"]
         case .person_bowing_tone1:
             return ["\u{1f647}\u{1f3fb}"]
         case .woman_bowing_tone1:
-            return ["\u{1f647}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f647}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f647}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f647}\u{1f3fb}\u{2640}",
+                    "\u{1f647}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_bowing_tone1:
-            return ["\u{1f647}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f647}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f647}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f647}\u{1f3fb}\u{2642}",
+                    "\u{1f647}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_bowing_tone2:
             return ["\u{1f647}\u{1f3fc}"]
         case .woman_bowing_tone2:
-            return ["\u{1f647}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f647}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f647}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f647}\u{1f3fc}\u{2640}",
+                    "\u{1f647}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_bowing_tone2:
-            return ["\u{1f647}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f647}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f647}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f647}\u{1f3fc}\u{2642}",
+                    "\u{1f647}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_bowing_tone3:
             return ["\u{1f647}\u{1f3fd}"]
         case .woman_bowing_tone3:
-            return ["\u{1f647}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f647}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f647}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f647}\u{1f3fd}\u{2640}",
+                    "\u{1f647}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_bowing_tone3:
-            return ["\u{1f647}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f647}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f647}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f647}\u{1f3fd}\u{2642}",
+                    "\u{1f647}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_bowing_tone4:
             return ["\u{1f647}\u{1f3fe}"]
         case .woman_bowing_tone4:
-            return ["\u{1f647}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f647}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f647}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f647}\u{1f3fe}\u{2640}",
+                    "\u{1f647}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_bowing_tone4:
-            return ["\u{1f647}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f647}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f647}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f647}\u{1f3fe}\u{2642}",
+                    "\u{1f647}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_bowing_tone5:
             return ["\u{1f647}\u{1f3ff}"]
         case .woman_bowing_tone5:
-            return ["\u{1f647}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f647}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f647}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f647}\u{1f3ff}\u{2640}",
+                    "\u{1f647}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_bowing_tone5:
-            return ["\u{1f647}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f647}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f647}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f647}\u{1f3ff}\u{2642}",
+                    "\u{1f647}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .see_no_evil:
             return ["\u{1f648}"]
         case .hear_no_evil:
@@ -14977,63 +16833,51 @@ public enum Emoji: CaseIterable {
         case .person_raising_hand:
             return ["\u{1f64b}"]
         case .woman_raising_hand:
-            return ["\u{1f64b}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64b}\u{200d}\u{2640}",
-                    "\u{1f64b}\u{2640}\u{fe0f}"]
+            return ["\u{1f64b}\u{2640}",
+                    "\u{1f64b}\u{200d}\u{2640}\u{fe0f}"]
         case .man_raising_hand:
-            return ["\u{1f64b}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64b}\u{200d}\u{2642}",
-                    "\u{1f64b}\u{2642}\u{fe0f}"]
+            return ["\u{1f64b}\u{2642}",
+                    "\u{1f64b}\u{200d}\u{2642}\u{fe0f}"]
         case .person_raising_hand_tone1:
             return ["\u{1f64b}\u{1f3fb}"]
         case .woman_raising_hand_tone1:
-            return ["\u{1f64b}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64b}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f64b}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f64b}\u{1f3fb}\u{2640}",
+                    "\u{1f64b}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_raising_hand_tone1:
-            return ["\u{1f64b}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64b}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f64b}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f64b}\u{1f3fb}\u{2642}",
+                    "\u{1f64b}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_raising_hand_tone2:
             return ["\u{1f64b}\u{1f3fc}"]
         case .woman_raising_hand_tone2:
-            return ["\u{1f64b}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64b}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f64b}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f64b}\u{1f3fc}\u{2640}",
+                    "\u{1f64b}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_raising_hand_tone2:
-            return ["\u{1f64b}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64b}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f64b}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f64b}\u{1f3fc}\u{2642}",
+                    "\u{1f64b}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_raising_hand_tone3:
             return ["\u{1f64b}\u{1f3fd}"]
         case .woman_raising_hand_tone3:
-            return ["\u{1f64b}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64b}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f64b}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f64b}\u{1f3fd}\u{2640}",
+                    "\u{1f64b}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_raising_hand_tone3:
-            return ["\u{1f64b}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64b}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f64b}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f64b}\u{1f3fd}\u{2642}",
+                    "\u{1f64b}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_raising_hand_tone4:
             return ["\u{1f64b}\u{1f3fe}"]
         case .woman_raising_hand_tone4:
-            return ["\u{1f64b}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64b}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f64b}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f64b}\u{1f3fe}\u{2640}",
+                    "\u{1f64b}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_raising_hand_tone4:
-            return ["\u{1f64b}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64b}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f64b}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f64b}\u{1f3fe}\u{2642}",
+                    "\u{1f64b}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_raising_hand_tone5:
             return ["\u{1f64b}\u{1f3ff}"]
         case .woman_raising_hand_tone5:
-            return ["\u{1f64b}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64b}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f64b}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f64b}\u{1f3ff}\u{2640}",
+                    "\u{1f64b}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_raising_hand_tone5:
-            return ["\u{1f64b}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64b}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f64b}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f64b}\u{1f3ff}\u{2642}",
+                    "\u{1f64b}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .raised_hands:
             return ["\u{1f64c}"]
         case .raised_hands_tone1:
@@ -15049,123 +16893,99 @@ public enum Emoji: CaseIterable {
         case .person_frowning:
             return ["\u{1f64d}"]
         case .woman_frowning:
-            return ["\u{1f64d}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64d}\u{200d}\u{2640}",
-                    "\u{1f64d}\u{2640}\u{fe0f}"]
+            return ["\u{1f64d}\u{2640}",
+                    "\u{1f64d}\u{200d}\u{2640}\u{fe0f}"]
         case .man_frowning:
-            return ["\u{1f64d}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64d}\u{200d}\u{2642}",
-                    "\u{1f64d}\u{2642}\u{fe0f}"]
+            return ["\u{1f64d}\u{2642}",
+                    "\u{1f64d}\u{200d}\u{2642}\u{fe0f}"]
         case .person_frowning_tone1:
             return ["\u{1f64d}\u{1f3fb}"]
         case .woman_frowning_tone1:
-            return ["\u{1f64d}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64d}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f64d}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f64d}\u{1f3fb}\u{2640}",
+                    "\u{1f64d}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_frowning_tone1:
-            return ["\u{1f64d}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64d}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f64d}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f64d}\u{1f3fb}\u{2642}",
+                    "\u{1f64d}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_frowning_tone2:
             return ["\u{1f64d}\u{1f3fc}"]
         case .woman_frowning_tone2:
-            return ["\u{1f64d}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64d}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f64d}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f64d}\u{1f3fc}\u{2640}",
+                    "\u{1f64d}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_frowning_tone2:
-            return ["\u{1f64d}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64d}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f64d}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f64d}\u{1f3fc}\u{2642}",
+                    "\u{1f64d}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_frowning_tone3:
             return ["\u{1f64d}\u{1f3fd}"]
         case .woman_frowning_tone3:
-            return ["\u{1f64d}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64d}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f64d}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f64d}\u{1f3fd}\u{2640}",
+                    "\u{1f64d}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_frowning_tone3:
-            return ["\u{1f64d}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64d}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f64d}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f64d}\u{1f3fd}\u{2642}",
+                    "\u{1f64d}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_frowning_tone4:
             return ["\u{1f64d}\u{1f3fe}"]
         case .woman_frowning_tone4:
-            return ["\u{1f64d}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64d}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f64d}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f64d}\u{1f3fe}\u{2640}",
+                    "\u{1f64d}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_frowning_tone4:
-            return ["\u{1f64d}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64d}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f64d}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f64d}\u{1f3fe}\u{2642}",
+                    "\u{1f64d}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_frowning_tone5:
             return ["\u{1f64d}\u{1f3ff}"]
         case .woman_frowning_tone5:
-            return ["\u{1f64d}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64d}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f64d}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f64d}\u{1f3ff}\u{2640}",
+                    "\u{1f64d}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_frowning_tone5:
-            return ["\u{1f64d}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64d}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f64d}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f64d}\u{1f3ff}\u{2642}",
+                    "\u{1f64d}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_pouting:
             return ["\u{1f64e}"]
         case .woman_pouting:
-            return ["\u{1f64e}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64e}\u{200d}\u{2640}",
-                    "\u{1f64e}\u{2640}\u{fe0f}"]
+            return ["\u{1f64e}\u{2640}",
+                    "\u{1f64e}\u{200d}\u{2640}\u{fe0f}"]
         case .man_pouting:
-            return ["\u{1f64e}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64e}\u{200d}\u{2642}",
-                    "\u{1f64e}\u{2642}\u{fe0f}"]
+            return ["\u{1f64e}\u{2642}",
+                    "\u{1f64e}\u{200d}\u{2642}\u{fe0f}"]
         case .person_pouting_tone1:
             return ["\u{1f64e}\u{1f3fb}"]
         case .woman_pouting_tone1:
-            return ["\u{1f64e}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64e}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f64e}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f64e}\u{1f3fb}\u{2640}",
+                    "\u{1f64e}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_pouting_tone1:
-            return ["\u{1f64e}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64e}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f64e}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f64e}\u{1f3fb}\u{2642}",
+                    "\u{1f64e}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_pouting_tone2:
             return ["\u{1f64e}\u{1f3fc}"]
         case .woman_pouting_tone2:
-            return ["\u{1f64e}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64e}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f64e}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f64e}\u{1f3fc}\u{2640}",
+                    "\u{1f64e}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_pouting_tone2:
-            return ["\u{1f64e}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64e}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f64e}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f64e}\u{1f3fc}\u{2642}",
+                    "\u{1f64e}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_pouting_tone3:
             return ["\u{1f64e}\u{1f3fd}"]
         case .woman_pouting_tone3:
-            return ["\u{1f64e}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64e}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f64e}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f64e}\u{1f3fd}\u{2640}",
+                    "\u{1f64e}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_pouting_tone3:
-            return ["\u{1f64e}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64e}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f64e}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f64e}\u{1f3fd}\u{2642}",
+                    "\u{1f64e}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_pouting_tone4:
             return ["\u{1f64e}\u{1f3fe}"]
         case .woman_pouting_tone4:
-            return ["\u{1f64e}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64e}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f64e}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f64e}\u{1f3fe}\u{2640}",
+                    "\u{1f64e}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_pouting_tone4:
-            return ["\u{1f64e}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64e}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f64e}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f64e}\u{1f3fe}\u{2642}",
+                    "\u{1f64e}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_pouting_tone5:
             return ["\u{1f64e}\u{1f3ff}"]
         case .woman_pouting_tone5:
-            return ["\u{1f64e}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f64e}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f64e}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f64e}\u{1f3ff}\u{2640}",
+                    "\u{1f64e}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_pouting_tone5:
-            return ["\u{1f64e}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f64e}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f64e}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f64e}\u{1f3ff}\u{2642}",
+                    "\u{1f64e}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .pray:
             return ["\u{1f64f}"]
         case .pray_tone1:
@@ -15193,8 +17013,7 @@ public enum Emoji: CaseIterable {
         case .train2:
             return ["\u{1f686}"]
         case .metro:
-            return ["\u{1f687}",
-                    "\u{1f687}\u{fe0f}"]
+            return ["\u{1f687}"]
         case .light_rail:
             return ["\u{1f688}"]
         case .station:
@@ -15206,8 +17025,7 @@ public enum Emoji: CaseIterable {
         case .bus:
             return ["\u{1f68c}"]
         case .oncoming_bus:
-            return ["\u{1f68d}",
-                    "\u{1f68d}\u{fe0f}"]
+            return ["\u{1f68d}"]
         case .trolleybus:
             return ["\u{1f68e}"]
         case .busstop:
@@ -15215,15 +17033,13 @@ public enum Emoji: CaseIterable {
         case .minibus:
             return ["\u{1f690}"]
         case .ambulance:
-            return ["\u{1f691}",
-                    "\u{1f691}\u{fe0f}"]
+            return ["\u{1f691}"]
         case .fire_engine:
             return ["\u{1f692}"]
         case .police_car:
             return ["\u{1f693}"]
         case .oncoming_police_car:
-            return ["\u{1f694}",
-                    "\u{1f694}\u{fe0f}"]
+            return ["\u{1f694}"]
         case .taxi:
             return ["\u{1f695}"]
         case .oncoming_taxi:
@@ -15231,8 +17047,7 @@ public enum Emoji: CaseIterable {
         case .red_car:
             return ["\u{1f697}"]
         case .oncoming_automobile:
-            return ["\u{1f698}",
-                    "\u{1f698}\u{fe0f}"]
+            return ["\u{1f698}"]
         case .blue_car:
             return ["\u{1f699}"]
         case .truck:
@@ -15256,63 +17071,51 @@ public enum Emoji: CaseIterable {
         case .person_rowing_boat:
             return ["\u{1f6a3}"]
         case .woman_rowing_boat:
-            return ["\u{1f6a3}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6a3}\u{200d}\u{2640}",
-                    "\u{1f6a3}\u{2640}\u{fe0f}"]
+            return ["\u{1f6a3}\u{2640}",
+                    "\u{1f6a3}\u{200d}\u{2640}\u{fe0f}"]
         case .man_rowing_boat:
-            return ["\u{1f6a3}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6a3}\u{200d}\u{2642}",
-                    "\u{1f6a3}\u{2642}\u{fe0f}"]
+            return ["\u{1f6a3}\u{2642}",
+                    "\u{1f6a3}\u{200d}\u{2642}\u{fe0f}"]
         case .person_rowing_boat_tone1:
             return ["\u{1f6a3}\u{1f3fb}"]
         case .woman_rowing_boat_tone1:
-            return ["\u{1f6a3}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6a3}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f6a3}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f6a3}\u{1f3fb}\u{2640}",
+                    "\u{1f6a3}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_rowing_boat_tone1:
-            return ["\u{1f6a3}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6a3}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f6a3}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f6a3}\u{1f3fb}\u{2642}",
+                    "\u{1f6a3}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_rowing_boat_tone2:
             return ["\u{1f6a3}\u{1f3fc}"]
         case .woman_rowing_boat_tone2:
-            return ["\u{1f6a3}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6a3}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f6a3}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f6a3}\u{1f3fc}\u{2640}",
+                    "\u{1f6a3}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_rowing_boat_tone2:
-            return ["\u{1f6a3}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6a3}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f6a3}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f6a3}\u{1f3fc}\u{2642}",
+                    "\u{1f6a3}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_rowing_boat_tone3:
             return ["\u{1f6a3}\u{1f3fd}"]
         case .woman_rowing_boat_tone3:
-            return ["\u{1f6a3}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6a3}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f6a3}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f6a3}\u{1f3fd}\u{2640}",
+                    "\u{1f6a3}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_rowing_boat_tone3:
-            return ["\u{1f6a3}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6a3}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f6a3}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f6a3}\u{1f3fd}\u{2642}",
+                    "\u{1f6a3}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_rowing_boat_tone4:
             return ["\u{1f6a3}\u{1f3fe}"]
         case .woman_rowing_boat_tone4:
-            return ["\u{1f6a3}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6a3}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f6a3}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f6a3}\u{1f3fe}\u{2640}",
+                    "\u{1f6a3}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_rowing_boat_tone4:
-            return ["\u{1f6a3}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6a3}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f6a3}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f6a3}\u{1f3fe}\u{2642}",
+                    "\u{1f6a3}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_rowing_boat_tone5:
             return ["\u{1f6a3}\u{1f3ff}"]
         case .woman_rowing_boat_tone5:
-            return ["\u{1f6a3}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6a3}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f6a3}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f6a3}\u{1f3ff}\u{2640}",
+                    "\u{1f6a3}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_rowing_boat_tone5:
-            return ["\u{1f6a3}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6a3}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f6a3}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f6a3}\u{1f3ff}\u{2642}",
+                    "\u{1f6a3}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .speedboat:
             return ["\u{1f6a4}"]
         case .traffic_light:
@@ -15332,8 +17135,7 @@ public enum Emoji: CaseIterable {
         case .smoking:
             return ["\u{1f6ac}"]
         case .no_smoking:
-            return ["\u{1f6ad}",
-                    "\u{1f6ad}\u{fe0f}"]
+            return ["\u{1f6ad}"]
         case .put_litter_in_its_place:
             return ["\u{1f6ae}"]
         case .do_not_litter:
@@ -15343,205 +17145,165 @@ public enum Emoji: CaseIterable {
         case .non_potable_water:
             return ["\u{1f6b1}"]
         case .bike:
-            return ["\u{1f6b2}",
-                    "\u{1f6b2}\u{fe0f}"]
+            return ["\u{1f6b2}"]
         case .no_bicycles:
             return ["\u{1f6b3}"]
         case .person_biking:
             return ["\u{1f6b4}"]
         case .woman_biking:
-            return ["\u{1f6b4}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b4}\u{200d}\u{2640}",
-                    "\u{1f6b4}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b4}\u{2640}",
+                    "\u{1f6b4}\u{200d}\u{2640}\u{fe0f}"]
         case .man_biking:
-            return ["\u{1f6b4}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b4}\u{200d}\u{2642}",
-                    "\u{1f6b4}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b4}\u{2642}",
+                    "\u{1f6b4}\u{200d}\u{2642}\u{fe0f}"]
         case .person_biking_tone1:
             return ["\u{1f6b4}\u{1f3fb}"]
         case .woman_biking_tone1:
-            return ["\u{1f6b4}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b4}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f6b4}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b4}\u{1f3fb}\u{2640}",
+                    "\u{1f6b4}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_biking_tone1:
-            return ["\u{1f6b4}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b4}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f6b4}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b4}\u{1f3fb}\u{2642}",
+                    "\u{1f6b4}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_biking_tone2:
             return ["\u{1f6b4}\u{1f3fc}"]
         case .woman_biking_tone2:
-            return ["\u{1f6b4}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b4}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f6b4}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b4}\u{1f3fc}\u{2640}",
+                    "\u{1f6b4}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_biking_tone2:
-            return ["\u{1f6b4}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b4}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f6b4}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b4}\u{1f3fc}\u{2642}",
+                    "\u{1f6b4}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_biking_tone3:
             return ["\u{1f6b4}\u{1f3fd}"]
         case .woman_biking_tone3:
-            return ["\u{1f6b4}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b4}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f6b4}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b4}\u{1f3fd}\u{2640}",
+                    "\u{1f6b4}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_biking_tone3:
-            return ["\u{1f6b4}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b4}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f6b4}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b4}\u{1f3fd}\u{2642}",
+                    "\u{1f6b4}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_biking_tone4:
             return ["\u{1f6b4}\u{1f3fe}"]
         case .woman_biking_tone4:
-            return ["\u{1f6b4}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b4}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f6b4}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b4}\u{1f3fe}\u{2640}",
+                    "\u{1f6b4}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_biking_tone4:
-            return ["\u{1f6b4}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b4}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f6b4}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b4}\u{1f3fe}\u{2642}",
+                    "\u{1f6b4}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_biking_tone5:
             return ["\u{1f6b4}\u{1f3ff}"]
         case .woman_biking_tone5:
-            return ["\u{1f6b4}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b4}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f6b4}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b4}\u{1f3ff}\u{2640}",
+                    "\u{1f6b4}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_biking_tone5:
-            return ["\u{1f6b4}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b4}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f6b4}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b4}\u{1f3ff}\u{2642}",
+                    "\u{1f6b4}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_mountain_biking:
             return ["\u{1f6b5}"]
         case .woman_mountain_biking:
-            return ["\u{1f6b5}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b5}\u{200d}\u{2640}",
-                    "\u{1f6b5}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b5}\u{2640}",
+                    "\u{1f6b5}\u{200d}\u{2640}\u{fe0f}"]
         case .man_mountain_biking:
-            return ["\u{1f6b5}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b5}\u{200d}\u{2642}",
-                    "\u{1f6b5}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b5}\u{2642}",
+                    "\u{1f6b5}\u{200d}\u{2642}\u{fe0f}"]
         case .person_mountain_biking_tone1:
             return ["\u{1f6b5}\u{1f3fb}"]
         case .woman_mountain_biking_tone1:
-            return ["\u{1f6b5}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b5}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f6b5}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b5}\u{1f3fb}\u{2640}",
+                    "\u{1f6b5}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_mountain_biking_tone1:
-            return ["\u{1f6b5}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b5}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f6b5}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b5}\u{1f3fb}\u{2642}",
+                    "\u{1f6b5}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_mountain_biking_tone2:
             return ["\u{1f6b5}\u{1f3fc}"]
         case .woman_mountain_biking_tone2:
-            return ["\u{1f6b5}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b5}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f6b5}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b5}\u{1f3fc}\u{2640}",
+                    "\u{1f6b5}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_mountain_biking_tone2:
-            return ["\u{1f6b5}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b5}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f6b5}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b5}\u{1f3fc}\u{2642}",
+                    "\u{1f6b5}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_mountain_biking_tone3:
             return ["\u{1f6b5}\u{1f3fd}"]
         case .woman_mountain_biking_tone3:
-            return ["\u{1f6b5}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b5}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f6b5}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b5}\u{1f3fd}\u{2640}",
+                    "\u{1f6b5}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_mountain_biking_tone3:
-            return ["\u{1f6b5}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b5}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f6b5}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b5}\u{1f3fd}\u{2642}",
+                    "\u{1f6b5}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_mountain_biking_tone4:
             return ["\u{1f6b5}\u{1f3fe}"]
         case .woman_mountain_biking_tone4:
-            return ["\u{1f6b5}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b5}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f6b5}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b5}\u{1f3fe}\u{2640}",
+                    "\u{1f6b5}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_mountain_biking_tone4:
-            return ["\u{1f6b5}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b5}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f6b5}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b5}\u{1f3fe}\u{2642}",
+                    "\u{1f6b5}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_mountain_biking_tone5:
             return ["\u{1f6b5}\u{1f3ff}"]
         case .woman_mountain_biking_tone5:
-            return ["\u{1f6b5}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b5}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f6b5}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b5}\u{1f3ff}\u{2640}",
+                    "\u{1f6b5}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_mountain_biking_tone5:
-            return ["\u{1f6b5}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b5}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f6b5}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b5}\u{1f3ff}\u{2642}",
+                    "\u{1f6b5}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_walking:
             return ["\u{1f6b6}"]
         case .woman_walking:
-            return ["\u{1f6b6}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b6}\u{200d}\u{2640}",
-                    "\u{1f6b6}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b6}\u{2640}",
+                    "\u{1f6b6}\u{200d}\u{2640}\u{fe0f}"]
         case .man_walking:
-            return ["\u{1f6b6}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b6}\u{200d}\u{2642}",
-                    "\u{1f6b6}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b6}\u{2642}",
+                    "\u{1f6b6}\u{200d}\u{2642}\u{fe0f}"]
         case .person_walking_tone1:
             return ["\u{1f6b6}\u{1f3fb}"]
         case .woman_walking_tone1:
-            return ["\u{1f6b6}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b6}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f6b6}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b6}\u{1f3fb}\u{2640}",
+                    "\u{1f6b6}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_walking_tone1:
-            return ["\u{1f6b6}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b6}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f6b6}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b6}\u{1f3fb}\u{2642}",
+                    "\u{1f6b6}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_walking_tone2:
             return ["\u{1f6b6}\u{1f3fc}"]
         case .woman_walking_tone2:
-            return ["\u{1f6b6}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b6}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f6b6}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b6}\u{1f3fc}\u{2640}",
+                    "\u{1f6b6}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_walking_tone2:
-            return ["\u{1f6b6}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b6}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f6b6}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b6}\u{1f3fc}\u{2642}",
+                    "\u{1f6b6}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_walking_tone3:
             return ["\u{1f6b6}\u{1f3fd}"]
         case .woman_walking_tone3:
-            return ["\u{1f6b6}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b6}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f6b6}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b6}\u{1f3fd}\u{2640}",
+                    "\u{1f6b6}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_walking_tone3:
-            return ["\u{1f6b6}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b6}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f6b6}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b6}\u{1f3fd}\u{2642}",
+                    "\u{1f6b6}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_walking_tone4:
             return ["\u{1f6b6}\u{1f3fe}"]
         case .woman_walking_tone4:
-            return ["\u{1f6b6}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b6}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f6b6}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b6}\u{1f3fe}\u{2640}",
+                    "\u{1f6b6}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_walking_tone4:
-            return ["\u{1f6b6}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b6}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f6b6}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b6}\u{1f3fe}\u{2642}",
+                    "\u{1f6b6}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_walking_tone5:
             return ["\u{1f6b6}\u{1f3ff}"]
         case .woman_walking_tone5:
-            return ["\u{1f6b6}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f6b6}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f6b6}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f6b6}\u{1f3ff}\u{2640}",
+                    "\u{1f6b6}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_walking_tone5:
-            return ["\u{1f6b6}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f6b6}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f6b6}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f6b6}\u{1f3ff}\u{2642}",
+                    "\u{1f6b6}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .no_pedestrians:
             return ["\u{1f6b7}"]
         case .children_crossing:
             return ["\u{1f6b8}"]
         case .mens:
-            return ["\u{1f6b9}",
-                    "\u{1f6b9}\u{fe0f}"]
+            return ["\u{1f6b9}"]
         case .womens:
-            return ["\u{1f6ba}",
-                    "\u{1f6ba}\u{fe0f}"]
+            return ["\u{1f6ba}"]
         case .restroom:
             return ["\u{1f6bb}"]
         case .baby_symbol:
-            return ["\u{1f6bc}",
-                    "\u{1f6bc}\u{fe0f}"]
+            return ["\u{1f6bc}"]
         case .toilet:
             return ["\u{1f6bd}"]
         case .wc:
@@ -15600,6 +17362,12 @@ public enum Emoji: CaseIterable {
             return ["\u{1f6d1}"]
         case .shopping_cart:
             return ["\u{1f6d2}"]
+        case .hindu_temple:
+            return ["\u{1f6d5}"]
+        case .hut:
+            return ["\u{1f6d6}"]
+        case .elevator:
+            return ["\u{1f6d7}"]
         case .tools:
             return ["\u{1f6e0}",
                     "\u{1f6e0}\u{fe0f}"]
@@ -15643,6 +17411,64 @@ public enum Emoji: CaseIterable {
             return ["\u{1f6f8}"]
         case .skateboard:
             return ["\u{1f6f9}"]
+        case .auto_rickshaw:
+            return ["\u{1f6fa}"]
+        case .pickup_truck:
+            return ["\u{1f6fb}"]
+        case .roller_skate:
+            return ["\u{1f6fc}"]
+        case .orange_circle:
+            return ["\u{1f7e0}"]
+        case .yellow_circle:
+            return ["\u{1f7e1}"]
+        case .green_circle:
+            return ["\u{1f7e2}"]
+        case .purple_circle:
+            return ["\u{1f7e3}"]
+        case .brown_circle:
+            return ["\u{1f7e4}"]
+        case .red_square:
+            return ["\u{1f7e5}"]
+        case .blue_square:
+            return ["\u{1f7e6}"]
+        case .orange_square:
+            return ["\u{1f7e7}"]
+        case .yellow_square:
+            return ["\u{1f7e8}"]
+        case .green_square:
+            return ["\u{1f7e9}"]
+        case .purple_square:
+            return ["\u{1f7ea}"]
+        case .brown_square:
+            return ["\u{1f7eb}"]
+        case .pinched_fingers:
+            return ["\u{1f90c}"]
+        case .pinched_fingers_tone1:
+            return ["\u{1f90c}\u{1f3fb}"]
+        case .pinched_fingers_tone2:
+            return ["\u{1f90c}\u{1f3fc}"]
+        case .pinched_fingers_tone3:
+            return ["\u{1f90c}\u{1f3fd}"]
+        case .pinched_fingers_tone4:
+            return ["\u{1f90c}\u{1f3fe}"]
+        case .pinched_fingers_tone5:
+            return ["\u{1f90c}\u{1f3ff}"]
+        case .white_heart:
+            return ["\u{1f90d}"]
+        case .brown_heart:
+            return ["\u{1f90e}"]
+        case .pinching_hand:
+            return ["\u{1f90f}"]
+        case .pinching_hand_tone1:
+            return ["\u{1f90f}\u{1f3fb}"]
+        case .pinching_hand_tone2:
+            return ["\u{1f90f}\u{1f3fc}"]
+        case .pinching_hand_tone3:
+            return ["\u{1f90f}\u{1f3fd}"]
+        case .pinching_hand_tone4:
+            return ["\u{1f90f}\u{1f3fe}"]
+        case .pinching_hand_tone5:
+            return ["\u{1f90f}\u{1f3ff}"]
         case .zipper_mouth:
             return ["\u{1f910}"]
         case .money_mouth:
@@ -15760,63 +17586,51 @@ public enum Emoji: CaseIterable {
         case .person_facepalming:
             return ["\u{1f926}"]
         case .woman_facepalming:
-            return ["\u{1f926}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f926}\u{200d}\u{2640}",
-                    "\u{1f926}\u{2640}\u{fe0f}"]
+            return ["\u{1f926}\u{2640}",
+                    "\u{1f926}\u{200d}\u{2640}\u{fe0f}"]
         case .man_facepalming:
-            return ["\u{1f926}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f926}\u{200d}\u{2642}",
-                    "\u{1f926}\u{2642}\u{fe0f}"]
+            return ["\u{1f926}\u{2642}",
+                    "\u{1f926}\u{200d}\u{2642}\u{fe0f}"]
         case .person_facepalming_tone1:
             return ["\u{1f926}\u{1f3fb}"]
         case .woman_facepalming_tone1:
-            return ["\u{1f926}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f926}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f926}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f926}\u{1f3fb}\u{2640}",
+                    "\u{1f926}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_facepalming_tone1:
-            return ["\u{1f926}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f926}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f926}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f926}\u{1f3fb}\u{2642}",
+                    "\u{1f926}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_facepalming_tone2:
             return ["\u{1f926}\u{1f3fc}"]
         case .woman_facepalming_tone2:
-            return ["\u{1f926}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f926}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f926}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f926}\u{1f3fc}\u{2640}",
+                    "\u{1f926}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_facepalming_tone2:
-            return ["\u{1f926}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f926}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f926}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f926}\u{1f3fc}\u{2642}",
+                    "\u{1f926}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_facepalming_tone3:
             return ["\u{1f926}\u{1f3fd}"]
         case .woman_facepalming_tone3:
-            return ["\u{1f926}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f926}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f926}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f926}\u{1f3fd}\u{2640}",
+                    "\u{1f926}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_facepalming_tone3:
-            return ["\u{1f926}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f926}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f926}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f926}\u{1f3fd}\u{2642}",
+                    "\u{1f926}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_facepalming_tone4:
             return ["\u{1f926}\u{1f3fe}"]
         case .woman_facepalming_tone4:
-            return ["\u{1f926}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f926}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f926}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f926}\u{1f3fe}\u{2640}",
+                    "\u{1f926}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_facepalming_tone4:
-            return ["\u{1f926}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f926}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f926}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f926}\u{1f3fe}\u{2642}",
+                    "\u{1f926}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_facepalming_tone5:
             return ["\u{1f926}\u{1f3ff}"]
         case .woman_facepalming_tone5:
-            return ["\u{1f926}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f926}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f926}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f926}\u{1f3ff}\u{2640}",
+                    "\u{1f926}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_facepalming_tone5:
-            return ["\u{1f926}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f926}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f926}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f926}\u{1f3ff}\u{2642}",
+                    "\u{1f926}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .sneezing_face:
             return ["\u{1f927}"]
         case .face_with_raised_eyebrow:
@@ -15895,18 +17709,54 @@ public enum Emoji: CaseIterable {
             return ["\u{1f934}\u{1f3fe}"]
         case .prince_tone5:
             return ["\u{1f934}\u{1f3ff}"]
-        case .man_in_tuxedo:
+        case .person_in_tuxedo:
             return ["\u{1f935}"]
-        case .man_in_tuxedo_tone1:
+        case .woman_in_tuxedo:
+            return ["\u{1f935}\u{2640}",
+                    "\u{1f935}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_in_tuxedo:
+            return ["\u{1f935}\u{2642}",
+                    "\u{1f935}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_in_tuxedo_tone1:
             return ["\u{1f935}\u{1f3fb}"]
-        case .man_in_tuxedo_tone2:
+        case .woman_in_tuxedo_tone1:
+            return ["\u{1f935}\u{1f3fb}\u{2640}",
+                    "\u{1f935}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_in_tuxedo_tone1:
+            return ["\u{1f935}\u{1f3fb}\u{2642}",
+                    "\u{1f935}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_in_tuxedo_tone2:
             return ["\u{1f935}\u{1f3fc}"]
-        case .man_in_tuxedo_tone3:
+        case .woman_in_tuxedo_tone2:
+            return ["\u{1f935}\u{1f3fc}\u{2640}",
+                    "\u{1f935}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_in_tuxedo_tone2:
+            return ["\u{1f935}\u{1f3fc}\u{2642}",
+                    "\u{1f935}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_in_tuxedo_tone3:
             return ["\u{1f935}\u{1f3fd}"]
-        case .man_in_tuxedo_tone4:
+        case .woman_in_tuxedo_tone3:
+            return ["\u{1f935}\u{1f3fd}\u{2640}",
+                    "\u{1f935}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_in_tuxedo_tone3:
+            return ["\u{1f935}\u{1f3fd}\u{2642}",
+                    "\u{1f935}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_in_tuxedo_tone4:
             return ["\u{1f935}\u{1f3fe}"]
-        case .man_in_tuxedo_tone5:
+        case .woman_in_tuxedo_tone4:
+            return ["\u{1f935}\u{1f3fe}\u{2640}",
+                    "\u{1f935}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_in_tuxedo_tone4:
+            return ["\u{1f935}\u{1f3fe}\u{2642}",
+                    "\u{1f935}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_in_tuxedo_tone5:
             return ["\u{1f935}\u{1f3ff}"]
+        case .woman_in_tuxedo_tone5:
+            return ["\u{1f935}\u{1f3ff}\u{2640}",
+                    "\u{1f935}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_in_tuxedo_tone5:
+            return ["\u{1f935}\u{1f3ff}\u{2642}",
+                    "\u{1f935}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .mrs_claus:
             return ["\u{1f936}"]
         case .mrs_claus_tone1:
@@ -15922,315 +17772,255 @@ public enum Emoji: CaseIterable {
         case .person_shrugging:
             return ["\u{1f937}"]
         case .woman_shrugging:
-            return ["\u{1f937}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f937}\u{200d}\u{2640}",
-                    "\u{1f937}\u{2640}\u{fe0f}"]
+            return ["\u{1f937}\u{2640}",
+                    "\u{1f937}\u{200d}\u{2640}\u{fe0f}"]
         case .man_shrugging:
-            return ["\u{1f937}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f937}\u{200d}\u{2642}",
-                    "\u{1f937}\u{2642}\u{fe0f}"]
+            return ["\u{1f937}\u{2642}",
+                    "\u{1f937}\u{200d}\u{2642}\u{fe0f}"]
         case .person_shrugging_tone1:
             return ["\u{1f937}\u{1f3fb}"]
         case .woman_shrugging_tone1:
-            return ["\u{1f937}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f937}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f937}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f937}\u{1f3fb}\u{2640}",
+                    "\u{1f937}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_shrugging_tone1:
-            return ["\u{1f937}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f937}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f937}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f937}\u{1f3fb}\u{2642}",
+                    "\u{1f937}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_shrugging_tone2:
             return ["\u{1f937}\u{1f3fc}"]
         case .woman_shrugging_tone2:
-            return ["\u{1f937}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f937}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f937}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f937}\u{1f3fc}\u{2640}",
+                    "\u{1f937}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_shrugging_tone2:
-            return ["\u{1f937}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f937}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f937}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f937}\u{1f3fc}\u{2642}",
+                    "\u{1f937}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_shrugging_tone3:
             return ["\u{1f937}\u{1f3fd}"]
         case .woman_shrugging_tone3:
-            return ["\u{1f937}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f937}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f937}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f937}\u{1f3fd}\u{2640}",
+                    "\u{1f937}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_shrugging_tone3:
-            return ["\u{1f937}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f937}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f937}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f937}\u{1f3fd}\u{2642}",
+                    "\u{1f937}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_shrugging_tone4:
             return ["\u{1f937}\u{1f3fe}"]
         case .woman_shrugging_tone4:
-            return ["\u{1f937}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f937}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f937}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f937}\u{1f3fe}\u{2640}",
+                    "\u{1f937}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_shrugging_tone4:
-            return ["\u{1f937}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f937}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f937}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f937}\u{1f3fe}\u{2642}",
+                    "\u{1f937}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_shrugging_tone5:
             return ["\u{1f937}\u{1f3ff}"]
         case .woman_shrugging_tone5:
-            return ["\u{1f937}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f937}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f937}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f937}\u{1f3ff}\u{2640}",
+                    "\u{1f937}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_shrugging_tone5:
-            return ["\u{1f937}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f937}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f937}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f937}\u{1f3ff}\u{2642}",
+                    "\u{1f937}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_doing_cartwheel:
             return ["\u{1f938}"]
         case .woman_cartwheeling:
-            return ["\u{1f938}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f938}\u{200d}\u{2640}",
-                    "\u{1f938}\u{2640}\u{fe0f}"]
+            return ["\u{1f938}\u{2640}",
+                    "\u{1f938}\u{200d}\u{2640}\u{fe0f}"]
         case .man_cartwheeling:
-            return ["\u{1f938}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f938}\u{200d}\u{2642}",
-                    "\u{1f938}\u{2642}\u{fe0f}"]
+            return ["\u{1f938}\u{2642}",
+                    "\u{1f938}\u{200d}\u{2642}\u{fe0f}"]
         case .person_doing_cartwheel_tone1:
             return ["\u{1f938}\u{1f3fb}"]
         case .woman_cartwheeling_tone1:
-            return ["\u{1f938}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f938}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f938}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f938}\u{1f3fb}\u{2640}",
+                    "\u{1f938}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_cartwheeling_tone1:
-            return ["\u{1f938}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f938}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f938}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f938}\u{1f3fb}\u{2642}",
+                    "\u{1f938}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_doing_cartwheel_tone2:
             return ["\u{1f938}\u{1f3fc}"]
         case .woman_cartwheeling_tone2:
-            return ["\u{1f938}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f938}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f938}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f938}\u{1f3fc}\u{2640}",
+                    "\u{1f938}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_cartwheeling_tone2:
-            return ["\u{1f938}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f938}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f938}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f938}\u{1f3fc}\u{2642}",
+                    "\u{1f938}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_doing_cartwheel_tone3:
             return ["\u{1f938}\u{1f3fd}"]
         case .woman_cartwheeling_tone3:
-            return ["\u{1f938}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f938}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f938}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f938}\u{1f3fd}\u{2640}",
+                    "\u{1f938}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_cartwheeling_tone3:
-            return ["\u{1f938}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f938}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f938}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f938}\u{1f3fd}\u{2642}",
+                    "\u{1f938}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_doing_cartwheel_tone4:
             return ["\u{1f938}\u{1f3fe}"]
         case .woman_cartwheeling_tone4:
-            return ["\u{1f938}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f938}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f938}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f938}\u{1f3fe}\u{2640}",
+                    "\u{1f938}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_cartwheeling_tone4:
-            return ["\u{1f938}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f938}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f938}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f938}\u{1f3fe}\u{2642}",
+                    "\u{1f938}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_doing_cartwheel_tone5:
             return ["\u{1f938}\u{1f3ff}"]
         case .woman_cartwheeling_tone5:
-            return ["\u{1f938}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f938}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f938}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f938}\u{1f3ff}\u{2640}",
+                    "\u{1f938}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_cartwheeling_tone5:
-            return ["\u{1f938}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f938}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f938}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f938}\u{1f3ff}\u{2642}",
+                    "\u{1f938}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_juggling:
             return ["\u{1f939}"]
         case .woman_juggling:
-            return ["\u{1f939}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f939}\u{200d}\u{2640}",
-                    "\u{1f939}\u{2640}\u{fe0f}"]
+            return ["\u{1f939}\u{2640}",
+                    "\u{1f939}\u{200d}\u{2640}\u{fe0f}"]
         case .man_juggling:
-            return ["\u{1f939}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f939}\u{200d}\u{2642}",
-                    "\u{1f939}\u{2642}\u{fe0f}"]
+            return ["\u{1f939}\u{2642}",
+                    "\u{1f939}\u{200d}\u{2642}\u{fe0f}"]
         case .person_juggling_tone1:
             return ["\u{1f939}\u{1f3fb}"]
         case .woman_juggling_tone1:
-            return ["\u{1f939}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f939}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f939}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f939}\u{1f3fb}\u{2640}",
+                    "\u{1f939}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_juggling_tone1:
-            return ["\u{1f939}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f939}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f939}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f939}\u{1f3fb}\u{2642}",
+                    "\u{1f939}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_juggling_tone2:
             return ["\u{1f939}\u{1f3fc}"]
         case .woman_juggling_tone2:
-            return ["\u{1f939}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f939}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f939}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f939}\u{1f3fc}\u{2640}",
+                    "\u{1f939}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_juggling_tone2:
-            return ["\u{1f939}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f939}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f939}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f939}\u{1f3fc}\u{2642}",
+                    "\u{1f939}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_juggling_tone3:
             return ["\u{1f939}\u{1f3fd}"]
         case .woman_juggling_tone3:
-            return ["\u{1f939}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f939}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f939}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f939}\u{1f3fd}\u{2640}",
+                    "\u{1f939}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_juggling_tone3:
-            return ["\u{1f939}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f939}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f939}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f939}\u{1f3fd}\u{2642}",
+                    "\u{1f939}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_juggling_tone4:
             return ["\u{1f939}\u{1f3fe}"]
         case .woman_juggling_tone4:
-            return ["\u{1f939}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f939}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f939}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f939}\u{1f3fe}\u{2640}",
+                    "\u{1f939}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_juggling_tone4:
-            return ["\u{1f939}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f939}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f939}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f939}\u{1f3fe}\u{2642}",
+                    "\u{1f939}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_juggling_tone5:
             return ["\u{1f939}\u{1f3ff}"]
         case .woman_juggling_tone5:
-            return ["\u{1f939}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f939}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f939}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f939}\u{1f3ff}\u{2640}",
+                    "\u{1f939}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_juggling_tone5:
-            return ["\u{1f939}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f939}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f939}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f939}\u{1f3ff}\u{2642}",
+                    "\u{1f939}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_fencing:
             return ["\u{1f93a}"]
         case .people_wrestling:
             return ["\u{1f93c}"]
         case .women_wrestling:
-            return ["\u{1f93c}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f93c}\u{200d}\u{2640}",
-                    "\u{1f93c}\u{2640}\u{fe0f}"]
+            return ["\u{1f93c}\u{2640}",
+                    "\u{1f93c}\u{200d}\u{2640}\u{fe0f}"]
         case .men_wrestling:
-            return ["\u{1f93c}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f93c}\u{200d}\u{2642}",
-                    "\u{1f93c}\u{2642}\u{fe0f}"]
+            return ["\u{1f93c}\u{2642}",
+                    "\u{1f93c}\u{200d}\u{2642}\u{fe0f}"]
         case .person_playing_water_polo:
             return ["\u{1f93d}"]
         case .woman_playing_water_polo:
-            return ["\u{1f93d}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f93d}\u{200d}\u{2640}",
-                    "\u{1f93d}\u{2640}\u{fe0f}"]
+            return ["\u{1f93d}\u{2640}",
+                    "\u{1f93d}\u{200d}\u{2640}\u{fe0f}"]
         case .man_playing_water_polo:
-            return ["\u{1f93d}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f93d}\u{200d}\u{2642}",
-                    "\u{1f93d}\u{2642}\u{fe0f}"]
+            return ["\u{1f93d}\u{2642}",
+                    "\u{1f93d}\u{200d}\u{2642}\u{fe0f}"]
         case .person_playing_water_polo_tone1:
             return ["\u{1f93d}\u{1f3fb}"]
         case .woman_playing_water_polo_tone1:
-            return ["\u{1f93d}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f93d}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f93d}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f93d}\u{1f3fb}\u{2640}",
+                    "\u{1f93d}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_playing_water_polo_tone1:
-            return ["\u{1f93d}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f93d}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f93d}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f93d}\u{1f3fb}\u{2642}",
+                    "\u{1f93d}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_playing_water_polo_tone2:
             return ["\u{1f93d}\u{1f3fc}"]
         case .woman_playing_water_polo_tone2:
-            return ["\u{1f93d}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f93d}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f93d}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f93d}\u{1f3fc}\u{2640}",
+                    "\u{1f93d}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_playing_water_polo_tone2:
-            return ["\u{1f93d}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f93d}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f93d}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f93d}\u{1f3fc}\u{2642}",
+                    "\u{1f93d}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_playing_water_polo_tone3:
             return ["\u{1f93d}\u{1f3fd}"]
         case .woman_playing_water_polo_tone3:
-            return ["\u{1f93d}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f93d}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f93d}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f93d}\u{1f3fd}\u{2640}",
+                    "\u{1f93d}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_playing_water_polo_tone3:
-            return ["\u{1f93d}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f93d}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f93d}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f93d}\u{1f3fd}\u{2642}",
+                    "\u{1f93d}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_playing_water_polo_tone4:
             return ["\u{1f93d}\u{1f3fe}"]
         case .woman_playing_water_polo_tone4:
-            return ["\u{1f93d}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f93d}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f93d}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f93d}\u{1f3fe}\u{2640}",
+                    "\u{1f93d}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_playing_water_polo_tone4:
-            return ["\u{1f93d}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f93d}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f93d}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f93d}\u{1f3fe}\u{2642}",
+                    "\u{1f93d}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_playing_water_polo_tone5:
             return ["\u{1f93d}\u{1f3ff}"]
         case .woman_playing_water_polo_tone5:
-            return ["\u{1f93d}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f93d}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f93d}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f93d}\u{1f3ff}\u{2640}",
+                    "\u{1f93d}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_playing_water_polo_tone5:
-            return ["\u{1f93d}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f93d}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f93d}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f93d}\u{1f3ff}\u{2642}",
+                    "\u{1f93d}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_playing_handball:
             return ["\u{1f93e}"]
         case .woman_playing_handball:
-            return ["\u{1f93e}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f93e}\u{200d}\u{2640}",
-                    "\u{1f93e}\u{2640}\u{fe0f}"]
+            return ["\u{1f93e}\u{2640}",
+                    "\u{1f93e}\u{200d}\u{2640}\u{fe0f}"]
         case .man_playing_handball:
-            return ["\u{1f93e}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f93e}\u{200d}\u{2642}",
-                    "\u{1f93e}\u{2642}\u{fe0f}"]
+            return ["\u{1f93e}\u{2642}",
+                    "\u{1f93e}\u{200d}\u{2642}\u{fe0f}"]
         case .person_playing_handball_tone1:
             return ["\u{1f93e}\u{1f3fb}"]
         case .woman_playing_handball_tone1:
-            return ["\u{1f93e}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f93e}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f93e}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f93e}\u{1f3fb}\u{2640}",
+                    "\u{1f93e}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_playing_handball_tone1:
-            return ["\u{1f93e}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f93e}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f93e}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f93e}\u{1f3fb}\u{2642}",
+                    "\u{1f93e}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_playing_handball_tone2:
             return ["\u{1f93e}\u{1f3fc}"]
         case .woman_playing_handball_tone2:
-            return ["\u{1f93e}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f93e}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f93e}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f93e}\u{1f3fc}\u{2640}",
+                    "\u{1f93e}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_playing_handball_tone2:
-            return ["\u{1f93e}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f93e}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f93e}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f93e}\u{1f3fc}\u{2642}",
+                    "\u{1f93e}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_playing_handball_tone3:
             return ["\u{1f93e}\u{1f3fd}"]
         case .woman_playing_handball_tone3:
-            return ["\u{1f93e}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f93e}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f93e}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f93e}\u{1f3fd}\u{2640}",
+                    "\u{1f93e}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_playing_handball_tone3:
-            return ["\u{1f93e}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f93e}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f93e}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f93e}\u{1f3fd}\u{2642}",
+                    "\u{1f93e}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_playing_handball_tone4:
             return ["\u{1f93e}\u{1f3fe}"]
         case .woman_playing_handball_tone4:
-            return ["\u{1f93e}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f93e}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f93e}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f93e}\u{1f3fe}\u{2640}",
+                    "\u{1f93e}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_playing_handball_tone4:
-            return ["\u{1f93e}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f93e}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f93e}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f93e}\u{1f3fe}\u{2642}",
+                    "\u{1f93e}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_playing_handball_tone5:
             return ["\u{1f93e}\u{1f3ff}"]
         case .woman_playing_handball_tone5:
-            return ["\u{1f93e}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f93e}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f93e}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f93e}\u{1f3ff}\u{2640}",
+                    "\u{1f93e}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_playing_handball_tone5:
-            return ["\u{1f93e}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f93e}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f93e}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f93e}\u{1f3ff}\u{2642}",
+                    "\u{1f93e}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
+        case .diving_mask:
+            return ["\u{1f93f}"]
         case .wilted_rose:
             return ["\u{1f940}"]
         case .drum:
@@ -16327,6 +18117,10 @@ public enum Emoji: CaseIterable {
             return ["\u{1f96f}"]
         case .smiling_face_with_3_hearts:
             return ["\u{1f970}"]
+        case .yawning_face:
+            return ["\u{1f971}"]
+        case .smiling_face_with_tear:
+            return ["\u{1f972}"]
         case .partying_face:
             return ["\u{1f973}"]
         case .woozy_face:
@@ -16335,8 +18129,24 @@ public enum Emoji: CaseIterable {
             return ["\u{1f975}"]
         case .cold_face:
             return ["\u{1f976}"]
+        case .ninja:
+            return ["\u{1f977}"]
+        case .ninja_tone1:
+            return ["\u{1f977}\u{1f3fb}"]
+        case .ninja_tone2:
+            return ["\u{1f977}\u{1f3fc}"]
+        case .ninja_tone3:
+            return ["\u{1f977}\u{1f3fd}"]
+        case .ninja_tone4:
+            return ["\u{1f977}\u{1f3fe}"]
+        case .ninja_tone5:
+            return ["\u{1f977}\u{1f3ff}"]
+        case .disguised_face:
+            return ["\u{1f978}"]
         case .pleading_face:
             return ["\u{1f97a}"]
+        case .sari:
+            return ["\u{1f97b}"]
         case .lab_coat:
             return ["\u{1f97c}"]
         case .goggles:
@@ -16415,6 +18225,32 @@ public enum Emoji: CaseIterable {
             return ["\u{1f9a1}"]
         case .swan:
             return ["\u{1f9a2}"]
+        case .mammoth:
+            return ["\u{1f9a3}"]
+        case .dodo:
+            return ["\u{1f9a4}"]
+        case .sloth:
+            return ["\u{1f9a5}"]
+        case .otter:
+            return ["\u{1f9a6}"]
+        case .orangutan:
+            return ["\u{1f9a7}"]
+        case .skunk:
+            return ["\u{1f9a8}"]
+        case .flamingo:
+            return ["\u{1f9a9}"]
+        case .oyster:
+            return ["\u{1f9aa}"]
+        case .beaver:
+            return ["\u{1f9ab}"]
+        case .bison:
+            return ["\u{1f9ac}"]
+        case .seal:
+            return ["\u{1f9ad}"]
+        case .guide_dog:
+            return ["\u{1f9ae}"]
+        case .probing_cane:
+            return ["\u{1f9af}"]
         case .red_haired:
             return ["\u{1f9b0}"]
         case .curly_haired:
@@ -16454,143 +18290,831 @@ public enum Emoji: CaseIterable {
         case .superhero:
             return ["\u{1f9b8}"]
         case .woman_superhero:
-            return ["\u{1f9b8}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9b8}\u{200d}\u{2640}",
-                    "\u{1f9b8}\u{2640}\u{fe0f}"]
+            return ["\u{1f9b8}\u{2640}",
+                    "\u{1f9b8}\u{200d}\u{2640}\u{fe0f}"]
         case .man_superhero:
-            return ["\u{1f9b8}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9b8}\u{200d}\u{2642}",
-                    "\u{1f9b8}\u{2642}\u{fe0f}"]
+            return ["\u{1f9b8}\u{2642}",
+                    "\u{1f9b8}\u{200d}\u{2642}\u{fe0f}"]
         case .superhero_tone1:
             return ["\u{1f9b8}\u{1f3fb}"]
         case .woman_superhero_tone1:
-            return ["\u{1f9b8}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9b8}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f9b8}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f9b8}\u{1f3fb}\u{2640}",
+                    "\u{1f9b8}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_superhero_tone1:
-            return ["\u{1f9b8}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9b8}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f9b8}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f9b8}\u{1f3fb}\u{2642}",
+                    "\u{1f9b8}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .superhero_tone2:
             return ["\u{1f9b8}\u{1f3fc}"]
         case .woman_superhero_tone2:
-            return ["\u{1f9b8}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9b8}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f9b8}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f9b8}\u{1f3fc}\u{2640}",
+                    "\u{1f9b8}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_superhero_tone2:
-            return ["\u{1f9b8}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9b8}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f9b8}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f9b8}\u{1f3fc}\u{2642}",
+                    "\u{1f9b8}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .superhero_tone3:
             return ["\u{1f9b8}\u{1f3fd}"]
         case .woman_superhero_tone3:
-            return ["\u{1f9b8}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9b8}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f9b8}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f9b8}\u{1f3fd}\u{2640}",
+                    "\u{1f9b8}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_superhero_tone3:
-            return ["\u{1f9b8}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9b8}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f9b8}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f9b8}\u{1f3fd}\u{2642}",
+                    "\u{1f9b8}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .superhero_tone4:
             return ["\u{1f9b8}\u{1f3fe}"]
         case .woman_superhero_tone4:
-            return ["\u{1f9b8}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9b8}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f9b8}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f9b8}\u{1f3fe}\u{2640}",
+                    "\u{1f9b8}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_superhero_tone4:
-            return ["\u{1f9b8}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9b8}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f9b8}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f9b8}\u{1f3fe}\u{2642}",
+                    "\u{1f9b8}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .superhero_tone5:
             return ["\u{1f9b8}\u{1f3ff}"]
         case .woman_superhero_tone5:
-            return ["\u{1f9b8}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9b8}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f9b8}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f9b8}\u{1f3ff}\u{2640}",
+                    "\u{1f9b8}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_superhero_tone5:
-            return ["\u{1f9b8}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9b8}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f9b8}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f9b8}\u{1f3ff}\u{2642}",
+                    "\u{1f9b8}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .supervillain:
             return ["\u{1f9b9}"]
         case .woman_supervillain:
-            return ["\u{1f9b9}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9b9}\u{200d}\u{2640}",
-                    "\u{1f9b9}\u{2640}\u{fe0f}"]
+            return ["\u{1f9b9}\u{2640}",
+                    "\u{1f9b9}\u{200d}\u{2640}\u{fe0f}"]
         case .man_supervillain:
-            return ["\u{1f9b9}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9b9}\u{200d}\u{2642}",
-                    "\u{1f9b9}\u{2642}\u{fe0f}"]
+            return ["\u{1f9b9}\u{2642}",
+                    "\u{1f9b9}\u{200d}\u{2642}\u{fe0f}"]
         case .supervillain_tone1:
             return ["\u{1f9b9}\u{1f3fb}"]
         case .woman_supervillain_tone1:
-            return ["\u{1f9b9}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9b9}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f9b9}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f9b9}\u{1f3fb}\u{2640}",
+                    "\u{1f9b9}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_supervillain_tone1:
-            return ["\u{1f9b9}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9b9}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f9b9}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f9b9}\u{1f3fb}\u{2642}",
+                    "\u{1f9b9}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .supervillain_tone2:
             return ["\u{1f9b9}\u{1f3fc}"]
         case .woman_supervillain_tone2:
-            return ["\u{1f9b9}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9b9}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f9b9}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f9b9}\u{1f3fc}\u{2640}",
+                    "\u{1f9b9}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_supervillain_tone2:
-            return ["\u{1f9b9}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9b9}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f9b9}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f9b9}\u{1f3fc}\u{2642}",
+                    "\u{1f9b9}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .supervillain_tone3:
             return ["\u{1f9b9}\u{1f3fd}"]
         case .woman_supervillain_tone3:
-            return ["\u{1f9b9}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9b9}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f9b9}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f9b9}\u{1f3fd}\u{2640}",
+                    "\u{1f9b9}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_supervillain_tone3:
-            return ["\u{1f9b9}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9b9}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f9b9}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f9b9}\u{1f3fd}\u{2642}",
+                    "\u{1f9b9}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .supervillain_tone4:
             return ["\u{1f9b9}\u{1f3fe}"]
         case .woman_supervillain_tone4:
-            return ["\u{1f9b9}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9b9}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f9b9}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f9b9}\u{1f3fe}\u{2640}",
+                    "\u{1f9b9}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_supervillain_tone4:
-            return ["\u{1f9b9}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9b9}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f9b9}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f9b9}\u{1f3fe}\u{2642}",
+                    "\u{1f9b9}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .supervillain_tone5:
             return ["\u{1f9b9}\u{1f3ff}"]
         case .woman_supervillain_tone5:
-            return ["\u{1f9b9}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9b9}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f9b9}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f9b9}\u{1f3ff}\u{2640}",
+                    "\u{1f9b9}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_supervillain_tone5:
-            return ["\u{1f9b9}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9b9}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f9b9}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f9b9}\u{1f3ff}\u{2642}",
+                    "\u{1f9b9}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
+        case .safety_vest:
+            return ["\u{1f9ba}"]
+        case .ear_with_hearing_aid:
+            return ["\u{1f9bb}"]
+        case .ear_with_hearing_aid_tone1:
+            return ["\u{1f9bb}\u{1f3fb}"]
+        case .ear_with_hearing_aid_tone2:
+            return ["\u{1f9bb}\u{1f3fc}"]
+        case .ear_with_hearing_aid_tone3:
+            return ["\u{1f9bb}\u{1f3fd}"]
+        case .ear_with_hearing_aid_tone4:
+            return ["\u{1f9bb}\u{1f3fe}"]
+        case .ear_with_hearing_aid_tone5:
+            return ["\u{1f9bb}\u{1f3ff}"]
+        case .motorized_wheelchair:
+            return ["\u{1f9bc}"]
+        case .manual_wheelchair:
+            return ["\u{1f9bd}"]
+        case .mechanical_arm:
+            return ["\u{1f9be}"]
+        case .mechanical_leg:
+            return ["\u{1f9bf}"]
         case .cheese:
             return ["\u{1f9c0}"]
         case .cupcake:
             return ["\u{1f9c1}"]
         case .salt:
             return ["\u{1f9c2}"]
+        case .beverage_box:
+            return ["\u{1f9c3}"]
+        case .garlic:
+            return ["\u{1f9c4}"]
+        case .onion:
+            return ["\u{1f9c5}"]
+        case .falafel:
+            return ["\u{1f9c6}"]
+        case .waffle:
+            return ["\u{1f9c7}"]
+        case .butter:
+            return ["\u{1f9c8}"]
+        case .mate:
+            return ["\u{1f9c9}"]
+        case .ice_cube:
+            return ["\u{1f9ca}"]
+        case .bubble_tea:
+            return ["\u{1f9cb}"]
+        case .person_standing:
+            return ["\u{1f9cd}"]
+        case .woman_standing:
+            return ["\u{1f9cd}\u{2640}",
+                    "\u{1f9cd}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_standing:
+            return ["\u{1f9cd}\u{2642}",
+                    "\u{1f9cd}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_standing_tone1:
+            return ["\u{1f9cd}\u{1f3fb}"]
+        case .woman_standing_tone1:
+            return ["\u{1f9cd}\u{1f3fb}\u{2640}",
+                    "\u{1f9cd}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_standing_tone1:
+            return ["\u{1f9cd}\u{1f3fb}\u{2642}",
+                    "\u{1f9cd}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_standing_tone2:
+            return ["\u{1f9cd}\u{1f3fc}"]
+        case .woman_standing_tone2:
+            return ["\u{1f9cd}\u{1f3fc}\u{2640}",
+                    "\u{1f9cd}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_standing_tone2:
+            return ["\u{1f9cd}\u{1f3fc}\u{2642}",
+                    "\u{1f9cd}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_standing_tone3:
+            return ["\u{1f9cd}\u{1f3fd}"]
+        case .woman_standing_tone3:
+            return ["\u{1f9cd}\u{1f3fd}\u{2640}",
+                    "\u{1f9cd}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_standing_tone3:
+            return ["\u{1f9cd}\u{1f3fd}\u{2642}",
+                    "\u{1f9cd}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_standing_tone4:
+            return ["\u{1f9cd}\u{1f3fe}"]
+        case .woman_standing_tone4:
+            return ["\u{1f9cd}\u{1f3fe}\u{2640}",
+                    "\u{1f9cd}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_standing_tone4:
+            return ["\u{1f9cd}\u{1f3fe}\u{2642}",
+                    "\u{1f9cd}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_standing_tone5:
+            return ["\u{1f9cd}\u{1f3ff}"]
+        case .woman_standing_tone5:
+            return ["\u{1f9cd}\u{1f3ff}\u{2640}",
+                    "\u{1f9cd}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_standing_tone5:
+            return ["\u{1f9cd}\u{1f3ff}\u{2642}",
+                    "\u{1f9cd}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_kneeling:
+            return ["\u{1f9ce}"]
+        case .woman_kneeling:
+            return ["\u{1f9ce}\u{2640}",
+                    "\u{1f9ce}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_kneeling:
+            return ["\u{1f9ce}\u{2642}",
+                    "\u{1f9ce}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_kneeling_tone1:
+            return ["\u{1f9ce}\u{1f3fb}"]
+        case .woman_kneeling_tone1:
+            return ["\u{1f9ce}\u{1f3fb}\u{2640}",
+                    "\u{1f9ce}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_kneeling_tone1:
+            return ["\u{1f9ce}\u{1f3fb}\u{2642}",
+                    "\u{1f9ce}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_kneeling_tone2:
+            return ["\u{1f9ce}\u{1f3fc}"]
+        case .woman_kneeling_tone2:
+            return ["\u{1f9ce}\u{1f3fc}\u{2640}",
+                    "\u{1f9ce}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_kneeling_tone2:
+            return ["\u{1f9ce}\u{1f3fc}\u{2642}",
+                    "\u{1f9ce}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_kneeling_tone3:
+            return ["\u{1f9ce}\u{1f3fd}"]
+        case .woman_kneeling_tone3:
+            return ["\u{1f9ce}\u{1f3fd}\u{2640}",
+                    "\u{1f9ce}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_kneeling_tone3:
+            return ["\u{1f9ce}\u{1f3fd}\u{2642}",
+                    "\u{1f9ce}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_kneeling_tone4:
+            return ["\u{1f9ce}\u{1f3fe}"]
+        case .woman_kneeling_tone4:
+            return ["\u{1f9ce}\u{1f3fe}\u{2640}",
+                    "\u{1f9ce}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_kneeling_tone4:
+            return ["\u{1f9ce}\u{1f3fe}\u{2642}",
+                    "\u{1f9ce}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
+        case .person_kneeling_tone5:
+            return ["\u{1f9ce}\u{1f3ff}"]
+        case .woman_kneeling_tone5:
+            return ["\u{1f9ce}\u{1f3ff}\u{2640}",
+                    "\u{1f9ce}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
+        case .man_kneeling_tone5:
+            return ["\u{1f9ce}\u{1f3ff}\u{2642}",
+                    "\u{1f9ce}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
+        case .deaf_person:
+            return ["\u{1f9cf}"]
+        case .deaf_woman:
+            return ["\u{1f9cf}\u{2640}",
+                    "\u{1f9cf}\u{200d}\u{2640}\u{fe0f}"]
+        case .deaf_man:
+            return ["\u{1f9cf}\u{2642}",
+                    "\u{1f9cf}\u{200d}\u{2642}\u{fe0f}"]
+        case .deaf_person_tone1:
+            return ["\u{1f9cf}\u{1f3fb}"]
+        case .deaf_woman_tone1:
+            return ["\u{1f9cf}\u{1f3fb}\u{2640}",
+                    "\u{1f9cf}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
+        case .deaf_man_tone1:
+            return ["\u{1f9cf}\u{1f3fb}\u{2642}",
+                    "\u{1f9cf}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
+        case .deaf_person_tone2:
+            return ["\u{1f9cf}\u{1f3fc}"]
+        case .deaf_woman_tone2:
+            return ["\u{1f9cf}\u{1f3fc}\u{2640}",
+                    "\u{1f9cf}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
+        case .deaf_man_tone2:
+            return ["\u{1f9cf}\u{1f3fc}\u{2642}",
+                    "\u{1f9cf}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
+        case .deaf_person_tone3:
+            return ["\u{1f9cf}\u{1f3fd}"]
+        case .deaf_woman_tone3:
+            return ["\u{1f9cf}\u{1f3fd}\u{2640}",
+                    "\u{1f9cf}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
+        case .deaf_man_tone3:
+            return ["\u{1f9cf}\u{1f3fd}\u{2642}",
+                    "\u{1f9cf}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
+        case .deaf_person_tone4:
+            return ["\u{1f9cf}\u{1f3fe}"]
+        case .deaf_woman_tone4:
+            return ["\u{1f9cf}\u{1f3fe}\u{2640}",
+                    "\u{1f9cf}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
+        case .deaf_man_tone4:
+            return ["\u{1f9cf}\u{1f3fe}\u{2642}",
+                    "\u{1f9cf}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
+        case .deaf_person_tone5:
+            return ["\u{1f9cf}\u{1f3ff}"]
+        case .deaf_woman_tone5:
+            return ["\u{1f9cf}\u{1f3ff}\u{2640}",
+                    "\u{1f9cf}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
+        case .deaf_man_tone5:
+            return ["\u{1f9cf}\u{1f3ff}\u{2642}",
+                    "\u{1f9cf}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .face_with_monocle:
             return ["\u{1f9d0}"]
         case .adult:
             return ["\u{1f9d1}"]
+        case .health_worker:
+            return ["\u{1f9d1}\u{2695}",
+                    "\u{1f9d1}\u{200d}\u{2695}\u{fe0f}"]
+        case .judge:
+            return ["\u{1f9d1}\u{2696}",
+                    "\u{1f9d1}\u{200d}\u{2696}\u{fe0f}"]
+        case .pilot:
+            return ["\u{1f9d1}\u{2708}",
+                    "\u{1f9d1}\u{200d}\u{2708}\u{fe0f}"]
+        case .farmer:
+            return ["\u{1f9d1}\u{1f33e}",
+                    "\u{1f9d1}\u{200d}\u{1f33e}"]
+        case .cook:
+            return ["\u{1f9d1}\u{1f373}",
+                    "\u{1f9d1}\u{200d}\u{1f373}"]
+        case .person_feeding_baby:
+            return ["\u{1f9d1}\u{1f37c}",
+                    "\u{1f9d1}\u{200d}\u{1f37c}"]
+        case .mx_claus:
+            return ["\u{1f9d1}\u{1f384}",
+                    "\u{1f9d1}\u{200d}\u{1f384}"]
+        case .student:
+            return ["\u{1f9d1}\u{1f393}",
+                    "\u{1f9d1}\u{200d}\u{1f393}"]
+        case .singer:
+            return ["\u{1f9d1}\u{1f3a4}",
+                    "\u{1f9d1}\u{200d}\u{1f3a4}"]
+        case .artist:
+            return ["\u{1f9d1}\u{1f3a8}",
+                    "\u{1f9d1}\u{200d}\u{1f3a8}"]
+        case .teacher:
+            return ["\u{1f9d1}\u{1f3eb}",
+                    "\u{1f9d1}\u{200d}\u{1f3eb}"]
+        case .factory_worker:
+            return ["\u{1f9d1}\u{1f3ed}",
+                    "\u{1f9d1}\u{200d}\u{1f3ed}"]
         case .adult_tone1:
             return ["\u{1f9d1}\u{1f3fb}"]
+        case .health_worker_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{2695}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{2695}\u{fe0f}"]
+        case .judge_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{2696}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{2696}\u{fe0f}"]
+        case .pilot_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{2708}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{2708}\u{fe0f}"]
+        case .farmer_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f33e}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f33e}"]
+        case .cook_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f373}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f373}"]
+        case .person_feeding_baby_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f37c}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f37c}"]
+        case .mx_claus_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f384}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f384}"]
+        case .student_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f393}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f393}"]
+        case .singer_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f3a4}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f3a4}"]
+        case .artist_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f3a8}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f3a8}"]
+        case .teacher_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f3eb}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f3eb}"]
+        case .factory_worker_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f3ed}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f3ed}"]
+        case .technologist_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f4bb}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f4bb}"]
+        case .office_worker_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f4bc}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f4bc}"]
+        case .mechanic_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f527}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f527}"]
+        case .scientist_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f52c}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f52c}"]
+        case .astronaut_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f680}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f680}"]
+        case .firefighter_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f692}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f692}"]
+        case .people_holding_hands_tone1_tone5:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f91d}\u{1f9d1}\u{1f3ff}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3ff}"]
+        case .people_holding_hands_tone1_tone4:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f91d}\u{1f9d1}\u{1f3fe}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fe}"]
+        case .people_holding_hands_tone1_tone3:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f91d}\u{1f9d1}\u{1f3fd}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fd}"]
+        case .people_holding_hands_tone1_tone2:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f91d}\u{1f9d1}\u{1f3fc}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fc}"]
+        case .people_holding_hands_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f91d}\u{1f9d1}\u{1f3fb}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fb}"]
+        case .person_with_probing_cane_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f9af}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f9af}"]
+        case .person_tone1_red_hair:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f9b0}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f9b0}"]
+        case .person_tone1_curly_hair:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f9b1}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f9b1}"]
+        case .person_tone1_bald:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f9b2}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f9b2}"]
+        case .person_tone1_white_hair:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f9b3}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f9b3}"]
+        case .person_in_motorized_wheelchair_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f9bc}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f9bc}"]
+        case .person_in_manual_wheelchair_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f9bd}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f9bd}"]
         case .adult_tone2:
             return ["\u{1f9d1}\u{1f3fc}"]
+        case .health_worker_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{2695}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{2695}\u{fe0f}"]
+        case .judge_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{2696}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{2696}\u{fe0f}"]
+        case .pilot_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{2708}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{2708}\u{fe0f}"]
+        case .farmer_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f33e}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f33e}"]
+        case .cook_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f373}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f373}"]
+        case .person_feeding_baby_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f37c}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f37c}"]
+        case .mx_claus_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f384}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f384}"]
+        case .student_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f393}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f393}"]
+        case .singer_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f3a4}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f3a4}"]
+        case .artist_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f3a8}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f3a8}"]
+        case .teacher_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f3eb}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f3eb}"]
+        case .factory_worker_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f3ed}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f3ed}"]
+        case .technologist_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f4bb}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f4bb}"]
+        case .office_worker_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f4bc}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f4bc}"]
+        case .mechanic_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f527}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f527}"]
+        case .scientist_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f52c}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f52c}"]
+        case .astronaut_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f680}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f680}"]
+        case .firefighter_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f692}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f692}"]
+        case .people_holding_hands_tone2_tone5:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f91d}\u{1f9d1}\u{1f3ff}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3ff}"]
+        case .people_holding_hands_tone2_tone4:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f91d}\u{1f9d1}\u{1f3fe}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fe}"]
+        case .people_holding_hands_tone2_tone3:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f91d}\u{1f9d1}\u{1f3fd}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fd}"]
+        case .people_holding_hands_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f91d}\u{1f9d1}\u{1f3fc}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fc}"]
+        case .people_holding_hands_tone2_tone1:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f91d}\u{1f9d1}\u{1f3fb}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fb}"]
+        case .person_with_probing_cane_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f9af}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f9af}"]
+        case .person_tone2_red_hair:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f9b0}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f9b0}"]
+        case .person_tone2_curly_hair:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f9b1}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f9b1}"]
+        case .person_tone2_bald:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f9b2}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f9b2}"]
+        case .person_tone2_white_hair:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f9b3}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f9b3}"]
+        case .person_in_motorized_wheelchair_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f9bc}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f9bc}"]
+        case .person_in_manual_wheelchair_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f9bd}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f9bd}"]
         case .adult_tone3:
             return ["\u{1f9d1}\u{1f3fd}"]
+        case .health_worker_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{2695}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{2695}\u{fe0f}"]
+        case .judge_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{2696}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{2696}\u{fe0f}"]
+        case .pilot_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{2708}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{2708}\u{fe0f}"]
+        case .farmer_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f33e}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f33e}"]
+        case .cook_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f373}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f373}"]
+        case .person_feeding_baby_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f37c}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f37c}"]
+        case .mx_claus_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f384}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f384}"]
+        case .student_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f393}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f393}"]
+        case .singer_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f3a4}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f3a4}"]
+        case .artist_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f3a8}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f3a8}"]
+        case .teacher_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f3eb}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f3eb}"]
+        case .factory_worker_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f3ed}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f3ed}"]
+        case .technologist_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f4bb}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f4bb}"]
+        case .office_worker_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f4bc}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f4bc}"]
+        case .mechanic_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f527}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f527}"]
+        case .scientist_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f52c}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f52c}"]
+        case .astronaut_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f680}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f680}"]
+        case .firefighter_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f692}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f692}"]
+        case .people_holding_hands_tone3_tone5:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f91d}\u{1f9d1}\u{1f3ff}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3ff}"]
+        case .people_holding_hands_tone3_tone4:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f91d}\u{1f9d1}\u{1f3fe}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fe}"]
+        case .people_holding_hands_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f91d}\u{1f9d1}\u{1f3fd}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fd}"]
+        case .people_holding_hands_tone3_tone2:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f91d}\u{1f9d1}\u{1f3fc}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fc}"]
+        case .people_holding_hands_tone3_tone1:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f91d}\u{1f9d1}\u{1f3fb}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fb}"]
+        case .person_with_probing_cane_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f9af}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f9af}"]
+        case .person_tone3_red_hair:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f9b0}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f9b0}"]
+        case .person_tone3_curly_hair:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f9b1}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f9b1}"]
+        case .person_tone3_bald:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f9b2}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f9b2}"]
+        case .person_tone3_white_hair:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f9b3}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f9b3}"]
+        case .person_in_motorized_wheelchair_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f9bc}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f9bc}"]
+        case .person_in_manual_wheelchair_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f9bd}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f9bd}"]
         case .adult_tone4:
             return ["\u{1f9d1}\u{1f3fe}"]
+        case .health_worker_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{2695}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{2695}\u{fe0f}"]
+        case .judge_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{2696}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{2696}\u{fe0f}"]
+        case .pilot_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{2708}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{2708}\u{fe0f}"]
+        case .farmer_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f33e}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f33e}"]
+        case .cook_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f373}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f373}"]
+        case .person_feeding_baby_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f37c}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f37c}"]
+        case .mx_claus_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f384}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f384}"]
+        case .student_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f393}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f393}"]
+        case .singer_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f3a4}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f3a4}"]
+        case .artist_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f3a8}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f3a8}"]
+        case .teacher_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f3eb}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f3eb}"]
+        case .factory_worker_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f3ed}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f3ed}"]
+        case .technologist_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f4bb}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f4bb}"]
+        case .office_worker_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f4bc}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f4bc}"]
+        case .mechanic_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f527}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f527}"]
+        case .scientist_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f52c}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f52c}"]
+        case .astronaut_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f680}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f680}"]
+        case .firefighter_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f692}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f692}"]
+        case .people_holding_hands_tone4_tone5:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f91d}\u{1f9d1}\u{1f3ff}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3ff}"]
+        case .people_holding_hands_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f91d}\u{1f9d1}\u{1f3fe}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fe}"]
+        case .people_holding_hands_tone4_tone3:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f91d}\u{1f9d1}\u{1f3fd}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fd}"]
+        case .people_holding_hands_tone4_tone2:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f91d}\u{1f9d1}\u{1f3fc}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fc}"]
+        case .people_holding_hands_tone4_tone1:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f91d}\u{1f9d1}\u{1f3fb}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fb}"]
+        case .person_with_probing_cane_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f9af}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f9af}"]
+        case .person_tone4_red_hair:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f9b0}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f9b0}"]
+        case .person_tone4_curly_hair:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f9b1}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f9b1}"]
+        case .person_tone4_bald:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f9b2}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f9b2}"]
+        case .person_tone4_white_hair:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f9b3}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f9b3}"]
+        case .person_in_motorized_wheelchair_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f9bc}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f9bc}"]
+        case .person_in_manual_wheelchair_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f9bd}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f9bd}"]
         case .adult_tone5:
             return ["\u{1f9d1}\u{1f3ff}"]
+        case .health_worker_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{2695}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{2695}\u{fe0f}"]
+        case .judge_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{2696}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{2696}\u{fe0f}"]
+        case .pilot_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{2708}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{2708}\u{fe0f}"]
+        case .farmer_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f33e}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f33e}"]
+        case .cook_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f373}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f373}"]
+        case .person_feeding_baby_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f37c}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f37c}"]
+        case .mx_claus_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f384}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f384}"]
+        case .student_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f393}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f393}"]
+        case .singer_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f3a4}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f3a4}"]
+        case .artist_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f3a8}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f3a8}"]
+        case .teacher_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f3eb}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f3eb}"]
+        case .factory_worker_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f3ed}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f3ed}"]
+        case .technologist_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f4bb}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f4bb}"]
+        case .office_worker_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f4bc}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f4bc}"]
+        case .mechanic_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f527}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f527}"]
+        case .scientist_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f52c}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f52c}"]
+        case .astronaut_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f680}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f680}"]
+        case .firefighter_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f692}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f692}"]
+        case .people_holding_hands_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f91d}\u{1f9d1}\u{1f3ff}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3ff}"]
+        case .people_holding_hands_tone5_tone4:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f91d}\u{1f9d1}\u{1f3fe}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fe}"]
+        case .people_holding_hands_tone5_tone3:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f91d}\u{1f9d1}\u{1f3fd}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fd}"]
+        case .people_holding_hands_tone5_tone2:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f91d}\u{1f9d1}\u{1f3fc}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fc}"]
+        case .people_holding_hands_tone5_tone1:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f91d}\u{1f9d1}\u{1f3fb}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}\u{1f3fb}"]
+        case .person_with_probing_cane_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f9af}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f9af}"]
+        case .person_tone5_red_hair:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f9b0}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f9b0}"]
+        case .person_tone5_curly_hair:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f9b1}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f9b1}"]
+        case .person_tone5_bald:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f9b2}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f9b2}"]
+        case .person_tone5_white_hair:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f9b3}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f9b3}"]
+        case .person_in_motorized_wheelchair_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f9bc}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f9bc}"]
+        case .person_in_manual_wheelchair_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f9bd}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f9bd}"]
+        case .technologist:
+            return ["\u{1f9d1}\u{1f4bb}",
+                    "\u{1f9d1}\u{200d}\u{1f4bb}"]
+        case .office_worker:
+            return ["\u{1f9d1}\u{1f4bc}",
+                    "\u{1f9d1}\u{200d}\u{1f4bc}"]
+        case .mechanic:
+            return ["\u{1f9d1}\u{1f527}",
+                    "\u{1f9d1}\u{200d}\u{1f527}"]
+        case .scientist:
+            return ["\u{1f9d1}\u{1f52c}",
+                    "\u{1f9d1}\u{200d}\u{1f52c}"]
+        case .astronaut:
+            return ["\u{1f9d1}\u{1f680}",
+                    "\u{1f9d1}\u{200d}\u{1f680}"]
+        case .firefighter:
+            return ["\u{1f9d1}\u{1f692}",
+                    "\u{1f9d1}\u{200d}\u{1f692}"]
+        case .people_holding_hands:
+            return ["\u{1f9d1}\u{1f91d}\u{1f9d1}",
+                    "\u{1f9d1}\u{200d}\u{1f91d}\u{200d}\u{1f9d1}"]
+        case .person_with_probing_cane:
+            return ["\u{1f9d1}\u{1f9af}",
+                    "\u{1f9d1}\u{200d}\u{1f9af}"]
+        case .person_red_hair:
+            return ["\u{1f9d1}\u{1f9b0}",
+                    "\u{1f9d1}\u{200d}\u{1f9b0}"]
+        case .person_curly_hair:
+            return ["\u{1f9d1}\u{1f9b1}",
+                    "\u{1f9d1}\u{200d}\u{1f9b1}"]
+        case .person_bald:
+            return ["\u{1f9d1}\u{1f9b2}",
+                    "\u{1f9d1}\u{200d}\u{1f9b2}"]
+        case .person_white_hair:
+            return ["\u{1f9d1}\u{1f9b3}",
+                    "\u{1f9d1}\u{200d}\u{1f9b3}"]
+        case .person_in_motorized_wheelchair:
+            return ["\u{1f9d1}\u{1f9bc}",
+                    "\u{1f9d1}\u{200d}\u{1f9bc}"]
+        case .person_in_manual_wheelchair:
+            return ["\u{1f9d1}\u{1f9bd}",
+                    "\u{1f9d1}\u{200d}\u{1f9bd}"]
         case .child:
             return ["\u{1f9d2}"]
         case .child_tone1:
@@ -16642,503 +19166,403 @@ public enum Emoji: CaseIterable {
         case .person_in_steamy_room:
             return ["\u{1f9d6}"]
         case .woman_in_steamy_room:
-            return ["\u{1f9d6}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d6}\u{200d}\u{2640}",
-                    "\u{1f9d6}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d6}\u{2640}",
+                    "\u{1f9d6}\u{200d}\u{2640}\u{fe0f}"]
         case .man_in_steamy_room:
-            return ["\u{1f9d6}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d6}\u{200d}\u{2642}",
-                    "\u{1f9d6}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d6}\u{2642}",
+                    "\u{1f9d6}\u{200d}\u{2642}\u{fe0f}"]
         case .person_in_steamy_room_tone1:
             return ["\u{1f9d6}\u{1f3fb}"]
         case .woman_in_steamy_room_tone1:
-            return ["\u{1f9d6}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d6}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f9d6}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d6}\u{1f3fb}\u{2640}",
+                    "\u{1f9d6}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_in_steamy_room_tone1:
-            return ["\u{1f9d6}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d6}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f9d6}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d6}\u{1f3fb}\u{2642}",
+                    "\u{1f9d6}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_in_steamy_room_tone2:
             return ["\u{1f9d6}\u{1f3fc}"]
         case .woman_in_steamy_room_tone2:
-            return ["\u{1f9d6}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d6}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f9d6}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d6}\u{1f3fc}\u{2640}",
+                    "\u{1f9d6}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_in_steamy_room_tone2:
-            return ["\u{1f9d6}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d6}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f9d6}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d6}\u{1f3fc}\u{2642}",
+                    "\u{1f9d6}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_in_steamy_room_tone3:
             return ["\u{1f9d6}\u{1f3fd}"]
         case .woman_in_steamy_room_tone3:
-            return ["\u{1f9d6}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d6}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f9d6}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d6}\u{1f3fd}\u{2640}",
+                    "\u{1f9d6}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_in_steamy_room_tone3:
-            return ["\u{1f9d6}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d6}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f9d6}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d6}\u{1f3fd}\u{2642}",
+                    "\u{1f9d6}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_in_steamy_room_tone4:
             return ["\u{1f9d6}\u{1f3fe}"]
         case .woman_in_steamy_room_tone4:
-            return ["\u{1f9d6}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d6}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f9d6}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d6}\u{1f3fe}\u{2640}",
+                    "\u{1f9d6}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_in_steamy_room_tone4:
-            return ["\u{1f9d6}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d6}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f9d6}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d6}\u{1f3fe}\u{2642}",
+                    "\u{1f9d6}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_in_steamy_room_tone5:
             return ["\u{1f9d6}\u{1f3ff}"]
         case .woman_in_steamy_room_tone5:
-            return ["\u{1f9d6}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d6}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f9d6}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d6}\u{1f3ff}\u{2640}",
+                    "\u{1f9d6}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_in_steamy_room_tone5:
-            return ["\u{1f9d6}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d6}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f9d6}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d6}\u{1f3ff}\u{2642}",
+                    "\u{1f9d6}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_climbing:
             return ["\u{1f9d7}"]
         case .woman_climbing:
-            return ["\u{1f9d7}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d7}\u{200d}\u{2640}",
-                    "\u{1f9d7}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d7}\u{2640}",
+                    "\u{1f9d7}\u{200d}\u{2640}\u{fe0f}"]
         case .man_climbing:
-            return ["\u{1f9d7}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d7}\u{200d}\u{2642}",
-                    "\u{1f9d7}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d7}\u{2642}",
+                    "\u{1f9d7}\u{200d}\u{2642}\u{fe0f}"]
         case .person_climbing_tone1:
             return ["\u{1f9d7}\u{1f3fb}"]
         case .woman_climbing_tone1:
-            return ["\u{1f9d7}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d7}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f9d7}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d7}\u{1f3fb}\u{2640}",
+                    "\u{1f9d7}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_climbing_tone1:
-            return ["\u{1f9d7}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d7}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f9d7}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d7}\u{1f3fb}\u{2642}",
+                    "\u{1f9d7}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_climbing_tone2:
             return ["\u{1f9d7}\u{1f3fc}"]
         case .woman_climbing_tone2:
-            return ["\u{1f9d7}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d7}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f9d7}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d7}\u{1f3fc}\u{2640}",
+                    "\u{1f9d7}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_climbing_tone2:
-            return ["\u{1f9d7}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d7}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f9d7}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d7}\u{1f3fc}\u{2642}",
+                    "\u{1f9d7}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_climbing_tone3:
             return ["\u{1f9d7}\u{1f3fd}"]
         case .woman_climbing_tone3:
-            return ["\u{1f9d7}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d7}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f9d7}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d7}\u{1f3fd}\u{2640}",
+                    "\u{1f9d7}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_climbing_tone3:
-            return ["\u{1f9d7}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d7}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f9d7}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d7}\u{1f3fd}\u{2642}",
+                    "\u{1f9d7}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_climbing_tone4:
             return ["\u{1f9d7}\u{1f3fe}"]
         case .woman_climbing_tone4:
-            return ["\u{1f9d7}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d7}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f9d7}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d7}\u{1f3fe}\u{2640}",
+                    "\u{1f9d7}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_climbing_tone4:
-            return ["\u{1f9d7}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d7}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f9d7}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d7}\u{1f3fe}\u{2642}",
+                    "\u{1f9d7}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_climbing_tone5:
             return ["\u{1f9d7}\u{1f3ff}"]
         case .woman_climbing_tone5:
-            return ["\u{1f9d7}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d7}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f9d7}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d7}\u{1f3ff}\u{2640}",
+                    "\u{1f9d7}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_climbing_tone5:
-            return ["\u{1f9d7}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d7}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f9d7}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d7}\u{1f3ff}\u{2642}",
+                    "\u{1f9d7}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .person_in_lotus_position:
             return ["\u{1f9d8}"]
         case .woman_in_lotus_position:
-            return ["\u{1f9d8}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d8}\u{200d}\u{2640}",
-                    "\u{1f9d8}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d8}\u{2640}",
+                    "\u{1f9d8}\u{200d}\u{2640}\u{fe0f}"]
         case .man_in_lotus_position:
-            return ["\u{1f9d8}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d8}\u{200d}\u{2642}",
-                    "\u{1f9d8}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d8}\u{2642}",
+                    "\u{1f9d8}\u{200d}\u{2642}\u{fe0f}"]
         case .person_in_lotus_position_tone1:
             return ["\u{1f9d8}\u{1f3fb}"]
         case .woman_in_lotus_position_tone1:
-            return ["\u{1f9d8}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d8}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f9d8}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d8}\u{1f3fb}\u{2640}",
+                    "\u{1f9d8}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_in_lotus_position_tone1:
-            return ["\u{1f9d8}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d8}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f9d8}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d8}\u{1f3fb}\u{2642}",
+                    "\u{1f9d8}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .person_in_lotus_position_tone2:
             return ["\u{1f9d8}\u{1f3fc}"]
         case .woman_in_lotus_position_tone2:
-            return ["\u{1f9d8}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d8}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f9d8}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d8}\u{1f3fc}\u{2640}",
+                    "\u{1f9d8}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_in_lotus_position_tone2:
-            return ["\u{1f9d8}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d8}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f9d8}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d8}\u{1f3fc}\u{2642}",
+                    "\u{1f9d8}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .person_in_lotus_position_tone3:
             return ["\u{1f9d8}\u{1f3fd}"]
         case .woman_in_lotus_position_tone3:
-            return ["\u{1f9d8}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d8}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f9d8}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d8}\u{1f3fd}\u{2640}",
+                    "\u{1f9d8}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_in_lotus_position_tone3:
-            return ["\u{1f9d8}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d8}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f9d8}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d8}\u{1f3fd}\u{2642}",
+                    "\u{1f9d8}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .person_in_lotus_position_tone4:
             return ["\u{1f9d8}\u{1f3fe}"]
         case .woman_in_lotus_position_tone4:
-            return ["\u{1f9d8}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d8}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f9d8}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d8}\u{1f3fe}\u{2640}",
+                    "\u{1f9d8}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_in_lotus_position_tone4:
-            return ["\u{1f9d8}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d8}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f9d8}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d8}\u{1f3fe}\u{2642}",
+                    "\u{1f9d8}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .person_in_lotus_position_tone5:
             return ["\u{1f9d8}\u{1f3ff}"]
         case .woman_in_lotus_position_tone5:
-            return ["\u{1f9d8}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d8}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f9d8}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d8}\u{1f3ff}\u{2640}",
+                    "\u{1f9d8}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_in_lotus_position_tone5:
-            return ["\u{1f9d8}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d8}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f9d8}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d8}\u{1f3ff}\u{2642}",
+                    "\u{1f9d8}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .mage:
             return ["\u{1f9d9}"]
         case .woman_mage:
-            return ["\u{1f9d9}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d9}\u{200d}\u{2640}",
-                    "\u{1f9d9}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d9}\u{2640}",
+                    "\u{1f9d9}\u{200d}\u{2640}\u{fe0f}"]
         case .man_mage:
-            return ["\u{1f9d9}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d9}\u{200d}\u{2642}",
-                    "\u{1f9d9}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d9}\u{2642}",
+                    "\u{1f9d9}\u{200d}\u{2642}\u{fe0f}"]
         case .mage_tone1:
             return ["\u{1f9d9}\u{1f3fb}"]
         case .woman_mage_tone1:
-            return ["\u{1f9d9}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d9}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f9d9}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d9}\u{1f3fb}\u{2640}",
+                    "\u{1f9d9}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_mage_tone1:
-            return ["\u{1f9d9}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d9}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f9d9}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d9}\u{1f3fb}\u{2642}",
+                    "\u{1f9d9}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .mage_tone2:
             return ["\u{1f9d9}\u{1f3fc}"]
         case .woman_mage_tone2:
-            return ["\u{1f9d9}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d9}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f9d9}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d9}\u{1f3fc}\u{2640}",
+                    "\u{1f9d9}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_mage_tone2:
-            return ["\u{1f9d9}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d9}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f9d9}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d9}\u{1f3fc}\u{2642}",
+                    "\u{1f9d9}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .mage_tone3:
             return ["\u{1f9d9}\u{1f3fd}"]
         case .woman_mage_tone3:
-            return ["\u{1f9d9}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d9}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f9d9}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d9}\u{1f3fd}\u{2640}",
+                    "\u{1f9d9}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_mage_tone3:
-            return ["\u{1f9d9}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d9}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f9d9}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d9}\u{1f3fd}\u{2642}",
+                    "\u{1f9d9}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .mage_tone4:
             return ["\u{1f9d9}\u{1f3fe}"]
         case .woman_mage_tone4:
-            return ["\u{1f9d9}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d9}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f9d9}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d9}\u{1f3fe}\u{2640}",
+                    "\u{1f9d9}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_mage_tone4:
-            return ["\u{1f9d9}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d9}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f9d9}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d9}\u{1f3fe}\u{2642}",
+                    "\u{1f9d9}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .mage_tone5:
             return ["\u{1f9d9}\u{1f3ff}"]
         case .woman_mage_tone5:
-            return ["\u{1f9d9}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9d9}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f9d9}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f9d9}\u{1f3ff}\u{2640}",
+                    "\u{1f9d9}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_mage_tone5:
-            return ["\u{1f9d9}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9d9}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f9d9}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f9d9}\u{1f3ff}\u{2642}",
+                    "\u{1f9d9}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .fairy:
             return ["\u{1f9da}"]
         case .woman_fairy:
-            return ["\u{1f9da}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9da}\u{200d}\u{2640}",
-                    "\u{1f9da}\u{2640}\u{fe0f}"]
+            return ["\u{1f9da}\u{2640}",
+                    "\u{1f9da}\u{200d}\u{2640}\u{fe0f}"]
         case .man_fairy:
-            return ["\u{1f9da}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9da}\u{200d}\u{2642}",
-                    "\u{1f9da}\u{2642}\u{fe0f}"]
+            return ["\u{1f9da}\u{2642}",
+                    "\u{1f9da}\u{200d}\u{2642}\u{fe0f}"]
         case .fairy_tone1:
             return ["\u{1f9da}\u{1f3fb}"]
         case .woman_fairy_tone1:
-            return ["\u{1f9da}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9da}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f9da}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f9da}\u{1f3fb}\u{2640}",
+                    "\u{1f9da}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_fairy_tone1:
-            return ["\u{1f9da}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9da}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f9da}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f9da}\u{1f3fb}\u{2642}",
+                    "\u{1f9da}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .fairy_tone2:
             return ["\u{1f9da}\u{1f3fc}"]
         case .woman_fairy_tone2:
-            return ["\u{1f9da}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9da}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f9da}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f9da}\u{1f3fc}\u{2640}",
+                    "\u{1f9da}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_fairy_tone2:
-            return ["\u{1f9da}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9da}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f9da}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f9da}\u{1f3fc}\u{2642}",
+                    "\u{1f9da}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .fairy_tone3:
             return ["\u{1f9da}\u{1f3fd}"]
         case .woman_fairy_tone3:
-            return ["\u{1f9da}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9da}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f9da}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f9da}\u{1f3fd}\u{2640}",
+                    "\u{1f9da}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_fairy_tone3:
-            return ["\u{1f9da}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9da}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f9da}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f9da}\u{1f3fd}\u{2642}",
+                    "\u{1f9da}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .fairy_tone4:
             return ["\u{1f9da}\u{1f3fe}"]
         case .woman_fairy_tone4:
-            return ["\u{1f9da}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9da}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f9da}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f9da}\u{1f3fe}\u{2640}",
+                    "\u{1f9da}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_fairy_tone4:
-            return ["\u{1f9da}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9da}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f9da}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f9da}\u{1f3fe}\u{2642}",
+                    "\u{1f9da}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .fairy_tone5:
             return ["\u{1f9da}\u{1f3ff}"]
         case .woman_fairy_tone5:
-            return ["\u{1f9da}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9da}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f9da}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f9da}\u{1f3ff}\u{2640}",
+                    "\u{1f9da}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_fairy_tone5:
-            return ["\u{1f9da}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9da}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f9da}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f9da}\u{1f3ff}\u{2642}",
+                    "\u{1f9da}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .vampire:
             return ["\u{1f9db}"]
         case .woman_vampire:
-            return ["\u{1f9db}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9db}\u{200d}\u{2640}",
-                    "\u{1f9db}\u{2640}\u{fe0f}"]
+            return ["\u{1f9db}\u{2640}",
+                    "\u{1f9db}\u{200d}\u{2640}\u{fe0f}"]
         case .man_vampire:
-            return ["\u{1f9db}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9db}\u{200d}\u{2642}",
-                    "\u{1f9db}\u{2642}\u{fe0f}"]
+            return ["\u{1f9db}\u{2642}",
+                    "\u{1f9db}\u{200d}\u{2642}\u{fe0f}"]
         case .vampire_tone1:
             return ["\u{1f9db}\u{1f3fb}"]
         case .woman_vampire_tone1:
-            return ["\u{1f9db}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9db}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f9db}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f9db}\u{1f3fb}\u{2640}",
+                    "\u{1f9db}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_vampire_tone1:
-            return ["\u{1f9db}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9db}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f9db}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f9db}\u{1f3fb}\u{2642}",
+                    "\u{1f9db}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .vampire_tone2:
             return ["\u{1f9db}\u{1f3fc}"]
         case .woman_vampire_tone2:
-            return ["\u{1f9db}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9db}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f9db}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f9db}\u{1f3fc}\u{2640}",
+                    "\u{1f9db}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_vampire_tone2:
-            return ["\u{1f9db}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9db}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f9db}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f9db}\u{1f3fc}\u{2642}",
+                    "\u{1f9db}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .vampire_tone3:
             return ["\u{1f9db}\u{1f3fd}"]
         case .woman_vampire_tone3:
-            return ["\u{1f9db}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9db}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f9db}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f9db}\u{1f3fd}\u{2640}",
+                    "\u{1f9db}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_vampire_tone3:
-            return ["\u{1f9db}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9db}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f9db}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f9db}\u{1f3fd}\u{2642}",
+                    "\u{1f9db}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .vampire_tone4:
             return ["\u{1f9db}\u{1f3fe}"]
         case .woman_vampire_tone4:
-            return ["\u{1f9db}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9db}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f9db}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f9db}\u{1f3fe}\u{2640}",
+                    "\u{1f9db}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_vampire_tone4:
-            return ["\u{1f9db}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9db}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f9db}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f9db}\u{1f3fe}\u{2642}",
+                    "\u{1f9db}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .vampire_tone5:
             return ["\u{1f9db}\u{1f3ff}"]
         case .woman_vampire_tone5:
-            return ["\u{1f9db}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9db}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f9db}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f9db}\u{1f3ff}\u{2640}",
+                    "\u{1f9db}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_vampire_tone5:
-            return ["\u{1f9db}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9db}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f9db}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f9db}\u{1f3ff}\u{2642}",
+                    "\u{1f9db}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .merperson:
             return ["\u{1f9dc}"]
         case .mermaid:
-            return ["\u{1f9dc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9dc}\u{200d}\u{2640}",
-                    "\u{1f9dc}\u{2640}\u{fe0f}"]
+            return ["\u{1f9dc}\u{2640}",
+                    "\u{1f9dc}\u{200d}\u{2640}\u{fe0f}"]
         case .merman:
-            return ["\u{1f9dc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9dc}\u{200d}\u{2642}",
-                    "\u{1f9dc}\u{2642}\u{fe0f}"]
+            return ["\u{1f9dc}\u{2642}",
+                    "\u{1f9dc}\u{200d}\u{2642}\u{fe0f}"]
         case .merperson_tone1:
             return ["\u{1f9dc}\u{1f3fb}"]
         case .mermaid_tone1:
-            return ["\u{1f9dc}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9dc}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f9dc}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f9dc}\u{1f3fb}\u{2640}",
+                    "\u{1f9dc}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .merman_tone1:
-            return ["\u{1f9dc}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9dc}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f9dc}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f9dc}\u{1f3fb}\u{2642}",
+                    "\u{1f9dc}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .merperson_tone2:
             return ["\u{1f9dc}\u{1f3fc}"]
         case .mermaid_tone2:
-            return ["\u{1f9dc}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9dc}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f9dc}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f9dc}\u{1f3fc}\u{2640}",
+                    "\u{1f9dc}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .merman_tone2:
-            return ["\u{1f9dc}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9dc}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f9dc}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f9dc}\u{1f3fc}\u{2642}",
+                    "\u{1f9dc}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .merperson_tone3:
             return ["\u{1f9dc}\u{1f3fd}"]
         case .mermaid_tone3:
-            return ["\u{1f9dc}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9dc}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f9dc}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f9dc}\u{1f3fd}\u{2640}",
+                    "\u{1f9dc}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .merman_tone3:
-            return ["\u{1f9dc}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9dc}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f9dc}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f9dc}\u{1f3fd}\u{2642}",
+                    "\u{1f9dc}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .merperson_tone4:
             return ["\u{1f9dc}\u{1f3fe}"]
         case .mermaid_tone4:
-            return ["\u{1f9dc}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9dc}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f9dc}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f9dc}\u{1f3fe}\u{2640}",
+                    "\u{1f9dc}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .merman_tone4:
-            return ["\u{1f9dc}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9dc}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f9dc}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f9dc}\u{1f3fe}\u{2642}",
+                    "\u{1f9dc}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .merperson_tone5:
             return ["\u{1f9dc}\u{1f3ff}"]
         case .mermaid_tone5:
-            return ["\u{1f9dc}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9dc}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f9dc}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f9dc}\u{1f3ff}\u{2640}",
+                    "\u{1f9dc}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .merman_tone5:
-            return ["\u{1f9dc}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9dc}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f9dc}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f9dc}\u{1f3ff}\u{2642}",
+                    "\u{1f9dc}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .elf:
             return ["\u{1f9dd}"]
         case .woman_elf:
-            return ["\u{1f9dd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9dd}\u{200d}\u{2640}",
-                    "\u{1f9dd}\u{2640}\u{fe0f}"]
+            return ["\u{1f9dd}\u{2640}",
+                    "\u{1f9dd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_elf:
-            return ["\u{1f9dd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9dd}\u{200d}\u{2642}",
-                    "\u{1f9dd}\u{2642}\u{fe0f}"]
+            return ["\u{1f9dd}\u{2642}",
+                    "\u{1f9dd}\u{200d}\u{2642}\u{fe0f}"]
         case .elf_tone1:
             return ["\u{1f9dd}\u{1f3fb}"]
         case .woman_elf_tone1:
-            return ["\u{1f9dd}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9dd}\u{1f3fb}\u{200d}\u{2640}",
-                    "\u{1f9dd}\u{1f3fb}\u{2640}\u{fe0f}"]
+            return ["\u{1f9dd}\u{1f3fb}\u{2640}",
+                    "\u{1f9dd}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
         case .man_elf_tone1:
-            return ["\u{1f9dd}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9dd}\u{1f3fb}\u{200d}\u{2642}",
-                    "\u{1f9dd}\u{1f3fb}\u{2642}\u{fe0f}"]
+            return ["\u{1f9dd}\u{1f3fb}\u{2642}",
+                    "\u{1f9dd}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
         case .elf_tone2:
             return ["\u{1f9dd}\u{1f3fc}"]
         case .woman_elf_tone2:
-            return ["\u{1f9dd}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9dd}\u{1f3fc}\u{200d}\u{2640}",
-                    "\u{1f9dd}\u{1f3fc}\u{2640}\u{fe0f}"]
+            return ["\u{1f9dd}\u{1f3fc}\u{2640}",
+                    "\u{1f9dd}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
         case .man_elf_tone2:
-            return ["\u{1f9dd}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9dd}\u{1f3fc}\u{200d}\u{2642}",
-                    "\u{1f9dd}\u{1f3fc}\u{2642}\u{fe0f}"]
+            return ["\u{1f9dd}\u{1f3fc}\u{2642}",
+                    "\u{1f9dd}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
         case .elf_tone3:
             return ["\u{1f9dd}\u{1f3fd}"]
         case .woman_elf_tone3:
-            return ["\u{1f9dd}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9dd}\u{1f3fd}\u{200d}\u{2640}",
-                    "\u{1f9dd}\u{1f3fd}\u{2640}\u{fe0f}"]
+            return ["\u{1f9dd}\u{1f3fd}\u{2640}",
+                    "\u{1f9dd}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
         case .man_elf_tone3:
-            return ["\u{1f9dd}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9dd}\u{1f3fd}\u{200d}\u{2642}",
-                    "\u{1f9dd}\u{1f3fd}\u{2642}\u{fe0f}"]
+            return ["\u{1f9dd}\u{1f3fd}\u{2642}",
+                    "\u{1f9dd}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
         case .elf_tone4:
             return ["\u{1f9dd}\u{1f3fe}"]
         case .woman_elf_tone4:
-            return ["\u{1f9dd}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9dd}\u{1f3fe}\u{200d}\u{2640}",
-                    "\u{1f9dd}\u{1f3fe}\u{2640}\u{fe0f}"]
+            return ["\u{1f9dd}\u{1f3fe}\u{2640}",
+                    "\u{1f9dd}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
         case .man_elf_tone4:
-            return ["\u{1f9dd}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9dd}\u{1f3fe}\u{200d}\u{2642}",
-                    "\u{1f9dd}\u{1f3fe}\u{2642}\u{fe0f}"]
+            return ["\u{1f9dd}\u{1f3fe}\u{2642}",
+                    "\u{1f9dd}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
         case .elf_tone5:
             return ["\u{1f9dd}\u{1f3ff}"]
         case .woman_elf_tone5:
-            return ["\u{1f9dd}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9dd}\u{1f3ff}\u{200d}\u{2640}",
-                    "\u{1f9dd}\u{1f3ff}\u{2640}\u{fe0f}"]
+            return ["\u{1f9dd}\u{1f3ff}\u{2640}",
+                    "\u{1f9dd}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
         case .man_elf_tone5:
-            return ["\u{1f9dd}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9dd}\u{1f3ff}\u{200d}\u{2642}",
-                    "\u{1f9dd}\u{1f3ff}\u{2642}\u{fe0f}"]
+            return ["\u{1f9dd}\u{1f3ff}\u{2642}",
+                    "\u{1f9dd}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
         case .genie:
             return ["\u{1f9de}"]
         case .woman_genie:
-            return ["\u{1f9de}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9de}\u{200d}\u{2640}",
-                    "\u{1f9de}\u{2640}\u{fe0f}"]
+            return ["\u{1f9de}\u{2640}",
+                    "\u{1f9de}\u{200d}\u{2640}\u{fe0f}"]
         case .man_genie:
-            return ["\u{1f9de}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9de}\u{200d}\u{2642}",
-                    "\u{1f9de}\u{2642}\u{fe0f}"]
+            return ["\u{1f9de}\u{2642}",
+                    "\u{1f9de}\u{200d}\u{2642}\u{fe0f}"]
         case .zombie:
             return ["\u{1f9df}"]
         case .woman_zombie:
-            return ["\u{1f9df}\u{200d}\u{2640}\u{fe0f}",
-                    "\u{1f9df}\u{200d}\u{2640}",
-                    "\u{1f9df}\u{2640}\u{fe0f}"]
+            return ["\u{1f9df}\u{2640}",
+                    "\u{1f9df}\u{200d}\u{2640}\u{fe0f}"]
         case .man_zombie:
-            return ["\u{1f9df}\u{200d}\u{2642}\u{fe0f}",
-                    "\u{1f9df}\u{200d}\u{2642}",
-                    "\u{1f9df}\u{2642}\u{fe0f}"]
+            return ["\u{1f9df}\u{2642}",
+                    "\u{1f9df}\u{200d}\u{2642}\u{fe0f}"]
         case .brain:
             return ["\u{1f9e0}"]
         case .orange_heart:
@@ -17203,6 +19627,120 @@ public enum Emoji: CaseIterable {
             return ["\u{1f9fe}"]
         case .nazar_amulet:
             return ["\u{1f9ff}"]
+        case .ballet_shoes:
+            return ["\u{1fa70}"]
+        case .one_piece_swimsuit:
+            return ["\u{1fa71}"]
+        case .briefs:
+            return ["\u{1fa72}"]
+        case .shorts:
+            return ["\u{1fa73}"]
+        case .thong_sandal:
+            return ["\u{1fa74}"]
+        case .drop_of_blood:
+            return ["\u{1fa78}"]
+        case .adhesive_bandage:
+            return ["\u{1fa79}"]
+        case .stethoscope:
+            return ["\u{1fa7a}"]
+        case .yo_yo:
+            return ["\u{1fa80}"]
+        case .kite:
+            return ["\u{1fa81}"]
+        case .parachute:
+            return ["\u{1fa82}"]
+        case .boomerang:
+            return ["\u{1fa83}"]
+        case .magic_wand:
+            return ["\u{1fa84}"]
+        case .piñata:
+            return ["\u{1fa85}"]
+        case .nesting_dolls:
+            return ["\u{1fa86}"]
+        case .ringed_planet:
+            return ["\u{1fa90}"]
+        case .chair:
+            return ["\u{1fa91}"]
+        case .razor:
+            return ["\u{1fa92}"]
+        case .axe:
+            return ["\u{1fa93}"]
+        case .diya_lamp:
+            return ["\u{1fa94}"]
+        case .banjo:
+            return ["\u{1fa95}"]
+        case .military_helmet:
+            return ["\u{1fa96}"]
+        case .accordion:
+            return ["\u{1fa97}"]
+        case .long_drum:
+            return ["\u{1fa98}"]
+        case .coin:
+            return ["\u{1fa99}"]
+        case .carpentry_saw:
+            return ["\u{1fa9a}"]
+        case .screwdriver:
+            return ["\u{1fa9b}"]
+        case .ladder:
+            return ["\u{1fa9c}"]
+        case .hook:
+            return ["\u{1fa9d}"]
+        case .mirror:
+            return ["\u{1fa9e}"]
+        case .window:
+            return ["\u{1fa9f}"]
+        case .plunger:
+            return ["\u{1faa0}"]
+        case .sewing_needle:
+            return ["\u{1faa1}"]
+        case .knot:
+            return ["\u{1faa2}"]
+        case .bucket:
+            return ["\u{1faa3}"]
+        case .mouse_trap:
+            return ["\u{1faa4}"]
+        case .toothbrush:
+            return ["\u{1faa5}"]
+        case .headstone:
+            return ["\u{1faa6}"]
+        case .placard:
+            return ["\u{1faa7}"]
+        case .rock:
+            return ["\u{1faa8}"]
+        case .fly:
+            return ["\u{1fab0}"]
+        case .worm:
+            return ["\u{1fab1}"]
+        case .beetle:
+            return ["\u{1fab2}"]
+        case .cockroach:
+            return ["\u{1fab3}"]
+        case .potted_plant:
+            return ["\u{1fab4}"]
+        case .wood:
+            return ["\u{1fab5}"]
+        case .feather:
+            return ["\u{1fab6}"]
+        case .anatomical_heart:
+            return ["\u{1fac0}"]
+        case .lungs:
+            return ["\u{1fac1}"]
+        case .people_hugging:
+            return ["\u{1fac2}"]
+        case .blueberries:
+            return ["\u{1fad0}"]
+        case .bell_pepper:
+            return ["\u{1fad1}"]
+        case .olive:
+            return ["\u{1fad2}"]
+        case .flatbread:
+            return ["\u{1fad3}"]
+        case .tamale:
+            return ["\u{1fad4}"]
+        case .fondue:
+            return ["\u{1fad5}"]
+        case .teapot:
+            return ["\u{1fad6}"]
         default:
             return [""]
         }
