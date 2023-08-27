@@ -26,7 +26,12 @@ DerivedData
 # Pods/
 
 # SwiftPM
+.swiftpm/
 .build/
+/Packages
+/*.xcodeproj
+xcuserdata/
+DerivedData/
 
 # Carthage
 #
