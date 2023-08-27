@@ -1,6 +1,5 @@
 # Emoji-Swift
 
-[![TravisCI](http://img.shields.io/travis/safx/Emoji-Swift.svg?style=flat)](https://travis-ci.org/safx/Emoji-Swift)
 [![codecov.io](http://codecov.io/github/safx/emoji-swift/coverage.svg?branch=master)](http://codecov.io/github/safx/emoji-swift?branch=master)
 ![Platform](https://img.shields.io/cocoapods/p/Emoji-swift.svg?style=flat)
 ![License](https://img.shields.io/cocoapods/l/Emoji-swift.svg?style=flat)
@@ -37,24 +36,3 @@ extension String {
 ```ruby
 pod 'Emoji-swift'
 ```
-
-### Swift Package Manager
-
-Create a Package.swift file:
-
-```swift
-import PackageDescription
-
-let package = Package(
-    name: "Emoji",
-    dependencies: [
-        .Package(url: "https://github.com/safx/Emoji-Swift.git", majorVersion: 0)
-    ]
-)
-```
-
-And then, type `swift build`.
-
-### Manual Install
-
-Just copy `Emoji.swift` and `String+Emoji.swift` into your project.
