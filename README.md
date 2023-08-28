@@ -36,3 +36,11 @@ extension String {
 ```ruby
 pod 'Emoji-swift'
 ```
+
+## How to update emoji
+
+```bash
+cd tools
+curl -LO  https://raw.githubusercontent.com/joypixels/emoji-toolkit/master/emoji.json
+python ./gen-emoji-swift.py > ../Sources/Emoji/Emoji.swift
+```
