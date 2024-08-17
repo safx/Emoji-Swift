@@ -148,6 +148,7 @@ public enum Emoji: CaseIterable {
     case pick
     case helmet_with_cross
     case chains
+    case broken_chain
     case no_entry
     case shinto_shrine
     case church
@@ -604,6 +605,7 @@ public enum Emoji: CaseIterable {
     case fallen_leaf
     case leaves
     case mushroom
+    case brown_mushroom
     case tomato
     case eggplant
     case grapes
@@ -611,6 +613,7 @@ public enum Emoji: CaseIterable {
     case watermelon
     case tangerine
     case lemon
+    case lime
     case banana
     case pineapple
     case apple
@@ -737,22 +740,40 @@ public enum Emoji: CaseIterable {
     case snowboarder_tone5
     case person_running
     case woman_running
+    case woman_running_facing_right
     case man_running
+    case man_running_facing_right
+    case person_running_facing_right
     case person_running_tone1
     case woman_running_tone1
+    case woman_running_facing_right_tone1
     case man_running_tone1
+    case man_running_facing_right_tone1
+    case person_running_facing_right_tone1
     case person_running_tone2
     case woman_running_tone2
+    case woman_running_facing_right_tone2
     case man_running_tone2
+    case man_running_facing_right_tone2
+    case person_running_facing_right_tone2
     case person_running_tone3
     case woman_running_tone3
+    case woman_running_facing_right_tone3
     case man_running_tone3
+    case man_running_facing_right_tone3
+    case person_running_facing_right_tone3
     case person_running_tone4
     case woman_running_tone4
+    case woman_running_facing_right_tone4
     case man_running_tone4
+    case man_running_facing_right_tone4
+    case person_running_facing_right_tone4
     case person_running_tone5
     case woman_running_tone5
+    case woman_running_facing_right_tone5
     case man_running_tone5
+    case man_running_facing_right_tone5
+    case person_running_facing_right_tone5
     case person_surfing
     case woman_surfing
     case man_surfing
@@ -931,6 +952,7 @@ public enum Emoji: CaseIterable {
     case hatched_chick
     case bird
     case black_bird
+    case phoenix
     case penguin
     case koala
     case poodle
@@ -1120,12 +1142,15 @@ public enum Emoji: CaseIterable {
     case men_holding_hands_tone1_tone3
     case men_holding_hands_tone1_tone2
     case man_with_probing_cane_tone1
+    case man_with_white_cane_facing_right_tone1
     case man_red_haired_tone1
     case man_curly_haired_tone1
     case man_bald_tone1
     case man_white_haired_tone1
     case man_in_motorized_wheelchair_tone1
+    case man_in_motorized_wheelchair_facing_right_tone1
     case man_in_manual_wheelchair_tone1
+    case man_in_manual_wheelchair_facing_right_tone1
     case man_tone2
     case man_health_worker_tone2
     case man_judge_tone2
@@ -1159,12 +1184,15 @@ public enum Emoji: CaseIterable {
     case men_holding_hands_tone2_tone3
     case men_holding_hands_tone2_tone1
     case man_with_probing_cane_tone2
+    case man_with_white_cane_facing_right_tone2
     case man_red_haired_tone2
     case man_curly_haired_tone2
     case man_bald_tone2
     case man_white_haired_tone2
     case man_in_motorized_wheelchair_tone2
+    case man_in_motorized_wheelchair_facing_right_tone2
     case man_in_manual_wheelchair_tone2
+    case man_in_manual_wheelchair_facing_right_tone2
     case man_tone3
     case man_health_worker_tone3
     case man_judge_tone3
@@ -1198,12 +1226,15 @@ public enum Emoji: CaseIterable {
     case men_holding_hands_tone3_tone2
     case men_holding_hands_tone3_tone1
     case man_with_probing_cane_tone3
+    case man_with_white_cane_facing_right_tone3
     case man_red_haired_tone3
     case man_curly_haired_tone3
     case man_bald_tone3
     case man_white_haired_tone3
     case man_in_motorized_wheelchair_tone3
+    case man_in_motorized_wheelchair_facing_right_tone3
     case man_in_manual_wheelchair_tone3
+    case man_in_manual_wheelchair_facing_right_tone3
     case man_tone4
     case man_health_worker_tone4
     case man_judge_tone4
@@ -1237,12 +1268,15 @@ public enum Emoji: CaseIterable {
     case men_holding_hands_tone4_tone2
     case men_holding_hands_tone4_tone1
     case man_with_probing_cane_tone4
+    case man_with_white_cane_facing_right_tone4
     case man_red_haired_tone4
     case man_curly_haired_tone4
     case man_bald_tone4
     case man_white_haired_tone4
     case man_in_motorized_wheelchair_tone4
+    case man_in_motorized_wheelchair_facing_right_tone4
     case man_in_manual_wheelchair_tone4
+    case man_in_manual_wheelchair_facing_right_tone4
     case man_tone5
     case man_health_worker_tone5
     case man_judge_tone5
@@ -1276,12 +1310,15 @@ public enum Emoji: CaseIterable {
     case men_holding_hands_tone5_tone2
     case men_holding_hands_tone5_tone1
     case man_with_probing_cane_tone5
+    case man_with_white_cane_facing_right_tone5
     case man_red_haired_tone5
     case man_curly_haired_tone5
     case man_bald_tone5
     case man_white_haired_tone5
     case man_in_motorized_wheelchair_tone5
+    case man_in_motorized_wheelchair_facing_right_tone5
     case man_in_manual_wheelchair_tone5
+    case man_in_manual_wheelchair_facing_right_tone5
     case family_man_boy
     case family_man_boy_boy
     case family_man_girl
@@ -1304,12 +1341,15 @@ public enum Emoji: CaseIterable {
     case man_astronaut
     case man_firefighter
     case man_with_probing_cane
+    case man_with_white_cane_facing_right
     case man_red_haired
     case man_curly_haired
     case man_bald
     case man_white_haired
     case man_in_motorized_wheelchair
+    case man_in_motorized_wheelchair_facing_right
     case man_in_manual_wheelchair
+    case man_in_manual_wheelchair_facing_right
     case woman
     case woman_health_worker
     case woman_judge
@@ -1373,12 +1413,15 @@ public enum Emoji: CaseIterable {
     case women_holding_hands_tone1_tone3
     case women_holding_hands_tone1_tone2
     case woman_with_probing_cane_tone1
+    case woman_with_white_cane_facing_right_tone1
     case woman_red_haired_tone1
     case woman_curly_haired_tone1
     case woman_bald_tone1
     case woman_white_haired_tone1
     case woman_in_motorized_wheelchair_tone1
+    case woman_in_motorized_wheelchair_facing_right_tone1
     case woman_in_manual_wheelchair_tone1
+    case woman_in_manual_wheelchair_facing_right_tone1
     case woman_tone2
     case woman_health_worker_tone2
     case woman_judge_tone2
@@ -1426,12 +1469,15 @@ public enum Emoji: CaseIterable {
     case women_holding_hands_tone2_tone3
     case women_holding_hands_tone2_tone1
     case woman_with_probing_cane_tone2
+    case woman_with_white_cane_facing_right_tone2
     case woman_red_haired_tone2
     case woman_curly_haired_tone2
     case woman_bald_tone2
     case woman_white_haired_tone2
     case woman_in_motorized_wheelchair_tone2
+    case woman_in_motorized_wheelchair_facing_right_tone2
     case woman_in_manual_wheelchair_tone2
+    case woman_in_manual_wheelchair_facing_right_tone2
     case woman_tone3
     case woman_health_worker_tone3
     case woman_judge_tone3
@@ -1479,12 +1525,15 @@ public enum Emoji: CaseIterable {
     case women_holding_hands_tone3_tone2
     case women_holding_hands_tone3_tone1
     case woman_with_probing_cane_tone3
+    case woman_with_white_cane_facing_right_tone3
     case woman_red_haired_tone3
     case woman_curly_haired_tone3
     case woman_bald_tone3
     case woman_white_haired_tone3
     case woman_in_motorized_wheelchair_tone3
+    case woman_in_motorized_wheelchair_facing_right_tone3
     case woman_in_manual_wheelchair_tone3
+    case woman_in_manual_wheelchair_facing_right_tone3
     case woman_tone4
     case woman_health_worker_tone4
     case woman_judge_tone4
@@ -1532,12 +1581,15 @@ public enum Emoji: CaseIterable {
     case women_holding_hands_tone4_tone2
     case women_holding_hands_tone4_tone1
     case woman_with_probing_cane_tone4
+    case woman_with_white_cane_facing_right_tone4
     case woman_red_haired_tone4
     case woman_curly_haired_tone4
     case woman_bald_tone4
     case woman_white_haired_tone4
     case woman_in_motorized_wheelchair_tone4
+    case woman_in_motorized_wheelchair_facing_right_tone4
     case woman_in_manual_wheelchair_tone4
+    case woman_in_manual_wheelchair_facing_right_tone4
     case woman_tone5
     case woman_health_worker_tone5
     case woman_judge_tone5
@@ -1585,12 +1637,15 @@ public enum Emoji: CaseIterable {
     case women_holding_hands_tone5_tone2
     case women_holding_hands_tone5_tone1
     case woman_with_probing_cane_tone5
+    case woman_with_white_cane_facing_right_tone5
     case woman_red_haired_tone5
     case woman_curly_haired_tone5
     case woman_bald_tone5
     case woman_white_haired_tone5
     case woman_in_motorized_wheelchair_tone5
+    case woman_in_motorized_wheelchair_facing_right_tone5
     case woman_in_manual_wheelchair_tone5
+    case woman_in_manual_wheelchair_facing_right_tone5
     case family_woman_boy
     case family_woman_boy_boy
     case family_woman_girl
@@ -1608,12 +1663,15 @@ public enum Emoji: CaseIterable {
     case woman_astronaut
     case woman_firefighter
     case woman_with_probing_cane
+    case woman_with_white_cane_facing_right
     case woman_red_haired
     case woman_curly_haired
     case woman_bald
     case woman_white_haired
     case woman_in_motorized_wheelchair
+    case woman_in_motorized_wheelchair_facing_right
     case woman_in_manual_wheelchair
+    case woman_in_manual_wheelchair_facing_right
     case family
     case couple
     case woman_and_man_holding_hands_tone1
@@ -2236,6 +2294,8 @@ public enum Emoji: CaseIterable {
     case scream_cat
     case slight_frown
     case slight_smile
+    case head_shaking_horizontally
+    case head_shaking_vertically
     case upside_down
     case rolling_eyes
     case person_gesturing_no
@@ -2468,22 +2528,40 @@ public enum Emoji: CaseIterable {
     case man_mountain_biking_tone5
     case person_walking
     case woman_walking
+    case woman_walking_facing_right
     case man_walking
+    case man_walking_facing_right
+    case person_walking_facing_right
     case person_walking_tone1
     case woman_walking_tone1
+    case woman_walking_facing_right_tone1
     case man_walking_tone1
+    case man_walking_facing_right_tone1
+    case person_walking_facing_right_tone1
     case person_walking_tone2
     case woman_walking_tone2
+    case woman_walking_facing_right_tone2
     case man_walking_tone2
+    case man_walking_facing_right_tone2
+    case person_walking_facing_right_tone2
     case person_walking_tone3
     case woman_walking_tone3
+    case woman_walking_facing_right_tone3
     case man_walking_tone3
+    case man_walking_facing_right_tone3
+    case person_walking_facing_right_tone3
     case person_walking_tone4
     case woman_walking_tone4
+    case woman_walking_facing_right_tone4
     case man_walking_tone4
+    case man_walking_facing_right_tone4
+    case person_walking_facing_right_tone4
     case person_walking_tone5
     case woman_walking_tone5
+    case woman_walking_facing_right_tone5
     case man_walking_tone5
+    case man_walking_facing_right_tone5
+    case person_walking_facing_right_tone5
     case no_pedestrians
     case children_crossing
     case mens
@@ -3023,22 +3101,40 @@ public enum Emoji: CaseIterable {
     case man_standing_tone5
     case person_kneeling
     case woman_kneeling
+    case woman_kneeling_facing_right
     case man_kneeling
+    case man_kneeling_facing_right
+    case person_kneeling_facing_right
     case person_kneeling_tone1
     case woman_kneeling_tone1
+    case woman_kneeling_facing_right_tone1
     case man_kneeling_tone1
+    case man_kneeling_facing_right_tone1
+    case person_kneeling_facing_right_tone1
     case person_kneeling_tone2
     case woman_kneeling_tone2
+    case woman_kneeling_facing_right_tone2
     case man_kneeling_tone2
+    case man_kneeling_facing_right_tone2
+    case person_kneeling_facing_right_tone2
     case person_kneeling_tone3
     case woman_kneeling_tone3
+    case woman_kneeling_facing_right_tone3
     case man_kneeling_tone3
+    case man_kneeling_facing_right_tone3
+    case person_kneeling_facing_right_tone3
     case person_kneeling_tone4
     case woman_kneeling_tone4
+    case woman_kneeling_facing_right_tone4
     case man_kneeling_tone4
+    case man_kneeling_facing_right_tone4
+    case person_kneeling_facing_right_tone4
     case person_kneeling_tone5
     case woman_kneeling_tone5
+    case woman_kneeling_facing_right_tone5
     case man_kneeling_tone5
+    case man_kneeling_facing_right_tone5
+    case person_kneeling_facing_right_tone5
     case deaf_person
     case deaf_woman
     case deaf_man
@@ -3104,12 +3200,15 @@ public enum Emoji: CaseIterable {
     case people_holding_hands_tone1_tone2
     case people_holding_hands_tone1
     case person_with_probing_cane_tone1
+    case person_with_white_cane_facing_right_tone1
     case person_tone1_red_hair
     case person_tone1_curly_hair
     case person_tone1_bald
     case person_tone1_white_hair
     case person_in_motorized_wheelchair_tone1
+    case person_in_motorized_wheelchair_facing_right_tone1
     case person_in_manual_wheelchair_tone1
+    case person_in_manual_wheelchair_facing_right_tone1
     case adult_tone2
     case health_worker_tone2
     case judge_tone2
@@ -3143,12 +3242,15 @@ public enum Emoji: CaseIterable {
     case people_holding_hands_tone2
     case people_holding_hands_tone2_tone1
     case person_with_probing_cane_tone2
+    case person_with_white_cane_facing_right_tone2
     case person_tone2_red_hair
     case person_tone2_curly_hair
     case person_tone2_bald
     case person_tone2_white_hair
     case person_in_motorized_wheelchair_tone2
+    case person_in_motorized_wheelchair_facing_right_tone2
     case person_in_manual_wheelchair_tone2
+    case person_in_manual_wheelchair_facing_right_tone2
     case adult_tone3
     case health_worker_tone3
     case judge_tone3
@@ -3182,12 +3284,15 @@ public enum Emoji: CaseIterable {
     case people_holding_hands_tone3_tone2
     case people_holding_hands_tone3_tone1
     case person_with_probing_cane_tone3
+    case person_with_white_cane_facing_right_tone3
     case person_tone3_red_hair
     case person_tone3_curly_hair
     case person_tone3_bald
     case person_tone3_white_hair
     case person_in_motorized_wheelchair_tone3
+    case person_in_motorized_wheelchair_facing_right_tone3
     case person_in_manual_wheelchair_tone3
+    case person_in_manual_wheelchair_facing_right_tone3
     case adult_tone4
     case health_worker_tone4
     case judge_tone4
@@ -3221,12 +3326,15 @@ public enum Emoji: CaseIterable {
     case people_holding_hands_tone4_tone2
     case people_holding_hands_tone4_tone1
     case person_with_probing_cane_tone4
+    case person_with_white_cane_facing_right_tone4
     case person_tone4_red_hair
     case person_tone4_curly_hair
     case person_tone4_bald
     case person_tone4_white_hair
     case person_in_motorized_wheelchair_tone4
+    case person_in_motorized_wheelchair_facing_right_tone4
     case person_in_manual_wheelchair_tone4
+    case person_in_manual_wheelchair_facing_right_tone4
     case adult_tone5
     case health_worker_tone5
     case judge_tone5
@@ -3260,12 +3368,15 @@ public enum Emoji: CaseIterable {
     case people_holding_hands_tone5_tone2
     case people_holding_hands_tone5_tone1
     case person_with_probing_cane_tone5
+    case person_with_white_cane_facing_right_tone5
     case person_tone5_red_hair
     case person_tone5_curly_hair
     case person_tone5_bald
     case person_tone5_white_hair
     case person_in_motorized_wheelchair_tone5
+    case person_in_motorized_wheelchair_facing_right_tone5
     case person_in_manual_wheelchair_tone5
+    case person_in_manual_wheelchair_facing_right_tone5
     case technologist
     case office_worker
     case mechanic
@@ -3274,12 +3385,19 @@ public enum Emoji: CaseIterable {
     case firefighter
     case people_holding_hands
     case person_with_probing_cane
+    case person_with_white_cane_facing_right
     case person_red_hair
     case person_curly_hair
     case person_bald
     case person_white_hair
     case person_in_motorized_wheelchair
+    case person_in_motorized_wheelchair_facing_right
     case person_in_manual_wheelchair
+    case person_in_manual_wheelchair_facing_right
+    case family_adult_adult_child
+    case family_adult_adult_child_child
+    case family_adult_child
+    case family_adult_child_child
     case child
     case child_tone1
     case child_tone2
@@ -3998,6 +4116,8 @@ public enum Emoji: CaseIterable {
                     "helmet_with_white_cross"]
         case .chains:
             return ["chains"]
+        case .broken_chain:
+            return ["broken_chain"]
         case .no_entry:
             return ["no_entry"]
         case .shinto_shrine:
@@ -5224,6 +5344,8 @@ public enum Emoji: CaseIterable {
             return ["leaves"]
         case .mushroom:
             return ["mushroom"]
+        case .brown_mushroom:
+            return ["brown_mushroom"]
         case .tomato:
             return ["tomato"]
         case .eggplant:
@@ -5238,6 +5360,8 @@ public enum Emoji: CaseIterable {
             return ["tangerine"]
         case .lemon:
             return ["lemon"]
+        case .lime:
+            return ["lime"]
         case .banana:
             return ["banana"]
         case .pineapple:
@@ -5525,53 +5649,104 @@ public enum Emoji: CaseIterable {
                     "runner"]
         case .woman_running:
             return ["woman_running"]
+        case .woman_running_facing_right:
+            return ["woman_running_facing_right"]
         case .man_running:
             return ["man_running"]
+        case .man_running_facing_right:
+            return ["man_running_facing_right"]
+        case .person_running_facing_right:
+            return ["person_running_facing_right"]
         case .person_running_tone1:
             return ["person_running_tone1",
                     "runner_tone1"]
         case .woman_running_tone1:
             return ["woman_running_tone1",
                     "woman_running_light_skin_tone"]
+        case .woman_running_facing_right_tone1:
+            return ["woman_running_facing_right_tone1",
+                    "woman_running_facing_right_light_skin_tone"]
         case .man_running_tone1:
             return ["man_running_tone1",
                     "man_running_light_skin_tone"]
+        case .man_running_facing_right_tone1:
+            return ["man_running_facing_right_tone1",
+                    "man_running_facing_right_light_skin_tone"]
+        case .person_running_facing_right_tone1:
+            return ["person_running_facing_right_tone1",
+                    "person_running_facing_right_light_skin_tone"]
         case .person_running_tone2:
             return ["person_running_tone2",
                     "runner_tone2"]
         case .woman_running_tone2:
             return ["woman_running_tone2",
                     "woman_running_medium_light_skin_tone"]
+        case .woman_running_facing_right_tone2:
+            return ["woman_running_facing_right_tone2",
+                    "woman_running_facing_right_medium_light_skin_tone"]
         case .man_running_tone2:
             return ["man_running_tone2",
                     "man_running_medium_light_skin_tone"]
+        case .man_running_facing_right_tone2:
+            return ["man_running_facing_right_tone2",
+                    "man_running_facing_right_medium_light_skin_tone"]
+        case .person_running_facing_right_tone2:
+            return ["person_running_facing_right_tone2",
+                    "person_running_facing_right_medium_light_skin_tone"]
         case .person_running_tone3:
             return ["person_running_tone3",
                     "runner_tone3"]
         case .woman_running_tone3:
             return ["woman_running_tone3",
                     "woman_running_medium_skin_tone"]
+        case .woman_running_facing_right_tone3:
+            return ["woman_running_facing_right_tone3",
+                    "woman_running_facing_right_medium_skin_tone"]
         case .man_running_tone3:
             return ["man_running_tone3",
                     "man_running_medium_skin_tone"]
+        case .man_running_facing_right_tone3:
+            return ["man_running_facing_right_tone3",
+                    "man_running_facing_right_medium_skin_tone"]
+        case .person_running_facing_right_tone3:
+            return ["person_running_facing_right_tone3",
+                    "person_running_facing_right_medium_skin_tone"]
         case .person_running_tone4:
             return ["person_running_tone4",
                     "runner_tone4"]
         case .woman_running_tone4:
             return ["woman_running_tone4",
                     "woman_running_medium_dark_skin_tone"]
+        case .woman_running_facing_right_tone4:
+            return ["woman_running_facing_right_tone4",
+                    "woman_running_facing_right_medium_dark_skin_tone"]
         case .man_running_tone4:
             return ["man_running_tone4",
                     "man_running_medium_dark_skin_tone"]
+        case .man_running_facing_right_tone4:
+            return ["man_running_facing_right_tone4",
+                    "man_running_facing_right_medium_dark_skin_tone"]
+        case .person_running_facing_right_tone4:
+            return ["person_running_facing_right_tone4",
+                    "person_running_facing_right_medium_dark_skin_tone"]
         case .person_running_tone5:
             return ["person_running_tone5",
                     "runner_tone5"]
         case .woman_running_tone5:
             return ["woman_running_tone5",
                     "woman_running_dark_skin_tone"]
+        case .woman_running_facing_right_tone5:
+            return ["woman_running_facing_right_tone5",
+                    "woman_running_facing_right_dark_skin_tone"]
         case .man_running_tone5:
             return ["man_running_tone5",
                     "man_running_dark_skin_tone"]
+        case .man_running_facing_right_tone5:
+            return ["man_running_facing_right_tone5",
+                    "man_running_facing_right_dark_skin_tone"]
+        case .person_running_facing_right_tone5:
+            return ["person_running_facing_right_tone5",
+                    "person_running_facing_right_dark_skin_tone"]
         case .person_surfing:
             return ["person_surfing",
                     "surfer"]
@@ -6022,6 +6197,8 @@ public enum Emoji: CaseIterable {
             return ["bird"]
         case .black_bird:
             return ["black_bird"]
+        case .phoenix:
+            return ["phoenix"]
         case .penguin:
             return ["penguin"]
         case .koala:
@@ -6480,6 +6657,9 @@ public enum Emoji: CaseIterable {
         case .man_with_probing_cane_tone1:
             return ["man_with_probing_cane_tone1",
                     "man_with_probing_cane_light_skin_tone"]
+        case .man_with_white_cane_facing_right_tone1:
+            return ["man_with_white_cane_facing_right_tone1",
+                    "man_with_white_cane_facing_right_light_skin_tone"]
         case .man_red_haired_tone1:
             return ["man_red_haired_tone1",
                     "man_red_haired_light_skin_tone"]
@@ -6495,9 +6675,15 @@ public enum Emoji: CaseIterable {
         case .man_in_motorized_wheelchair_tone1:
             return ["man_in_motorized_wheelchair_tone1",
                     "man_in_motorized_wheelchair_light_skin_tone"]
+        case .man_in_motorized_wheelchair_facing_right_tone1:
+            return ["man_in_motorized_wheelchair_facing_right_tone1",
+                    "man_in_motorized_wheelchair_facing_right_light_skin_tone"]
         case .man_in_manual_wheelchair_tone1:
             return ["man_in_manual_wheelchair_tone1",
                     "man_in_manual_wheelchair_light_skin_tone"]
+        case .man_in_manual_wheelchair_facing_right_tone1:
+            return ["man_in_manual_wheelchair_facing_right_tone1",
+                    "man_in_manual_wheelchair_facing_right_light_skin_tone"]
         case .man_tone2:
             return ["man_tone2"]
         case .man_health_worker_tone2:
@@ -6596,6 +6782,9 @@ public enum Emoji: CaseIterable {
         case .man_with_probing_cane_tone2:
             return ["man_with_probing_cane_tone2",
                     "man_with_probing_cane_medium_light_skin_tone"]
+        case .man_with_white_cane_facing_right_tone2:
+            return ["man_with_white_cane_facing_right_tone2",
+                    "man_with_white_cane_facing_right_medium_light_skin_tone"]
         case .man_red_haired_tone2:
             return ["man_red_haired_tone2",
                     "man_red_haired_medium_light_skin_tone"]
@@ -6611,9 +6800,15 @@ public enum Emoji: CaseIterable {
         case .man_in_motorized_wheelchair_tone2:
             return ["man_in_motorized_wheelchair_tone2",
                     "man_in_motorized_wheelchair_medium_light_skin_tone"]
+        case .man_in_motorized_wheelchair_facing_right_tone2:
+            return ["man_in_motorized_wheelchair_facing_right_tone2",
+                    "man_in_motorized_wheelchair_facing_right_medium_light_skin_tone"]
         case .man_in_manual_wheelchair_tone2:
             return ["man_in_manual_wheelchair_tone2",
                     "man_in_manual_wheelchair_medium_light_skin_tone"]
+        case .man_in_manual_wheelchair_facing_right_tone2:
+            return ["man_in_manual_wheelchair_facing_right_tone2",
+                    "man_in_manual_wheelchair_facing_right_medium_light_skin_tone"]
         case .man_tone3:
             return ["man_tone3"]
         case .man_health_worker_tone3:
@@ -6712,6 +6907,9 @@ public enum Emoji: CaseIterable {
         case .man_with_probing_cane_tone3:
             return ["man_with_probing_cane_tone3",
                     "man_with_probing_cane_medium_skin_tone"]
+        case .man_with_white_cane_facing_right_tone3:
+            return ["man_with_white_cane_facing_right_tone3",
+                    "man_with_white_cane_facing_right_medium_skin_tone"]
         case .man_red_haired_tone3:
             return ["man_red_haired_tone3",
                     "man_red_haired_medium_skin_tone"]
@@ -6727,9 +6925,15 @@ public enum Emoji: CaseIterable {
         case .man_in_motorized_wheelchair_tone3:
             return ["man_in_motorized_wheelchair_tone3",
                     "man_in_motorized_wheelchair_medium_skin_tone"]
+        case .man_in_motorized_wheelchair_facing_right_tone3:
+            return ["man_in_motorized_wheelchair_facing_right_tone3",
+                    "man_in_motorized_wheelchair_facing_right_medium_skin_tone"]
         case .man_in_manual_wheelchair_tone3:
             return ["man_in_manual_wheelchair_tone3",
                     "man_in_manual_wheelchair_medium_skin_tone"]
+        case .man_in_manual_wheelchair_facing_right_tone3:
+            return ["man_in_manual_wheelchair_facing_right_tone3",
+                    "man_in_manual_wheelchair_facing_right_medium_skin_tone"]
         case .man_tone4:
             return ["man_tone4"]
         case .man_health_worker_tone4:
@@ -6828,6 +7032,9 @@ public enum Emoji: CaseIterable {
         case .man_with_probing_cane_tone4:
             return ["man_with_probing_cane_tone4",
                     "man_with_probing_cane_medium_dark_skin_tone"]
+        case .man_with_white_cane_facing_right_tone4:
+            return ["man_with_white_cane_facing_right_tone4",
+                    "man_with_white_cane_facing_right_medium_dark_skin_tone"]
         case .man_red_haired_tone4:
             return ["man_red_haired_tone4",
                     "man_red_haired_medium_dark_skin_tone"]
@@ -6843,9 +7050,15 @@ public enum Emoji: CaseIterable {
         case .man_in_motorized_wheelchair_tone4:
             return ["man_in_motorized_wheelchair_tone4",
                     "man_in_motorized_wheelchair_medium_dark_skin_tone"]
+        case .man_in_motorized_wheelchair_facing_right_tone4:
+            return ["man_in_motorized_wheelchair_facing_right_tone4",
+                    "man_in_motorized_wheelchair_facing_right_medium_dark_skin_tone"]
         case .man_in_manual_wheelchair_tone4:
             return ["man_in_manual_wheelchair_tone4",
                     "man_in_manual_wheelchair_medium_dark_skin_tone"]
+        case .man_in_manual_wheelchair_facing_right_tone4:
+            return ["man_in_manual_wheelchair_facing_right_tone4",
+                    "man_in_manual_wheelchair_facing_right_medium_dark_skin_tone"]
         case .man_tone5:
             return ["man_tone5"]
         case .man_health_worker_tone5:
@@ -6944,6 +7157,9 @@ public enum Emoji: CaseIterable {
         case .man_with_probing_cane_tone5:
             return ["man_with_probing_cane_tone5",
                     "man_with_probing_cane_dark_skin_tone"]
+        case .man_with_white_cane_facing_right_tone5:
+            return ["man_with_white_cane_facing_right_tone5",
+                    "man_with_white_cane_facing_right_dark_skin_tone"]
         case .man_red_haired_tone5:
             return ["man_red_haired_tone5",
                     "man_red_haired_dark_skin_tone"]
@@ -6959,9 +7175,15 @@ public enum Emoji: CaseIterable {
         case .man_in_motorized_wheelchair_tone5:
             return ["man_in_motorized_wheelchair_tone5",
                     "man_in_motorized_wheelchair_dark_skin_tone"]
+        case .man_in_motorized_wheelchair_facing_right_tone5:
+            return ["man_in_motorized_wheelchair_facing_right_tone5",
+                    "man_in_motorized_wheelchair_facing_right_dark_skin_tone"]
         case .man_in_manual_wheelchair_tone5:
             return ["man_in_manual_wheelchair_tone5",
                     "man_in_manual_wheelchair_dark_skin_tone"]
+        case .man_in_manual_wheelchair_facing_right_tone5:
+            return ["man_in_manual_wheelchair_facing_right_tone5",
+                    "man_in_manual_wheelchair_facing_right_dark_skin_tone"]
         case .family_man_boy:
             return ["family_man_boy"]
         case .family_man_boy_boy:
@@ -7006,6 +7228,8 @@ public enum Emoji: CaseIterable {
             return ["man_firefighter"]
         case .man_with_probing_cane:
             return ["man_with_probing_cane"]
+        case .man_with_white_cane_facing_right:
+            return ["man_with_white_cane_facing_right"]
         case .man_red_haired:
             return ["man_red_haired",
                     "man_red_hair"]
@@ -7017,8 +7241,12 @@ public enum Emoji: CaseIterable {
             return ["man_white_haired"]
         case .man_in_motorized_wheelchair:
             return ["man_in_motorized_wheelchair"]
+        case .man_in_motorized_wheelchair_facing_right:
+            return ["man_in_motorized_wheelchair_facing_right"]
         case .man_in_manual_wheelchair:
             return ["man_in_manual_wheelchair"]
+        case .man_in_manual_wheelchair_facing_right:
+            return ["man_in_manual_wheelchair_facing_right"]
         case .woman:
             return ["woman"]
         case .woman_health_worker:
@@ -7193,6 +7421,9 @@ public enum Emoji: CaseIterable {
         case .woman_with_probing_cane_tone1:
             return ["woman_with_probing_cane_tone1",
                     "woman_with_probing_cane_light_skin_tone"]
+        case .woman_with_white_cane_facing_right_tone1:
+            return ["woman_with_white_cane_facing_right_tone1",
+                    "woman_with_white_cane_facing_right_light_skin_tone"]
         case .woman_red_haired_tone1:
             return ["woman_red_haired_tone1",
                     "woman_red_haired_light_skin_tone"]
@@ -7208,9 +7439,15 @@ public enum Emoji: CaseIterable {
         case .woman_in_motorized_wheelchair_tone1:
             return ["woman_in_motorized_wheelchair_tone1",
                     "woman_in_motorized_wheelchair_light_skin_tone"]
+        case .woman_in_motorized_wheelchair_facing_right_tone1:
+            return ["woman_in_motorized_wheelchair_facing_right_tone1",
+                    "woman_in_motorized_wheelchair_facing_right_light_skin_tone"]
         case .woman_in_manual_wheelchair_tone1:
             return ["woman_in_manual_wheelchair_tone1",
                     "woman_in_manual_wheelchair_light_skin_tone"]
+        case .woman_in_manual_wheelchair_facing_right_tone1:
+            return ["woman_in_manual_wheelchair_facing_right_tone1",
+                    "woman_in_manual_wheelchair_facing_right_light_skin_tone"]
         case .woman_tone2:
             return ["woman_tone2"]
         case .woman_health_worker_tone2:
@@ -7351,6 +7588,9 @@ public enum Emoji: CaseIterable {
         case .woman_with_probing_cane_tone2:
             return ["woman_with_probing_cane_tone2",
                     "woman_with_probing_cane_medium_light_skin_tone"]
+        case .woman_with_white_cane_facing_right_tone2:
+            return ["woman_with_white_cane_facing_right_tone2",
+                    "woman_with_white_cane_facing_right_medium_light_skin_tone"]
         case .woman_red_haired_tone2:
             return ["woman_red_haired_tone2",
                     "woman_red_haired_medium_light_skin_tone"]
@@ -7366,9 +7606,15 @@ public enum Emoji: CaseIterable {
         case .woman_in_motorized_wheelchair_tone2:
             return ["woman_in_motorized_wheelchair_tone2",
                     "woman_in_motorized_wheelchair_medium_light_skin_tone"]
+        case .woman_in_motorized_wheelchair_facing_right_tone2:
+            return ["woman_in_motorized_wheelchair_facing_right_tone2",
+                    "woman_in_motorized_wheelchair_facing_right_medium_light_skin_tone"]
         case .woman_in_manual_wheelchair_tone2:
             return ["woman_in_manual_wheelchair_tone2",
                     "woman_in_manual_wheelchair_medium_light_skin_tone"]
+        case .woman_in_manual_wheelchair_facing_right_tone2:
+            return ["woman_in_manual_wheelchair_facing_right_tone2",
+                    "woman_in_manual_wheelchair_facing_right_medium_light_skin_tone"]
         case .woman_tone3:
             return ["woman_tone3"]
         case .woman_health_worker_tone3:
@@ -7509,6 +7755,9 @@ public enum Emoji: CaseIterable {
         case .woman_with_probing_cane_tone3:
             return ["woman_with_probing_cane_tone3",
                     "woman_with_probing_cane_medium_skin_tone"]
+        case .woman_with_white_cane_facing_right_tone3:
+            return ["woman_with_white_cane_facing_right_tone3",
+                    "woman_with_white_cane_facing_right_medium_skin_tone"]
         case .woman_red_haired_tone3:
             return ["woman_red_haired_tone3",
                     "woman_red_haired_medium_skin_tone"]
@@ -7524,9 +7773,15 @@ public enum Emoji: CaseIterable {
         case .woman_in_motorized_wheelchair_tone3:
             return ["woman_in_motorized_wheelchair_tone3",
                     "woman_in_motorized_wheelchair_medium_skin_tone"]
+        case .woman_in_motorized_wheelchair_facing_right_tone3:
+            return ["woman_in_motorized_wheelchair_facing_right_tone3",
+                    "woman_in_motorized_wheelchair_facing_right_medium_skin_tone"]
         case .woman_in_manual_wheelchair_tone3:
             return ["woman_in_manual_wheelchair_tone3",
                     "woman_in_manual_wheelchair_medium_skin_tone"]
+        case .woman_in_manual_wheelchair_facing_right_tone3:
+            return ["woman_in_manual_wheelchair_facing_right_tone3",
+                    "woman_in_manual_wheelchair_facing_right_medium_skin_tone"]
         case .woman_tone4:
             return ["woman_tone4"]
         case .woman_health_worker_tone4:
@@ -7667,6 +7922,9 @@ public enum Emoji: CaseIterable {
         case .woman_with_probing_cane_tone4:
             return ["woman_with_probing_cane_tone4",
                     "woman_with_probing_cane_medium_dark_skin_tone"]
+        case .woman_with_white_cane_facing_right_tone4:
+            return ["woman_with_white_cane_facing_right_tone4",
+                    "woman_with_white_cane_facing_right_medium_dark_skin_tone"]
         case .woman_red_haired_tone4:
             return ["woman_red_haired_tone4",
                     "woman_red_haired_medium_dark_skin_tone"]
@@ -7682,9 +7940,15 @@ public enum Emoji: CaseIterable {
         case .woman_in_motorized_wheelchair_tone4:
             return ["woman_in_motorized_wheelchair_tone4",
                     "woman_in_motorized_wheelchair_medium_dark_skin_tone"]
+        case .woman_in_motorized_wheelchair_facing_right_tone4:
+            return ["woman_in_motorized_wheelchair_facing_right_tone4",
+                    "woman_in_motorized_wheelchair_facing_right_medium_dark_skin_tone"]
         case .woman_in_manual_wheelchair_tone4:
             return ["woman_in_manual_wheelchair_tone4",
                     "woman_in_manual_wheelchair_medium_dark_skin_tone"]
+        case .woman_in_manual_wheelchair_facing_right_tone4:
+            return ["woman_in_manual_wheelchair_facing_right_tone4",
+                    "woman_in_manual_wheelchair_facing_right_medium_dark_skin_tone"]
         case .woman_tone5:
             return ["woman_tone5"]
         case .woman_health_worker_tone5:
@@ -7825,6 +8089,9 @@ public enum Emoji: CaseIterable {
         case .woman_with_probing_cane_tone5:
             return ["woman_with_probing_cane_tone5",
                     "woman_with_probing_cane_dark_skin_tone"]
+        case .woman_with_white_cane_facing_right_tone5:
+            return ["woman_with_white_cane_facing_right_tone5",
+                    "woman_with_white_cane_facing_right_dark_skin_tone"]
         case .woman_red_haired_tone5:
             return ["woman_red_haired_tone5",
                     "woman_red_haired_dark_skin_tone"]
@@ -7840,9 +8107,15 @@ public enum Emoji: CaseIterable {
         case .woman_in_motorized_wheelchair_tone5:
             return ["woman_in_motorized_wheelchair_tone5",
                     "woman_in_motorized_wheelchair_dark_skin_tone"]
+        case .woman_in_motorized_wheelchair_facing_right_tone5:
+            return ["woman_in_motorized_wheelchair_facing_right_tone5",
+                    "woman_in_motorized_wheelchair_facing_right_dark_skin_tone"]
         case .woman_in_manual_wheelchair_tone5:
             return ["woman_in_manual_wheelchair_tone5",
                     "woman_in_manual_wheelchair_dark_skin_tone"]
+        case .woman_in_manual_wheelchair_facing_right_tone5:
+            return ["woman_in_manual_wheelchair_facing_right_tone5",
+                    "woman_in_manual_wheelchair_facing_right_dark_skin_tone"]
         case .family_woman_boy:
             return ["family_woman_boy"]
         case .family_woman_boy_boy:
@@ -7877,6 +8150,8 @@ public enum Emoji: CaseIterable {
             return ["woman_firefighter"]
         case .woman_with_probing_cane:
             return ["woman_with_probing_cane"]
+        case .woman_with_white_cane_facing_right:
+            return ["woman_with_white_cane_facing_right"]
         case .woman_red_haired:
             return ["woman_red_haired"]
         case .woman_curly_haired:
@@ -7887,8 +8162,12 @@ public enum Emoji: CaseIterable {
             return ["woman_white_haired"]
         case .woman_in_motorized_wheelchair:
             return ["woman_in_motorized_wheelchair"]
+        case .woman_in_motorized_wheelchair_facing_right:
+            return ["woman_in_motorized_wheelchair_facing_right"]
         case .woman_in_manual_wheelchair:
             return ["woman_in_manual_wheelchair"]
+        case .woman_in_manual_wheelchair_facing_right:
+            return ["woman_in_manual_wheelchair_facing_right"]
         case .family:
             return ["family"]
         case .couple:
@@ -9486,6 +9765,10 @@ public enum Emoji: CaseIterable {
         case .slight_smile:
             return ["slight_smile",
                     "slightly_smiling_face"]
+        case .head_shaking_horizontally:
+            return ["head_shaking_horizontally"]
+        case .head_shaking_vertically:
+            return ["head_shaking_vertically"]
         case .upside_down:
             return ["upside_down",
                     "upside_down_face"]
@@ -10102,53 +10385,104 @@ public enum Emoji: CaseIterable {
                     "walking"]
         case .woman_walking:
             return ["woman_walking"]
+        case .woman_walking_facing_right:
+            return ["woman_walking_facing_right"]
         case .man_walking:
             return ["man_walking"]
+        case .man_walking_facing_right:
+            return ["man_walking_facing_right"]
+        case .person_walking_facing_right:
+            return ["person_walking_facing_right"]
         case .person_walking_tone1:
             return ["person_walking_tone1",
                     "walking_tone1"]
         case .woman_walking_tone1:
             return ["woman_walking_tone1",
                     "woman_walking_light_skin_tone"]
+        case .woman_walking_facing_right_tone1:
+            return ["woman_walking_facing_right_tone1",
+                    "woman_walking_facing_right_light_skin_tone"]
         case .man_walking_tone1:
             return ["man_walking_tone1",
                     "man_walking_light_skin_tone"]
+        case .man_walking_facing_right_tone1:
+            return ["man_walking_facing_right_tone1",
+                    "man_walking_facing_right_light_skin_tone"]
+        case .person_walking_facing_right_tone1:
+            return ["person_walking_facing_right_tone1",
+                    "person_walking_facing_right_light_skin_tone"]
         case .person_walking_tone2:
             return ["person_walking_tone2",
                     "walking_tone2"]
         case .woman_walking_tone2:
             return ["woman_walking_tone2",
                     "woman_walking_medium_light_skin_tone"]
+        case .woman_walking_facing_right_tone2:
+            return ["woman_walking_facing_right_tone2",
+                    "woman_walking_facing_right_medium_light_skin_tone"]
         case .man_walking_tone2:
             return ["man_walking_tone2",
                     "man_walking_medium_light_skin_tone"]
+        case .man_walking_facing_right_tone2:
+            return ["man_walking_facing_right_tone2",
+                    "man_walking_facing_right_medium_light_skin_tone"]
+        case .person_walking_facing_right_tone2:
+            return ["person_walking_facing_right_tone2",
+                    "person_walking_facing_right_medium_light_skin_tone"]
         case .person_walking_tone3:
             return ["person_walking_tone3",
                     "walking_tone3"]
         case .woman_walking_tone3:
             return ["woman_walking_tone3",
                     "woman_walking_medium_skin_tone"]
+        case .woman_walking_facing_right_tone3:
+            return ["woman_walking_facing_right_tone3",
+                    "woman_walking_facing_right_medium_skin_tone"]
         case .man_walking_tone3:
             return ["man_walking_tone3",
                     "man_walking_medium_skin_tone"]
+        case .man_walking_facing_right_tone3:
+            return ["man_walking_facing_right_tone3",
+                    "man_walking_facing_right_medium_skin_tone"]
+        case .person_walking_facing_right_tone3:
+            return ["person_walking_facing_right_tone3",
+                    "person_walking_facing_right_medium_skin_tone"]
         case .person_walking_tone4:
             return ["person_walking_tone4",
                     "walking_tone4"]
         case .woman_walking_tone4:
             return ["woman_walking_tone4",
                     "woman_walking_medium_dark_skin_tone"]
+        case .woman_walking_facing_right_tone4:
+            return ["woman_walking_facing_right_tone4",
+                    "woman_walking_facing_right_medium_dark_skin_tone"]
         case .man_walking_tone4:
             return ["man_walking_tone4",
                     "man_walking_medium_dark_skin_tone"]
+        case .man_walking_facing_right_tone4:
+            return ["man_walking_facing_right_tone4",
+                    "man_walking_facing_right_medium_dark_skin_tone"]
+        case .person_walking_facing_right_tone4:
+            return ["person_walking_facing_right_tone4",
+                    "person_walking_facing_right_medium_dark_skin_tone"]
         case .person_walking_tone5:
             return ["person_walking_tone5",
                     "walking_tone5"]
         case .woman_walking_tone5:
             return ["woman_walking_tone5",
                     "woman_walking_dark_skin_tone"]
+        case .woman_walking_facing_right_tone5:
+            return ["woman_walking_facing_right_tone5",
+                    "woman_walking_facing_right_dark_skin_tone"]
         case .man_walking_tone5:
             return ["man_walking_tone5",
                     "man_walking_dark_skin_tone"]
+        case .man_walking_facing_right_tone5:
+            return ["man_walking_facing_right_tone5",
+                    "man_walking_facing_right_dark_skin_tone"]
+        case .person_walking_facing_right_tone5:
+            return ["person_walking_facing_right_tone5",
+                    "person_walking_facing_right_dark_skin_tone"]
         case .no_pedestrians:
             return ["no_pedestrians"]
         case .children_crossing:
@@ -11563,53 +11897,104 @@ public enum Emoji: CaseIterable {
             return ["person_kneeling"]
         case .woman_kneeling:
             return ["woman_kneeling"]
+        case .woman_kneeling_facing_right:
+            return ["woman_kneeling_facing_right"]
         case .man_kneeling:
             return ["man_kneeling"]
+        case .man_kneeling_facing_right:
+            return ["man_kneeling_facing_right"]
+        case .person_kneeling_facing_right:
+            return ["person_kneeling_facing_right"]
         case .person_kneeling_tone1:
             return ["person_kneeling_tone1",
                     "person_kneeling_light_skin_tone"]
         case .woman_kneeling_tone1:
             return ["woman_kneeling_tone1",
                     "woman_kneeling_light_skin_tone"]
+        case .woman_kneeling_facing_right_tone1:
+            return ["woman_kneeling_facing_right_tone1",
+                    "woman_kneeling_facing_right_light_skin_tone"]
         case .man_kneeling_tone1:
             return ["man_kneeling_tone1",
                     "man_kneeling_light_skin_tone"]
+        case .man_kneeling_facing_right_tone1:
+            return ["man_kneeling_facing_right_tone1",
+                    "man_kneeling_facing_right_light_skin_tone"]
+        case .person_kneeling_facing_right_tone1:
+            return ["person_kneeling_facing_right_tone1",
+                    "person_kneeling_facing_right_light_skin_tone"]
         case .person_kneeling_tone2:
             return ["person_kneeling_tone2",
                     "person_kneeling_medium_light_skin_tone"]
         case .woman_kneeling_tone2:
             return ["woman_kneeling_tone2",
                     "woman_kneeling_medium_light_skin_tone"]
+        case .woman_kneeling_facing_right_tone2:
+            return ["woman_kneeling_facing_right_tone2",
+                    "woman_kneeling_facing_right_medium_light_skin_tone"]
         case .man_kneeling_tone2:
             return ["man_kneeling_tone2",
                     "man_kneeling_medium_light_skin_tone"]
+        case .man_kneeling_facing_right_tone2:
+            return ["man_kneeling_facing_right_tone2",
+                    "man_kneeling_facing_right_medium_light_skin_tone"]
+        case .person_kneeling_facing_right_tone2:
+            return ["person_kneeling_facing_right_tone2",
+                    "person_kneeling_facing_right_medium_light_skin_tone"]
         case .person_kneeling_tone3:
             return ["person_kneeling_tone3",
                     "person_kneeling_medium_skin_tone"]
         case .woman_kneeling_tone3:
             return ["woman_kneeling_tone3",
                     "woman_kneeling_medium_skin_tone"]
+        case .woman_kneeling_facing_right_tone3:
+            return ["woman_kneeling_facing_right_tone3",
+                    "woman_kneeling_facing_right_medium_skin_tone"]
         case .man_kneeling_tone3:
             return ["man_kneeling_tone3",
                     "man_kneeling_medium_skin_tone"]
+        case .man_kneeling_facing_right_tone3:
+            return ["man_kneeling_facing_right_tone3",
+                    "man_kneeling_facing_right_medium_skin_tone"]
+        case .person_kneeling_facing_right_tone3:
+            return ["person_kneeling_facing_right_tone3",
+                    "person_kneeling_facing_right_medium_skin_tone"]
         case .person_kneeling_tone4:
             return ["person_kneeling_tone4",
                     "person_kneeling_medium_dark_skin_tone"]
         case .woman_kneeling_tone4:
             return ["woman_kneeling_tone4",
                     "woman_kneeling_medium_dark_skin_tone"]
+        case .woman_kneeling_facing_right_tone4:
+            return ["woman_kneeling_facing_right_tone4",
+                    "woman_kneeling_facing_right_medium_dark_skin_tone"]
         case .man_kneeling_tone4:
             return ["man_kneeling_tone4",
                     "man_kneeling_medium_dark_skin_tone"]
+        case .man_kneeling_facing_right_tone4:
+            return ["man_kneeling_facing_right_tone4",
+                    "man_kneeling_facing_right_medium_dark_skin_tone"]
+        case .person_kneeling_facing_right_tone4:
+            return ["person_kneeling_facing_right_tone4",
+                    "person_kneeling_facing_right_medium_dark_skin_tone"]
         case .person_kneeling_tone5:
             return ["person_kneeling_tone5",
                     "person_kneeling_dark_skin_tone"]
         case .woman_kneeling_tone5:
             return ["woman_kneeling_tone5",
                     "woman_kneeling_dark_skin_tone"]
+        case .woman_kneeling_facing_right_tone5:
+            return ["woman_kneeling_facing_right_tone5",
+                    "woman_kneeling_facing_right_dark_skin_tone"]
         case .man_kneeling_tone5:
             return ["man_kneeling_tone5",
                     "man_kneeling_dark_skin_tone"]
+        case .man_kneeling_facing_right_tone5:
+            return ["man_kneeling_facing_right_tone5",
+                    "man_kneeling_facing_right_dark_skin_tone"]
+        case .person_kneeling_facing_right_tone5:
+            return ["person_kneeling_facing_right_tone5",
+                    "person_kneeling_facing_right_dark_skin_tone"]
         case .deaf_person:
             return ["deaf_person"]
         case .deaf_woman:
@@ -11789,6 +12174,9 @@ public enum Emoji: CaseIterable {
         case .person_with_probing_cane_tone1:
             return ["person_with_probing_cane_tone1",
                     "person_with_probing_cane_light_skin_tone"]
+        case .person_with_white_cane_facing_right_tone1:
+            return ["person_with_white_cane_facing_right_tone1",
+                    "person_with_white_cane_facing_right_light_skin_tone"]
         case .person_tone1_red_hair:
             return ["person_tone1_red_hair",
                     "person_light_skin_tone_red_hair"]
@@ -11804,9 +12192,15 @@ public enum Emoji: CaseIterable {
         case .person_in_motorized_wheelchair_tone1:
             return ["person_in_motorized_wheelchair_tone1",
                     "person_in_motorized_wheelchair_light_skin_tone"]
+        case .person_in_motorized_wheelchair_facing_right_tone1:
+            return ["person_in_motorized_wheelchair_facing_right_tone1",
+                    "person_in_motorized_wheelchair_facing_right_light_skin_tone"]
         case .person_in_manual_wheelchair_tone1:
             return ["person_in_manual_wheelchair_tone1",
                     "person_in_manual_wheelchair_light_skin_tone"]
+        case .person_in_manual_wheelchair_facing_right_tone1:
+            return ["person_in_manual_wheelchair_facing_right_tone1",
+                    "person_in_manual_wheelchair_facing_right_light_skin_tone"]
         case .adult_tone2:
             return ["adult_tone2",
                     "adult_medium_light_skin_tone"]
@@ -11906,6 +12300,9 @@ public enum Emoji: CaseIterable {
         case .person_with_probing_cane_tone2:
             return ["person_with_probing_cane_tone2",
                     "person_with_probing_cane_medium_light_skin_tone"]
+        case .person_with_white_cane_facing_right_tone2:
+            return ["person_with_white_cane_facing_right_tone2",
+                    "person_with_white_cane_facing_right_medium_light_skin_tone"]
         case .person_tone2_red_hair:
             return ["person_tone2_red_hair",
                     "person_medium_light_skin_tone_red_hair"]
@@ -11921,9 +12318,15 @@ public enum Emoji: CaseIterable {
         case .person_in_motorized_wheelchair_tone2:
             return ["person_in_motorized_wheelchair_tone2",
                     "person_in_motorized_wheelchair_medium_light_skin_tone"]
+        case .person_in_motorized_wheelchair_facing_right_tone2:
+            return ["person_in_motorized_wheelchair_facing_right_tone2",
+                    "person_in_motorized_wheelchair_facing_right_medium_light_skin_tone"]
         case .person_in_manual_wheelchair_tone2:
             return ["person_in_manual_wheelchair_tone2",
                     "person_in_manual_wheelchair_medium_light_skin_tone"]
+        case .person_in_manual_wheelchair_facing_right_tone2:
+            return ["person_in_manual_wheelchair_facing_right_tone2",
+                    "person_in_manual_wheelchair_facing_right_medium_light_skin_tone"]
         case .adult_tone3:
             return ["adult_tone3",
                     "adult_medium_skin_tone"]
@@ -12023,6 +12426,9 @@ public enum Emoji: CaseIterable {
         case .person_with_probing_cane_tone3:
             return ["person_with_probing_cane_tone3",
                     "person_with_probing_cane_medium_skin_tone"]
+        case .person_with_white_cane_facing_right_tone3:
+            return ["person_with_white_cane_facing_right_tone3",
+                    "person_with_white_cane_facing_right_medium_skin_tone"]
         case .person_tone3_red_hair:
             return ["person_tone3_red_hair",
                     "person_medium_skin_tone_red_hair"]
@@ -12038,9 +12444,15 @@ public enum Emoji: CaseIterable {
         case .person_in_motorized_wheelchair_tone3:
             return ["person_in_motorized_wheelchair_tone3",
                     "person_in_motorized_wheelchair_medium_skin_tone"]
+        case .person_in_motorized_wheelchair_facing_right_tone3:
+            return ["person_in_motorized_wheelchair_facing_right_tone3",
+                    "person_in_motorized_wheelchair_facing_right_medium_skin_tone"]
         case .person_in_manual_wheelchair_tone3:
             return ["person_in_manual_wheelchair_tone3",
                     "person_in_manual_wheelchair_medium_skin_tone"]
+        case .person_in_manual_wheelchair_facing_right_tone3:
+            return ["person_in_manual_wheelchair_facing_right_tone3",
+                    "person_in_manual_wheelchair_facing_right_medium_skin_tone"]
         case .adult_tone4:
             return ["adult_tone4",
                     "adult_medium_dark_skin_tone"]
@@ -12140,6 +12552,9 @@ public enum Emoji: CaseIterable {
         case .person_with_probing_cane_tone4:
             return ["person_with_probing_cane_tone4",
                     "person_with_probing_cane_medium_dark_skin_tone"]
+        case .person_with_white_cane_facing_right_tone4:
+            return ["person_with_white_cane_facing_right_tone4",
+                    "person_with_white_cane_facing_right_medium_dark_skin_tone"]
         case .person_tone4_red_hair:
             return ["person_tone4_red_hair",
                     "person_medium_dark_skin_tone_red_hair"]
@@ -12155,9 +12570,15 @@ public enum Emoji: CaseIterable {
         case .person_in_motorized_wheelchair_tone4:
             return ["person_in_motorized_wheelchair_tone4",
                     "person_in_motorized_wheelchair_medium_dark_skin_tone"]
+        case .person_in_motorized_wheelchair_facing_right_tone4:
+            return ["person_in_motorized_wheelchair_facing_right_tone4",
+                    "person_in_motorized_wheelchair_facing_right_medium_dark_skin_tone"]
         case .person_in_manual_wheelchair_tone4:
             return ["person_in_manual_wheelchair_tone4",
                     "person_in_manual_wheelchair_medium_dark_skin_tone"]
+        case .person_in_manual_wheelchair_facing_right_tone4:
+            return ["person_in_manual_wheelchair_facing_right_tone4",
+                    "person_in_manual_wheelchair_facing_right_medium_dark_skin_tone"]
         case .adult_tone5:
             return ["adult_tone5",
                     "adult_dark_skin_tone"]
@@ -12257,6 +12678,9 @@ public enum Emoji: CaseIterable {
         case .person_with_probing_cane_tone5:
             return ["person_with_probing_cane_tone5",
                     "person_with_probing_cane_dark_skin_tone"]
+        case .person_with_white_cane_facing_right_tone5:
+            return ["person_with_white_cane_facing_right_tone5",
+                    "person_with_white_cane_facing_right_dark_skin_tone"]
         case .person_tone5_red_hair:
             return ["person_tone5_red_hair",
                     "person_dark_skin_tone_red_hair"]
@@ -12272,9 +12696,15 @@ public enum Emoji: CaseIterable {
         case .person_in_motorized_wheelchair_tone5:
             return ["person_in_motorized_wheelchair_tone5",
                     "person_in_motorized_wheelchair_dark_skin_tone"]
+        case .person_in_motorized_wheelchair_facing_right_tone5:
+            return ["person_in_motorized_wheelchair_facing_right_tone5",
+                    "person_in_motorized_wheelchair_facing_right_dark_skin_tone"]
         case .person_in_manual_wheelchair_tone5:
             return ["person_in_manual_wheelchair_tone5",
                     "person_in_manual_wheelchair_dark_skin_tone"]
+        case .person_in_manual_wheelchair_facing_right_tone5:
+            return ["person_in_manual_wheelchair_facing_right_tone5",
+                    "person_in_manual_wheelchair_facing_right_dark_skin_tone"]
         case .technologist:
             return ["technologist"]
         case .office_worker:
@@ -12291,6 +12721,8 @@ public enum Emoji: CaseIterable {
             return ["people_holding_hands"]
         case .person_with_probing_cane:
             return ["person_with_probing_cane"]
+        case .person_with_white_cane_facing_right:
+            return ["person_with_white_cane_facing_right"]
         case .person_red_hair:
             return ["person_red_hair"]
         case .person_curly_hair:
@@ -12301,8 +12733,20 @@ public enum Emoji: CaseIterable {
             return ["person_white_hair"]
         case .person_in_motorized_wheelchair:
             return ["person_in_motorized_wheelchair"]
+        case .person_in_motorized_wheelchair_facing_right:
+            return ["person_in_motorized_wheelchair_facing_right"]
         case .person_in_manual_wheelchair:
             return ["person_in_manual_wheelchair"]
+        case .person_in_manual_wheelchair_facing_right:
+            return ["person_in_manual_wheelchair_facing_right"]
+        case .family_adult_adult_child:
+            return ["family_adult_adult_child"]
+        case .family_adult_adult_child_child:
+            return ["family_adult_adult_child_child"]
+        case .family_adult_child:
+            return ["family_adult_child"]
+        case .family_adult_child_child:
+            return ["family_adult_child_child"]
         case .child:
             return ["child"]
         case .child_tone1:
@@ -13727,6 +14171,9 @@ public enum Emoji: CaseIterable {
         case .chains:
             return ["\u{26d3}",
                     "\u{26d3}\u{fe0f}"]
+        case .broken_chain:
+            return ["\u{26d3}\u{1f4a5}",
+                    "\u{26d3}\u{fe0f}\u{200d}\u{1f4a5}"]
         case .no_entry:
             return ["\u{26d4}"]
         case .shinto_shrine:
@@ -14704,6 +15151,9 @@ public enum Emoji: CaseIterable {
             return ["\u{1f343}"]
         case .mushroom:
             return ["\u{1f344}"]
+        case .brown_mushroom:
+            return ["\u{1f344}\u{1f7eb}",
+                    "\u{1f344}\u{200d}\u{1f7eb}"]
         case .tomato:
             return ["\u{1f345}"]
         case .eggplant:
@@ -14718,6 +15168,9 @@ public enum Emoji: CaseIterable {
             return ["\u{1f34a}"]
         case .lemon:
             return ["\u{1f34b}"]
+        case .lime:
+            return ["\u{1f34b}\u{1f7e9}",
+                    "\u{1f34b}\u{200d}\u{1f7e9}"]
         case .banana:
             return ["\u{1f34c}"]
         case .pineapple:
@@ -14979,49 +15432,103 @@ public enum Emoji: CaseIterable {
         case .woman_running:
             return ["\u{1f3c3}\u{2640}",
                     "\u{1f3c3}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_running_facing_right:
+            return ["\u{1f3c3}\u{2640}\u{27a1}",
+                    "\u{1f3c3}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_running:
             return ["\u{1f3c3}\u{2642}",
                     "\u{1f3c3}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_running_facing_right:
+            return ["\u{1f3c3}\u{2642}\u{27a1}",
+                    "\u{1f3c3}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_running_facing_right:
+            return ["\u{1f3c3}\u{27a1}",
+                    "\u{1f3c3}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_running_tone1:
             return ["\u{1f3c3}\u{1f3fb}"]
         case .woman_running_tone1:
             return ["\u{1f3c3}\u{1f3fb}\u{2640}",
                     "\u{1f3c3}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_running_facing_right_tone1:
+            return ["\u{1f3c3}\u{1f3fb}\u{2640}\u{27a1}",
+                    "\u{1f3c3}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_running_tone1:
             return ["\u{1f3c3}\u{1f3fb}\u{2642}",
                     "\u{1f3c3}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_running_facing_right_tone1:
+            return ["\u{1f3c3}\u{1f3fb}\u{2642}\u{27a1}",
+                    "\u{1f3c3}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_running_facing_right_tone1:
+            return ["\u{1f3c3}\u{1f3fb}\u{27a1}",
+                    "\u{1f3c3}\u{1f3fb}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_running_tone2:
             return ["\u{1f3c3}\u{1f3fc}"]
         case .woman_running_tone2:
             return ["\u{1f3c3}\u{1f3fc}\u{2640}",
                     "\u{1f3c3}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_running_facing_right_tone2:
+            return ["\u{1f3c3}\u{1f3fc}\u{2640}\u{27a1}",
+                    "\u{1f3c3}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_running_tone2:
             return ["\u{1f3c3}\u{1f3fc}\u{2642}",
                     "\u{1f3c3}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_running_facing_right_tone2:
+            return ["\u{1f3c3}\u{1f3fc}\u{2642}\u{27a1}",
+                    "\u{1f3c3}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_running_facing_right_tone2:
+            return ["\u{1f3c3}\u{1f3fc}\u{27a1}",
+                    "\u{1f3c3}\u{1f3fc}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_running_tone3:
             return ["\u{1f3c3}\u{1f3fd}"]
         case .woman_running_tone3:
             return ["\u{1f3c3}\u{1f3fd}\u{2640}",
                     "\u{1f3c3}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_running_facing_right_tone3:
+            return ["\u{1f3c3}\u{1f3fd}\u{2640}\u{27a1}",
+                    "\u{1f3c3}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_running_tone3:
             return ["\u{1f3c3}\u{1f3fd}\u{2642}",
                     "\u{1f3c3}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_running_facing_right_tone3:
+            return ["\u{1f3c3}\u{1f3fd}\u{2642}\u{27a1}",
+                    "\u{1f3c3}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_running_facing_right_tone3:
+            return ["\u{1f3c3}\u{1f3fd}\u{27a1}",
+                    "\u{1f3c3}\u{1f3fd}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_running_tone4:
             return ["\u{1f3c3}\u{1f3fe}"]
         case .woman_running_tone4:
             return ["\u{1f3c3}\u{1f3fe}\u{2640}",
                     "\u{1f3c3}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_running_facing_right_tone4:
+            return ["\u{1f3c3}\u{1f3fe}\u{2640}\u{27a1}",
+                    "\u{1f3c3}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_running_tone4:
             return ["\u{1f3c3}\u{1f3fe}\u{2642}",
                     "\u{1f3c3}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_running_facing_right_tone4:
+            return ["\u{1f3c3}\u{1f3fe}\u{2642}\u{27a1}",
+                    "\u{1f3c3}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_running_facing_right_tone4:
+            return ["\u{1f3c3}\u{1f3fe}\u{27a1}",
+                    "\u{1f3c3}\u{1f3fe}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_running_tone5:
             return ["\u{1f3c3}\u{1f3ff}"]
         case .woman_running_tone5:
             return ["\u{1f3c3}\u{1f3ff}\u{2640}",
                     "\u{1f3c3}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_running_facing_right_tone5:
+            return ["\u{1f3c3}\u{1f3ff}\u{2640}\u{27a1}",
+                    "\u{1f3c3}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_running_tone5:
             return ["\u{1f3c3}\u{1f3ff}\u{2642}",
                     "\u{1f3c3}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_running_facing_right_tone5:
+            return ["\u{1f3c3}\u{1f3ff}\u{2642}\u{27a1}",
+                    "\u{1f3c3}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_running_facing_right_tone5:
+            return ["\u{1f3c3}\u{1f3ff}\u{27a1}",
+                    "\u{1f3c3}\u{1f3ff}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_surfing:
             return ["\u{1f3c4}"]
         case .woman_surfing:
@@ -15451,6 +15958,9 @@ public enum Emoji: CaseIterable {
         case .black_bird:
             return ["\u{1f426}\u{2b1b}",
                     "\u{1f426}\u{200d}\u{2b1b}"]
+        case .phoenix:
+            return ["\u{1f426}\u{1f525}",
+                    "\u{1f426}\u{200d}\u{1f525}"]
         case .penguin:
             return ["\u{1f427}"]
         case .koala:
@@ -15878,6 +16388,9 @@ public enum Emoji: CaseIterable {
         case .man_with_probing_cane_tone1:
             return ["\u{1f468}\u{1f3fb}\u{1f9af}",
                     "\u{1f468}\u{1f3fb}\u{200d}\u{1f9af}"]
+        case .man_with_white_cane_facing_right_tone1:
+            return ["\u{1f468}\u{1f3fb}\u{1f9af}\u{27a1}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_red_haired_tone1:
             return ["\u{1f468}\u{1f3fb}\u{1f9b0}",
                     "\u{1f468}\u{1f3fb}\u{200d}\u{1f9b0}"]
@@ -15893,9 +16406,15 @@ public enum Emoji: CaseIterable {
         case .man_in_motorized_wheelchair_tone1:
             return ["\u{1f468}\u{1f3fb}\u{1f9bc}",
                     "\u{1f468}\u{1f3fb}\u{200d}\u{1f9bc}"]
+        case .man_in_motorized_wheelchair_facing_right_tone1:
+            return ["\u{1f468}\u{1f3fb}\u{1f9bc}\u{27a1}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_in_manual_wheelchair_tone1:
             return ["\u{1f468}\u{1f3fb}\u{1f9bd}",
                     "\u{1f468}\u{1f3fb}\u{200d}\u{1f9bd}"]
+        case .man_in_manual_wheelchair_facing_right_tone1:
+            return ["\u{1f468}\u{1f3fb}\u{1f9bd}\u{27a1}",
+                    "\u{1f468}\u{1f3fb}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_tone2:
             return ["\u{1f468}\u{1f3fc}"]
         case .man_health_worker_tone2:
@@ -15994,6 +16513,9 @@ public enum Emoji: CaseIterable {
         case .man_with_probing_cane_tone2:
             return ["\u{1f468}\u{1f3fc}\u{1f9af}",
                     "\u{1f468}\u{1f3fc}\u{200d}\u{1f9af}"]
+        case .man_with_white_cane_facing_right_tone2:
+            return ["\u{1f468}\u{1f3fc}\u{1f9af}\u{27a1}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_red_haired_tone2:
             return ["\u{1f468}\u{1f3fc}\u{1f9b0}",
                     "\u{1f468}\u{1f3fc}\u{200d}\u{1f9b0}"]
@@ -16009,9 +16531,15 @@ public enum Emoji: CaseIterable {
         case .man_in_motorized_wheelchair_tone2:
             return ["\u{1f468}\u{1f3fc}\u{1f9bc}",
                     "\u{1f468}\u{1f3fc}\u{200d}\u{1f9bc}"]
+        case .man_in_motorized_wheelchair_facing_right_tone2:
+            return ["\u{1f468}\u{1f3fc}\u{1f9bc}\u{27a1}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_in_manual_wheelchair_tone2:
             return ["\u{1f468}\u{1f3fc}\u{1f9bd}",
                     "\u{1f468}\u{1f3fc}\u{200d}\u{1f9bd}"]
+        case .man_in_manual_wheelchair_facing_right_tone2:
+            return ["\u{1f468}\u{1f3fc}\u{1f9bd}\u{27a1}",
+                    "\u{1f468}\u{1f3fc}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_tone3:
             return ["\u{1f468}\u{1f3fd}"]
         case .man_health_worker_tone3:
@@ -16110,6 +16638,9 @@ public enum Emoji: CaseIterable {
         case .man_with_probing_cane_tone3:
             return ["\u{1f468}\u{1f3fd}\u{1f9af}",
                     "\u{1f468}\u{1f3fd}\u{200d}\u{1f9af}"]
+        case .man_with_white_cane_facing_right_tone3:
+            return ["\u{1f468}\u{1f3fd}\u{1f9af}\u{27a1}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_red_haired_tone3:
             return ["\u{1f468}\u{1f3fd}\u{1f9b0}",
                     "\u{1f468}\u{1f3fd}\u{200d}\u{1f9b0}"]
@@ -16125,9 +16656,15 @@ public enum Emoji: CaseIterable {
         case .man_in_motorized_wheelchair_tone3:
             return ["\u{1f468}\u{1f3fd}\u{1f9bc}",
                     "\u{1f468}\u{1f3fd}\u{200d}\u{1f9bc}"]
+        case .man_in_motorized_wheelchair_facing_right_tone3:
+            return ["\u{1f468}\u{1f3fd}\u{1f9bc}\u{27a1}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_in_manual_wheelchair_tone3:
             return ["\u{1f468}\u{1f3fd}\u{1f9bd}",
                     "\u{1f468}\u{1f3fd}\u{200d}\u{1f9bd}"]
+        case .man_in_manual_wheelchair_facing_right_tone3:
+            return ["\u{1f468}\u{1f3fd}\u{1f9bd}\u{27a1}",
+                    "\u{1f468}\u{1f3fd}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_tone4:
             return ["\u{1f468}\u{1f3fe}"]
         case .man_health_worker_tone4:
@@ -16226,6 +16763,9 @@ public enum Emoji: CaseIterable {
         case .man_with_probing_cane_tone4:
             return ["\u{1f468}\u{1f3fe}\u{1f9af}",
                     "\u{1f468}\u{1f3fe}\u{200d}\u{1f9af}"]
+        case .man_with_white_cane_facing_right_tone4:
+            return ["\u{1f468}\u{1f3fe}\u{1f9af}\u{27a1}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_red_haired_tone4:
             return ["\u{1f468}\u{1f3fe}\u{1f9b0}",
                     "\u{1f468}\u{1f3fe}\u{200d}\u{1f9b0}"]
@@ -16241,9 +16781,15 @@ public enum Emoji: CaseIterable {
         case .man_in_motorized_wheelchair_tone4:
             return ["\u{1f468}\u{1f3fe}\u{1f9bc}",
                     "\u{1f468}\u{1f3fe}\u{200d}\u{1f9bc}"]
+        case .man_in_motorized_wheelchair_facing_right_tone4:
+            return ["\u{1f468}\u{1f3fe}\u{1f9bc}\u{27a1}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_in_manual_wheelchair_tone4:
             return ["\u{1f468}\u{1f3fe}\u{1f9bd}",
                     "\u{1f468}\u{1f3fe}\u{200d}\u{1f9bd}"]
+        case .man_in_manual_wheelchair_facing_right_tone4:
+            return ["\u{1f468}\u{1f3fe}\u{1f9bd}\u{27a1}",
+                    "\u{1f468}\u{1f3fe}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_tone5:
             return ["\u{1f468}\u{1f3ff}"]
         case .man_health_worker_tone5:
@@ -16342,6 +16888,9 @@ public enum Emoji: CaseIterable {
         case .man_with_probing_cane_tone5:
             return ["\u{1f468}\u{1f3ff}\u{1f9af}",
                     "\u{1f468}\u{1f3ff}\u{200d}\u{1f9af}"]
+        case .man_with_white_cane_facing_right_tone5:
+            return ["\u{1f468}\u{1f3ff}\u{1f9af}\u{27a1}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_red_haired_tone5:
             return ["\u{1f468}\u{1f3ff}\u{1f9b0}",
                     "\u{1f468}\u{1f3ff}\u{200d}\u{1f9b0}"]
@@ -16357,9 +16906,15 @@ public enum Emoji: CaseIterable {
         case .man_in_motorized_wheelchair_tone5:
             return ["\u{1f468}\u{1f3ff}\u{1f9bc}",
                     "\u{1f468}\u{1f3ff}\u{200d}\u{1f9bc}"]
+        case .man_in_motorized_wheelchair_facing_right_tone5:
+            return ["\u{1f468}\u{1f3ff}\u{1f9bc}\u{27a1}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_in_manual_wheelchair_tone5:
             return ["\u{1f468}\u{1f3ff}\u{1f9bd}",
                     "\u{1f468}\u{1f3ff}\u{200d}\u{1f9bd}"]
+        case .man_in_manual_wheelchair_facing_right_tone5:
+            return ["\u{1f468}\u{1f3ff}\u{1f9bd}\u{27a1}",
+                    "\u{1f468}\u{1f3ff}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .family_man_boy:
             return ["\u{1f468}\u{1f466}",
                     "\u{1f468}\u{200d}\u{1f466}"]
@@ -16426,6 +16981,9 @@ public enum Emoji: CaseIterable {
         case .man_with_probing_cane:
             return ["\u{1f468}\u{1f9af}",
                     "\u{1f468}\u{200d}\u{1f9af}"]
+        case .man_with_white_cane_facing_right:
+            return ["\u{1f468}\u{1f9af}\u{27a1}",
+                    "\u{1f468}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_red_haired:
             return ["\u{1f468}\u{1f9b0}",
                     "\u{1f468}\u{200d}\u{1f9b0}"]
@@ -16441,9 +16999,15 @@ public enum Emoji: CaseIterable {
         case .man_in_motorized_wheelchair:
             return ["\u{1f468}\u{1f9bc}",
                     "\u{1f468}\u{200d}\u{1f9bc}"]
+        case .man_in_motorized_wheelchair_facing_right:
+            return ["\u{1f468}\u{1f9bc}\u{27a1}",
+                    "\u{1f468}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_in_manual_wheelchair:
             return ["\u{1f468}\u{1f9bd}",
                     "\u{1f468}\u{200d}\u{1f9bd}"]
+        case .man_in_manual_wheelchair_facing_right:
+            return ["\u{1f468}\u{1f9bd}\u{27a1}",
+                    "\u{1f468}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman:
             return ["\u{1f469}"]
         case .woman_health_worker:
@@ -16631,6 +17195,9 @@ public enum Emoji: CaseIterable {
         case .woman_with_probing_cane_tone1:
             return ["\u{1f469}\u{1f3fb}\u{1f9af}",
                     "\u{1f469}\u{1f3fb}\u{200d}\u{1f9af}"]
+        case .woman_with_white_cane_facing_right_tone1:
+            return ["\u{1f469}\u{1f3fb}\u{1f9af}\u{27a1}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_red_haired_tone1:
             return ["\u{1f469}\u{1f3fb}\u{1f9b0}",
                     "\u{1f469}\u{1f3fb}\u{200d}\u{1f9b0}"]
@@ -16646,9 +17213,15 @@ public enum Emoji: CaseIterable {
         case .woman_in_motorized_wheelchair_tone1:
             return ["\u{1f469}\u{1f3fb}\u{1f9bc}",
                     "\u{1f469}\u{1f3fb}\u{200d}\u{1f9bc}"]
+        case .woman_in_motorized_wheelchair_facing_right_tone1:
+            return ["\u{1f469}\u{1f3fb}\u{1f9bc}\u{27a1}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_in_manual_wheelchair_tone1:
             return ["\u{1f469}\u{1f3fb}\u{1f9bd}",
                     "\u{1f469}\u{1f3fb}\u{200d}\u{1f9bd}"]
+        case .woman_in_manual_wheelchair_facing_right_tone1:
+            return ["\u{1f469}\u{1f3fb}\u{1f9bd}\u{27a1}",
+                    "\u{1f469}\u{1f3fb}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_tone2:
             return ["\u{1f469}\u{1f3fc}"]
         case .woman_health_worker_tone2:
@@ -16789,6 +17362,9 @@ public enum Emoji: CaseIterable {
         case .woman_with_probing_cane_tone2:
             return ["\u{1f469}\u{1f3fc}\u{1f9af}",
                     "\u{1f469}\u{1f3fc}\u{200d}\u{1f9af}"]
+        case .woman_with_white_cane_facing_right_tone2:
+            return ["\u{1f469}\u{1f3fc}\u{1f9af}\u{27a1}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_red_haired_tone2:
             return ["\u{1f469}\u{1f3fc}\u{1f9b0}",
                     "\u{1f469}\u{1f3fc}\u{200d}\u{1f9b0}"]
@@ -16804,9 +17380,15 @@ public enum Emoji: CaseIterable {
         case .woman_in_motorized_wheelchair_tone2:
             return ["\u{1f469}\u{1f3fc}\u{1f9bc}",
                     "\u{1f469}\u{1f3fc}\u{200d}\u{1f9bc}"]
+        case .woman_in_motorized_wheelchair_facing_right_tone2:
+            return ["\u{1f469}\u{1f3fc}\u{1f9bc}\u{27a1}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_in_manual_wheelchair_tone2:
             return ["\u{1f469}\u{1f3fc}\u{1f9bd}",
                     "\u{1f469}\u{1f3fc}\u{200d}\u{1f9bd}"]
+        case .woman_in_manual_wheelchair_facing_right_tone2:
+            return ["\u{1f469}\u{1f3fc}\u{1f9bd}\u{27a1}",
+                    "\u{1f469}\u{1f3fc}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_tone3:
             return ["\u{1f469}\u{1f3fd}"]
         case .woman_health_worker_tone3:
@@ -16947,6 +17529,9 @@ public enum Emoji: CaseIterable {
         case .woman_with_probing_cane_tone3:
             return ["\u{1f469}\u{1f3fd}\u{1f9af}",
                     "\u{1f469}\u{1f3fd}\u{200d}\u{1f9af}"]
+        case .woman_with_white_cane_facing_right_tone3:
+            return ["\u{1f469}\u{1f3fd}\u{1f9af}\u{27a1}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_red_haired_tone3:
             return ["\u{1f469}\u{1f3fd}\u{1f9b0}",
                     "\u{1f469}\u{1f3fd}\u{200d}\u{1f9b0}"]
@@ -16962,9 +17547,15 @@ public enum Emoji: CaseIterable {
         case .woman_in_motorized_wheelchair_tone3:
             return ["\u{1f469}\u{1f3fd}\u{1f9bc}",
                     "\u{1f469}\u{1f3fd}\u{200d}\u{1f9bc}"]
+        case .woman_in_motorized_wheelchair_facing_right_tone3:
+            return ["\u{1f469}\u{1f3fd}\u{1f9bc}\u{27a1}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_in_manual_wheelchair_tone3:
             return ["\u{1f469}\u{1f3fd}\u{1f9bd}",
                     "\u{1f469}\u{1f3fd}\u{200d}\u{1f9bd}"]
+        case .woman_in_manual_wheelchair_facing_right_tone3:
+            return ["\u{1f469}\u{1f3fd}\u{1f9bd}\u{27a1}",
+                    "\u{1f469}\u{1f3fd}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_tone4:
             return ["\u{1f469}\u{1f3fe}"]
         case .woman_health_worker_tone4:
@@ -17105,6 +17696,9 @@ public enum Emoji: CaseIterable {
         case .woman_with_probing_cane_tone4:
             return ["\u{1f469}\u{1f3fe}\u{1f9af}",
                     "\u{1f469}\u{1f3fe}\u{200d}\u{1f9af}"]
+        case .woman_with_white_cane_facing_right_tone4:
+            return ["\u{1f469}\u{1f3fe}\u{1f9af}\u{27a1}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_red_haired_tone4:
             return ["\u{1f469}\u{1f3fe}\u{1f9b0}",
                     "\u{1f469}\u{1f3fe}\u{200d}\u{1f9b0}"]
@@ -17120,9 +17714,15 @@ public enum Emoji: CaseIterable {
         case .woman_in_motorized_wheelchair_tone4:
             return ["\u{1f469}\u{1f3fe}\u{1f9bc}",
                     "\u{1f469}\u{1f3fe}\u{200d}\u{1f9bc}"]
+        case .woman_in_motorized_wheelchair_facing_right_tone4:
+            return ["\u{1f469}\u{1f3fe}\u{1f9bc}\u{27a1}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_in_manual_wheelchair_tone4:
             return ["\u{1f469}\u{1f3fe}\u{1f9bd}",
                     "\u{1f469}\u{1f3fe}\u{200d}\u{1f9bd}"]
+        case .woman_in_manual_wheelchair_facing_right_tone4:
+            return ["\u{1f469}\u{1f3fe}\u{1f9bd}\u{27a1}",
+                    "\u{1f469}\u{1f3fe}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_tone5:
             return ["\u{1f469}\u{1f3ff}"]
         case .woman_health_worker_tone5:
@@ -17263,6 +17863,9 @@ public enum Emoji: CaseIterable {
         case .woman_with_probing_cane_tone5:
             return ["\u{1f469}\u{1f3ff}\u{1f9af}",
                     "\u{1f469}\u{1f3ff}\u{200d}\u{1f9af}"]
+        case .woman_with_white_cane_facing_right_tone5:
+            return ["\u{1f469}\u{1f3ff}\u{1f9af}\u{27a1}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_red_haired_tone5:
             return ["\u{1f469}\u{1f3ff}\u{1f9b0}",
                     "\u{1f469}\u{1f3ff}\u{200d}\u{1f9b0}"]
@@ -17278,9 +17881,15 @@ public enum Emoji: CaseIterable {
         case .woman_in_motorized_wheelchair_tone5:
             return ["\u{1f469}\u{1f3ff}\u{1f9bc}",
                     "\u{1f469}\u{1f3ff}\u{200d}\u{1f9bc}"]
+        case .woman_in_motorized_wheelchair_facing_right_tone5:
+            return ["\u{1f469}\u{1f3ff}\u{1f9bc}\u{27a1}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_in_manual_wheelchair_tone5:
             return ["\u{1f469}\u{1f3ff}\u{1f9bd}",
                     "\u{1f469}\u{1f3ff}\u{200d}\u{1f9bd}"]
+        case .woman_in_manual_wheelchair_facing_right_tone5:
+            return ["\u{1f469}\u{1f3ff}\u{1f9bd}\u{27a1}",
+                    "\u{1f469}\u{1f3ff}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .family_woman_boy:
             return ["\u{1f469}\u{1f466}",
                     "\u{1f469}\u{200d}\u{1f466}"]
@@ -17332,6 +17941,9 @@ public enum Emoji: CaseIterable {
         case .woman_with_probing_cane:
             return ["\u{1f469}\u{1f9af}",
                     "\u{1f469}\u{200d}\u{1f9af}"]
+        case .woman_with_white_cane_facing_right:
+            return ["\u{1f469}\u{1f9af}\u{27a1}",
+                    "\u{1f469}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_red_haired:
             return ["\u{1f469}\u{1f9b0}",
                     "\u{1f469}\u{200d}\u{1f9b0}"]
@@ -17347,9 +17959,15 @@ public enum Emoji: CaseIterable {
         case .woman_in_motorized_wheelchair:
             return ["\u{1f469}\u{1f9bc}",
                     "\u{1f469}\u{200d}\u{1f9bc}"]
+        case .woman_in_motorized_wheelchair_facing_right:
+            return ["\u{1f469}\u{1f9bc}\u{27a1}",
+                    "\u{1f469}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .woman_in_manual_wheelchair:
             return ["\u{1f469}\u{1f9bd}",
                     "\u{1f469}\u{200d}\u{1f9bd}"]
+        case .woman_in_manual_wheelchair_facing_right:
+            return ["\u{1f469}\u{1f9bd}\u{27a1}",
+                    "\u{1f469}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .family:
             return ["\u{1f46a}"]
         case .couple:
@@ -18757,6 +19375,12 @@ public enum Emoji: CaseIterable {
             return ["\u{1f641}"]
         case .slight_smile:
             return ["\u{1f642}"]
+        case .head_shaking_horizontally:
+            return ["\u{1f642}\u{2194}",
+                    "\u{1f642}\u{200d}\u{2194}\u{fe0f}"]
+        case .head_shaking_vertically:
+            return ["\u{1f642}\u{2195}",
+                    "\u{1f642}\u{200d}\u{2195}\u{fe0f}"]
         case .upside_down:
             return ["\u{1f643}"]
         case .rolling_eyes:
@@ -19330,49 +19954,103 @@ public enum Emoji: CaseIterable {
         case .woman_walking:
             return ["\u{1f6b6}\u{2640}",
                     "\u{1f6b6}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_walking_facing_right:
+            return ["\u{1f6b6}\u{2640}\u{27a1}",
+                    "\u{1f6b6}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_walking:
             return ["\u{1f6b6}\u{2642}",
                     "\u{1f6b6}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_walking_facing_right:
+            return ["\u{1f6b6}\u{2642}\u{27a1}",
+                    "\u{1f6b6}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_walking_facing_right:
+            return ["\u{1f6b6}\u{27a1}",
+                    "\u{1f6b6}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_walking_tone1:
             return ["\u{1f6b6}\u{1f3fb}"]
         case .woman_walking_tone1:
             return ["\u{1f6b6}\u{1f3fb}\u{2640}",
                     "\u{1f6b6}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_walking_facing_right_tone1:
+            return ["\u{1f6b6}\u{1f3fb}\u{2640}\u{27a1}",
+                    "\u{1f6b6}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_walking_tone1:
             return ["\u{1f6b6}\u{1f3fb}\u{2642}",
                     "\u{1f6b6}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_walking_facing_right_tone1:
+            return ["\u{1f6b6}\u{1f3fb}\u{2642}\u{27a1}",
+                    "\u{1f6b6}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_walking_facing_right_tone1:
+            return ["\u{1f6b6}\u{1f3fb}\u{27a1}",
+                    "\u{1f6b6}\u{1f3fb}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_walking_tone2:
             return ["\u{1f6b6}\u{1f3fc}"]
         case .woman_walking_tone2:
             return ["\u{1f6b6}\u{1f3fc}\u{2640}",
                     "\u{1f6b6}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_walking_facing_right_tone2:
+            return ["\u{1f6b6}\u{1f3fc}\u{2640}\u{27a1}",
+                    "\u{1f6b6}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_walking_tone2:
             return ["\u{1f6b6}\u{1f3fc}\u{2642}",
                     "\u{1f6b6}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_walking_facing_right_tone2:
+            return ["\u{1f6b6}\u{1f3fc}\u{2642}\u{27a1}",
+                    "\u{1f6b6}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_walking_facing_right_tone2:
+            return ["\u{1f6b6}\u{1f3fc}\u{27a1}",
+                    "\u{1f6b6}\u{1f3fc}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_walking_tone3:
             return ["\u{1f6b6}\u{1f3fd}"]
         case .woman_walking_tone3:
             return ["\u{1f6b6}\u{1f3fd}\u{2640}",
                     "\u{1f6b6}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_walking_facing_right_tone3:
+            return ["\u{1f6b6}\u{1f3fd}\u{2640}\u{27a1}",
+                    "\u{1f6b6}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_walking_tone3:
             return ["\u{1f6b6}\u{1f3fd}\u{2642}",
                     "\u{1f6b6}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_walking_facing_right_tone3:
+            return ["\u{1f6b6}\u{1f3fd}\u{2642}\u{27a1}",
+                    "\u{1f6b6}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_walking_facing_right_tone3:
+            return ["\u{1f6b6}\u{1f3fd}\u{27a1}",
+                    "\u{1f6b6}\u{1f3fd}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_walking_tone4:
             return ["\u{1f6b6}\u{1f3fe}"]
         case .woman_walking_tone4:
             return ["\u{1f6b6}\u{1f3fe}\u{2640}",
                     "\u{1f6b6}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_walking_facing_right_tone4:
+            return ["\u{1f6b6}\u{1f3fe}\u{2640}\u{27a1}",
+                    "\u{1f6b6}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_walking_tone4:
             return ["\u{1f6b6}\u{1f3fe}\u{2642}",
                     "\u{1f6b6}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_walking_facing_right_tone4:
+            return ["\u{1f6b6}\u{1f3fe}\u{2642}\u{27a1}",
+                    "\u{1f6b6}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_walking_facing_right_tone4:
+            return ["\u{1f6b6}\u{1f3fe}\u{27a1}",
+                    "\u{1f6b6}\u{1f3fe}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_walking_tone5:
             return ["\u{1f6b6}\u{1f3ff}"]
         case .woman_walking_tone5:
             return ["\u{1f6b6}\u{1f3ff}\u{2640}",
                     "\u{1f6b6}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_walking_facing_right_tone5:
+            return ["\u{1f6b6}\u{1f3ff}\u{2640}\u{27a1}",
+                    "\u{1f6b6}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_walking_tone5:
             return ["\u{1f6b6}\u{1f3ff}\u{2642}",
                     "\u{1f6b6}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_walking_facing_right_tone5:
+            return ["\u{1f6b6}\u{1f3ff}\u{2642}\u{27a1}",
+                    "\u{1f6b6}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_walking_facing_right_tone5:
+            return ["\u{1f6b6}\u{1f3ff}\u{27a1}",
+                    "\u{1f6b6}\u{1f3ff}\u{200d}\u{27a1}\u{fe0f}"]
         case .no_pedestrians:
             return ["\u{1f6b7}"]
         case .children_crossing:
@@ -20587,49 +21265,103 @@ public enum Emoji: CaseIterable {
         case .woman_kneeling:
             return ["\u{1f9ce}\u{2640}",
                     "\u{1f9ce}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_kneeling_facing_right:
+            return ["\u{1f9ce}\u{2640}\u{27a1}",
+                    "\u{1f9ce}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_kneeling:
             return ["\u{1f9ce}\u{2642}",
                     "\u{1f9ce}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_kneeling_facing_right:
+            return ["\u{1f9ce}\u{2642}\u{27a1}",
+                    "\u{1f9ce}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_kneeling_facing_right:
+            return ["\u{1f9ce}\u{27a1}",
+                    "\u{1f9ce}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_kneeling_tone1:
             return ["\u{1f9ce}\u{1f3fb}"]
         case .woman_kneeling_tone1:
             return ["\u{1f9ce}\u{1f3fb}\u{2640}",
                     "\u{1f9ce}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_kneeling_facing_right_tone1:
+            return ["\u{1f9ce}\u{1f3fb}\u{2640}\u{27a1}",
+                    "\u{1f9ce}\u{1f3fb}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_kneeling_tone1:
             return ["\u{1f9ce}\u{1f3fb}\u{2642}",
                     "\u{1f9ce}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_kneeling_facing_right_tone1:
+            return ["\u{1f9ce}\u{1f3fb}\u{2642}\u{27a1}",
+                    "\u{1f9ce}\u{1f3fb}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_kneeling_facing_right_tone1:
+            return ["\u{1f9ce}\u{1f3fb}\u{27a1}",
+                    "\u{1f9ce}\u{1f3fb}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_kneeling_tone2:
             return ["\u{1f9ce}\u{1f3fc}"]
         case .woman_kneeling_tone2:
             return ["\u{1f9ce}\u{1f3fc}\u{2640}",
                     "\u{1f9ce}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_kneeling_facing_right_tone2:
+            return ["\u{1f9ce}\u{1f3fc}\u{2640}\u{27a1}",
+                    "\u{1f9ce}\u{1f3fc}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_kneeling_tone2:
             return ["\u{1f9ce}\u{1f3fc}\u{2642}",
                     "\u{1f9ce}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_kneeling_facing_right_tone2:
+            return ["\u{1f9ce}\u{1f3fc}\u{2642}\u{27a1}",
+                    "\u{1f9ce}\u{1f3fc}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_kneeling_facing_right_tone2:
+            return ["\u{1f9ce}\u{1f3fc}\u{27a1}",
+                    "\u{1f9ce}\u{1f3fc}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_kneeling_tone3:
             return ["\u{1f9ce}\u{1f3fd}"]
         case .woman_kneeling_tone3:
             return ["\u{1f9ce}\u{1f3fd}\u{2640}",
                     "\u{1f9ce}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_kneeling_facing_right_tone3:
+            return ["\u{1f9ce}\u{1f3fd}\u{2640}\u{27a1}",
+                    "\u{1f9ce}\u{1f3fd}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_kneeling_tone3:
             return ["\u{1f9ce}\u{1f3fd}\u{2642}",
                     "\u{1f9ce}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_kneeling_facing_right_tone3:
+            return ["\u{1f9ce}\u{1f3fd}\u{2642}\u{27a1}",
+                    "\u{1f9ce}\u{1f3fd}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_kneeling_facing_right_tone3:
+            return ["\u{1f9ce}\u{1f3fd}\u{27a1}",
+                    "\u{1f9ce}\u{1f3fd}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_kneeling_tone4:
             return ["\u{1f9ce}\u{1f3fe}"]
         case .woman_kneeling_tone4:
             return ["\u{1f9ce}\u{1f3fe}\u{2640}",
                     "\u{1f9ce}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_kneeling_facing_right_tone4:
+            return ["\u{1f9ce}\u{1f3fe}\u{2640}\u{27a1}",
+                    "\u{1f9ce}\u{1f3fe}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_kneeling_tone4:
             return ["\u{1f9ce}\u{1f3fe}\u{2642}",
                     "\u{1f9ce}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_kneeling_facing_right_tone4:
+            return ["\u{1f9ce}\u{1f3fe}\u{2642}\u{27a1}",
+                    "\u{1f9ce}\u{1f3fe}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_kneeling_facing_right_tone4:
+            return ["\u{1f9ce}\u{1f3fe}\u{27a1}",
+                    "\u{1f9ce}\u{1f3fe}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_kneeling_tone5:
             return ["\u{1f9ce}\u{1f3ff}"]
         case .woman_kneeling_tone5:
             return ["\u{1f9ce}\u{1f3ff}\u{2640}",
                     "\u{1f9ce}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}"]
+        case .woman_kneeling_facing_right_tone5:
+            return ["\u{1f9ce}\u{1f3ff}\u{2640}\u{27a1}",
+                    "\u{1f9ce}\u{1f3ff}\u{200d}\u{2640}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
         case .man_kneeling_tone5:
             return ["\u{1f9ce}\u{1f3ff}\u{2642}",
                     "\u{1f9ce}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}"]
+        case .man_kneeling_facing_right_tone5:
+            return ["\u{1f9ce}\u{1f3ff}\u{2642}\u{27a1}",
+                    "\u{1f9ce}\u{1f3ff}\u{200d}\u{2642}\u{fe0f}\u{200d}\u{27a1}\u{fe0f}"]
+        case .person_kneeling_facing_right_tone5:
+            return ["\u{1f9ce}\u{1f3ff}\u{27a1}",
+                    "\u{1f9ce}\u{1f3ff}\u{200d}\u{27a1}\u{fe0f}"]
         case .deaf_person:
             return ["\u{1f9cf}"]
         case .deaf_woman:
@@ -20816,6 +21548,9 @@ public enum Emoji: CaseIterable {
         case .person_with_probing_cane_tone1:
             return ["\u{1f9d1}\u{1f3fb}\u{1f9af}",
                     "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f9af}"]
+        case .person_with_white_cane_facing_right_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f9af}\u{27a1}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_tone1_red_hair:
             return ["\u{1f9d1}\u{1f3fb}\u{1f9b0}",
                     "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f9b0}"]
@@ -20831,9 +21566,15 @@ public enum Emoji: CaseIterable {
         case .person_in_motorized_wheelchair_tone1:
             return ["\u{1f9d1}\u{1f3fb}\u{1f9bc}",
                     "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f9bc}"]
+        case .person_in_motorized_wheelchair_facing_right_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f9bc}\u{27a1}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_in_manual_wheelchair_tone1:
             return ["\u{1f9d1}\u{1f3fb}\u{1f9bd}",
                     "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f9bd}"]
+        case .person_in_manual_wheelchair_facing_right_tone1:
+            return ["\u{1f9d1}\u{1f3fb}\u{1f9bd}\u{27a1}",
+                    "\u{1f9d1}\u{1f3fb}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .adult_tone2:
             return ["\u{1f9d1}\u{1f3fc}"]
         case .health_worker_tone2:
@@ -20932,6 +21673,9 @@ public enum Emoji: CaseIterable {
         case .person_with_probing_cane_tone2:
             return ["\u{1f9d1}\u{1f3fc}\u{1f9af}",
                     "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f9af}"]
+        case .person_with_white_cane_facing_right_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f9af}\u{27a1}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_tone2_red_hair:
             return ["\u{1f9d1}\u{1f3fc}\u{1f9b0}",
                     "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f9b0}"]
@@ -20947,9 +21691,15 @@ public enum Emoji: CaseIterable {
         case .person_in_motorized_wheelchair_tone2:
             return ["\u{1f9d1}\u{1f3fc}\u{1f9bc}",
                     "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f9bc}"]
+        case .person_in_motorized_wheelchair_facing_right_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f9bc}\u{27a1}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_in_manual_wheelchair_tone2:
             return ["\u{1f9d1}\u{1f3fc}\u{1f9bd}",
                     "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f9bd}"]
+        case .person_in_manual_wheelchair_facing_right_tone2:
+            return ["\u{1f9d1}\u{1f3fc}\u{1f9bd}\u{27a1}",
+                    "\u{1f9d1}\u{1f3fc}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .adult_tone3:
             return ["\u{1f9d1}\u{1f3fd}"]
         case .health_worker_tone3:
@@ -21048,6 +21798,9 @@ public enum Emoji: CaseIterable {
         case .person_with_probing_cane_tone3:
             return ["\u{1f9d1}\u{1f3fd}\u{1f9af}",
                     "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f9af}"]
+        case .person_with_white_cane_facing_right_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f9af}\u{27a1}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_tone3_red_hair:
             return ["\u{1f9d1}\u{1f3fd}\u{1f9b0}",
                     "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f9b0}"]
@@ -21063,9 +21816,15 @@ public enum Emoji: CaseIterable {
         case .person_in_motorized_wheelchair_tone3:
             return ["\u{1f9d1}\u{1f3fd}\u{1f9bc}",
                     "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f9bc}"]
+        case .person_in_motorized_wheelchair_facing_right_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f9bc}\u{27a1}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_in_manual_wheelchair_tone3:
             return ["\u{1f9d1}\u{1f3fd}\u{1f9bd}",
                     "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f9bd}"]
+        case .person_in_manual_wheelchair_facing_right_tone3:
+            return ["\u{1f9d1}\u{1f3fd}\u{1f9bd}\u{27a1}",
+                    "\u{1f9d1}\u{1f3fd}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .adult_tone4:
             return ["\u{1f9d1}\u{1f3fe}"]
         case .health_worker_tone4:
@@ -21164,6 +21923,9 @@ public enum Emoji: CaseIterable {
         case .person_with_probing_cane_tone4:
             return ["\u{1f9d1}\u{1f3fe}\u{1f9af}",
                     "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f9af}"]
+        case .person_with_white_cane_facing_right_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f9af}\u{27a1}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_tone4_red_hair:
             return ["\u{1f9d1}\u{1f3fe}\u{1f9b0}",
                     "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f9b0}"]
@@ -21179,9 +21941,15 @@ public enum Emoji: CaseIterable {
         case .person_in_motorized_wheelchair_tone4:
             return ["\u{1f9d1}\u{1f3fe}\u{1f9bc}",
                     "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f9bc}"]
+        case .person_in_motorized_wheelchair_facing_right_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f9bc}\u{27a1}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_in_manual_wheelchair_tone4:
             return ["\u{1f9d1}\u{1f3fe}\u{1f9bd}",
                     "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f9bd}"]
+        case .person_in_manual_wheelchair_facing_right_tone4:
+            return ["\u{1f9d1}\u{1f3fe}\u{1f9bd}\u{27a1}",
+                    "\u{1f9d1}\u{1f3fe}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .adult_tone5:
             return ["\u{1f9d1}\u{1f3ff}"]
         case .health_worker_tone5:
@@ -21280,6 +22048,9 @@ public enum Emoji: CaseIterable {
         case .person_with_probing_cane_tone5:
             return ["\u{1f9d1}\u{1f3ff}\u{1f9af}",
                     "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f9af}"]
+        case .person_with_white_cane_facing_right_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f9af}\u{27a1}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_tone5_red_hair:
             return ["\u{1f9d1}\u{1f3ff}\u{1f9b0}",
                     "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f9b0}"]
@@ -21295,9 +22066,15 @@ public enum Emoji: CaseIterable {
         case .person_in_motorized_wheelchair_tone5:
             return ["\u{1f9d1}\u{1f3ff}\u{1f9bc}",
                     "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f9bc}"]
+        case .person_in_motorized_wheelchair_facing_right_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f9bc}\u{27a1}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_in_manual_wheelchair_tone5:
             return ["\u{1f9d1}\u{1f3ff}\u{1f9bd}",
                     "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f9bd}"]
+        case .person_in_manual_wheelchair_facing_right_tone5:
+            return ["\u{1f9d1}\u{1f3ff}\u{1f9bd}\u{27a1}",
+                    "\u{1f9d1}\u{1f3ff}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
         case .technologist:
             return ["\u{1f9d1}\u{1f4bb}",
                     "\u{1f9d1}\u{200d}\u{1f4bb}"]
@@ -21322,6 +22099,9 @@ public enum Emoji: CaseIterable {
         case .person_with_probing_cane:
             return ["\u{1f9d1}\u{1f9af}",
                     "\u{1f9d1}\u{200d}\u{1f9af}"]
+        case .person_with_white_cane_facing_right:
+            return ["\u{1f9d1}\u{1f9af}\u{27a1}",
+                    "\u{1f9d1}\u{200d}\u{1f9af}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_red_hair:
             return ["\u{1f9d1}\u{1f9b0}",
                     "\u{1f9d1}\u{200d}\u{1f9b0}"]
@@ -21337,9 +22117,27 @@ public enum Emoji: CaseIterable {
         case .person_in_motorized_wheelchair:
             return ["\u{1f9d1}\u{1f9bc}",
                     "\u{1f9d1}\u{200d}\u{1f9bc}"]
+        case .person_in_motorized_wheelchair_facing_right:
+            return ["\u{1f9d1}\u{1f9bc}\u{27a1}",
+                    "\u{1f9d1}\u{200d}\u{1f9bc}\u{200d}\u{27a1}\u{fe0f}"]
         case .person_in_manual_wheelchair:
             return ["\u{1f9d1}\u{1f9bd}",
                     "\u{1f9d1}\u{200d}\u{1f9bd}"]
+        case .person_in_manual_wheelchair_facing_right:
+            return ["\u{1f9d1}\u{1f9bd}\u{27a1}",
+                    "\u{1f9d1}\u{200d}\u{1f9bd}\u{200d}\u{27a1}\u{fe0f}"]
+        case .family_adult_adult_child:
+            return ["\u{1f9d1}\u{1f9d1}\u{1f9d2}",
+                    "\u{1f9d1}\u{200d}\u{1f9d1}\u{200d}\u{1f9d2}"]
+        case .family_adult_adult_child_child:
+            return ["\u{1f9d1}\u{1f9d1}\u{1f9d2}\u{1f9d2}",
+                    "\u{1f9d1}\u{200d}\u{1f9d1}\u{200d}\u{1f9d2}\u{200d}\u{1f9d2}"]
+        case .family_adult_child:
+            return ["\u{1f9d1}\u{1f9d2}",
+                    "\u{1f9d1}\u{200d}\u{1f9d2}"]
+        case .family_adult_child_child:
+            return ["\u{1f9d1}\u{1f9d2}\u{1f9d2}",
+                    "\u{1f9d1}\u{200d}\u{1f9d2}\u{200d}\u{1f9d2}"]
         case .child:
             return ["\u{1f9d2}"]
         case .child_tone1:
